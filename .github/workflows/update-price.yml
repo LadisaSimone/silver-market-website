@@ -1,0 +1,44 @@
+name: Update price (every 30 min)
+
+on:
+  schedule:
+    # Every 30 minutes. GitHub Actions cron is UTC only — this runs all
+    # day, every day; yfinance simply returns empty intraday bars outside
+    # market hours and update_price.py leaves the chart as-is in that case.
+    - cron: "*/30 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data-json-write
+  cancel-in-progress: false
+
+jobs:
+  update-price:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run price update
+        run: python web/scripts/update_price.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- web/data.json; then
+            echo "No changes."
+            exit 0
+          fi
+          git add web/data.json
+          git commit -m "Update price data [skip ci]"
+          git push

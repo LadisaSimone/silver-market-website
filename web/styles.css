@@ -1,0 +1,531 @@
+:root {
+  --bg: #0b0f0d;
+  --panel: #10251c;
+  --panel2: #0f1613;
+  --border: #1d3327;
+  --text: #f4f6f5;
+  --dim: #9aa8a1;
+  --faint: #6b7871;
+  --green: #22c55e;
+  --red: #ff4d5e;
+  --amber: #f5a623;
+
+  --font-head: "Space Grotesk", "Segoe UI", sans-serif;
+  --font-body: "IBM Plex Sans", "Segoe UI", sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+a { color: inherit; }
+
+/* ---------- Header ---------- */
+
+.site-header {
+  border-bottom: 1px solid var(--border);
+  background: var(--bg);
+  position: sticky;
+  top: 0;
+  z-index: 20;
+}
+
+.header-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 14px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-head);
+  font-weight: 600;
+  font-size: 16px;
+  white-space: nowrap;
+}
+
+.brand-mark {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 30%, var(--green), #0f5132 75%);
+  flex-shrink: 0;
+}
+
+.brand-accent { color: var(--green); margin-left: 4px; }
+
+.main-nav {
+  display: none;
+  gap: 24px;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--dim);
+  padding: 6px 0;
+  border-bottom: 2px solid transparent;
+}
+
+.nav-link.is-active {
+  color: var(--text);
+  border-bottom-color: var(--green);
+}
+
+.nav-link.is-disabled {
+  color: var(--faint);
+  cursor: default;
+  pointer-events: none;
+}
+
+.app-cta {
+  display: none;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--bg);
+  background: var(--green);
+  padding: 9px 14px;
+  border-radius: 8px;
+  white-space: nowrap;
+}
+
+/* ---------- Layout ---------- */
+
+.page {
+  flex: 1;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 16px 40px;
+  width: 100%;
+}
+
+.content-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+.main-col {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 0;
+}
+
+.side-col { display: none; }
+
+.panel {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 18px;
+}
+
+.panel-title {
+  font-family: var(--font-head);
+  font-size: 15px;
+  font-weight: 600;
+  margin: 0 0 14px;
+  color: var(--text);
+}
+
+.eyebrow {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--dim);
+  margin: 0 0 6px;
+}
+
+/* ---------- Price panel ---------- */
+
+.price-panel-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.price-row {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.price-value {
+  font-family: var(--font-head);
+  font-size: 34px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.price-change {
+  font-family: var(--font-head);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.price-change.is-up { color: var(--green); }
+.price-change.is-down { color: var(--red); }
+
+.price-asof {
+  font-size: 12px;
+  color: var(--faint);
+  margin-top: 4px;
+}
+
+.chart-tabs {
+  display: flex;
+  gap: 6px;
+  background: var(--panel2);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 3px;
+}
+
+.chart-tab {
+  font-family: var(--font-body);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--dim);
+  background: transparent;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.chart-tab.is-active {
+  background: var(--border);
+  color: var(--text);
+}
+
+.chart-wrap {
+  margin-top: 16px;
+  height: 220px;
+  position: relative;
+}
+
+/* ---------- Outlook panel ---------- */
+
+.outlook-body {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  flex-wrap: wrap;
+}
+
+.score-ring-wrap {
+  position: relative;
+  width: 140px;
+  height: 140px;
+  flex-shrink: 0;
+}
+
+.score-ring { transform: rotate(-90deg); }
+
+.score-ring-track {
+  fill: none;
+  stroke: var(--border);
+  stroke-width: 10;
+}
+
+.score-ring-fill {
+  fill: none;
+  stroke: var(--green);
+  stroke-width: 10;
+  stroke-linecap: round;
+  stroke-dasharray: 377;
+  stroke-dashoffset: 377;
+  transition: stroke-dashoffset 0.8s ease, stroke 0.4s ease;
+}
+
+.score-ring-label {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.score-number {
+  font-family: var(--font-head);
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.score-outof {
+  font-size: 11px;
+  color: var(--faint);
+}
+
+.outlook-text {
+  flex: 1;
+  min-width: 220px;
+}
+
+.outlook-label {
+  display: inline-block;
+  font-family: var(--font-head);
+  font-size: 14px;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: rgba(34, 197, 94, 0.12);
+  color: var(--green);
+  margin-bottom: 10px;
+}
+
+.outlook-label.is-bearish { background: rgba(255, 77, 94, 0.12); color: var(--red); }
+.outlook-label.is-neutral { background: rgba(245, 166, 35, 0.12); color: var(--amber); }
+
+.outlook-summary {
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--text);
+  margin: 0 0 10px;
+}
+
+.outlook-updated {
+  font-size: 12px;
+  color: var(--faint);
+}
+
+/* ---------- Drivers ---------- */
+
+.driver-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+.driver-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--panel2);
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.driver-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.driver-dot.is-supportive { background: var(--green); }
+.driver-dot.is-risk { background: var(--red); }
+.driver-dot.is-neutral { background: var(--amber); }
+
+.driver-status {
+  margin-left: auto;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.driver-status.is-supportive { color: var(--green); }
+.driver-status.is-risk { color: var(--red); }
+.driver-status.is-neutral { color: var(--amber); }
+
+/* ---------- Metrics ---------- */
+
+.metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.metric-cell {
+  border: 1px solid var(--border);
+  background: var(--panel2);
+  border-radius: 10px;
+  padding: 12px;
+}
+
+.metric-label {
+  font-size: 11px;
+  color: var(--faint);
+  margin-bottom: 6px;
+  display: block;
+}
+
+.metric-value {
+  font-family: var(--font-head);
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.metric-change {
+  font-size: 12px;
+  font-weight: 600;
+  margin-left: 6px;
+}
+
+.metric-change.is-up { color: var(--green); }
+.metric-change.is-down { color: var(--red); }
+
+.metric-note {
+  display: block;
+  font-size: 10px;
+  color: var(--faint);
+  margin-top: 4px;
+}
+
+/* ---------- Stories ---------- */
+
+.story-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.story-item {
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+}
+
+.story-item:last-child { border-bottom: none; padding-bottom: 0; }
+
+.story-link {
+  text-decoration: none;
+  display: block;
+}
+
+.story-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text);
+  margin: 0 0 4px;
+}
+
+.story-summary {
+  font-size: 13px;
+  color: var(--dim);
+  margin: 0 0 6px;
+  line-height: 1.5;
+}
+
+.story-time {
+  font-size: 11px;
+  color: var(--faint);
+}
+
+/* ---------- Ad slots ---------- */
+
+.ad-slot {
+  border: 1px dashed var(--border);
+  border-radius: 10px;
+  background: var(--panel2);
+  color: var(--faint);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 60px;
+}
+
+.ad-leaderboard,
+.ad-footer {
+  max-width: 1200px;
+  margin: 16px auto;
+  margin-bottom: 0;
+}
+
+.ad-leaderboard { margin-top: 0; }
+
+.ad-incontent { min-height: 100px; }
+
+.ad-sidebar {
+  width: 160px;
+  height: 600px;
+  position: sticky;
+  top: 90px;
+}
+
+/* ---------- Footer ---------- */
+
+.site-footer {
+  border-top: 1px solid var(--border);
+  margin-top: 24px;
+}
+
+.footer-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 18px 20px 28px;
+  font-size: 12px;
+  color: var(--faint);
+  line-height: 1.6;
+}
+
+.footer-inner a { color: var(--dim); }
+
+.footer-meta { margin-top: 6px; }
+
+/* ---------- Desktop breakpoint ---------- */
+
+@media (min-width: 1024px) {
+  .main-nav { display: flex; }
+  .app-cta { display: inline-block; }
+
+  .content-grid {
+    grid-template-columns: 1fr 200px;
+    align-items: start;
+  }
+
+  .side-col { display: block; }
+
+  .price-value { font-size: 42px; }
+
+  .outlook-body { flex-wrap: nowrap; }
+
+  .driver-list { grid-template-columns: repeat(2, 1fr); }
+
+  .metrics-grid { grid-template-columns: repeat(4, 1fr); }
+
+  .chart-wrap { height: 280px; }
+}
+
+@media (min-width: 640px) and (max-width: 1023.98px) {
+  .metrics-grid { grid-template-columns: repeat(4, 1fr); }
+  .driver-list { grid-template-columns: repeat(2, 1fr); }
+}

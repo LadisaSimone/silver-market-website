@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Silver Market Intelligence — Daily Silver Price &amp; Outlook</title>
+<meta name="description" content="Live silver price, AI-scored conviction outlook, and the key drivers moving the market — updated daily.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><circle cx=%2250%22 cy=%2250%22 r=%2245%22 fill=%22%2322c55e%22/></svg>">
+
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span class="brand-name">Silver Market<span class="brand-accent">Intelligence</span></span>
+    </div>
+    <nav class="main-nav" aria-label="Primary">
+      <a href="#" class="nav-link is-active">Overview</a>
+      <a href="#" class="nav-link is-disabled" aria-disabled="true">Markets</a>
+      <a href="#" class="nav-link is-disabled" aria-disabled="true">News</a>
+      <a href="#" class="nav-link is-disabled" aria-disabled="true">Calendar</a>
+      <a href="#" class="nav-link is-disabled" aria-disabled="true">Watchlist</a>
+    </nav>
+    <a class="app-cta" href="https://silver-market-intelligence.streamlit.app/" target="_blank" rel="noopener">Open Full Report →</a>
+  </div>
+</header>
+
+<div class="ad-slot ad-leaderboard" data-ad-size="728x90 / 320x50">
+  <span>Advertisement</span>
+</div>
+
+<main class="page">
+  <div class="content-grid">
+
+    <div class="main-col">
+
+      <!-- Price + Chart -->
+      <section class="panel price-panel" aria-labelledby="price-heading">
+        <div class="price-panel-top">
+          <div>
+            <h1 id="price-heading" class="eyebrow">Silver (XAG/USD)</h1>
+            <div class="price-row">
+              <span class="price-value" id="price-value">—</span>
+              <span class="price-change" id="price-change">—</span>
+            </div>
+            <div class="price-asof" id="price-asof">—</div>
+          </div>
+          <div class="chart-tabs" role="tablist" aria-label="Chart range">
+            <button class="chart-tab is-active" data-range="1D" role="tab" aria-selected="true">1D</button>
+            <button class="chart-tab" data-range="1M" role="tab" aria-selected="false">1M</button>
+          </div>
+        </div>
+        <div class="chart-wrap">
+          <canvas id="price-chart" height="220"></canvas>
+        </div>
+      </section>
+
+      <!-- Outlook -->
+      <section class="panel outlook-panel" aria-labelledby="outlook-heading">
+        <h2 id="outlook-heading" class="panel-title">Today's Outlook</h2>
+        <div class="outlook-body">
+          <div class="score-ring-wrap">
+            <svg class="score-ring" viewBox="0 0 140 140" width="140" height="140" aria-hidden="true">
+              <circle class="score-ring-track" cx="70" cy="70" r="60"></circle>
+              <circle class="score-ring-fill" id="score-ring-fill" cx="70" cy="70" r="60"></circle>
+            </svg>
+            <div class="score-ring-label">
+              <span class="score-number" id="score-number">—</span>
+              <span class="score-outof">/10</span>
+            </div>
+          </div>
+          <div class="outlook-text">
+            <span class="outlook-label" id="outlook-label">—</span>
+            <p class="outlook-summary" id="outlook-summary">Loading today's briefing…</p>
+            <span class="outlook-updated" id="outlook-updated"></span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Drivers -->
+      <section class="panel drivers-panel" aria-labelledby="drivers-heading">
+        <h2 id="drivers-heading" class="panel-title">Key Drivers</h2>
+        <ul class="driver-list" id="driver-list"></ul>
+      </section>
+
+      <div class="ad-slot ad-incontent" data-ad-size="336x280 / 300x250">
+        <span>Advertisement</span>
+      </div>
+
+      <!-- Metrics -->
+      <section class="panel metrics-panel" aria-labelledby="metrics-heading">
+        <h2 id="metrics-heading" class="panel-title">Key Metrics</h2>
+        <div class="metrics-grid" id="metrics-grid"></div>
+      </section>
+
+      <!-- Stories -->
+      <section class="panel stories-panel" aria-labelledby="stories-heading">
+        <h2 id="stories-heading" class="panel-title">Top Stories</h2>
+        <ul class="story-list" id="story-list"></ul>
+      </section>
+
+    </div>
+
+    <aside class="side-col" aria-label="Advertisement">
+      <div class="ad-slot ad-sidebar" data-ad-size="160x600">
+        <span>Advertisement</span>
+      </div>
+    </aside>
+
+  </div>
+</main>
+
+<div class="ad-slot ad-footer" data-ad-size="728x90 / 320x50">
+  <span>Advertisement</span>
+</div>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <p>Silver Market Intelligence is an independent research summary, not investment advice. Data refreshes automatically; verify before trading.</p>
+    <p class="footer-meta">© 2026 Silver Market Intelligence · <a href="https://silver-market-intelligence.streamlit.app/" target="_blank" rel="noopener">Full report app</a></p>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.4/chart.umd.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,272 @@
+"""Daily refresh for web/data.json — outlook, drivers, metrics, stories, history.
+
+Runs once/day (GitHub Actions cron, see .github/workflows/update-daily.yml).
+Deliberately does NOT shell out to main.py — main.py is kept only as a
+reference/manual-run CLI. This script imports the same pipeline pieces
+directly and writes straight into the site's data.json, in the exact
+shape script.js (web/script.js) expects.
+
+Read-modify-write: only the fields owned by this script are touched
+(outlook, drivers, metrics, stories, history, updated_at). price/intraday
+are owned by update_price.py's faster ~15min cadence and are left alone
+here so the two schedules never clobber each other.
+
+Requires ANTHROPIC_API_KEY in the environment (GitHub Actions secret).
+"""
+import json
+import sys
+from datetime import datetime, timezone
+from email.utils import parsedate_to_datetime
+from pathlib import Path
+
+REPO_ROOT = Path(__file__).resolve().parent.parent.parent
+sys.path.insert(0, str(REPO_ROOT))
+
+from src.fetchers.price import (  # noqa: E402
+    fetch_silver_price,
+    fetch_gold_price,
+    fetch_dxy_price,
+    fetch_us10y_price,
+    fetch_silver_history,
+)
+from src.fetchers.news import fetch_articles  # noqa: E402
+from src.fetchers.real_yield import fetch_real_yield  # noqa: E402
+from src.fetchers.cot import fetch_silver_cot  # noqa: E402
+from src.analysis.signals import (  # noqa: E402
+    compute_price_signals,
+    compute_data_quality,
+    format_signals_for_prompt,
+)
+from src.agents.summarizer import summarize  # noqa: E402
+
+DATA_JSON = REPO_ROOT / "web" / "data.json"
+
+_CATEGORY_ICON = {
+    "macro": "bank",
+    "technicals": "trend",
+    "sentiment": "people",
+    "etf_flows": "flows",
+    "industrial_demand": "industry",
+}
+_CATEGORY_LABEL = {
+    "macro": "Macro Backdrop",
+    "technicals": "Technical Setup",
+    "sentiment": "News Sentiment",
+    "etf_flows": "ETF Flow Signal",
+    "industrial_demand": "Industrial Demand",
+}
+
+
+def _status_for_score(score) -> str:
+    if score is None:
+        return "neutral"
+    if score >= 6:
+        return "supportive"
+    if score <= 4:
+        return "risk"
+    return "neutral"
+
+
+def _display_name(name: str) -> str:
+    # Claude is prompted to return driver names as free text; titlecase
+    # anything that came back fully uppercase so it doesn't look shouty
+    # next to the category-derived fallback labels.
+    return name.title() if name.isupper() else name
+
+
+def build_drivers(final_scores: dict) -> list[dict]:
+    drivers = []
+    seen_categories = set()
+
+    for d in (final_scores.get("ranked_drivers") or [])[:3]:
+        category = d.get("category", "")
+        score = final_scores.get(category)
+        drivers.append({
+            "label": _display_name(d.get("name", category or "Driver")),
+            "status": _status_for_score(score),
+            "icon": _CATEGORY_ICON.get(category, "flows"),
+        })
+        if category:
+            seen_categories.add(category)
+
+    # Fill in any of the 5 scoring categories not already represented by
+    # a ranked driver, so all dimensions stay visible on the site.
+    for category, label in _CATEGORY_LABEL.items():
+        if category in seen_categories:
+            continue
+        drivers.append({
+            "label": label,
+            "status": _status_for_score(final_scores.get(category)),
+            "icon": _CATEGORY_ICON[category],
+        })
+
+    return drivers
+
+
+def build_outlook(final_scores: dict) -> dict:
+    overall = final_scores.get("overall", 5)
+    label_raw = (final_scores.get("overall_label") or "NEUTRAL").upper()
+
+    if label_raw == "BULLISH":
+        sentiment = "bullish"
+        label = f"{'Strongly' if overall >= 8 else 'Moderately'} Bullish"
+    elif label_raw == "BEARISH":
+        sentiment = "bearish"
+        label = f"{'Strongly' if overall <= 3 else 'Moderately'} Bearish"
+    else:
+        sentiment = "neutral"
+        label = "Neutral"
+
+    return {
+        "score": overall,
+        "label": label,
+        "sentiment": sentiment,
+        "summary": final_scores.get("verdict", "No briefing available yet."),
+        "updated_at": "Updated daily at 9:00 AM ET",
+    }
+
+
+def _time_ago(date_str: str) -> str:
+    if not date_str:
+        return ""
+    try:
+        dt = parsedate_to_datetime(date_str)
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        secs = (datetime.now(timezone.utc) - dt).total_seconds()
+        if secs < 0:
+            secs = 0
+        if secs < 3600:
+            return f"{max(1, int(secs // 60))}m ago"
+        if secs < 86400:
+            return f"{int(secs // 3600)}h ago"
+        return f"{int(secs // 86400)}d ago"
+    except Exception:
+        return ""
+
+
+def build_stories(articles: list[dict], limit: int = 5) -> list[dict]:
+    stories = []
+    for a in articles[:limit]:
+        summary = (a.get("description") or "").strip()
+        if len(summary) > 180:
+            summary = summary[:177].rstrip() + "..."
+        stories.append({
+            "title": a.get("title", ""),
+            "summary": summary,
+            "time_ago": _time_ago(a.get("date", "")),
+            "url": a.get("url") or "#",
+        })
+    return stories
+
+
+def build_metrics(signals: dict, history: list[dict], real_yield: dict, cot: dict) -> list[dict]:
+    dxy = signals["dxy"]
+    us10y = signals["us10y"]
+    ratio = signals["ratio"]
+
+    metrics = [
+        {
+            "label": "DXY (USD)",
+            "value": f"{dxy['value']:.2f}",
+            "change": f"{dxy['change_pct']:+.2f}%",
+            "direction": dxy["direction"],
+        },
+        {
+            "label": "US 10Y Yield",
+            "value": f"{us10y['value']:.2f}%",
+            "change": f"{us10y['change_bps'] / 100:+.2f}",
+            "direction": us10y["direction"],
+        },
+        {
+            "label": "Real Yield",
+            "value": f"{real_yield['value']:.2f}%" if real_yield.get("value") is not None else "—",
+            "change": f"{real_yield['change']:+.2f}" if real_yield.get("change") is not None else "",
+            "direction": "down" if (real_yield.get("change") or 0) < 0 else "up",
+        },
+        {
+            "label": "Gold/Silver",
+            "value": f"{ratio['value']}",
+            "change": "",
+            "direction": "up",
+        },
+        {
+            "label": "COMEX Inv.",
+            "value": "—",
+            "change": "",
+            "direction": "up",
+        },
+        {
+            "label": "COT Net-Long",
+            "value": f"{cot['net_long']:,}" if cot.get("net_long") is not None else "—",
+            "change": f"{cot['change']:+,}" if cot.get("change") is not None else "",
+            "direction": "down" if (cot.get("change") or 0) < 0 else "up",
+            "note": "Weekly (CFTC)",
+        },
+        {
+            "label": "ETF Holdings",
+            "value": "—",
+            "change": "",
+            "direction": "up",
+        },
+    ]
+
+    pct_1m = None
+    if len(history) >= 2 and history[0].get("close"):
+        pct_1m = (history[-1]["close"] / history[0]["close"] - 1) * 100
+    metrics.append({
+        "label": "1M % Change",
+        "value": f"{pct_1m:+.2f}%" if pct_1m is not None else "—",
+        "change": "",
+        "direction": "down" if (pct_1m or 0) < 0 else "up",
+    })
+
+    return metrics
+
+
+def main() -> None:
+    print("Fetching prices...")
+    silver = fetch_silver_price()
+    gold = fetch_gold_price()
+    dxy = fetch_dxy_price()
+    us10y = fetch_us10y_price()
+
+    print("Fetching 30-day history...")
+    history = fetch_silver_history(30)
+
+    print("Fetching news...")
+    articles = fetch_articles()
+
+    print("Computing signals...")
+    signals = compute_price_signals(silver, gold, dxy, us10y, history)
+    data_quality = compute_data_quality(silver, gold, dxy, us10y)
+    signals_text = format_signals_for_prompt(signals, data_quality)
+
+    print(f"Scoring + generating briefing from {len(articles)} articles...")
+    _briefing, final_scores = summarize(
+        articles, silver, gold, dxy, us10y,
+        signals_text=signals_text, data_quality=data_quality,
+    )
+
+    print("Fetching real yield + COT positioning...")
+    real_yield = fetch_real_yield()
+    cot = fetch_silver_cot()
+
+    existing = {}
+    if DATA_JSON.exists():
+        existing = json.loads(DATA_JSON.read_text())
+
+    existing["updated_at"] = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    existing["history"] = history
+    existing["outlook"] = build_outlook(final_scores)
+    existing["drivers"] = build_drivers(final_scores)
+    existing["stories"] = build_stories(articles)
+    existing["metrics"] = build_metrics(signals, history, real_yield, cot)
+    # price/intraday are intentionally left untouched — update_price.py owns them.
+
+    DATA_JSON.write_text(json.dumps(existing, indent=2) + "\n")
+    print(f"Wrote {DATA_JSON}")
+
+
+if __name__ == "__main__":
+    main()
