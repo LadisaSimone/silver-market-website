@@ -1,25 +1,210 @@
 {
-  "updated_at": "2026-08-24T13:00:00Z",
+  "updated_at": "2026-08-24T14:32:16Z",
   "price": {
-    "value": 24.78,
-    "change": 0.44,
-    "change_pct": 1.81,
-    "as_of": "9:41 AM ET"
+    "value": 68.94,
+    "change": -0.02,
+    "change_pct": -0.03,
+    "as_of": "10:32 AM ET"
   },
   "intraday": [
-    { "t": "09:00", "p": 24.34 },
-    { "t": "09:15", "p": 24.41 },
-    { "t": "09:30", "p": 24.52 },
-    { "t": "09:41", "p": 24.78 }
+    {
+      "t": "00:00",
+      "p": 68.95500183105469
+    },
+    {
+      "t": "00:15",
+      "p": 68.95500183105469
+    },
+    {
+      "t": "00:30",
+      "p": 68.88999938964844
+    },
+    {
+      "t": "00:45",
+      "p": 68.87000274658203
+    },
+    {
+      "t": "01:00",
+      "p": 69.01000213623047
+    },
+    {
+      "t": "01:15",
+      "p": 68.77999877929688
+    },
+    {
+      "t": "01:30",
+      "p": 68.69499969482422
+    },
+    {
+      "t": "01:45",
+      "p": 68.80500030517578
+    },
+    {
+      "t": "02:00",
+      "p": 69.25499725341797
+    },
+    {
+      "t": "02:15",
+      "p": 69.01499938964844
+    },
+    {
+      "t": "02:30",
+      "p": 69.0199966430664
+    },
+    {
+      "t": "02:45",
+      "p": 69.12999725341797
+    },
+    {
+      "t": "03:00",
+      "p": 69.13999938964844
+    },
+    {
+      "t": "03:15",
+      "p": 69.01000213623047
+    },
+    {
+      "t": "03:30",
+      "p": 68.83499908447266
+    },
+    {
+      "t": "03:45",
+      "p": 68.86499786376953
+    },
+    {
+      "t": "04:00",
+      "p": 68.81500244140625
+    },
+    {
+      "t": "04:15",
+      "p": 68.6449966430664
+    },
+    {
+      "t": "04:30",
+      "p": 68.93499755859375
+    },
+    {
+      "t": "04:45",
+      "p": 68.69499969482422
+    },
+    {
+      "t": "05:00",
+      "p": 68.7750015258789
+    },
+    {
+      "t": "05:15",
+      "p": 68.63999938964844
+    },
+    {
+      "t": "05:30",
+      "p": 68.7699966430664
+    },
+    {
+      "t": "05:45",
+      "p": 68.83499908447266
+    },
+    {
+      "t": "06:00",
+      "p": 68.97000122070312
+    },
+    {
+      "t": "06:15",
+      "p": 68.88500213623047
+    },
+    {
+      "t": "06:30",
+      "p": 68.86000061035156
+    },
+    {
+      "t": "06:45",
+      "p": 68.79000091552734
+    },
+    {
+      "t": "07:00",
+      "p": 68.87000274658203
+    },
+    {
+      "t": "07:15",
+      "p": 68.93000030517578
+    },
+    {
+      "t": "07:30",
+      "p": 69.21499633789062
+    },
+    {
+      "t": "07:45",
+      "p": 69.26499938964844
+    },
+    {
+      "t": "08:00",
+      "p": 69.27999877929688
+    },
+    {
+      "t": "08:15",
+      "p": 69.33000183105469
+    },
+    {
+      "t": "08:30",
+      "p": 69.12000274658203
+    },
+    {
+      "t": "08:45",
+      "p": 69.18000030517578
+    },
+    {
+      "t": "09:00",
+      "p": 69.84500122070312
+    },
+    {
+      "t": "09:15",
+      "p": 69.54000091552734
+    },
+    {
+      "t": "09:30",
+      "p": 68.875
+    },
+    {
+      "t": "09:45",
+      "p": 68.99500274658203
+    },
+    {
+      "t": "10:00",
+      "p": 68.94000244140625
+    },
+    {
+      "t": "10:15",
+      "p": 68.94000244140625
+    }
   ],
   "history": [
-    { "date": "2026-07-24", "close": 22.75 },
-    { "date": "2026-07-31", "close": 23.02 },
-    { "date": "2026-08-07", "close": 22.9 },
-    { "date": "2026-08-14", "close": 23.4 },
-    { "date": "2026-08-21", "close": 24.1 },
-    { "date": "2026-08-22", "close": 24.34 },
-    { "date": "2026-08-24", "close": 24.78 }
+    {
+      "date": "2026-07-24",
+      "close": 22.75
+    },
+    {
+      "date": "2026-07-31",
+      "close": 23.02
+    },
+    {
+      "date": "2026-08-07",
+      "close": 22.9
+    },
+    {
+      "date": "2026-08-14",
+      "close": 23.4
+    },
+    {
+      "date": "2026-08-21",
+      "close": 24.1
+    },
+    {
+      "date": "2026-08-22",
+      "close": 24.34
+    },
+    {
+      "date": "2026-08-24",
+      "close": 24.78
+    }
   ],
   "outlook": {
     "score": 7,
@@ -29,12 +214,36 @@
     "updated_at": "Updated daily at 9:00 AM ET"
   },
   "drivers": [
-    { "label": "Dollar Weakness", "status": "supportive", "icon": "bank" },
-    { "label": "RSI Oversold Bounce", "status": "supportive", "icon": "trend" },
-    { "label": "News Sentiment", "status": "supportive", "icon": "people" },
-    { "label": "ETF Flow Signal", "status": "neutral", "icon": "flows" },
-    { "label": "Industrial Demand", "status": "neutral", "icon": "industry" },
-    { "label": "Crowded Positioning", "status": "risk", "icon": "people" }
+    {
+      "label": "Dollar Weakness",
+      "status": "supportive",
+      "icon": "bank"
+    },
+    {
+      "label": "RSI Oversold Bounce",
+      "status": "supportive",
+      "icon": "trend"
+    },
+    {
+      "label": "News Sentiment",
+      "status": "supportive",
+      "icon": "people"
+    },
+    {
+      "label": "ETF Flow Signal",
+      "status": "neutral",
+      "icon": "flows"
+    },
+    {
+      "label": "Industrial Demand",
+      "status": "neutral",
+      "icon": "industry"
+    },
+    {
+      "label": "Crowded Positioning",
+      "status": "risk",
+      "icon": "people"
+    }
   ],
   "stories": [
     {
@@ -57,13 +266,54 @@
     }
   ],
   "metrics": [
-    { "label": "DXY (USD)", "value": "104.32", "change": "+0.47%", "direction": "up" },
-    { "label": "US 10Y Yield", "value": "4.32%", "change": "-0.06", "direction": "down" },
-    { "label": "Real Yield", "value": "2.12%", "change": "-0.08", "direction": "down" },
-    { "label": "Gold/Silver", "value": "84.6", "change": "-0.62%", "direction": "down" },
-    { "label": "COMEX Inv.", "value": "—", "change": "", "direction": "up" },
-    { "label": "COT Net-Long", "value": "76,892", "change": "-2,410", "direction": "down", "note": "Weekly (CFTC)" },
-    { "label": "ETF Holdings", "value": "—", "change": "", "direction": "up" },
-    { "label": "1M % Change", "value": "+8.71%", "change": "", "direction": "up" }
+    {
+      "label": "DXY (USD)",
+      "value": "104.32",
+      "change": "+0.47%",
+      "direction": "up"
+    },
+    {
+      "label": "US 10Y Yield",
+      "value": "4.32%",
+      "change": "-0.06",
+      "direction": "down"
+    },
+    {
+      "label": "Real Yield",
+      "value": "2.12%",
+      "change": "-0.08",
+      "direction": "down"
+    },
+    {
+      "label": "Gold/Silver",
+      "value": "84.6",
+      "change": "-0.62%",
+      "direction": "down"
+    },
+    {
+      "label": "COMEX Inv.",
+      "value": "\u2014",
+      "change": "",
+      "direction": "up"
+    },
+    {
+      "label": "COT Net-Long",
+      "value": "76,892",
+      "change": "-2,410",
+      "direction": "down",
+      "note": "Weekly (CFTC)"
+    },
+    {
+      "label": "ETF Holdings",
+      "value": "\u2014",
+      "change": "",
+      "direction": "up"
+    },
+    {
+      "label": "1M % Change",
+      "value": "+8.71%",
+      "change": "",
+      "direction": "up"
+    }
   ]
 }
