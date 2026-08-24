@@ -29,16 +29,16 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run price update
-        run: python web/scripts/update_price.py
+        run: python docs/scripts/update_price.py
 
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          if git diff --quiet -- web/data.json; then
+          if git diff --quiet -- docs/data.json; then
             echo "No changes."
             exit 0
           fi
-          git add web/data.json
+          git add docs/data.json
           git commit -m "Update price data [skip ci]"
           git push

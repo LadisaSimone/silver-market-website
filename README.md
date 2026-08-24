@@ -12,25 +12,25 @@ yet (real yield, COT positioning), and the website itself.
 - `main.py`, `config/`, `src/`, `prompts/` — the data pipeline (fetch
   prices/news, score with Claude, generate the daily briefing). `main.py`
   is a manual-run CLI kept for reference; the live site does **not** shell
-  out to it (see `web/scripts/`).
-- `web/` — the site itself: `index.html` + `styles.css` + `script.js`
+  out to it (see `docs/scripts/`).
+- `docs/` — the site itself: `index.html` + `styles.css` + `script.js`
   (one responsive page, mobile-first with a desktop breakpoint) reading
-  `web/data.json`, plus `web/scripts/` (the two jobs that keep
+  `docs/data.json`, plus `docs/scripts/` (the two jobs that keep
   `data.json` fresh) and ad placeholder slots (leaderboard, in-content,
   160×600 desktop sidebar).
 - `.github/workflows/` — the two schedules that run those scripts and
-  commit `web/data.json` back to the repo.
+  commit `docs/data.json` back to the repo.
 
 ## How the site stays live
 
-`web/data.json` is the single source of truth `script.js` renders from.
+`docs/data.json` is the single source of truth `script.js` renders from.
 Two scripts keep it current, each owning a different, non-overlapping
 slice of the file so they never clobber each other:
 
-- **`web/scripts/update_price.py`** — every 30 min
+- **`docs/scripts/update_price.py`** — every 30 min
   (`.github/workflows/update-price.yml`). Fetches the live silver price
   and today's intraday bars. Updates `price` + `intraday` only.
-- **`web/scripts/update_daily.py`** — once/day, ~9:30 AM ET
+- **`docs/scripts/update_daily.py`** — once/day, ~9:30 AM ET
   (`.github/workflows/update-daily.yml`). Runs the full pipeline (prices,
   30-day history, news, quantitative signals, the two-stage Claude
   scoring + briefing call, real yield, COT positioning) and updates
@@ -39,7 +39,7 @@ slice of the file so they never clobber each other:
 Both workflows commit straight to `main` with the `GITHUB_TOKEN` GitHub
 Actions already provides — no extra setup needed for that part. They
 share a `concurrency` group so they can never race each other on
-`web/data.json`.
+`docs/data.json`.
 
 ## Setup still needed before this is fully live
 
@@ -47,7 +47,7 @@ share a `concurrency` group so they can never race each other on
    variables → Actions → New repository secret. Only `update-daily.yml`
    needs it (the Claude scoring/briefing call).
 2. **Enable GitHub Pages** — Settings → Pages → Source: "Deploy from a
-   branch" → Branch: `main`, folder: `/web`.
+   branch" → Branch: `main`, folder: `/docs`.
 3. **First real run** — trigger both workflows manually once
    (Actions tab → select workflow → "Run workflow") and check the logs.
    `real_yield.py` (FRED) and `cot.py` (CFTC) were written defensively

@@ -1,10 +1,10 @@
-"""Daily refresh for web/data.json — outlook, drivers, metrics, stories, history.
+"""Daily refresh for docs/data.json — outlook, drivers, metrics, stories, history.
 
 Runs once/day (GitHub Actions cron, see .github/workflows/update-daily.yml).
 Deliberately does NOT shell out to main.py — main.py is kept only as a
 reference/manual-run CLI. This script imports the same pipeline pieces
 directly and writes straight into the site's data.json, in the exact
-shape script.js (web/script.js) expects.
+shape script.js (docs/script.js) expects.
 
 Read-modify-write: only the fields owned by this script are touched
 (outlook, drivers, metrics, stories, history, updated_at). price/intraday
@@ -39,7 +39,7 @@ from src.analysis.signals import (  # noqa: E402
 )
 from src.agents.summarizer import summarize  # noqa: E402
 
-DATA_JSON = REPO_ROOT / "web" / "data.json"
+DATA_JSON = REPO_ROOT / "docs" / "data.json"
 
 _CATEGORY_ICON = {
     "macro": "bank",

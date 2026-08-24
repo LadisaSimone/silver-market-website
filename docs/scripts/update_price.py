@@ -1,4 +1,4 @@
-"""Fast refresh for web/data.json — price + intraday chart only.
+"""Fast refresh for docs/data.json — price + intraday chart only.
 
 Runs every ~15-30 min (GitHub Actions cron, see .github/workflows/update-price.yml).
 Read-modify-write: only price/intraday/updated_at are touched, so this
@@ -15,7 +15,7 @@ sys.path.insert(0, str(REPO_ROOT))
 
 from src.fetchers.price import fetch_silver_price, fetch_silver_intraday  # noqa: E402
 
-DATA_JSON = REPO_ROOT / "web" / "data.json"
+DATA_JSON = REPO_ROOT / "docs" / "data.json"
 
 try:
     from zoneinfo import ZoneInfo
