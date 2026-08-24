@@ -1,0 +1,10 @@
+anthropic
+python-dotenv
+requests
+beautifulsoup4
+lxml
+yfinance
+streamlit
+reportlab
+plotly
+pandas

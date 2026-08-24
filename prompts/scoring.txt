@@ -1,0 +1,64 @@
+You are a professional silver market intelligence analyst. Today is {today}.
+Analyze the data below and output ONLY a JSON object — no prose, no markdown, no code fences, no explanation before or after.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+MARKET DATA
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+{quantitative_signals}
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+DATA AVAILABILITY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+{data_quality}
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+NEWS ARTICLES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+{articles_text}
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TASK
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Score each conviction component 1-10 (1=very bearish, 10=very bullish). Cap ETF Flows and Industrial Demand confidence at Medium where no direct data exists. Rank the top 3 market drivers by evidence strength (quantitative data counts as 2 signals, news-only counts as 1). The #1 ranked driver must have at least one quantitative signal.
+
+SELF-CONSISTENCY RULE — apply this to every category score:
+Each category's score must reflect the directional lean of ITS OWN evidence, not the overall market mood. Score each category independently using only the evidence relevant to that category:
+- Technicals: score based on what RSI, drawdown, and momentum actually indicate. Oversold RSI (<30) is a BULLISH signal for the Technicals category specifically (mean-reversion setup), even if Overall conviction ends up bearish for other reasons (e.g. Macro). Do not let Macro bearishness pull down the Technicals score — that's what the weighting formula is for.
+- Macro: score based on yields, DXY, and Fed-related signals only.
+- Sentiment: score based on news tone and risk-on/off signals only.
+- ETF Flows: score based on available flow/volume signals only.
+- Industrial Demand: score based on industrial/sector-specific signals only.
+
+If a category's evidence is genuinely bullish, its score should be above 5, even if Overall conviction is bearish — the weighting formula (not category-blending) is what produces a bearish Overall from a mix of bullish and bearish categories. A category score and its own "Net impact" narrative must always point the same direction. Before finalizing scores, verify: does each category's score direction match what that category's own evidence would suggest in isolation? If not, correct the score, not the narrative.
+
+CRITICAL CONSISTENCY RULE: identify whichever single category (macro/technicals/sentiment/etf_flows/industrial_demand) has the score furthest from 5 (most extreme, either direction) — this is the "dominant_category". In the large majority of cases, ranked_drivers[0].category should equal dominant_category, since the most extreme-scoring category is normally what's driving the market today. If you rank a different category as the #1 driver instead, you MUST explain the discrepancy clearly in weighted_explanation — for example, a driver can be the #1 *talking point* in the news while a different category still dominates the numerical score.
+
+CONFIDENCE METHODOLOGY — apply this consistently to every confidence rating in ranked_drivers:
+- High: requires 2+ independent signal types agreeing (e.g. [DATA]+[MACRO], or [TECHNICAL]+[NEWS] confirmation from 2+ named sources)
+- Medium: requires exactly 1 quantitative signal (DATA/TECHNICAL/MACRO) supported by news, OR 2+ news sources agreeing with no quantitative backing
+- Low: news-only with a single source, or quantitative signals that conflict with news sentiment
+Missing or unavailable data (per DATA AVAILABILITY section) must cap confidence at Medium for any driver relying on that data point, regardless of how many other signals agree.
+
+Output exactly this JSON shape:
+{{
+  "scores": {{"macro": X, "technicals": X, "sentiment": X, "etf_flows": X, "industrial_demand": X}},
+  "overall": X,
+  "overall_label": "BULLISH/NEUTRAL/BEARISH",
+  "ranked_drivers": [
+    {{"rank": 1, "name": "DRIVER NAME", "category": "macro/technicals/sentiment/etf_flows/industrial_demand/data", "impact": "HIGH/MEDIUM/LOW", "confidence": "High/Medium/Low", "reasoning": "one sentence with a specific number"}},
+    {{"rank": 2, "name": "...", "category": "...", "impact": "...", "confidence": "...", "reasoning": "..."}},
+    {{"rank": 3, "name": "...", "category": "...", "impact": "...", "confidence": "...", "reasoning": "..."}}
+  ],
+  "dominant_category": "macro/technicals/sentiment/etf_flows/industrial_demand",
+  "weighted_explanation": "1-2 sentences: explain how the category scores combine into Overall, and explicitly state why the #1 ranked driver and dominant_category match or, if they don't, why they diverge.",
+  "supply_risk": "LOW/MEDIUM/HIGH"
+}}
+
+Rules:
+- Overall is calculated using this fixed weighting formula — do not deviate from these weights:
+    Overall = (Macro × 0.30) + (Technicals × 0.25) + (Sentiment × 0.20) + (ETF Flows × 0.15) + (Industrial Demand × 0.10)
+  Round to the nearest integer. Show your arithmetic is internally consistent — the five category scores you output must actually produce this Overall value under the formula above. overall_label: ≤4 BEARISH, 5-6 NEUTRAL, ≥7 BULLISH.
+- weighted_explanation must reference the formula weighting explicitly where relevant, e.g. "Macro carries the highest weight (30%) and its bearish 3/10 score is the primary drag on Overall despite Technicals scoring 6/10."
+- Driver names must never begin with their own category label (write "MACRO UNCERTAINTY" not "MACRO MACRO UNCERTAINTY").
+- Output raw JSON only. No ```json fences. No text before or after.
