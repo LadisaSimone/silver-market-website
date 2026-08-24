@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-24T14:35:22Z",
+  "updated_at": "2026-08-24T14:36:46Z",
   "price": {
     "value": 68.94,
     "change": -0.02,
@@ -178,49 +178,146 @@
   ],
   "history": [
     {
+      "date": "2026-07-14",
+      "close": 58.77199935913086
+    },
+    {
+      "date": "2026-07-15",
+      "close": 57.11000061035156
+    },
+    {
+      "date": "2026-07-16",
+      "close": 55.89799880981445
+    },
+    {
+      "date": "2026-07-17",
+      "close": 56.03799819946289
+    },
+    {
+      "date": "2026-07-20",
+      "close": 56.801998138427734
+    },
+    {
+      "date": "2026-07-21",
+      "close": 58.834999084472656
+    },
+    {
+      "date": "2026-07-22",
+      "close": 60.01900100708008
+    },
+    {
+      "date": "2026-07-23",
+      "close": 57.79800033569336
+    },
+    {
       "date": "2026-07-24",
-      "close": 22.75
+      "close": 58.65599822998047
+    },
+    {
+      "date": "2026-07-27",
+      "close": 58.47200012207031
+    },
+    {
+      "date": "2026-07-28",
+      "close": 57.29600143432617
+    },
+    {
+      "date": "2026-07-29",
+      "close": 57.862998962402344
+    },
+    {
+      "date": "2026-07-30",
+      "close": 58.814998626708984
     },
     {
       "date": "2026-07-31",
-      "close": 23.02
+      "close": 57.590999603271484
+    },
+    {
+      "date": "2026-08-03",
+      "close": 57.66699981689453
+    },
+    {
+      "date": "2026-08-04",
+      "close": 60.055999755859375
+    },
+    {
+      "date": "2026-08-05",
+      "close": 62.0989990234375
+    },
+    {
+      "date": "2026-08-06",
+      "close": 61.43899917602539
     },
     {
       "date": "2026-08-07",
-      "close": 22.9
+      "close": 63.332000732421875
+    },
+    {
+      "date": "2026-08-10",
+      "close": 65.10600280761719
+    },
+    {
+      "date": "2026-08-11",
+      "close": 64.76899719238281
+    },
+    {
+      "date": "2026-08-12",
+      "close": 65.55500030517578
+    },
+    {
+      "date": "2026-08-13",
+      "close": 64.87300109863281
     },
     {
       "date": "2026-08-14",
-      "close": 23.4
+      "close": 64.98799896240234
+    },
+    {
+      "date": "2026-08-17",
+      "close": 66.12100219726562
+    },
+    {
+      "date": "2026-08-18",
+      "close": 63.941001892089844
+    },
+    {
+      "date": "2026-08-19",
+      "close": 65.73400115966797
+    },
+    {
+      "date": "2026-08-20",
+      "close": 68.0260009765625
     },
     {
       "date": "2026-08-21",
-      "close": 24.1
-    },
-    {
-      "date": "2026-08-22",
-      "close": 24.34
+      "close": 69.46600341796875
     },
     {
       "date": "2026-08-24",
-      "close": 24.78
+      "close": 68.93000030517578
     }
   ],
   "outlook": {
-    "score": 7,
-    "label": "Moderately Bullish",
-    "sentiment": "bullish",
-    "summary": "Silver is supported by a weaker dollar and falling real yields, with gold momentum reinforcing the move. Positioning is stretched, which is worth watching into next week.",
+    "score": 6,
+    "label": "Neutral",
+    "sentiment": "neutral",
+    "summary": "Silver's Aug 21 rally (+3.71%) confirmed by DXY weakness below 99 and bond buyback pressure, with gold-silver ratio at 68.5 (+3.5 above historical 65 average) signaling 7.4% structural upside to ING's $74 target. Macro factors\u2014dominated by dollar dynamics and falling US10Y yields\u2014provide the primary conviction driver at 6/10 overall, offsetting neutral technicals and absent flow data. Monitor DXY stability below 99 and US10Y yield trajectory; breach above 4.80% would restore yield headwinds and cap ratio-driven upside.",
     "updated_at": "Updated daily at 9:00 AM ET"
   },
   "drivers": [
     {
-      "label": "Dollar Weakness",
+      "label": "Dollar Weakness and Bond Dynamics",
       "status": "supportive",
       "icon": "bank"
     },
     {
-      "label": "RSI Oversold Bounce",
+      "label": "Gold-Silver Ratio Dislocation",
+      "status": "neutral",
+      "icon": "flows"
+    },
+    {
+      "label": "Neutral Technicals with Overbought Oscillator",
       "status": "supportive",
       "icon": "trend"
     },
@@ -236,59 +333,66 @@
     },
     {
       "label": "Industrial Demand",
-      "status": "neutral",
+      "status": "supportive",
       "icon": "industry"
-    },
-    {
-      "label": "Crowded Positioning",
-      "status": "risk",
-      "icon": "people"
     }
   ],
   "stories": [
     {
-      "title": "Fed minutes signal caution on rates",
-      "summary": "Markets rally on dovish tone from the latest FOMC minutes.",
-      "time_ago": "1h ago",
-      "url": "#"
+      "title": "Silver Price Steadies Near $69.00 As US Bond Buybacks Shape Market Sentiment - Bitcoin World",
+      "summary": "Silver Price Steadies Near $69.00 As US Bond Buybacks Shape Market SentimentBitcoin World",
+      "time_ago": "6h ago",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1tZXV0NjBUb0VJaHF4VUR2MkNGVHpRYnEyekh1UUtjWllxN3R0bTktcmFlbC1HZWJmTTdCeWVBSTItNUVUc3pvZEU0bGM2dVBDOTZ1dl9OUlRuaDNxcThRMVZyUVlsTkVnSUNlS1g5TFFJWHR0RWRJaldtbnlXQW8?oc=5"
     },
     {
-      "title": "Silver breaks above key resistance",
-      "summary": "Technical traders eye the next level after a strong weekly close.",
-      "time_ago": "4h ago",
-      "url": "#"
+      "title": "Gold, silver extend rally as dollar slide offsets higher yields - Kitco PM Report - KITCO",
+      "summary": "Gold, silver extend rally as dollar slide offsets higher yields - Kitco PM ReportKITCO",
+      "time_ago": "2d ago",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcWFwOVlvTFQyNGE5QkRZNExZY0NBaDlnd2hYVkRUVWhUSk1zQWxTdUw1RnE5TGd5emJ5dmxoZGFuSV8ybHFPOEVkdXNTOTZwNjZLSGhVd05vN2picWZ0eFd4M2pacFN3ZC0tb1lRaURfNnl1R1ZiMnotYWJ5Q1pFNS1haXFSY19rODFuUEZ0RDdPQWtreVBVUzZvQUxmUVVob0RXN2g1NElMWjUyWXBNY3JVMXVaaEJRRUpZWXV3?oc=5"
     },
     {
-      "title": "Solar demand seen rising into 2027",
-      "summary": "Installation growth forecasts support the industrial demand case.",
-      "time_ago": "1d ago",
-      "url": "#"
+      "title": "Silver Price Today: Silver Rises 3.71% on August 21, 2026 - USA Today",
+      "summary": "Silver Price Today: Silver Rises 3.71% on August 21, 2026USA Today",
+      "time_ago": "2d ago",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPSjR4a1BqaE9Zem1aTkVIZXFuT3ZVbmYxVVpENHBpc0pQSGxMUUhfUWo2cjhYaUZ1aUVnN0FtWFBTdXBDT2FJNVZCdEV3R1VHenpwTy1sQjBXZXBmbzR5VDY4ZDV0WGp1RjFuX1Vvc2VpRVIwTXFsbkpMYXd1S0ItNjB2VldYYk5KSnB0b2dwcC1MV04wOGs4STJ3d3VwRzhSbHlVa1V3c0tNcUE?oc=5"
+    },
+    {
+      "title": "Silver Price For Today, 21 August 2026 - Forbes",
+      "summary": "Silver Price For Today, 21 August 2026Forbes",
+      "time_ago": "3d ago",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5GY2NSNTc5Y0RCLW9QeXlCNDFpZ21IRFpsbDFWTXZSUTYwNWZPckFSak1ZZzhRaUk2azJ0WFZJWjFuXzc3bGxyVnRLMFNtemdYMktkZFlIUWE0N05HWHZQd05IRHpjR0tY?oc=5"
+    },
+    {
+      "title": "Gold, silver extend breakout as U.S. dollar slides below 99 - Kitco AM Report - KITCO",
+      "summary": "Gold, silver extend breakout as U.S. dollar slides below 99 - Kitco AM ReportKITCO",
+      "time_ago": "3d ago",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOczcwTXVMRV9GYThjT3BVYzlQRjhpaHJ1Tk1LeVJjU0xNOEtEcllmSGZob01WNTlrOGRnNnFHbFJfMUlqN1dUd0w5RmhfNTJtNVNWZE5KdGc5c3Raay1BeTl1cGlneDNFYi1yQW55elNUbUp2UHAzQmp5U2I0U0tDWjBhbExiR2ZMdVVldWJLUklSVWo1V1lsempiZ3Nna0t2aG52N3N2dFEzdzQyMWJzOGxuMWluQQ?oc=5"
     }
   ],
   "metrics": [
     {
       "label": "DXY (USD)",
-      "value": "104.32",
-      "change": "+0.47%",
+      "value": "98.95",
+      "change": "+0.12%",
       "direction": "up"
     },
     {
       "label": "US 10Y Yield",
-      "value": "4.32%",
-      "change": "-0.06",
+      "value": "4.70%",
+      "change": "-0.04",
       "direction": "down"
     },
     {
       "label": "Real Yield",
-      "value": "2.12%",
-      "change": "-0.08",
-      "direction": "down"
+      "value": "2.35%",
+      "change": "+0.00",
+      "direction": "up"
     },
     {
       "label": "Gold/Silver",
-      "value": "84.6",
-      "change": "-0.62%",
-      "direction": "down"
+      "value": "68.5",
+      "change": "",
+      "direction": "up"
     },
     {
       "label": "COMEX Inv.",
@@ -298,8 +402,8 @@
     },
     {
       "label": "COT Net-Long",
-      "value": "76,892",
-      "change": "-2,410",
+      "value": "23,625",
+      "change": "-21",
       "direction": "down",
       "note": "Weekly (CFTC)"
     },
@@ -311,7 +415,7 @@
     },
     {
       "label": "1M % Change",
-      "value": "+8.71%",
+      "value": "+17.28%",
       "change": "",
       "direction": "up"
     }
