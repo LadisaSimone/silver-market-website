@@ -24,6 +24,7 @@ RING_CIRCUMFERENCE = 2 * math.pi * 60  # r=60, matches docs/styles.css
 
 _SENTIMENT_COLOR = {"bearish": "#ff4d5e", "neutral": "#f5a623"}
 _SENTIMENT_CLASS = {"bearish": "is-bearish", "neutral": "is-neutral"}
+_STATUS_LABEL = {"risk": "Risk", "neutral": "Neutral"}  # default: "Supportive"
 
 
 def _fmt_signed(n, decimals: int = 2) -> str:
@@ -67,6 +68,23 @@ def render_index_html(data: dict, repo_root: Path) -> None:
     outlook_summary = outlook.get("summary") or "No briefing available yet."
     outlook_updated = outlook.get("updated_at") or ""
 
+    if price.get("value") is not None and price.get("change_pct") is not None:
+        direction_word = "up" if (price.get("change") or 0) >= 0 else "down"
+        seo_price_sentence = (
+            f"Silver (XAG/USD) is trading at ${price['value']:.2f} today, "
+            f"{direction_word} {abs(price['change_pct']):.2f}% from the prior session."
+        )
+    else:
+        seo_price_sentence = "Silver (XAG/USD) pricing is updating — check back shortly for today's level."
+
+    drivers = data.get("drivers") or []
+    driver_items = []
+    for d in drivers:
+        label = html.escape(str(d.get("label", "")), quote=True)
+        status_label = _STATUS_LABEL.get(d.get("status", "neutral"), "Supportive")
+        driver_items.append(f"<li><strong>{label}:</strong> {status_label}</li>")
+    seo_drivers_list = "".join(driver_items) or "<li>Driver data is updating.</li>"
+
     replacements = {
         "{{PRICE_VALUE}}": price_value,
         "{{PRICE_CHANGE}}": price_change,
@@ -79,9 +97,15 @@ def render_index_html(data: dict, repo_root: Path) -> None:
         "{{OUTLOOK_LABEL_CLASS}}": outlook_label_class,
         "{{OUTLOOK_SUMMARY}}": outlook_summary,
         "{{OUTLOOK_UPDATED}}": outlook_updated,
+        "{{SEO_PRICE_SENTENCE}}": seo_price_sentence,
+        "{{SEO_VERDICT}}": outlook_summary,
     }
     for token, value in replacements.items():
         page = page.replace(token, html.escape(str(value), quote=True))
+
+    # Drivers list is already-safe markup (labels individually escaped above),
+    # so it's substituted as raw HTML rather than through the escaping loop.
+    page = page.replace("{{SEO_DRIVERS_LIST}}", seo_drivers_list)
 
     output_path.write_text(page)
     print(f"Wrote {output_path}")
