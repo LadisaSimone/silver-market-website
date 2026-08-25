@@ -38,6 +38,7 @@ from src.analysis.signals import (  # noqa: E402
     format_signals_for_prompt,
 )
 from src.agents.summarizer import summarize  # noqa: E402
+from src.render_static import render_index_html  # noqa: E402
 
 DATA_JSON = REPO_ROOT / "docs" / "data.json"
 
@@ -274,6 +275,8 @@ def main() -> None:
 
     DATA_JSON.write_text(json.dumps(existing, indent=2) + "\n")
     print(f"Wrote {DATA_JSON}")
+
+    render_index_html(existing, REPO_ROOT)
 
 
 if __name__ == "__main__":

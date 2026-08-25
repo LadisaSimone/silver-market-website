@@ -68,10 +68,10 @@
           <div>
             <h1 id="price-heading" class="eyebrow">Silver (XAG/USD)</h1>
             <div class="price-row">
-              <span class="price-value" id="price-value">$67.74</span>
-              <span class="price-change is-down" id="price-change">-0.19 (-0.28%)</span>
+              <span class="price-value" id="price-value">{{PRICE_VALUE}}</span>
+              <span class="{{PRICE_CHANGE_CLASS}}" id="price-change">{{PRICE_CHANGE}}</span>
             </div>
-            <div class="price-asof" id="price-asof">As of 9:43 AM ET</div>
+            <div class="price-asof" id="price-asof">{{PRICE_ASOF}}</div>
           </div>
           <div class="chart-tabs" role="tablist" aria-label="Chart range">
             <button class="chart-tab is-active" data-range="1D" role="tab" aria-selected="true">1D</button>
@@ -93,17 +93,17 @@
           <div class="score-ring-wrap">
             <svg class="score-ring" viewBox="0 0 140 140" width="140" height="140" aria-hidden="true">
               <circle class="score-ring-track" cx="70" cy="70" r="60"></circle>
-              <circle class="score-ring-fill" id="score-ring-fill" cx="70" cy="70" r="60" style="stroke:#f5a623;stroke-dashoffset:188.50"></circle>
+              <circle class="score-ring-fill" id="score-ring-fill" cx="70" cy="70" r="60" style="stroke:{{RING_COLOR}};stroke-dashoffset:{{RING_OFFSET}}"></circle>
             </svg>
             <div class="score-ring-label">
-              <span class="score-number" id="score-number">5</span>
+              <span class="score-number" id="score-number">{{SCORE_NUMBER}}</span>
               <span class="score-outof">/10</span>
             </div>
           </div>
           <div class="outlook-text">
-            <span class="outlook-label is-neutral" id="outlook-label">Neutral</span>
-            <p class="outlook-summary" id="outlook-summary">Silver&#x27;s 68.9 gold-silver ratio, +3.9 above historical average, signals structural undervaluation even as DXY weakness (-11 bps) and falling US10Y yields (-4 bps) support precious metals broadly. Macro tailwinds are offset by profit-taking discipline and near-term inflation data uncertainty, the dominant neutral-leaning factor, leaving conviction anchored at neutral. Monitor the August PCE inflation print and Federal Reserve commentary for evidence that rate-hike expectations are softening; a sustained break below $67.50 would confirm technical breakdown inconsistent with the gold-silver ratio signal.</p>
-            <span class="outlook-updated" id="outlook-updated">Updated daily at 9:00 AM ET</span>
+            <span class="{{OUTLOOK_LABEL_CLASS}}" id="outlook-label">{{OUTLOOK_LABEL}}</span>
+            <p class="outlook-summary" id="outlook-summary">{{OUTLOOK_SUMMARY}}</p>
+            <span class="outlook-updated" id="outlook-updated">{{OUTLOOK_UPDATED}}</span>
           </div>
         </div>
       </section>

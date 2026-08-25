@@ -14,6 +14,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 sys.path.insert(0, str(REPO_ROOT))
 
 from src.fetchers.price import fetch_silver_price, fetch_silver_intraday  # noqa: E402
+from src.render_static import render_index_html  # noqa: E402
 
 DATA_JSON = REPO_ROOT / "docs" / "data.json"
 
@@ -59,6 +60,8 @@ def main() -> None:
 
     DATA_JSON.write_text(json.dumps(existing, indent=2) + "\n")
     print(f"Wrote {DATA_JSON}")
+
+    render_index_html(existing, REPO_ROOT)
 
 
 if __name__ == "__main__":
