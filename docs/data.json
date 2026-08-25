@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-25T14:06:26Z",
+  "updated_at": "2026-08-25T14:12:53Z",
   "price": {
     "value": 67.74,
     "change": -0.19,
@@ -184,7 +184,7 @@
       },
       {
         "date": "2026-08-25",
-        "close": 67.4749984741211
+        "close": 67.80500030517578
       }
     ],
     "1M": [
@@ -306,7 +306,7 @@
       },
       {
         "date": "2026-08-25",
-        "close": 67.4749984741211
+        "close": 67.80500030517578
       }
     ],
     "3M": [
@@ -568,7 +568,7 @@
       },
       {
         "date": "2026-08-25",
-        "close": 67.4749984741211
+        "close": 67.80500030517578
       }
     ],
     "1Y": [
@@ -1578,7 +1578,7 @@
       },
       {
         "date": "2026-08-25",
-        "close": 67.4749984741211
+        "close": 67.80500030517578
       }
     ]
   },
@@ -1586,7 +1586,7 @@
     "score": 5,
     "label": "Neutral",
     "sentiment": "neutral",
-    "summary": "No verdict extracted.",
+    "summary": "Silver's 68.9 gold-silver ratio, +3.9 above historical average, signals structural undervaluation even as DXY weakness (-11 bps) and falling US10Y yields (-4 bps) support precious metals broadly. Macro tailwinds are offset by profit-taking discipline and near-term inflation data uncertainty, the dominant neutral-leaning factor, leaving conviction anchored at neutral. Monitor the August PCE inflation print and Federal Reserve commentary for evidence that rate-hike expectations are softening; a sustained break below $67.50 would confirm technical breakdown inconsistent with the gold-silver ratio signal.",
     "updated_at": "Updated daily at 9:00 AM ET"
   },
   "drivers": [
@@ -1596,19 +1596,19 @@
       "icon": "bank"
     },
     {
-      "label": "Macroeconomic Data Uncertainty",
+      "label": "Profit-Taking From Recent Highs",
+      "status": "neutral",
+      "icon": "people"
+    },
+    {
+      "label": "Near-Term Price Pressure From Macro Data Watch",
       "status": "supportive",
       "icon": "bank"
     },
     {
-      "label": "Near-Term Technical Pullback",
+      "label": "Technical Setup",
       "status": "neutral",
       "icon": "trend"
-    },
-    {
-      "label": "News Sentiment",
-      "status": "neutral",
-      "icon": "people"
     },
     {
       "label": "ETF Flow Signal",
@@ -1617,7 +1617,7 @@
     },
     {
       "label": "Industrial Demand",
-      "status": "neutral",
+      "status": "risk",
       "icon": "industry"
     }
   ],
@@ -1641,8 +1641,8 @@
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPYUd5WmZjcFdRYXQzTkQ1MkpsVHRWbFhqdEVjc2ktV2VUaFFiNnpySzFVUzBCM0E2ZmIybEZRd1R2MGc2YWlrc2ZIUUFZRkNicnljTTRDbTlydHc3QWtIMTJpOW5pYjlEZzk5SFp2WVllUjZ6WGNfU0ZfWVhMeHpoSC1JdFg4d3pZT0xfMjVGVzhqX3pvODltRHZHOFZZMHJvdUtpQVFUallrUDdYYV9GVQ?oc=5"
     },
     {
-      "title": "Gold and silver prices fall in global markets - AZ\u018fRTAC",
-      "summary": "Gold and silver prices fall in global marketsAZ\u018fRTAC",
+      "title": "Gold and silver prices fall in global markets - Az\u0259rtac",
+      "summary": "Gold and silver prices fall in global marketsAz\u0259rtac",
       "time_ago": "7h ago",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZ0V3V2I2M0ZuQ2Jnc1JaLUo4bXp6V2RFMFNUekVWbndCM21XN1RvYjRpM0xucEYyWnlUdm1vMHQxY2g3TFlFN3RaNno0YU1fT2xwMXVETk10cElJaXo3Tk5nNWVSajd6cEdnRWROSlhZSWdIWnhoa1Rqb3g5MlZnc19Ib0VyaXNf?oc=5"
     },
@@ -1656,8 +1656,8 @@
   "metrics": [
     {
       "label": "DXY (USD)",
-      "value": "98.95",
-      "change": "-0.09%",
+      "value": "98.94",
+      "change": "-0.11%",
       "direction": "down"
     },
     {
@@ -1674,7 +1674,7 @@
     },
     {
       "label": "Gold/Silver",
-      "value": "69.1",
+      "value": "68.9",
       "change": "",
       "direction": "up"
     },
@@ -1699,7 +1699,7 @@
     },
     {
       "label": "1M % Change",
-      "value": "+18.15%",
+      "value": "+18.73%",
       "change": "",
       "direction": "up"
     }
