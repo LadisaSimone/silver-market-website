@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ladisasimone.github.io/silver-market-website/sitemap.xml
+Sitemap: https://silvermarketintelligence.com/sitemap.xml
