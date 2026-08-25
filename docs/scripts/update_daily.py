@@ -231,8 +231,11 @@ def main() -> None:
     dxy = fetch_dxy_price()
     us10y = fetch_us10y_price()
 
-    print("Fetching 30-day history...")
+    print("Fetching price history (1W/1M/3M/1Y)...")
     history = fetch_silver_history(30)
+    history_1w = fetch_silver_history(5)
+    history_3m = fetch_silver_history(65)
+    history_1y = fetch_silver_history(252)
 
     print("Fetching news...")
     articles = fetch_articles()
@@ -257,7 +260,12 @@ def main() -> None:
         existing = json.loads(DATA_JSON.read_text())
 
     existing["updated_at"] = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-    existing["history"] = history
+    existing["history"] = {
+        "1W": history_1w,
+        "1M": history,
+        "3M": history_3m,
+        "1Y": history_1y,
+    }
     existing["outlook"] = build_outlook(final_scores)
     existing["drivers"] = build_drivers(final_scores)
     existing["stories"] = build_stories(articles)

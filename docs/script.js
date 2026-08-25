@@ -144,16 +144,26 @@
 
   let chart = null;
 
+  function historyFor(data, range) {
+    const h = data.history;
+    if (!h) return [];
+    if (Array.isArray(h)) {
+      return range === "1M" ? h : [];
+    }
+    return h[range] || [];
+  }
+
   function renderChart(data, range) {
     const ctx = document.getElementById("price-chart");
     let labels, values;
 
-    if (range === "1M") {
-      labels = (data.history || []).map((h) => h.date.slice(5));
-      values = (data.history || []).map((h) => h.close);
-    } else {
+    if (range === "1D") {
       labels = (data.intraday || []).map((i) => i.t);
       values = (data.intraday || []).map((i) => i.p);
+    } else {
+      const series = historyFor(data, range);
+      labels = series.map((h) => h.date.slice(5));
+      values = series.map((h) => h.close);
     }
 
     const lineColor = "#22c55e";
