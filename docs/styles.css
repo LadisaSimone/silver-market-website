@@ -60,7 +60,6 @@ a { color: inherit; }
   font-family: var(--font-head);
   font-weight: 600;
   font-size: 16px;
-  white-space: nowrap;
 }
 
 .brand-mark {
@@ -71,7 +70,23 @@ a { color: inherit; }
   flex-shrink: 0;
 }
 
+.brand-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+}
+
+.brand-name { white-space: nowrap; }
+
 .brand-accent { color: var(--green); margin-left: 4px; }
+
+.brand-tagline {
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: 11px;
+  letter-spacing: 0.01em;
+  color: var(--faint);
+}
 
 .main-nav {
   display: none;
