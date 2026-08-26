@@ -1,0 +1,58 @@
+[
+  {
+    "date": "2026-08-26",
+    "metrics": [
+      {
+        "label": "DXY (USD)",
+        "value": "98.97",
+        "change": "+0.00%",
+        "direction": "up"
+      },
+      {
+        "label": "US 10Y Yield",
+        "value": "4.64%",
+        "change": "-0.07",
+        "direction": "down"
+      },
+      {
+        "label": "Real Yield",
+        "value": "2.38%",
+        "change": "-0.02",
+        "direction": "down"
+      },
+      {
+        "label": "Gold/Silver",
+        "value": "68.2",
+        "change": "",
+        "direction": "up"
+      },
+      {
+        "label": "COMEX Inv.",
+        "value": "\u2014",
+        "change": "",
+        "direction": "up",
+        "note": ""
+      },
+      {
+        "label": "COT Net-Long",
+        "value": "23,625",
+        "change": "-21",
+        "direction": "down",
+        "note": "Weekly (CFTC)"
+      },
+      {
+        "label": "ETF Holdings",
+        "value": "493.9M oz",
+        "change": "",
+        "direction": "up",
+        "note": "SLV"
+      },
+      {
+        "label": "1M % Change",
+        "value": "+22.82%",
+        "change": "",
+        "direction": "up"
+      }
+    ]
+  }
+]
