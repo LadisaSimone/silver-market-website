@@ -4,14 +4,14 @@
     "metrics": [
       {
         "label": "DXY (USD)",
-        "value": "99.13",
-        "change": "+0.16%",
+        "value": "99.16",
+        "change": "+0.19%",
         "direction": "up"
       },
       {
         "label": "US 10Y Yield",
         "value": "4.66%",
-        "change": "+0.02",
+        "change": "+0.03",
         "direction": "up"
       },
       {
@@ -28,7 +28,7 @@
       },
       {
         "label": "RSI (14)",
-        "value": "69",
+        "value": "68",
         "change": "",
         "direction": "up",
         "note": "Neutral"
@@ -49,7 +49,7 @@
       },
       {
         "label": "1M % Change",
-        "value": "+22.46%",
+        "value": "+22.22%",
         "change": "",
         "direction": "up"
       }
