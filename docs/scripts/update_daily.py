@@ -32,7 +32,6 @@ from src.fetchers.price import (  # noqa: E402
 from src.fetchers.news import fetch_articles  # noqa: E402
 from src.fetchers.real_yield import fetch_real_yield  # noqa: E402
 from src.fetchers.cot import fetch_silver_cot  # noqa: E402
-from src.fetchers.comex import fetch_comex_inventory  # noqa: E402
 from src.fetchers.etf_holdings import fetch_slv_holdings  # noqa: E402
 from src.analysis.signals import (  # noqa: E402
     compute_price_signals,
@@ -164,19 +163,25 @@ def build_stories(articles: list[dict], limit: int = 5) -> list[dict]:
     return stories
 
 
+_RSI_SIGNAL_LABEL = {
+    "oversold": "Oversold",
+    "overbought": "Overbought",
+    "neutral": "Neutral",
+}
+
+
 def build_metrics(
     signals: dict,
     history: list[dict],
     real_yield: dict,
     cot: dict,
-    comex: dict | None = None,
     etf: dict | None = None,
 ) -> list[dict]:
     dxy = signals["dxy"]
     us10y = signals["us10y"]
     ratio = signals["ratio"]
+    silver = signals["silver"]
 
-    comex_oz = comex.get("value_oz") if comex else None
     etf_oz = etf.get("value_oz") if etf else None
     etf_as_of = etf.get("as_of") if etf else None
 
@@ -206,11 +211,11 @@ def build_metrics(
             "direction": "up",
         },
         {
-            "label": "COMEX Inv.",
-            "value": f"{comex_oz / 1_000_000:.1f}M oz" if comex_oz is not None else "—",
+            "label": "RSI (14)",
+            "value": f"{silver['rsi_14']:.0f}" if silver.get("rsi_14") is not None else "—",
             "change": "",
-            "direction": "up",
-            "note": "Registered, CME" if comex_oz is not None else "",
+            "direction": "up" if (silver.get("rsi_14") or 50) >= 50 else "down",
+            "note": _RSI_SIGNAL_LABEL.get(silver.get("signal"), ""),
         },
         {
             "label": "COT Net-Long",
@@ -298,8 +303,7 @@ def main() -> None:
     real_yield = fetch_real_yield()
     cot = fetch_silver_cot()
 
-    print("Fetching COMEX inventory + ETF holdings...")
-    comex = fetch_comex_inventory()
+    print("Fetching ETF holdings...")
     etf = fetch_slv_holdings()
 
     existing = {}
@@ -317,7 +321,7 @@ def main() -> None:
     existing["outlook"] = build_outlook(final_scores)
     existing["drivers"] = build_drivers(final_scores)
     existing["stories"] = build_stories(articles)
-    existing["metrics"] = build_metrics(signals, history, real_yield, cot, comex, etf)
+    existing["metrics"] = build_metrics(signals, history, real_yield, cot, etf)
     # price/intraday are intentionally left untouched — update_price.py owns them.
 
     append_metrics_history(today_str, existing["metrics"], METRICS_HISTORY_JSON)
