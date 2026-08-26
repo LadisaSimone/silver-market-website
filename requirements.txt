@@ -8,3 +8,4 @@ streamlit
 reportlab
 plotly
 pandas
+xlrd

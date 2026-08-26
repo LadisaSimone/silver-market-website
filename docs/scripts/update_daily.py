@@ -32,6 +32,8 @@ from src.fetchers.price import (  # noqa: E402
 from src.fetchers.news import fetch_articles  # noqa: E402
 from src.fetchers.real_yield import fetch_real_yield  # noqa: E402
 from src.fetchers.cot import fetch_silver_cot  # noqa: E402
+from src.fetchers.comex import fetch_comex_inventory  # noqa: E402
+from src.fetchers.etf_holdings import fetch_slv_holdings  # noqa: E402
 from src.analysis.signals import (  # noqa: E402
     compute_price_signals,
     compute_data_quality,
@@ -41,6 +43,7 @@ from src.agents.summarizer import summarize  # noqa: E402
 from src.render_static import render_index_html  # noqa: E402
 
 DATA_JSON = REPO_ROOT / "docs" / "data.json"
+METRICS_HISTORY_JSON = REPO_ROOT / "docs" / "metrics_history.json"
 
 _CATEGORY_ICON = {
     "macro": "bank",
@@ -161,10 +164,21 @@ def build_stories(articles: list[dict], limit: int = 5) -> list[dict]:
     return stories
 
 
-def build_metrics(signals: dict, history: list[dict], real_yield: dict, cot: dict) -> list[dict]:
+def build_metrics(
+    signals: dict,
+    history: list[dict],
+    real_yield: dict,
+    cot: dict,
+    comex: dict | None = None,
+    etf: dict | None = None,
+) -> list[dict]:
     dxy = signals["dxy"]
     us10y = signals["us10y"]
     ratio = signals["ratio"]
+
+    comex_oz = comex.get("value_oz") if comex else None
+    etf_oz = etf.get("value_oz") if etf else None
+    etf_as_of = etf.get("as_of") if etf else None
 
     metrics = [
         {
@@ -193,9 +207,10 @@ def build_metrics(signals: dict, history: list[dict], real_yield: dict, cot: dic
         },
         {
             "label": "COMEX Inv.",
-            "value": "—",
+            "value": f"{comex_oz / 1_000_000:.1f}M oz" if comex_oz is not None else "—",
             "change": "",
             "direction": "up",
+            "note": "Registered, CME" if comex_oz is not None else "",
         },
         {
             "label": "COT Net-Long",
@@ -206,9 +221,10 @@ def build_metrics(signals: dict, history: list[dict], real_yield: dict, cot: dic
         },
         {
             "label": "ETF Holdings",
-            "value": "—",
+            "value": f"{etf_oz / 1_000_000:.1f}M oz" if etf_oz is not None else "—",
             "change": "",
             "direction": "up",
+            "note": (f"SLV, as of {etf_as_of}" if etf_as_of else "SLV") if etf_oz is not None else "",
         },
     ]
 
@@ -223,6 +239,32 @@ def build_metrics(signals: dict, history: list[dict], real_yield: dict, cot: dic
     })
 
     return metrics
+
+
+def append_metrics_history(date_str: str, metrics: list[dict], path: Path) -> None:
+    """Append today's Key Metrics snapshot to a running JSON array so past
+    values can be pulled later (e.g. for a trend chart), rather than being
+    overwritten every day the way docs/data.json's "metrics" field is.
+
+    Keyed by date: if this function runs twice for the same date (e.g. a
+    manual re-run), that day's entry is replaced, not duplicated. Each
+    entry stores exactly what build_metrics() produced, including any "—"
+    placeholders — so a gap in history is visible as a gap, not silently
+    smoothed over.
+    """
+    history = []
+    if path.exists():
+        try:
+            history = json.loads(path.read_text())
+        except (json.JSONDecodeError, ValueError):
+            history = []
+
+    history = [h for h in history if h.get("date") != date_str]
+    history.append({"date": date_str, "metrics": metrics})
+    history.sort(key=lambda h: h["date"])
+
+    path.write_text(json.dumps(history, indent=2) + "\n")
+    print(f"Wrote {path} ({len(history)} day(s) of history)")
 
 
 def main() -> None:
@@ -256,10 +298,15 @@ def main() -> None:
     real_yield = fetch_real_yield()
     cot = fetch_silver_cot()
 
+    print("Fetching COMEX inventory + ETF holdings...")
+    comex = fetch_comex_inventory()
+    etf = fetch_slv_holdings()
+
     existing = {}
     if DATA_JSON.exists():
         existing = json.loads(DATA_JSON.read_text())
 
+    today_str = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     existing["updated_at"] = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     existing["history"] = {
         "1W": history_1w,
@@ -270,8 +317,10 @@ def main() -> None:
     existing["outlook"] = build_outlook(final_scores)
     existing["drivers"] = build_drivers(final_scores)
     existing["stories"] = build_stories(articles)
-    existing["metrics"] = build_metrics(signals, history, real_yield, cot)
+    existing["metrics"] = build_metrics(signals, history, real_yield, cot, comex, etf)
     # price/intraday are intentionally left untouched — update_price.py owns them.
+
+    append_metrics_history(today_str, existing["metrics"], METRICS_HISTORY_JSON)
 
     DATA_JSON.write_text(json.dumps(existing, indent=2) + "\n")
     print(f"Wrote {DATA_JSON}")
