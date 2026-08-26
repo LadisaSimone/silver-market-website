@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-26T08:35:46Z",
+  "updated_at": "2026-08-26T09:04:21Z",
   "price": {
     "value": 68.57,
     "change": -0.88,
@@ -83,10 +83,6 @@
   "history": {
     "1W": [
       {
-        "date": "2026-08-19",
-        "close": 65.73400115966797
-      },
-      {
         "date": "2026-08-20",
         "close": 68.0260009765625
       },
@@ -100,14 +96,14 @@
       },
       {
         "date": "2026-08-25",
-        "close": 67.80500030517578
+        "close": 68.63600158691406
+      },
+      {
+        "date": "2026-08-26",
+        "close": 68.56500244140625
       }
     ],
     "1M": [
-      {
-        "date": "2026-07-15",
-        "close": 57.11000061035156
-      },
       {
         "date": "2026-07-16",
         "close": 55.89799880981445
@@ -222,14 +218,14 @@
       },
       {
         "date": "2026-08-25",
-        "close": 67.80500030517578
+        "close": 68.63600158691406
+      },
+      {
+        "date": "2026-08-26",
+        "close": 68.56500244140625
       }
     ],
     "3M": [
-      {
-        "date": "2026-05-22",
-        "close": 75.89299774169922
-      },
       {
         "date": "2026-05-26",
         "close": 76.30500030517578
@@ -484,14 +480,14 @@
       },
       {
         "date": "2026-08-25",
-        "close": 67.80500030517578
+        "close": 68.63600158691406
+      },
+      {
+        "date": "2026-08-26",
+        "close": 68.56500244140625
       }
     ],
     "1Y": [
-      {
-        "date": "2025-08-25",
-        "close": 38.676998138427734
-      },
       {
         "date": "2025-08-26",
         "close": 38.582000732421875
@@ -1494,103 +1490,102 @@
       },
       {
         "date": "2026-08-25",
-        "close": 67.80500030517578
+        "close": 68.63600158691406
+      },
+      {
+        "date": "2026-08-26",
+        "close": 68.56500244140625
       }
     ]
   },
   "outlook": {
-    "score": 5,
+    "score": 6,
     "label": "Neutral",
     "sentiment": "neutral",
-    "summary": "Silver's 68.9 gold-silver ratio, +3.9 above historical average, signals structural undervaluation even as DXY weakness (-11 bps) and falling US10Y yields (-4 bps) support precious metals broadly. Macro tailwinds are offset by profit-taking discipline and near-term inflation data uncertainty, the dominant neutral-leaning factor, leaving conviction anchored at neutral. Monitor the August PCE inflation print and Federal Reserve commentary for evidence that rate-hike expectations are softening; a sustained break below $67.50 would confirm technical breakdown inconsistent with the gold-silver ratio signal.",
+    "summary": "Silver at $68.57 reflects a -7 bps US 10Y yield compression and +3.3 ratio dislocation above historical mean, anchoring the #1 bullish driver in macro policy easing. Yield compression dominates the conviction weighting (30% allocation), offering structural support, though neutral technicals (RSI 69.4) and weak ETF flow confirmation (5/10) cap overall conviction at 6/10 neutral. Monitor next PCE inflation print (scheduled release) and US 10Y yield levels below 4.60% for confirmation of sustained macro tailwind.",
     "updated_at": "Updated daily at 9:00 AM ET"
   },
   "drivers": [
     {
-      "label": "Gold-Silver Ratio Divergence",
+      "label": "Us Treasury Yield Compression",
       "status": "supportive",
       "icon": "bank"
     },
     {
-      "label": "Profit-Taking From Recent Highs",
-      "status": "neutral",
-      "icon": "people"
-    },
-    {
-      "label": "Near-Term Price Pressure From Macro Data Watch",
+      "label": "Industrial Demand Surge From Ai/Data Centers",
       "status": "supportive",
-      "icon": "bank"
+      "icon": "industry"
     },
     {
-      "label": "Technical Setup",
-      "status": "neutral",
+      "label": "Technical Mean-Reversion Setup",
+      "status": "supportive",
       "icon": "trend"
+    },
+    {
+      "label": "News Sentiment",
+      "status": "supportive",
+      "icon": "people"
     },
     {
       "label": "ETF Flow Signal",
       "status": "neutral",
       "icon": "flows"
-    },
-    {
-      "label": "Industrial Demand",
-      "status": "risk",
-      "icon": "industry"
     }
   ],
   "stories": [
     {
-      "title": "Current price of silver as of Tuesday, Aug. 25, 2026 - Fortune",
-      "summary": "Current price of silver as of Tuesday, Aug. 25, 2026Fortune",
+      "title": "Argent Minerals Ltd (ASX:ARD): Assessing the Silver Developer's Share Price Trend - Kalkine",
+      "summary": "Argent Minerals Ltd (ASX:ARD): Assessing the Silver Developer's Share Price TrendKalkine",
       "time_ago": "1h ago",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE4xQnJueHRMVGlIS284bjNXcDNPdkZRbUFUSl9OMW03QnBsRWVFdXhxZzRxOGs0bUxiYnp2MXE1WnlGRjQ4LWRqSWtFaXVycmFjcEJJR0oyN0VNa1FUU1hOQ2FhS1VaaGhvcUxnMmZKYw?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNeVJ1MlM0d2Z1N3hmUGZSRlh5emZkTGpXYlVWT2xORVRhOGxhYWFKZmdXWmxUczV1cDVaTEd4djNrdVpwWUxxQ2pJak9TWjhzSld6aHREUXJpS2tvaU9pVEw1QVVrWmdIYVNkRHJUa2dBZ21WaFZiUzVfbWc1Z2JGNFAxMy01d2JvNjNzZTBQVHR4YVZuOG4zTEY5QmV4bmRmTGFuX1BqVXM0bFNBMUoxeg?oc=5"
     },
     {
-      "title": "Gold Price Rises to Rs 1.67 Lakh/10g, Silver Declines - Rediff MoneyWiz",
-      "summary": "Gold Price Rises to Rs 1.67 Lakh/10g, Silver DeclinesRediff MoneyWiz",
-      "time_ago": "2h ago",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQeUVZeTdjeHUzdFhEUWxYT0tVZVNqbGJfNjZJN29DWkpHOWRYSUpxdHJDQjZPMUhkS2NwT3lyVjVCYU01UWZKamx5a0x0NjVBeEhnMDlvVVpsdGJvX3hLU3RpVlNUN1pyZXhucEZtVEZ2amFMX1NIOU5kNzE2SGFQX2NMZW50djVHOGlFOWF5YmNBbUNZdGdDOGJfQ2k5Y0lpbjhGWHdza9IBrAFBVV95cUxObnQzV0NpbEVTNTlMNDRqVEVYbjB0N0hKZEZldHBfSG91N3FPYXE4dGZRR0RDOEhiNVRjMHZkM0c2SmpreWQ0STdVT1dkUVpEX0ZRSURNU0dvVWRPRDNQT3QybWtLOEVyUWYzTkxfTWljc2hyZm5DUlI5YjNtdXlDSnJiMlVUNHZXZFZWRnJfZDgzMkJhczNJOG1MMmhEV0d1cUIwMGFHODR4dl9K?oc=5"
+      "title": "Gold and silver prices rise in global markets - Az\u0259rtac",
+      "summary": "Gold and silver prices rise in global marketsAz\u0259rtac",
+      "time_ago": "1h ago",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUC1FdUhsc0RnZDYyaEdYVERWY29DT3l3RzNrd2xBdFF1REhVS3E0MDJGamQ2eVR3dk1tMXZxQjNmNV9FdlJoVmQxQlJqcVVXN2RmVl9YcWNxMHB4Vl83QWtfNGQzMUNVbkdvck83aTZWcjlTcDNTUmlNS2QxNEFCZnB1MFRfVnNL?oc=5"
     },
     {
-      "title": "Gold Price Breaks Out Above $4,600 \u2013 Silver Approaches $70 - Shanghai Metals Market",
-      "summary": "Gold Price Breaks Out Above $4,600 \u2013 Silver Approaches $70Shanghai Metals Market",
-      "time_ago": "5h ago",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPYUd5WmZjcFdRYXQzTkQ1MkpsVHRWbFhqdEVjc2ktV2VUaFFiNnpySzFVUzBCM0E2ZmIybEZRd1R2MGc2YWlrc2ZIUUFZRkNicnljTTRDbTlydHc3QWtIMTJpOW5pYjlEZzk5SFp2WVllUjZ6WGNfU0ZfWVhMeHpoSC1JdFg4d3pZT0xfMjVGVzhqX3pvODltRHZHOFZZMHJvdUtpQVFUallrUDdYYV9GVQ?oc=5"
+      "title": "Zinc, Silver Shine Bright(er): Jefferies Prefers Hindustan Zinc Over Hindalco \u2014 Check Target Price, Upside - NDTV Profit",
+      "summary": "Zinc, Silver Shine Bright(er): Jefferies Prefers Hindustan Zinc Over Hindalco \u2014 Check Target Price, UpsideNDTV Profit",
+      "time_ago": "3h ago",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbmpiQjRYZW1YdFFWeC1yeUdKb09VMU51TlB5Q1hQd2dvU3o5aHJXRy1KWDVPb1hDRmRhZEY4VF9LYkp1bVNEcWppVC1LUW43RHBURmkyaXBlTHlZQ24wY3F5WGNtT01oZDcwdVR3Q3NKNFJoU2JQd0Y2TnZ0ZDU0QWpPUlpoUUxiRmlJWVg2cUh4YjBnN2gxb0JjaWpNSmZjMm9XX1h5dS1mWTdTeGNrQ0JOLTRUeDTSAb8BQVVfeXFMUE5nUFBqd014YndfSko4SGpYWEtGSEtzNXZ6NUFMR0s4S1RVTHVvSE1OMlpOekV2TVJLblBFM09GM2NOUTM2dkt2cnBLNDVXOEctRVR5WGNqXzJxcmlNR1VpMzFzQ1B4cVhfUGd6c1J1VkwzTVUxa2dTWWtYUW1ZNE9LOW1zZWZzcTM0WnVuZEJiY09pRlhHY3BWSElQeF96ME1MajdzOUt1aDZPRzRIdVMwWVk2VHk0S2p0amhRcEU?oc=5"
     },
     {
-      "title": "Gold and silver prices fall in global markets - Az\u0259rtac",
-      "summary": "Gold and silver prices fall in global marketsAz\u0259rtac",
-      "time_ago": "7h ago",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZ0V3V2I2M0ZuQ2Jnc1JaLUo4bXp6V2RFMFNUekVWbndCM21XN1RvYjRpM0xucEYyWnlUdm1vMHQxY2g3TFlFN3RaNno0YU1fT2xwMXVETk10cElJaXo3Tk5nNWVSajd6cEdnRWROSlhZSWdIWnhoa1Rqb3g5MlZnc19Ib0VyaXNf?oc=5"
+      "title": "Gold and silver price today, 26 Aug: Check retail rates of 24K, 22K gold and 999 silver in Delhi, Mumbai, other cities - Livemint",
+      "summary": "Gold and silver price today, 26 Aug: Check retail rates of 24K, 22K gold and 999 silver in Delhi, Mumbai, other citiesLivemint",
+      "time_ago": "4h ago",
+      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOX1pmeHBPNktQNzhHNWJLejRIZnNUZ0dFYm1ZSUhXblU3Y2w5NGZOX0V4N2J3YjJWYmRFcTJpUkxveVV0a2l2NkJTX3RUOFBQT1dUbDlLQkMzc2lKc2VUZ09adFpBTmFBVXBYdmcxZ1FjQ01BOEJISnlGS3hfUGpma05PLWhjXzJnSUtHVUhjU0lFRElFVjQyRzFBRVAtRWVsOTVGSl82RUkwenJuVnRid3B0WVdYVTJmTmJlQXJ5NGdNc1lMaHdfb2ZZS0RYN29oYUg1dmxJaVpjekY5UVF4TWY0ellRUWhVZ0NTMk1TTlBESDNIRExmSW5HbVNlS0NYeUgxclNSdUpXaEZLdGfSAZMCQVVfeXFMTlEtQ3FQTWRWejBhLXpaX2xjbGJraDYwb1NLVThzeC04aV9qTmJ1N3p3NkpZTjIxaG5IZmswZHdsSmVvbE52MVJHWF9VUUplSFl2ZktkbzlST2s0ZG5NT0x3QXF6TmxQNEc0VGpBZTZBYzdOTFc2RzJpenBXWTRCODM2b0x6RHdfRVAzdWpXUVIwck9mWkpvb2pjSDBsbTJ0M2pOekplU0lLTVRtVDZLa3ZnSzZDMkJrMWk3VW1mazBXVUdJa3N2ei1wQUZ3UFpJMzRiWlZNdDV3RG1sNVNZWUl0bFBtSDViTzZxVWxFeUhYelcwMWJiMFNZeTNCVzJxNUZmZ1pyLU5EaUhXVDZqRU4zUkU?oc=5"
     },
     {
-      "title": "Gold and silver prices fall in local market today - NepalNews",
-      "summary": "Gold and silver prices fall in local market todayNepalNews",
-      "time_ago": "8h ago",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPdjdEYkNyWWpRLU8tT1hITDU1R29DTG5lUW03Nm4zbXZnbl9rVjg3WnBrY3hKNEtqTlFoSy1YTDlMVThVeGVfaEZoNGFIaU9McTdoRVZ6MGNhMUtRMWtiR0Zpb2U1eXBQTlA2X1h3Nk1mMjEwNzJYWnkwVTRsS2E4OGt2R2F5N0VvS21fVXg4a0NmYXZ5M29mSURNRQ?oc=5"
+      "title": "Gold prices rise marginally; silver rebounds Rs 2,000/kg as traders await US inflation data. Key levels to - The Economic Times",
+      "summary": "Gold prices rise marginally; silver rebounds Rs 2,000/kg as traders await US inflation data. Key levels toThe Economic Times",
+      "time_ago": "4h ago",
+      "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNT1lKemdiM2wzamRxSFJNYi05bEVGV1JSNHlLOGphNzFKVjB6akZnVVAwWHF0LTRFdGtLM1JOMlNueE8tZlV5cm1vWm5yOFJETXNrRms2VEQwek9RZnZkWmhaRWZ0N2pUc01PWUs2NDd6R2xNWFBJcVdoSlJraEplYjlKMmxyX3MyODV5eUNLNkZMNkhVTzFDaEdhMHU1Ql9QM2Z2SXZVdVh2X2JzWTZ1dzFHbFE2TDlMSW5LY3lrd0k1clJjTHFBYXk0dUNQWDFjZW93b0t3eV9oWWV2TXh6dnAwQjgwbUdkSk9PN2tDb1lJbVQwNGNZaUxpQUhZZjNIWnROX3hydG9uT3VlMzZSX1lqQjRtVU3SAZwCQVVfeXFMUHdqcGo2cEhGbXYySExDQjhwZFJZZHlKVmFPZmg3M3RFa0w4ZHpwQjRVVnVoZVB4UThfYUZhaTY1Nm16RnBUTVhWQTVObU5XSG5BcGJPLTYycVd3X2tNd3lfVl9hRjRlb1l0bXh5VXlFQXJOenJkOXptNXA3aHRWcVF1Y01DclBYVFA5QmZ4V09RVmFBcVhaNEh6cEMwb0k2RmVJMHlJTmNpN0ZGWWpoQkR5UXh5cWJBaFh2Mjhzd21sbHR2eVBPZUt3TzQ0MkpDUVh1QzJ5amhNUG90NXVnN1lfTmdtb0Y5dW5RWWVGLS1aMHNwMVNMcVV2ek8wYnp3VEpuSDkzcW9RX3ZmdUZGZzlqQ0VndWkxZ0VVMFk?oc=5"
     }
   ],
   "metrics": [
     {
       "label": "DXY (USD)",
-      "value": "98.94",
-      "change": "-0.11%",
+      "value": "98.95",
+      "change": "-0.03%",
       "direction": "down"
     },
     {
       "label": "US 10Y Yield",
-      "value": "4.66%",
-      "change": "-0.04",
+      "value": "4.64%",
+      "change": "-0.07",
       "direction": "down"
     },
     {
       "label": "Real Yield",
-      "value": "2.40%",
-      "change": "+0.05",
-      "direction": "up"
+      "value": "2.38%",
+      "change": "-0.02",
+      "direction": "down"
     },
     {
       "label": "Gold/Silver",
-      "value": "68.9",
+      "value": "68.3",
       "change": "",
       "direction": "up"
     },
@@ -1598,7 +1593,8 @@
       "label": "COMEX Inv.",
       "value": "\u2014",
       "change": "",
-      "direction": "up"
+      "direction": "up",
+      "note": ""
     },
     {
       "label": "COT Net-Long",
@@ -1609,13 +1605,14 @@
     },
     {
       "label": "ETF Holdings",
-      "value": "\u2014",
+      "value": "493.9M oz",
       "change": "",
-      "direction": "up"
+      "direction": "up",
+      "note": "SLV"
     },
     {
       "label": "1M % Change",
-      "value": "+18.73%",
+      "value": "+22.66%",
       "change": "",
       "direction": "up"
     }
