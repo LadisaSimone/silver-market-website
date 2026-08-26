@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-26T13:49:18Z",
+  "updated_at": "2026-08-26T14:11:03Z",
   "price": {
     "value": 68.31,
     "change": -0.96,
@@ -184,7 +184,7 @@
       },
       {
         "date": "2026-08-26",
-        "close": 68.47000122070312
+        "close": 68.44999694824219
       }
     ],
     "1M": [
@@ -306,7 +306,7 @@
       },
       {
         "date": "2026-08-26",
-        "close": 68.47000122070312
+        "close": 68.44999694824219
       }
     ],
     "3M": [
@@ -568,7 +568,7 @@
       },
       {
         "date": "2026-08-26",
-        "close": 68.47000122070312
+        "close": 68.44999694824219
       }
     ],
     "1Y": [
@@ -1578,7 +1578,7 @@
       },
       {
         "date": "2026-08-26",
-        "close": 68.47000122070312
+        "close": 68.44999694824219
       }
     ]
   },
@@ -1586,29 +1586,34 @@
     "score": 5,
     "label": "Neutral",
     "sentiment": "neutral",
-    "summary": "Silver at $68.47 trades 3.2 points below the gold/silver ratio mean, the top-ranked driver, yet macro headwinds from elevated 4.65% US10Y yields and +10 bps DXY strength suppress conviction to neutral (5/10). Industrial demand optimism from AI buildouts and analyst $72 targets remain contingent on PCE inflation data triggering yield relief next",
+    "summary": "Silver at $68.45 (\u22121.17%) sits on a gold/silver ratio of 68.5, signaling 3.5 points of undervaluation relative to gold and creating a $72 upside target ahead of PCE data. Macro headwinds\u2014DXY +16 bps to 99.13 and US10Y +2 bps to 4.66%\u2014represent the dominant scoring constraint, offsetting industrial demand bullish conviction and keeping the market in neutral bias. Watch US10Y and PCE inflation data on August 29; a CPI print below consensus or Fed dovish pivot could trigger 2\u20133% silver rally toward $71\u2013$72, while sustained yields above 4.70% risk extending the macro headwind into $66\u2013$67 support.",
     "updated_at": "Updated daily at 9:00 AM ET"
   },
   "drivers": [
     {
-      "label": "Industrial Demand Strength (AI/Data Centers)",
+      "label": "Industrial Demand Resurgence",
       "status": "supportive",
       "icon": "industry"
     },
     {
-      "label": "Silver Undervaluation vs Gold",
+      "label": "Gold/Silver Ratio Divergence",
+      "status": "neutral",
+      "icon": "flows"
+    },
+    {
+      "label": "US Macro Headwinds",
+      "status": "risk",
+      "icon": "bank"
+    },
+    {
+      "label": "Technical Setup",
       "status": "supportive",
       "icon": "trend"
     },
     {
-      "label": "PCE Inflation Data Catalyst",
+      "label": "News Sentiment",
       "status": "supportive",
       "icon": "people"
-    },
-    {
-      "label": "Macro Backdrop",
-      "status": "risk",
-      "icon": "bank"
     },
     {
       "label": "ETF Flow Signal",
@@ -1620,45 +1625,45 @@
     {
       "title": "Current price of silver as of Wednesday, August 26, 2026 - Fortune",
       "summary": "Current price of silver as of Wednesday, August 26, 2026Fortune",
-      "time_ago": "1h ago",
+      "time_ago": "2h ago",
       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBieXdVWklISER0NjlLS3VCYUU0R2NEYU5RVVF5VlFvQnZSMWVxa0w5RHhZNWRyUzJpWFlTWEpEa0V0X25aSXlpQUlSVkJUeExHVTZFc3I5a1BKS0drTEx6ODR2SDdhWUVIaHBwZzhwOA?oc=5"
     },
     {
       "title": "Gold (XAU/USD) & Silver Price Forecast: Lower Yields Support Metals Before PCE - FXEmpire",
       "summary": "Gold (XAU/USD) & Silver Price Forecast: Lower Yields Support Metals Before PCEFXEmpire",
-      "time_ago": "5h ago",
+      "time_ago": "6h ago",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPYkJObGZPZWpsQjNCWENoVFNMYmNxLWpDT3FlenZ1VHZOX3Y2NW5KWWJlNTRrMGN3MG5uWXJVQVRXUmhPemRldUlfbjljMUd0T3Z5Vnk3ZXh2RDhWN3JIOTVHdEdQSUptd28tMmRTUTZDTGVnYmk5TTV0YXRpZERfRzRIelAzY0ZCcUdfSC0zYW9fSHE4a3J2bXZIN3UxeFFsYzgtcXluTjJ4dXh4OW9JallHbGRoSkVORGQyQW5pX2dVdw?oc=5"
     },
     {
       "title": "Argent Minerals Ltd (ASX:ARD): Assessing the Silver Developer's Share Price Trend - Kalkine",
       "summary": "Argent Minerals Ltd (ASX:ARD): Assessing the Silver Developer's Share Price TrendKalkine",
-      "time_ago": "5h ago",
+      "time_ago": "6h ago",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNeVJ1MlM0d2Z1N3hmUGZSRlh5emZkTGpXYlVWT2xORVRhOGxhYWFKZmdXWmxUczV1cDVaTEd4djNrdVpwWUxxQ2pJak9TWjhzSld6aHREUXJpS2tvaU9pVEw1QVVrWmdIYVNkRHJUa2dBZ21WaFZiUzVfbWc1Z2JGNFAxMy01d2JvNjNzZTBQVHR4YVZuOG4zTEY5QmV4bmRmTGFuX1BqVXM0bFNBMUoxeg?oc=5"
     },
     {
       "title": "Gold and silver prices rise in global markets - Az\u0259rtac",
       "summary": "Gold and silver prices rise in global marketsAz\u0259rtac",
-      "time_ago": "5h ago",
+      "time_ago": "6h ago",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUC1FdUhsc0RnZDYyaEdYVERWY29DT3l3RzNrd2xBdFF1REhVS3E0MDJGamQ2eVR3dk1tMXZxQjNmNV9FdlJoVmQxQlJqcVVXN2RmVl9YcWNxMHB4Vl83QWtfNGQzMUNVbkdvck83aTZWcjlTcDNTUmlNS2QxNEFCZnB1MFRfVnNL?oc=5"
     },
     {
       "title": "Zinc, Silver Shine Bright(er): Jefferies Prefers Hindustan Zinc Over Hindalco \u2014 Check Target Price, Upside - NDTV Profit",
       "summary": "Zinc, Silver Shine Bright(er): Jefferies Prefers Hindustan Zinc Over Hindalco \u2014 Check Target Price, UpsideNDTV Profit",
-      "time_ago": "7h ago",
+      "time_ago": "8h ago",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbmpiQjRYZW1YdFFWeC1yeUdKb09VMU51TlB5Q1hQd2dvU3o5aHJXRy1KWDVPb1hDRmRhZEY4VF9LYkp1bVNEcWppVC1LUW43RHBURmkyaXBlTHlZQ24wY3F5WGNtT01oZDcwdVR3Q3NKNFJoU2JQd0Y2TnZ0ZDU0QWpPUlpoUUxiRmlJWVg2cUh4YjBnN2gxb0JjaWpNSmZjMm9XX1h5dS1mWTdTeGNrQ0JOLTRUeDTSAb8BQVVfeXFMUE5nUFBqd014YndfSko4SGpYWEtGSEtzNXZ6NUFMR0s4S1RVTHVvSE1OMlpOekV2TVJLblBFM09GM2NOUTM2dkt2cnBLNDVXOEctRVR5WGNqXzJxcmlNR1VpMzFzQ1B4cVhfUGd6c1J1VkwzTVUxa2dTWWtYUW1ZNE9LOW1zZWZzcTM0WnVuZEJiY09pRlhHY3BWSElQeF96ME1MajdzOUt1aDZPRzRIdVMwWVk2VHk0S2p0amhRcEU?oc=5"
     }
   ],
   "metrics": [
     {
       "label": "DXY (USD)",
-      "value": "99.07",
-      "change": "+0.10%",
+      "value": "99.13",
+      "change": "+0.16%",
       "direction": "up"
     },
     {
       "label": "US 10Y Yield",
-      "value": "4.65%",
-      "change": "+0.01",
+      "value": "4.66%",
+      "change": "+0.02",
       "direction": "up"
     },
     {
@@ -1669,7 +1674,7 @@
     },
     {
       "label": "Gold/Silver",
-      "value": "68.2",
+      "value": "68.5",
       "change": "",
       "direction": "up"
     },
@@ -1696,7 +1701,7 @@
     },
     {
       "label": "1M % Change",
-      "value": "+22.49%",
+      "value": "+22.46%",
       "change": "",
       "direction": "up"
     }
