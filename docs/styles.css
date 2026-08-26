@@ -57,7 +57,7 @@ a { color: inherit; }
 .header-inner {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 14px 20px;
+  padding: 18px 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -67,15 +67,15 @@ a { color: inherit; }
 .brand {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
   font-family: var(--font-head);
   font-weight: 600;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .brand-mark {
-  width: 22px;
-  height: 22px;
+  width: 26px;
+  height: 26px;
   border-radius: 50%;
   background: radial-gradient(circle at 35% 30%, var(--blue), #1e3a8a 75%);
   flex-shrink: 0;
@@ -94,7 +94,7 @@ a { color: inherit; }
 .brand-tagline {
   font-family: var(--font-body);
   font-weight: 500;
-  font-size: 13px;
+  font-size: 15px;
   letter-spacing: 0.01em;
   color: var(--dim);
 }
@@ -106,7 +106,7 @@ a { color: inherit; }
 
 .nav-link {
   text-decoration: none;
-  font-size: 14px;
+  font-size: 17px;
   font-weight: 500;
   color: var(--dim);
   padding: 6px 0;
