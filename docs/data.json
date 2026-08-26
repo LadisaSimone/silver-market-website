@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-26T09:04:21Z",
+  "updated_at": "2026-08-26T09:13:33Z",
   "price": {
     "value": 68.57,
     "change": -0.88,
@@ -100,7 +100,7 @@
       },
       {
         "date": "2026-08-26",
-        "close": 68.56500244140625
+        "close": 68.65499877929688
       }
     ],
     "1M": [
@@ -222,7 +222,7 @@
       },
       {
         "date": "2026-08-26",
-        "close": 68.56500244140625
+        "close": 68.65499877929688
       }
     ],
     "3M": [
@@ -484,7 +484,7 @@
       },
       {
         "date": "2026-08-26",
-        "close": 68.56500244140625
+        "close": 68.65499877929688
       }
     ],
     "1Y": [
@@ -1494,7 +1494,7 @@
       },
       {
         "date": "2026-08-26",
-        "close": 68.56500244140625
+        "close": 68.65499877929688
       }
     ]
   },
@@ -1502,22 +1502,27 @@
     "score": 6,
     "label": "Neutral",
     "sentiment": "neutral",
-    "summary": "Silver at $68.57 reflects a -7 bps US 10Y yield compression and +3.3 ratio dislocation above historical mean, anchoring the #1 bullish driver in macro policy easing. Yield compression dominates the conviction weighting (30% allocation), offering structural support, though neutral technicals (RSI 69.4) and weak ETF flow confirmation (5/10) cap overall conviction at 6/10 neutral. Monitor next PCE inflation print (scheduled release) and US 10Y yield levels below 4.60% for confirmation of sustained macro tailwind.",
+    "summary": "US 10Y yields fell 7 basis points to 4.64%, triggering the primary bullish driver by reducing silver's real-rate opportunity cost and aligning with bond buyback demand cited across multiple sources. Macro compression is the dominant scoring category offsetting neutral technicals (RSI 69.7, no oversold bounce setup), resulting in a neutral 6/10 conviction. Watch for PCE inflation data release and any move above $70 to confirm the yield-driven rally; a rebound in US 10Y yields above 4.70% would invalidate the primary bullish thesis.",
     "updated_at": "Updated daily at 9:00 AM ET"
   },
   "drivers": [
     {
-      "label": "Us Treasury Yield Compression",
+      "label": "Us 10Y Yield Compression",
       "status": "supportive",
       "icon": "bank"
     },
     {
-      "label": "Industrial Demand Surge From Ai/Data Centers",
+      "label": "Silver-Gold Ratio Undervaluation",
+      "status": "neutral",
+      "icon": "flows"
+    },
+    {
+      "label": "Ai & Data Center Industrial Demand Rebound",
       "status": "supportive",
       "icon": "industry"
     },
     {
-      "label": "Technical Mean-Reversion Setup",
+      "label": "Technical Setup",
       "status": "supportive",
       "icon": "trend"
     },
@@ -1567,9 +1572,9 @@
   "metrics": [
     {
       "label": "DXY (USD)",
-      "value": "98.95",
-      "change": "-0.03%",
-      "direction": "down"
+      "value": "98.97",
+      "change": "+0.00%",
+      "direction": "up"
     },
     {
       "label": "US 10Y Yield",
@@ -1585,7 +1590,7 @@
     },
     {
       "label": "Gold/Silver",
-      "value": "68.3",
+      "value": "68.2",
       "change": "",
       "direction": "up"
     },
@@ -1612,7 +1617,7 @@
     },
     {
       "label": "1M % Change",
-      "value": "+22.66%",
+      "value": "+22.82%",
       "change": "",
       "direction": "up"
     }
