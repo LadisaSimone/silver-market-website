@@ -4,8 +4,8 @@
     "metrics": [
       {
         "label": "DXY (USD)",
-        "value": "98.97",
-        "change": "+0.00%",
+        "value": "99.00",
+        "change": "+0.03%",
         "direction": "up"
       },
       {
@@ -22,16 +22,16 @@
       },
       {
         "label": "Gold/Silver",
-        "value": "68.2",
+        "value": "68.3",
         "change": "",
         "direction": "up"
       },
       {
-        "label": "COMEX Inv.",
-        "value": "\u2014",
+        "label": "RSI (14)",
+        "value": "69",
         "change": "",
         "direction": "up",
-        "note": ""
+        "note": "Neutral"
       },
       {
         "label": "COT Net-Long",
@@ -49,7 +49,7 @@
       },
       {
         "label": "1M % Change",
-        "value": "+22.82%",
+        "value": "+22.46%",
         "change": "",
         "direction": "up"
       }
