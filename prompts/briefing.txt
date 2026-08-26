@@ -220,7 +220,7 @@ Use the exact scores given in FIXED SCORING above for every category and Overall
 Write this LAST, after all sections above are complete. Must be consistent with weighted_explanation in FIXED SCORING above. Rules:
 
 - Maximum 3 sentences, maximum 60 words total.
-- First sentence: a fact with one specific number (price, RSI, ratio, or percentage) naming the #1 ranked market driver — answers "what happened."
+- First sentence: a fact with one specific number naming the #1 ranked market driver — answers "what happened." Prefer a ratio, percentage move, or technical level (RSI, gold/silver ratio, drawdown %) over a bare price level: the live silver price is already shown elsewhere on the page and updates every ~30 minutes, so a price quoted here will drift out of sync with it well before the next daily briefing. If no non-price number fits, you may cite the price, but frame it as a snapshot rather than "the" price — e.g. "silver near $68.47 at today's briefing" — never "silver at $68.47" stated as a current fact.
 - Second sentence: a directional interpretation consistent with the overall conviction score — answers "why it happened," referencing the dominant scoring category from FIXED SCORING above.
 - Third sentence: one specific, concrete thing to monitor next (a price level, data release, or event) that would change the conviction — answers "what to watch." Must be specific, not generic (e.g. "watch for COMEX inventory data release" not "monitor market conditions").
 - Must not be vague or contradictory. Do not hedge both directions in the same verdict.
