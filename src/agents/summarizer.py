@@ -354,6 +354,11 @@ def summarize(
         "sentiment": scores["scores"]["sentiment"],
         "etf_flows": scores["scores"]["etf_flows"],
         "industrial_demand": scores["scores"]["industrial_demand"],
+        # Defensive .get(): score_reasoning is a new field (not yet guaranteed
+        # by every model response) — a missing/partial dict here must not
+        # crash the daily update, it should just leave that driver's card
+        # without a reasoning line (see build_drivers() in update_daily.py).
+        "score_reasoning": scores.get("score_reasoning", {}),
         "overall": scores["overall"],
         "overall_label": scores["overall_label"],
         "ranked_drivers": scores["ranked_drivers"],

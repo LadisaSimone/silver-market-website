@@ -354,14 +354,29 @@ a { color: inherit; }
 
 .driver-item {
   display: flex;
-  align-items: center;
-  gap: 10px;
+  flex-direction: column;
+  gap: 6px;
   padding: 10px 12px;
   border: 1px solid var(--border);
   border-radius: 10px;
   background: var(--panel2);
   font-size: 13px;
   font-weight: 500;
+}
+
+.driver-item-top {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.driver-reason {
+  margin: 0;
+  padding-left: 18px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.45;
+  color: var(--dim);
 }
 
 .driver-dot {

@@ -80,6 +80,7 @@ def _display_name(name: str) -> str:
 def build_drivers(final_scores: dict) -> list[dict]:
     drivers = []
     seen_categories = set()
+    score_reasoning = final_scores.get("score_reasoning") or {}
 
     for d in (final_scores.get("ranked_drivers") or [])[:3]:
         category = d.get("category", "")
@@ -88,6 +89,11 @@ def build_drivers(final_scores: dict) -> list[dict]:
             "label": _display_name(d.get("name", category or "Driver")),
             "status": _status_for_score(score),
             "icon": _CATEGORY_ICON.get(category, "flows"),
+            # Ranked drivers always carry their own AI-written reasoning
+            # (prompts/scoring.txt ranked_drivers[].reasoning) — this covers
+            # the "data"-category case too (e.g. Gold/Silver Ratio), which
+            # has no numeric score but does have its own reasoning sentence.
+            "reason": d.get("reasoning", ""),
         })
         if category:
             seen_categories.add(category)
@@ -101,6 +107,9 @@ def build_drivers(final_scores: dict) -> list[dict]:
             "label": label,
             "status": _status_for_score(final_scores.get(category)),
             "icon": _CATEGORY_ICON[category],
+            # From score_reasoning (prompts/scoring.txt) — one grounded
+            # sentence per category, tied to that category's own score.
+            "reason": score_reasoning.get(category, ""),
         })
 
     return drivers

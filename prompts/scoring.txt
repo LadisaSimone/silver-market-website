@@ -32,6 +32,12 @@ Each category's score must reflect the directional lean of ITS OWN evidence, not
 
 If a category's evidence is genuinely bullish, its score should be above 5, even if Overall conviction is bearish — the weighting formula (not category-blending) is what produces a bearish Overall from a mix of bullish and bearish categories. A category score and its own "Net impact" narrative must always point the same direction. Before finalizing scores, verify: does each category's score direction match what that category's own evidence would suggest in isolation? If not, correct the score, not the narrative.
 
+SCORE REASONING — for every one of the 5 categories in score_reasoning (not just the ranked drivers), write exactly one sentence, max ~20 words, that:
+- States the specific number(s) from that category's own evidence (the same evidence used to set its score).
+- Explains why that evidence makes the score Supportive (≥6), Neutral (=5), or Risk (≤4) — this sentence is shown directly next to that color/label on the website, so it must justify the color, not just restate the topic.
+- Never contradicts the category's own score direction, and never references other categories' evidence.
+- If the category has no direct data (ETF Flows / Industrial Demand often don't), say so plainly, e.g. "No direct flow data today; score reflects news-only signals." Do not invent a number that isn't in the market data or news provided above.
+
 CRITICAL CONSISTENCY RULE: identify whichever single category (macro/technicals/sentiment/etf_flows/industrial_demand) has the score furthest from 5 (most extreme, either direction) — this is the "dominant_category". In the large majority of cases, ranked_drivers[0].category should equal dominant_category, since the most extreme-scoring category is normally what's driving the market today. If you rank a different category as the #1 driver instead, you MUST explain the discrepancy clearly in weighted_explanation — for example, a driver can be the #1 *talking point* in the news while a different category still dominates the numerical score.
 
 CONFIDENCE METHODOLOGY — apply this consistently to every confidence rating in ranked_drivers:
@@ -43,6 +49,7 @@ Missing or unavailable data (per DATA AVAILABILITY section) must cap confidence 
 Output exactly this JSON shape:
 {{
   "scores": {{"macro": X, "technicals": X, "sentiment": X, "etf_flows": X, "industrial_demand": X}},
+  "score_reasoning": {{"macro": "one sentence, see SCORE REASONING rule above", "technicals": "...", "sentiment": "...", "etf_flows": "...", "industrial_demand": "..."}},
   "overall": X,
   "overall_label": "BULLISH/NEUTRAL/BEARISH",
   "ranked_drivers": [
@@ -61,4 +68,5 @@ Rules:
   Round to the nearest integer. Show your arithmetic is internally consistent — the five category scores you output must actually produce this Overall value under the formula above. overall_label: ≤4 BEARISH, 5-6 NEUTRAL, ≥7 BULLISH.
 - weighted_explanation must reference the formula weighting explicitly where relevant, e.g. "Macro carries the highest weight (30%) and its bearish 3/10 score is the primary drag on Overall despite Technicals scoring 6/10."
 - Driver names must never begin with their own category label (write "MACRO UNCERTAINTY" not "MACRO MACRO UNCERTAINTY").
+- score_reasoning must include all 5 categories (macro, technicals, sentiment, etf_flows, industrial_demand), even ones not among the top 3 ranked_drivers — every category shown on the website needs its own reasoning sentence.
 - Output raw JSON only. No ```json fences. No text before or after.

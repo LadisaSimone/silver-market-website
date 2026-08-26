@@ -95,10 +95,19 @@
     (data.drivers || []).forEach((d) => {
       const li = document.createElement("li");
       li.className = "driver-item";
+      // d.reason explains why this driver got its color (see
+      // docs/scripts/update_daily.py build_drivers()) — older cached data
+      // may not have it yet, so only render the line when present.
+      const reasonHtml = d.reason
+        ? `<p class="driver-reason">${d.reason}</p>`
+        : "";
       li.innerHTML = `
-        <span class="driver-dot ${statusClass(d.status)}"></span>
-        <span class="driver-name">${d.label}</span>
-        <span class="driver-status ${statusClass(d.status)}">${statusLabel(d.status)}</span>
+        <div class="driver-item-top">
+          <span class="driver-dot ${statusClass(d.status)}"></span>
+          <span class="driver-name">${d.label}</span>
+          <span class="driver-status ${statusClass(d.status)}">${statusLabel(d.status)}</span>
+        </div>
+        ${reasonHtml}
       `;
       list.appendChild(li);
     });
