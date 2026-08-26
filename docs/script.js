@@ -16,8 +16,8 @@
   }
 
   function sentimentColor(sentiment) {
-    if (sentiment === "bearish") return "#ff4d5e";
-    if (sentiment === "neutral") return "#f5a623";
+    if (sentiment === "bearish") return "#ef4444";
+    if (sentiment === "neutral") return "#f59e0b";
     return "#22c55e";
   }
 
@@ -166,7 +166,7 @@
       values = series.map((h) => h.close);
     }
 
-    const lineColor = "#22c55e";
+    const lineColor = "#3b82f6";
 
     if (chart) {
       chart.data.labels = labels;
@@ -190,10 +190,10 @@
             fill: true,
             backgroundColor: (context) => {
               const chartArea = context.chart.chartArea;
-              if (!chartArea) return "rgba(34,197,94,0.08)";
+              if (!chartArea) return "rgba(59,130,246,0.08)";
               const g = context.chart.ctx.createLinearGradient(0, chartArea.top, 0, chartArea.bottom);
-              g.addColorStop(0, "rgba(34,197,94,0.25)");
-              g.addColorStop(1, "rgba(34,197,94,0.0)");
+              g.addColorStop(0, "rgba(59,130,246,0.25)");
+              g.addColorStop(1, "rgba(59,130,246,0.0)");
               return g;
             },
           },
@@ -206,21 +206,21 @@
         scales: {
           x: {
             grid: { display: false },
-            ticks: { color: "#6b7871", font: { size: 10 }, maxTicksLimit: 6 },
+            ticks: { color: "#64748b", font: { size: 10 }, maxTicksLimit: 6 },
           },
           y: {
-            grid: { color: "#1d3327" },
-            ticks: { color: "#6b7871", font: { size: 10 } },
+            grid: { color: "#243247" },
+            ticks: { color: "#64748b", font: { size: 10 } },
           },
         },
         plugins: {
           legend: { display: false },
           tooltip: {
-            backgroundColor: "#0f1613",
-            borderColor: "#1d3327",
+            backgroundColor: "#142235",
+            borderColor: "#243247",
             borderWidth: 1,
-            titleColor: "#f4f6f5",
-            bodyColor: "#f4f6f5",
+            titleColor: "#f1f5f9",
+            bodyColor: "#f1f5f9",
             callbacks: {
               label: (item) => `$${item.parsed.y.toFixed(2)}`,
             },

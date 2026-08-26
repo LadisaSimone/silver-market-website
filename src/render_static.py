@@ -22,7 +22,7 @@ from pathlib import Path
 
 RING_CIRCUMFERENCE = 2 * math.pi * 60  # r=60, matches docs/styles.css
 
-_SENTIMENT_COLOR = {"bearish": "#ff4d5e", "neutral": "#f5a623"}
+_SENTIMENT_COLOR = {"bearish": "#ef4444", "neutral": "#f59e0b"}
 _SENTIMENT_CLASS = {"bearish": "is-bearish", "neutral": "is-neutral"}
 _STATUS_LABEL = {"risk": "Risk", "neutral": "Neutral"}  # default: "Supportive"
 
