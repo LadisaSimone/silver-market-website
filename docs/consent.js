@@ -15,12 +15,8 @@
 (function () {
   "use strict";
 
-  // TODO: replace with the real GA4 Measurement ID once the property
-  // exists (analytics.google.com → Admin → Data Streams). Left as a
-  // placeholder deliberately: loadGA() below no-ops until this is real,
-  // so nothing breaks and no banner-then-nothing confusion happens if
-  // this ships before the ID is ready.
-  var GA_MEASUREMENT_ID = "G-XXXXXXXXXX";
+  // GA4 property: Silver Market Intelligence (analytics.google.com).
+  var GA_MEASUREMENT_ID = "G-V6PW3YCWNY";
 
   var CONSENT_KEY = "smi_analytics_consent"; // "granted" | "denied"
 
