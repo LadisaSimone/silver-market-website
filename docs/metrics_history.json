@@ -4,14 +4,14 @@
     "metrics": [
       {
         "label": "DXY (USD)",
-        "value": "99.07",
-        "change": "+0.10%",
+        "value": "99.13",
+        "change": "+0.16%",
         "direction": "up"
       },
       {
         "label": "US 10Y Yield",
-        "value": "4.65%",
-        "change": "+0.01",
+        "value": "4.66%",
+        "change": "+0.02",
         "direction": "up"
       },
       {
@@ -22,7 +22,7 @@
       },
       {
         "label": "Gold/Silver",
-        "value": "68.2",
+        "value": "68.5",
         "change": "",
         "direction": "up"
       },
@@ -49,7 +49,7 @@
       },
       {
         "label": "1M % Change",
-        "value": "+22.49%",
+        "value": "+22.46%",
         "change": "",
         "direction": "up"
       }
