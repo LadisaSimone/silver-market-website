@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-26T14:11:03Z",
+  "updated_at": "2026-08-26T14:17:07Z",
   "price": {
     "value": 68.31,
     "change": -0.96,
@@ -184,7 +184,7 @@
       },
       {
         "date": "2026-08-26",
-        "close": 68.44999694824219
+        "close": 68.31999969482422
       }
     ],
     "1M": [
@@ -306,7 +306,7 @@
       },
       {
         "date": "2026-08-26",
-        "close": 68.44999694824219
+        "close": 68.31999969482422
       }
     ],
     "3M": [
@@ -568,7 +568,7 @@
       },
       {
         "date": "2026-08-26",
-        "close": 68.44999694824219
+        "close": 68.31999969482422
       }
     ],
     "1Y": [
@@ -1578,7 +1578,7 @@
       },
       {
         "date": "2026-08-26",
-        "close": 68.44999694824219
+        "close": 68.31999969482422
       }
     ]
   },
@@ -1586,22 +1586,22 @@
     "score": 5,
     "label": "Neutral",
     "sentiment": "neutral",
-    "summary": "Silver at $68.45 (\u22121.17%) sits on a gold/silver ratio of 68.5, signaling 3.5 points of undervaluation relative to gold and creating a $72 upside target ahead of PCE data. Macro headwinds\u2014DXY +16 bps to 99.13 and US10Y +2 bps to 4.66%\u2014represent the dominant scoring constraint, offsetting industrial demand bullish conviction and keeping the market in neutral bias. Watch US10Y and PCE inflation data on August 29; a CPI print below consensus or Fed dovish pivot could trigger 2\u20133% silver rally toward $71\u2013$72, while sustained yields above 4.70% risk extending the macro headwind into $66\u2013$67 support.",
+    "summary": "Gold-silver ratio stands at 68.5, 3.5 points above historical mean, with silver explicitly undervalued versus gold and near-term targets around $72 suggesting 5.4% upside. Macro headwinds from DXY strength (+19 bps) and rising yields (+3 bps) remain the dominant bearish factor, overweighting bullish industrial demand and valuation signals. Monitor US PCE inflation data (imminent) and any reversal in US 10Y yields below 4.60% as the key inflection point that would shift conviction toward the bullish case.",
     "updated_at": "Updated daily at 9:00 AM ET"
   },
   "drivers": [
     {
-      "label": "Industrial Demand Resurgence",
+      "label": "Industrial Demand Growth from AI & Data Centers",
       "status": "supportive",
       "icon": "industry"
     },
     {
-      "label": "Gold/Silver Ratio Divergence",
+      "label": "Gold-Silver Ratio Overextension",
       "status": "neutral",
       "icon": "flows"
     },
     {
-      "label": "US Macro Headwinds",
+      "label": "US Dollar and Yield Headwinds",
       "status": "risk",
       "icon": "bank"
     },
@@ -1625,7 +1625,7 @@
     {
       "title": "Current price of silver as of Wednesday, August 26, 2026 - Fortune",
       "summary": "Current price of silver as of Wednesday, August 26, 2026Fortune",
-      "time_ago": "2h ago",
+      "time_ago": "3h ago",
       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBieXdVWklISER0NjlLS3VCYUU0R2NEYU5RVVF5VlFvQnZSMWVxa0w5RHhZNWRyUzJpWFlTWEpEa0V0X25aSXlpQUlSVkJUeExHVTZFc3I5a1BKS0drTEx6ODR2SDdhWUVIaHBwZzhwOA?oc=5"
     },
     {
@@ -1643,7 +1643,7 @@
     {
       "title": "Gold and silver prices rise in global markets - Az\u0259rtac",
       "summary": "Gold and silver prices rise in global marketsAz\u0259rtac",
-      "time_ago": "6h ago",
+      "time_ago": "7h ago",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUC1FdUhsc0RnZDYyaEdYVERWY29DT3l3RzNrd2xBdFF1REhVS3E0MDJGamQ2eVR3dk1tMXZxQjNmNV9FdlJoVmQxQlJqcVVXN2RmVl9YcWNxMHB4Vl83QWtfNGQzMUNVbkdvck83aTZWcjlTcDNTUmlNS2QxNEFCZnB1MFRfVnNL?oc=5"
     },
     {
@@ -1656,14 +1656,14 @@
   "metrics": [
     {
       "label": "DXY (USD)",
-      "value": "99.13",
-      "change": "+0.16%",
+      "value": "99.16",
+      "change": "+0.19%",
       "direction": "up"
     },
     {
       "label": "US 10Y Yield",
       "value": "4.66%",
-      "change": "+0.02",
+      "change": "+0.03",
       "direction": "up"
     },
     {
@@ -1680,7 +1680,7 @@
     },
     {
       "label": "RSI (14)",
-      "value": "69",
+      "value": "68",
       "change": "",
       "direction": "up",
       "note": "Neutral"
@@ -1701,7 +1701,7 @@
     },
     {
       "label": "1M % Change",
-      "value": "+22.46%",
+      "value": "+22.22%",
       "change": "",
       "direction": "up"
     }
