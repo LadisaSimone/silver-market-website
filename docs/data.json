@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-27T18:21:46Z",
+  "updated_at": "2026-08-27T23:01:24Z",
   "price": {
     "value": 69.96,
     "change": 0.98,
@@ -239,10 +239,6 @@
   "history": {
     "1W": [
       {
-        "date": "2026-08-20",
-        "close": 68.0260009765625
-      },
-      {
         "date": "2026-08-21",
         "close": 69.46600341796875
       },
@@ -256,14 +252,14 @@
       },
       {
         "date": "2026-08-26",
-        "close": 68.4749984741211
+        "close": 67.98999786376953
+      },
+      {
+        "date": "2026-08-27",
+        "close": 70.22000122070312
       }
     ],
     "1M": [
-      {
-        "date": "2026-07-16",
-        "close": 55.89799880981445
-      },
       {
         "date": "2026-07-17",
         "close": 56.03799819946289
@@ -378,14 +374,14 @@
       },
       {
         "date": "2026-08-26",
-        "close": 68.4749984741211
+        "close": 67.98999786376953
+      },
+      {
+        "date": "2026-08-27",
+        "close": 70.22000122070312
       }
     ],
     "3M": [
-      {
-        "date": "2026-05-26",
-        "close": 76.30500030517578
-      },
       {
         "date": "2026-05-27",
         "close": 74.5989990234375
@@ -640,14 +636,14 @@
       },
       {
         "date": "2026-08-26",
-        "close": 68.4749984741211
+        "close": 67.98999786376953
+      },
+      {
+        "date": "2026-08-27",
+        "close": 70.22000122070312
       }
     ],
     "1Y": [
-      {
-        "date": "2025-08-26",
-        "close": 38.582000732421875
-      },
       {
         "date": "2025-08-27",
         "close": 38.68899917602539
@@ -1650,7 +1646,11 @@
       },
       {
         "date": "2026-08-26",
-        "close": 68.4749984741211
+        "close": 67.98999786376953
+      },
+      {
+        "date": "2026-08-27",
+        "close": 70.22000122070312
       }
     ]
   },
@@ -1658,104 +1658,104 @@
     "score": 5,
     "label": "Neutral",
     "sentiment": "neutral",
-    "summary": "Silver's gold/silver ratio at 68.4 \u2014 up 3.4 points above the 65 historical average \u2014 signals relative undervaluation, yet this advantage appears insufficient to offset today's dominant macro constraint: DXY strength (+22 bps) and US10Y yield rise (+3 bps) together cap upside conviction despite robust forward-looking industrial demand from AI and data-center sectors. Monitor the PCE inflation release and US 10Y yield direction; a drop below 4.60% in yields or a softer-than-expected print would reassess macro headwinds and validate the technical mean-reversion setup.",
+    "summary": "Silver's RSI at 71.1 deep in overbought territory signals exhausted momentum after a +1.80% single-day rally, creating mean-reversion risk heading into Jackson Hole. Technicals dominate conviction today, with macro factors (4.67% US10Y yield and flat DXY) offering offsetting signals that cap upside until Fed guidance arrives. Monitor Jackson Hole event outcome and watch for rejection at $72 resistance or breakdown below $69.00 support over the next 48\u201372 hours to confirm next directional leg.",
     "updated_at": "Updated daily at 9:00 AM ET"
   },
   "drivers": [
     {
-      "label": "Industrial Demand Expansion",
-      "status": "supportive",
-      "icon": "industry",
-      "reason": "AI/data-center sector demand explicitly cited in pv magazine and Jefferies analyst upgrade, but no quantitative volume or contract data to confirm magnitude."
-    },
-    {
-      "label": "Technical Mean-Reversion Setup",
+      "label": "Technical Overbought Setup",
       "status": "supportive",
       "icon": "trend",
-      "reason": "RSI 68.9 neutral zone with -1.4% pullback from 30d high creates tactical long bias; one quantitative signal without volume confirmation limits conviction."
+      "reason": "RSI 71.1 + 30d high + 1.80% daily gain = strong momentum, but overbought extremity signals mean-reversion risk into Jackson Hole event."
     },
     {
-      "label": "Macro Headwinds From Rates And Dollar",
+      "label": "Industrial Demand Rebound",
+      "status": "supportive",
+      "icon": "industry",
+      "reason": "AI/data center demand explicitly named (pv magazine, Aug 25); supports industrial case for silver, but single-source coverage limits confidence."
+    },
+    {
+      "label": "Fed Policy Uncertainty",
       "status": "risk",
       "icon": "bank",
-      "reason": "DXY +22bps and US10Y +3bps both quantitative signals confirming bearish macro setup; dual rate-and-currency pressure outweighs PCE-hope narrative in fundamental terms."
+      "reason": "Jackson Hole catalyst dominates news (4+ sources); DXY/10Y signals offset; Fed clarity expected to resolve macro risk in next 48\u201372 hours."
     },
     {
       "label": "News Sentiment",
       "status": "supportive",
       "icon": "people",
-      "reason": "News tone mixed but tilted bullish: PCE speculation, AI/data-center demand narrative, and $72-$90 price targets offset by fiscal-risk headwinds."
+      "reason": "News tone mixed\u2014Fed uncertainty dominates headlines, but industrial demand narrative (AI/data centers) and price-hold-above-$70 language shows constructive bias."
     },
     {
       "label": "ETF Flow Signal",
       "status": "neutral",
       "icon": "flows",
-      "reason": "No direct SLV flow data available; volume proxy only limits conviction to neutral pending institutional positioning confirmation."
+      "reason": "No direct SLV flow data available; volume proxy only; confidence capped at Medium per DATA AVAILABILITY."
     }
   ],
   "stories": [
     {
-      "title": "Current price of silver as of Wednesday, Aug. 26, 2026 - Fortune",
-      "summary": "Current price of silver as of Wednesday, Aug. 26, 2026Fortune",
-      "time_ago": "3h ago",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBieXdVWklISER0NjlLS3VCYUU0R2NEYU5RVVF5VlFvQnZSMWVxa0w5RHhZNWRyUzJpWFlTWEpEa0V0X25aSXlpQUlSVkJUeExHVTZFc3I5a1BKS0drTEx6ODR2SDdhWUVIaHBwZzhwOA?oc=5"
+      "title": "Silver Price Faces Make-or-Break Week Ahead of Jackson Hole Fed Speech - BeInCrypto",
+      "summary": "Silver Price Faces Make-or-Break Week Ahead of Jackson Hole Fed SpeechBeInCrypto",
+      "time_ago": "2h ago",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1MdV9jeXpNTTlpNGNuengtd3NEX242cU9vWFFadFFuSGRhbFpIMUpab1Ffa3pJbWJJNDR0dG5MdFg2Q3lzeDBEMGdMZDFYa01lVm5pTW52TXJUQUdad2FXbXljN0hzTjF6U213NUNMT2hkXzJkM0luMTlDcjFyV0E?oc=5"
     },
     {
-      "title": "Gold (XAU/USD) & Silver Price Forecast: Lower Yields Support Metals Before PCE - FXEmpire",
-      "summary": "Gold (XAU/USD) & Silver Price Forecast: Lower Yields Support Metals Before PCEFXEmpire",
+      "title": "Silver Price Today on August 27, 2026 - USA Today",
+      "summary": "Silver Price Today on August 27, 2026USA Today",
       "time_ago": "6h ago",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPYkJObGZPZWpsQjNCWENoVFNMYmNxLWpDT3FlenZ1VHZOX3Y2NW5KWWJlNTRrMGN3MG5uWXJVQVRXUmhPemRldUlfbjljMUd0T3Z5Vnk3ZXh2RDhWN3JIOTVHdEdQSUptd28tMmRTUTZDTGVnYmk5TTV0YXRpZERfRzRIelAzY0ZCcUdfSC0zYW9fSHE4a3J2bXZIN3UxeFFsYzgtcXluTjJ4dXh4OW9JallHbGRoSkVORGQyQW5pX2dVdw?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORjRLWU04V2RnVG9XWE02LWM2Skp4YWdSNTNRQ05KQ196QzNESUctTFdOSnR2djcycU8xbThtTllsMXE4R1hfLTFudjhYUmNzRlV2Tkg3NmFrNkJ4d1RyeHAyZE41a2JrYkludy1hbXJabHI4RGh4OVNuN05SUWZxSHJrOTBUZUROTjd4WFM1TFZKUmdEU1Z5ZGVhUkVVS2w0UTYxdVJkNkFON28?oc=5"
     },
     {
-      "title": "Argent Minerals Ltd (ASX:ARD): Assessing the Silver Developer's Share Price Trend - Kalkine",
-      "summary": "Argent Minerals Ltd (ASX:ARD): Assessing the Silver Developer's Share Price TrendKalkine",
-      "time_ago": "7h ago",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNeVJ1MlM0d2Z1N3hmUGZSRlh5emZkTGpXYlVWT2xORVRhOGxhYWFKZmdXWmxUczV1cDVaTEd4djNrdVpwWUxxQ2pJak9TWjhzSld6aHREUXJpS2tvaU9pVEw1QVVrWmdIYVNkRHJUa2dBZ21WaFZiUzVfbWc1Z2JGNFAxMy01d2JvNjNzZTBQVHR4YVZuOG4zTEY5QmV4bmRmTGFuX1BqVXM0bFNBMUoxeg?oc=5"
-    },
-    {
-      "title": "Gold and silver prices rise in global markets - Az\u0259rtac",
-      "summary": "Gold and silver prices rise in global marketsAz\u0259rtac",
-      "time_ago": "7h ago",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUC1FdUhsc0RnZDYyaEdYVERWY29DT3l3RzNrd2xBdFF1REhVS3E0MDJGamQ2eVR3dk1tMXZxQjNmNV9FdlJoVmQxQlJqcVVXN2RmVl9YcWNxMHB4Vl83QWtfNGQzMUNVbkdvck83aTZWcjlTcDNTUmlNS2QxNEFCZnB1MFRfVnNL?oc=5"
-    },
-    {
-      "title": "Zinc, Silver Shine Bright(er): Jefferies Prefers Hindustan Zinc Over Hindalco \u2014 Check Target Price, Upside - NDTV Profit",
-      "summary": "Zinc, Silver Shine Bright(er): Jefferies Prefers Hindustan Zinc Over Hindalco \u2014 Check Target Price, UpsideNDTV Profit",
+      "title": "Silver Price Struggles at $70 as Fed Catalyst Looms - FXEmpire",
+      "summary": "Silver Price Struggles at $70 as Fed Catalyst LoomsFXEmpire",
       "time_ago": "9h ago",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbmpiQjRYZW1YdFFWeC1yeUdKb09VMU51TlB5Q1hQd2dvU3o5aHJXRy1KWDVPb1hDRmRhZEY4VF9LYkp1bVNEcWppVC1LUW43RHBURmkyaXBlTHlZQ24wY3F5WGNtT01oZDcwdVR3Q3NKNFJoU2JQd0Y2TnZ0ZDU0QWpPUlpoUUxiRmlJWVg2cUh4YjBnN2gxb0JjaWpNSmZjMm9XX1h5dS1mWTdTeGNrQ0JOLTRUeDTSAb8BQVVfeXFMUE5nUFBqd014YndfSko4SGpYWEtGSEtzNXZ6NUFMR0s4S1RVTHVvSE1OMlpOekV2TVJLblBFM09GM2NOUTM2dkt2cnBLNDVXOEctRVR5WGNqXzJxcmlNR1VpMzFzQ1B4cVhfUGd6c1J1VkwzTVUxa2dTWWtYUW1ZNE9LOW1zZWZzcTM0WnVuZEJiY09pRlhHY3BWSElQeF96ME1MajdzOUt1aDZPRzRIdVMwWVk2VHk0S2p0amhRcEU?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQN3Y4ajc3X1QxcEhqUmpyOEx0ekktd1FEenVMclRCN3UybGYwaWUtMjI3dzhrbHlncHVqTnZlSzdUalRoNFQ3d25ibTRkX0ZITUVyeGZQZmNzZWVwd0QxelRaYWxDMUYybl9TM19uTW9TZllTVHczcU9wU1ZYR2ZnQnJxV0p5QUhhY1N3N3NhdHR1aUVlWnVCZHdYb0lvdGRPTkJR?oc=5"
+    },
+    {
+      "title": "Current price of silver as of Thursday, Aug. 27, 2026 - Fortune",
+      "summary": "Current price of silver as of Thursday, Aug. 27, 2026Fortune",
+      "time_ago": "11h ago",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE12bGE2QlY2UGtaOENWOUw0QUxRd1ZtdlVFbUJiMVpKeEdfdEdfZUVzdklMOTNJREFkWjgxZDFFZG9DZkFoMFR6SDFjQnRFc20zYTROWk1fakNoN0RIQzRFOE9OUXBVME9VeEdEMllrcw?oc=5"
+    },
+    {
+      "title": "Gold prices decline by Rs3,500 per tola in local market - The Express Tribune",
+      "summary": "Gold prices decline by Rs3,500 per tola in local marketThe Express Tribune",
+      "time_ago": "12h ago",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPdmRQckJ0U3hUWFZQQ0dCV0VjS2FzdGxKT1JKRDAzQ0NpRDVLX3ptTEthQ3F2ZGZQZmJzaXVlb3JQbThhdWxCY2Nabk1RN2xEU3NrTHJRMXhnM2RNNWs5UllITzhYZEdLaWtkN2VJTk5VQUpBbzA3WWpCY3g0TlF6RnhvXzNKM3ExcEdSQkZDN3pyX25OVHfSAZ4BQVVfeXFMTXVkWTJuYkt3dzRmamlQSHNFczBVTVV6Q192LV9odmhOcmZ0amNfUm8xWFlpeVdCVXlIY1VfbzAweC1nRXhidFBzbUthakZnODVWMmVVRk91SjBOREVLLWdOR2NnUGlhemd1bjFBUWJVV2pjWTlueVJiQ1FQU0xNVzNBMG8wdGxfRWRKVFNlQ3ZGbnFSaF91Nk5SNzI5WEE?oc=5"
     }
   ],
   "metrics": [
     {
       "label": "DXY (USD)",
-      "value": "99.19",
-      "change": "+0.22%",
-      "direction": "up"
+      "value": "99.13",
+      "change": "-0.02%",
+      "direction": "down"
     },
     {
       "label": "US 10Y Yield",
-      "value": "4.66%",
-      "change": "+0.03",
+      "value": "4.67%",
+      "change": "+0.01",
       "direction": "up"
     },
     {
       "label": "Real Yield",
-      "value": "2.38%",
-      "change": "-0.02",
-      "direction": "down"
+      "value": "2.34%",
+      "change": "+0.02",
+      "direction": "up"
     },
     {
       "label": "Gold/Silver",
-      "value": "68.4",
+      "value": "66.4",
       "change": "",
       "direction": "up"
     },
     {
       "label": "RSI (14)",
-      "value": "69",
+      "value": "71",
       "change": "",
       "direction": "up",
-      "note": "Neutral"
+      "note": "Overbought"
     },
     {
       "label": "COT Net-Long",
@@ -1766,14 +1766,14 @@
     },
     {
       "label": "ETF Holdings",
-      "value": "493.9M oz",
+      "value": "493.4M oz",
       "change": "",
       "direction": "up",
       "note": "SLV"
     },
     {
       "label": "1M % Change",
-      "value": "+22.50%",
+      "value": "+25.31%",
       "change": "",
       "direction": "up"
     }
