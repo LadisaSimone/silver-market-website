@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-28T14:28:30Z",
+  "updated_at": "2026-08-28T23:08:16Z",
   "price": {
     "value": 69.81,
     "change": 0.24,
@@ -179,10 +179,6 @@
   "history": {
     "1W": [
       {
-        "date": "2026-08-21",
-        "close": 69.46600341796875
-      },
-      {
         "date": "2026-08-24",
         "close": 68.54100036621094
       },
@@ -196,14 +192,14 @@
       },
       {
         "date": "2026-08-27",
-        "close": 70.22000122070312
+        "close": 69.42900085449219
+      },
+      {
+        "date": "2026-08-28",
+        "close": 67.08999633789062
       }
     ],
     "1M": [
-      {
-        "date": "2026-07-17",
-        "close": 56.03799819946289
-      },
       {
         "date": "2026-07-20",
         "close": 56.801998138427734
@@ -318,14 +314,14 @@
       },
       {
         "date": "2026-08-27",
-        "close": 70.22000122070312
+        "close": 69.42900085449219
+      },
+      {
+        "date": "2026-08-28",
+        "close": 67.08999633789062
       }
     ],
     "3M": [
-      {
-        "date": "2026-05-27",
-        "close": 74.5989990234375
-      },
       {
         "date": "2026-05-28",
         "close": 75.6449966430664
@@ -580,14 +576,14 @@
       },
       {
         "date": "2026-08-27",
-        "close": 70.22000122070312
+        "close": 69.42900085449219
+      },
+      {
+        "date": "2026-08-28",
+        "close": 67.08999633789062
       }
     ],
     "1Y": [
-      {
-        "date": "2025-08-27",
-        "close": 38.68899917602539
-      },
       {
         "date": "2025-08-28",
         "close": 39.189998626708984
@@ -1590,130 +1586,134 @@
       },
       {
         "date": "2026-08-27",
-        "close": 70.22000122070312
+        "close": 69.42900085449219
+      },
+      {
+        "date": "2026-08-28",
+        "close": 67.08999633789062
       }
     ]
   },
   "outlook": {
-    "score": 5,
-    "label": "Neutral",
-    "sentiment": "neutral",
-    "summary": "Silver's RSI at 71.1 deep in overbought territory signals exhausted momentum after a +1.80% single-day rally, creating mean-reversion risk heading into Jackson Hole. Technicals dominate conviction today, with macro factors (4.67% US10Y yield and flat DXY) offering offsetting signals that cap upside until Fed guidance arrives. Monitor Jackson Hole event outcome and watch for rejection at $72 resistance or breakdown below $69.00 support over the next 48\u201372 hours to confirm next directional leg.",
+    "score": 4,
+    "label": "Moderately Bearish",
+    "sentiment": "bearish",
+    "summary": "Silver's 3.56% pullback from 30-day highs coincides with a 51 basis point dollar rally and a 5 basis point yield rise, the primary macro headwinds dominating near-term conviction. Elevated US 10Y yields and DXY strength, as the dominant scoring factors, impose structural opportunity-cost pressure that technical mean-reversion signals cannot overcome without Fed policy relief. Monitor Jackson Hole speech outcomes and US 10Y yield direction\u2014a retreat below 4.65% would signal potential macro stabilization for precious metals.",
     "updated_at": "Updated daily at 9:00 AM ET"
   },
   "drivers": [
     {
-      "label": "Technical Overbought Setup",
-      "status": "supportive",
-      "icon": "trend",
-      "reason": "RSI 71.1 + 30d high + 1.80% daily gain = strong momentum, but overbought extremity signals mean-reversion risk into Jackson Hole event."
-    },
-    {
-      "label": "Industrial Demand Rebound",
-      "status": "supportive",
-      "icon": "industry",
-      "reason": "AI/data center demand explicitly named (pv magazine, Aug 25); supports industrial case for silver, but single-source coverage limits confidence."
-    },
-    {
-      "label": "Fed Policy Uncertainty",
+      "label": "Rising Yields And Dollar Strength",
       "status": "risk",
       "icon": "bank",
-      "reason": "Jackson Hole catalyst dominates news (4+ sources); DXY/10Y signals offset; Fed clarity expected to resolve macro risk in next 48\u201372 hours."
+      "reason": "US10Y yield +5bps to 4.72% and DXY +51bps to 99.68 both deteriorated; dual macro headwinds (rates+currency) are quantifiably bearish for precious metals opportunity cost."
     },
     {
-      "label": "News Sentiment",
+      "label": "Technical Mean-Reversion Setup",
       "status": "supportive",
+      "icon": "trend",
+      "reason": "Silver down 3.56% from 30d high with neutral RSI 59.9; -3.4% drawdown and neutral oscillator suggest potential bounce reversal despite ongoing macro headwinds."
+    },
+    {
+      "label": "Jackson Hole Fed Catalyst And Supply Narrative",
+      "status": "neutral",
       "icon": "people",
-      "reason": "News tone mixed\u2014Fed uncertainty dominates headlines, but industrial demand narrative (AI/data centers) and price-hold-above-$70 language shows constructive bias."
+      "reason": "Multiple news sources cite Jackson Hole speech and supply deficit concerns; sentiment mixed but Fed outcome unpredictable; news-driven conviction only, no quantitative confirmation."
     },
     {
       "label": "ETF Flow Signal",
       "status": "neutral",
       "icon": "flows",
-      "reason": "No direct SLV flow data available; volume proxy only; confidence capped at Medium per DATA AVAILABILITY."
+      "reason": "No direct SLV flow data available; volume proxy only; confidence capped at Medium; insufficient evidence to score directionally."
+    },
+    {
+      "label": "Industrial Demand",
+      "status": "neutral",
+      "icon": "industry",
+      "reason": "No direct industrial demand signals or sector-specific data available; news contains no supply-deficit specifics; score reflects absence of evidence."
     }
   ],
   "stories": [
     {
-      "title": "Silver Price Faces Make-or-Break Week Ahead of Jackson Hole Fed Speech - BeInCrypto",
-      "summary": "Silver Price Faces Make-or-Break Week Ahead of Jackson Hole Fed SpeechBeInCrypto",
-      "time_ago": "2h ago",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1MdV9jeXpNTTlpNGNuengtd3NEX242cU9vWFFadFFuSGRhbFpIMUpab1Ffa3pJbWJJNDR0dG5MdFg2Q3lzeDBEMGdMZDFYa01lVm5pTW52TXJUQUdad2FXbXljN0hzTjF6U213NUNMT2hkXzJkM0luMTlDcjFyV0E?oc=5"
+      "title": "Gold and silver prices are surging: Why are dealers paying below spot? - KITCO",
+      "summary": "Gold and silver prices are surging: Why are dealers paying below spot?KITCO",
+      "time_ago": "4h ago",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQ3IzaGZtWmo0b2RRQjd0QjZxdHkxTDFvVjNMcE9wZFlITnNJdW80cjJmbnFVR3NKbEthZmVmbk10VERDSGtjeU5kWDNvV0ZMMnpKMTEzd1ZaZ2Q2OWs1bjFEWlE5Z3U5RENJeFdqQThiR1ZaTW0yd0lBZ2lPaW1zaW9rcDdVeDJacERlRUFPU3FuZVFsRk9zZTF3bm5jWDNaZlk2VHJva2xPVXBPa0E?oc=5"
     },
     {
-      "title": "Silver Price Today on August 27, 2026 - USA Today",
-      "summary": "Silver Price Today on August 27, 2026USA Today",
+      "title": "Silver Price For Today, 28 August 2026 - Forbes",
+      "summary": "Silver Price For Today, 28 August 2026Forbes",
       "time_ago": "6h ago",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORjRLWU04V2RnVG9XWE02LWM2Skp4YWdSNTNRQ05KQ196QzNESUctTFdOSnR2djcycU8xbThtTllsMXE4R1hfLTFudjhYUmNzRlV2Tkg3NmFrNkJ4d1RyeHAyZE41a2JrYkludy1hbXJabHI4RGh4OVNuN05SUWZxSHJrOTBUZUROTjd4WFM1TFZKUmdEU1Z5ZGVhUkVVS2w0UTYxdVJkNkFON28?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5GY2NSNTc5Y0RCLW9QeXlCNDFpZ21IRFpsbDFWTXZSUTYwNWZPckFSak1ZZzhRaUk2azJ0WFZJWjFuXzc3bGxyVnRLMFNtemdYMktkZFlIUWE0N05HWHZQd05IRHpjR0tY?oc=5"
     },
     {
-      "title": "Silver Price Struggles at $70 as Fed Catalyst Looms - FXEmpire",
-      "summary": "Silver Price Struggles at $70 as Fed Catalyst LoomsFXEmpire",
-      "time_ago": "9h ago",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQN3Y4ajc3X1QxcEhqUmpyOEx0ekktd1FEenVMclRCN3UybGYwaWUtMjI3dzhrbHlncHVqTnZlSzdUalRoNFQ3d25ibTRkX0ZITUVyeGZQZmNzZWVwd0QxelRaYWxDMUYybl9TM19uTW9TZllTVHczcU9wU1ZYR2ZnQnJxV0p5QUhhY1N3N3NhdHR1aUVlWnVCZHdYb0lvdGRPTkJR?oc=5"
+      "title": "Gold prices hold steady in Pakistan as silver records Rs180 increase - The Nation (Pakistan )",
+      "summary": "Gold prices hold steady in Pakistan as silver records Rs180 increaseThe Nation (Pakistan )",
+      "time_ago": "10h ago",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQNkJuS3hXamtVdEhuclNrekhzRkt1RTJfSHA2Wk9jbWtkeFd5T3FHbHBfWGJRaEFKTUlYcE9ZdGlLZTdHUXNCSGVoVjJWZ0o1b0lxSlgtZGUyQ3F4WkNmdFdaWnhRTEFsWlRESW00THQ2d3dWVmxaQWNMb0ltT2QzN3gwNHpHLXlQZTJhbXo5bDJBOXJySGY2Tmp6cGZ6eFBmSnc?oc=5"
     },
     {
-      "title": "Current price of silver as of Thursday, Aug. 27, 2026 - Fortune",
-      "summary": "Current price of silver as of Thursday, Aug. 27, 2026Fortune",
-      "time_ago": "11h ago",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE12bGE2QlY2UGtaOENWOUw0QUxRd1ZtdlVFbUJiMVpKeEdfdEdfZUVzdklMOTNJREFkWjgxZDFFZG9DZkFoMFR6SDFjQnRFc20zYTROWk1fakNoN0RIQzRFOE9OUXBVME9VeEdEMllrcw?oc=5"
+      "title": "Silver price at the close of the session on August 28: Sharp increase, exceeding 70 USD/ounce - Laodong.vn",
+      "summary": "Silver price at the close of the session on August 28: Sharp increase, exceeding 70 USD/ounceLaodong.vn",
+      "time_ago": "10h ago",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPcG80NE5DWnpubkE4amtha3JnTVNJS3dBbmN0OGNXUVZZbXF6NGEtYXU2UDlqN0V3TzhKa3ZidjQ1Nm1vOURUVW5hdUVjbXpmSGhMVHZYZTVYakZXcjJlaHZsUFVoeGhhZHdBcUNzeGR5T1pxS3lPdlY0dzBweXlHdEcxOE1zZFJIRVdsR25CRVdVUUtGV0dnYnk5TDQ1bVpSSHc?oc=5"
     },
     {
-      "title": "Gold prices decline by Rs3,500 per tola in local market - The Express Tribune",
-      "summary": "Gold prices decline by Rs3,500 per tola in local marketThe Express Tribune",
+      "title": "Current price of silver as of Friday, Aug. 28, 2026 - Fortune",
+      "summary": "Current price of silver as of Friday, Aug. 28, 2026Fortune",
       "time_ago": "12h ago",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPdmRQckJ0U3hUWFZQQ0dCV0VjS2FzdGxKT1JKRDAzQ0NpRDVLX3ptTEthQ3F2ZGZQZmJzaXVlb3JQbThhdWxCY2Nabk1RN2xEU3NrTHJRMXhnM2RNNWs5UllITzhYZEdLaWtkN2VJTk5VQUpBbzA3WWpCY3g0TlF6RnhvXzNKM3ExcEdSQkZDN3pyX25OVHfSAZ4BQVVfeXFMTXVkWTJuYkt3dzRmamlQSHNFczBVTVV6Q192LV9odmhOcmZ0amNfUm8xWFlpeVdCVXlIY1VfbzAweC1nRXhidFBzbUthakZnODVWMmVVRk91SjBOREVLLWdOR2NnUGlhemd1bjFBUWJVV2pjWTlueVJiQ1FQU0xNVzNBMG8wdGxfRWRKVFNlQ3ZGbnFSaF91Nk5SNzI5WEE?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB1VnR5NGVOUElHWUJPWlpLTW52ZHRGdmhFZWpnaHJldU9DOFRNbm1VN1dBOUxSdG93WHhteWpJMXJ0LW01bG1yWVZEaS04b0dDQ1NKY3pMWUNHcDVnZEZONGRERjNZR3FQN1lrcXZROA?oc=5"
     }
   ],
   "metrics": [
     {
       "label": "DXY (USD)",
-      "value": "99.13",
-      "change": "-0.02%",
-      "direction": "down"
+      "value": "99.68",
+      "change": "+0.51%",
+      "direction": "up"
     },
     {
       "label": "US 10Y Yield",
-      "value": "4.67%",
-      "change": "+0.01",
+      "value": "4.72%",
+      "change": "+0.05",
       "direction": "up"
     },
     {
       "label": "Real Yield",
       "value": "2.34%",
-      "change": "+0.02",
+      "change": "+0.00",
       "direction": "up"
     },
     {
       "label": "Gold/Silver",
-      "value": "66.4",
+      "value": "67.1",
       "change": "",
       "direction": "up"
     },
     {
       "label": "RSI (14)",
-      "value": "71",
+      "value": "60",
       "change": "",
       "direction": "up",
-      "note": "Overbought"
+      "note": "Neutral"
     },
     {
       "label": "COT Net-Long",
-      "value": "23,625",
-      "change": "-21",
-      "direction": "down",
+      "value": "25,261",
+      "change": "+1,636",
+      "direction": "up",
       "note": "Weekly (CFTC)"
     },
     {
       "label": "ETF Holdings",
-      "value": "493.4M oz",
+      "value": "493.8M oz",
       "change": "",
       "direction": "up",
       "note": "SLV"
     },
     {
       "label": "1M % Change",
-      "value": "+25.31%",
+      "value": "+18.11%",
       "change": "",
       "direction": "up"
     }
