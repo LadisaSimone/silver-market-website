@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-29T16:02:52Z",
+  "updated_at": "2026-08-29T17:17:17Z",
   "price": {
     "value": 67.79,
     "change": -1.78,
@@ -283,6 +283,10 @@
   "history": {
     "1W": [
       {
+        "date": "2026-08-21",
+        "close": 69.46600341796875
+      },
+      {
         "date": "2026-08-24",
         "close": 68.54100036621094
       },
@@ -297,13 +301,13 @@
       {
         "date": "2026-08-27",
         "close": 69.42900085449219
-      },
-      {
-        "date": "2026-08-28",
-        "close": 67.08999633789062
       }
     ],
     "1M": [
+      {
+        "date": "2026-07-17",
+        "close": 56.03799819946289
+      },
       {
         "date": "2026-07-20",
         "close": 56.801998138427734
@@ -419,13 +423,13 @@
       {
         "date": "2026-08-27",
         "close": 69.42900085449219
-      },
-      {
-        "date": "2026-08-28",
-        "close": 67.08999633789062
       }
     ],
     "3M": [
+      {
+        "date": "2026-05-27",
+        "close": 74.5989990234375
+      },
       {
         "date": "2026-05-28",
         "close": 75.6449966430664
@@ -681,17 +685,9 @@
       {
         "date": "2026-08-27",
         "close": 69.42900085449219
-      },
-      {
-        "date": "2026-08-28",
-        "close": 67.08999633789062
       }
     ],
     "1Y": [
-      {
-        "date": "2025-08-28",
-        "close": 39.189998626708984
-      },
       {
         "date": "2025-08-29",
         "close": 40.20000076293945
@@ -1691,10 +1687,6 @@
       {
         "date": "2026-08-27",
         "close": 69.42900085449219
-      },
-      {
-        "date": "2026-08-28",
-        "close": 67.08999633789062
       }
     ]
   },
@@ -1702,71 +1694,77 @@
     "score": 4,
     "label": "Moderately Bearish",
     "sentiment": "bearish",
-    "summary": "Silver's 3.56% pullback from 30-day highs coincides with a 51 basis point dollar rally and a 5 basis point yield rise, the primary macro headwinds dominating near-term conviction. Elevated US 10Y yields and DXY strength, as the dominant scoring factors, impose structural opportunity-cost pressure that technical mean-reversion signals cannot overcome without Fed policy relief. Monitor Jackson Hole speech outcomes and US 10Y yield direction\u2014a retreat below 4.65% would signal potential macro stabilization for precious metals.",
+    "summary": "Fed tightening expectations signaled by Warsh's Jackson Hole rhetoric and a 5 basis point surge in US 10Y yields to 4.72% drive silver 2.56% lower, with macro headwinds (dominant scoring factor at 30% weight) overwhelming technical oversold signals. Rising real yields and DXY strength at 99.68 (+51 bps) mechanically reduce silver's valuation appeal across foreign and domestic markets. Monitor the next US 10Y yield print and any Fed commentary moderating rate-hike expectations to confirm whether macro pressure eases.",
     "updated_at": "Updated daily at 9:00 AM ET"
   },
   "drivers": [
     {
-      "label": "Rising Yields And Dollar Strength",
+      "label": "Fed Tightening Expectations",
       "status": "risk",
       "icon": "bank",
-      "reason": "US10Y yield +5bps to 4.72% and DXY +51bps to 99.68 both deteriorated; dual macro headwinds (rates+currency) are quantifiably bearish for precious metals opportunity cost."
+      "reason": "US10Y +5bps to 4.72% and Warsh Jackson Hole rate-hike rhetoric confirmed by multiple FXEmpire articles; rising yields directly inverse to silver valuations."
     },
     {
-      "label": "Technical Mean-Reversion Setup",
+      "label": "Technical Oversold Setup",
       "status": "supportive",
       "icon": "trend",
-      "reason": "Silver down 3.56% from 30d high with neutral RSI 59.9; -3.4% drawdown and neutral oscillator suggest potential bounce reversal despite ongoing macro headwinds."
+      "reason": "RSI 69.7 near overbought with -2.4% drawdown from 30d high; mean-reversion signals potential support bounce despite macro headwinds."
     },
     {
-      "label": "Jackson Hole Fed Catalyst And Supply Narrative",
-      "status": "neutral",
+      "label": "Dollar Strength Headwind",
+      "status": "risk",
+      "icon": "bank",
+      "reason": "DXY +51bps to 99.68 mildly bearish for silver; combined with yield surge, strong USD reduces precious metals demand in international markets."
+    },
+    {
+      "label": "News Sentiment",
+      "status": "risk",
       "icon": "people",
-      "reason": "Multiple news sources cite Jackson Hole speech and supply deficit concerns; sentiment mixed but Fed outcome unpredictable; news-driven conviction only, no quantitative confirmation."
+      "reason": "News coverage emphasizes Warsh rate-hike risk and 4% silver decline, creating near-term bearish tone; dealer below-spot pricing suggests weak retail confidence."
     },
     {
       "label": "ETF Flow Signal",
       "status": "neutral",
       "icon": "flows",
-      "reason": "No direct SLV flow data available; volume proxy only; confidence capped at Medium; insufficient evidence to score directionally."
+      "reason": "No direct SLV flow data available; volume proxy only indicates directional uncertainty without magnitude confirmation of institutional positioning."
     },
     {
       "label": "Industrial Demand",
       "status": "neutral",
       "icon": "industry",
-      "reason": "No direct industrial demand signals or sector-specific data available; news contains no supply-deficit specifics; score reflects absence of evidence."
+      "reason": "No industrial demand signals in market data or news; electrical contacts article provides sector context but no demand metrics or purchasing signals."
     }
   ],
   "stories": [
     {
-      "title": "Gold and silver prices are surging: Why are dealers paying below spot? - KITCO",
-      "summary": "Gold and silver prices are surging: Why are dealers paying below spot?KITCO",
-      "time_ago": "4h ago",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQ3IzaGZtWmo0b2RRQjd0QjZxdHkxTDFvVjNMcE9wZFlITnNJdW80cjJmbnFVR3NKbEthZmVmbk10VERDSGtjeU5kWDNvV0ZMMnpKMTEzd1ZaZ2Q2OWs1bjFEWlE5Z3U5RENJeFdqQThiR1ZaTW0yd0lBZ2lPaW1zaW9rcDdVeDJacERlRUFPU3FuZVFsRk9zZTF3bm5jWDNaZlk2VHJva2xPVXBPa0E?oc=5"
+      "title": "Gold prices in Pakistan Today - August 29, 2026 - The Express Tribune",
+      "summary": "Gold prices in Pakistan Today - August 29, 2026The Express Tribune",
+      "time_ago": "5h ago",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUWstc0VmVi1WRUR2WFE5UjJFdDR0R0dBaGttV1BQUWx4aTM5YmZNdkFqTVBxQTdPQUltT0Q2dVhKSmZ4NVdtMVdzQkwxdmR6aDN5dGM3TXlxb1ZvMUt5NVMyaWVZemxha3Q1YS1NeDZjVmxSOWVEd0x4ZWRjdEFmY19LYjhkdHI4WHBPRzVwZw?oc=5"
+    },
+    {
+      "title": "Silver (XAG) Forecast: Silver Market Loses 4% as Warsh Revives Rate-Hike Risk - FXEmpire",
+      "summary": "Silver (XAG) Forecast: Silver Market Loses 4% as Warsh Revives Rate-Hike RiskFXEmpire",
+      "time_ago": "8h ago",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPYXkwSXd6bVRCWnVjUmxEWEZoSDBxV094Rjd4NGNQX2RLRkItYXlRTVFPdXczLVh0RmRkcktVZWtGWFY5bjlGNWRXZ0IzNmJBVHNKU3VCd3N5QV9zekRwOVpIbkpxNHZqVlVZYWdwX2R5RzFmR1hMbnh6ZXFaenRxRWpwTmpDMUhRV0ZJT2EtMTlPM3o5LVN0Rm5WRU9Rb3pPS2EwOU9oNmhWbHZYTlV3bFE4Nlo3Rl9fX05BQ2NKVk4xQQ?oc=5"
+    },
+    {
+      "title": "Middle East Nickel Silver Electrical Contacts - Market Analysis, Forecast, Size, Trends and Insights - IndexBox",
+      "summary": "Middle East Nickel Silver Electrical Contacts - Market Analysis, Forecast, Size, Trends and InsightsIndexBox",
+      "time_ago": "10h ago",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNVDJZU3gycWJPMFB6Zzl3T3dVR25maTZTdTl5aHJCeVNoWTFpQWxvSTZtd3Z3TUdFMmlOLTlwWEc5Y2NtM2VTc19HeHdCMG9welNOdklpeVdlanRVeGFBMnMwZnBaUEJWSmF3dHhmRThhSUswbXRQLVFmQzl6WmVTbXhJNzJNN2wyc20xZkNSa0l6UU9JOV9Gd0RCSjN3dktwU09lbEFJdmttbFgxMVlZRFQzdE0xb2llNEs5UXFKVVRYMnNt?oc=5"
     },
     {
       "title": "Silver Price For Today, 28 August 2026 - Forbes",
       "summary": "Silver Price For Today, 28 August 2026Forbes",
-      "time_ago": "6h ago",
+      "time_ago": "1d ago",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5GY2NSNTc5Y0RCLW9QeXlCNDFpZ21IRFpsbDFWTXZSUTYwNWZPckFSak1ZZzhRaUk2azJ0WFZJWjFuXzc3bGxyVnRLMFNtemdYMktkZFlIUWE0N05HWHZQd05IRHpjR0tY?oc=5"
     },
     {
-      "title": "Gold prices hold steady in Pakistan as silver records Rs180 increase - The Nation (Pakistan )",
-      "summary": "Gold prices hold steady in Pakistan as silver records Rs180 increaseThe Nation (Pakistan )",
-      "time_ago": "10h ago",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQNkJuS3hXamtVdEhuclNrekhzRkt1RTJfSHA2Wk9jbWtkeFd5T3FHbHBfWGJRaEFKTUlYcE9ZdGlLZTdHUXNCSGVoVjJWZ0o1b0lxSlgtZGUyQ3F4WkNmdFdaWnhRTEFsWlRESW00THQ2d3dWVmxaQWNMb0ltT2QzN3gwNHpHLXlQZTJhbXo5bDJBOXJySGY2Tmp6cGZ6eFBmSnc?oc=5"
-    },
-    {
-      "title": "Silver price at the close of the session on August 28: Sharp increase, exceeding 70 USD/ounce - Laodong.vn",
-      "summary": "Silver price at the close of the session on August 28: Sharp increase, exceeding 70 USD/ounceLaodong.vn",
-      "time_ago": "10h ago",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPcG80NE5DWnpubkE4amtha3JnTVNJS3dBbmN0OGNXUVZZbXF6NGEtYXU2UDlqN0V3TzhKa3ZidjQ1Nm1vOURUVW5hdUVjbXpmSGhMVHZYZTVYakZXcjJlaHZsUFVoeGhhZHdBcUNzeGR5T1pxS3lPdlY0dzBweXlHdEcxOE1zZFJIRVdsR25CRVdVUUtGV0dnYnk5TDQ1bVpSSHc?oc=5"
-    },
-    {
-      "title": "Current price of silver as of Friday, Aug. 28, 2026 - Fortune",
-      "summary": "Current price of silver as of Friday, Aug. 28, 2026Fortune",
-      "time_ago": "12h ago",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB1VnR5NGVOUElHWUJPWlpLTW52ZHRGdmhFZWpnaHJldU9DOFRNbm1VN1dBOUxSdG93WHhteWpJMXJ0LW01bG1yWVZEaS04b0dDQ1NKY3pMWUNHcDVnZEZONGRERjNZR3FQN1lrcXZROA?oc=5"
+      "title": "Gold and silver prices are surging: Why are dealers paying below spot? - KITCO",
+      "summary": "Gold and silver prices are surging: Why are dealers paying below spot?KITCO",
+      "time_ago": "1d ago",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQ3IzaGZtWmo0b2RRQjd0QjZxdHkxTDFvVjNMcE9wZFlITnNJdW80cjJmbnFVR3NKbEthZmVmbk10VERDSGtjeU5kWDNvV0ZMMnpKMTEzd1ZaZ2Q2OWs1bjFEWlE5Z3U5RENJeFdqQThiR1ZaTW0yd0lBZ2lPaW1zaW9rcDdVeDJacERlRUFPU3FuZVFsRk9zZTF3bm5jWDNaZlk2VHJva2xPVXBPa0E?oc=5"
     }
   ],
   "metrics": [
@@ -1790,13 +1788,13 @@
     },
     {
       "label": "Gold/Silver",
-      "value": "67.1",
+      "value": "66.8",
       "change": "",
       "direction": "up"
     },
     {
       "label": "RSI (14)",
-      "value": "60",
+      "value": "70",
       "change": "",
       "direction": "up",
       "note": "Neutral"
@@ -1817,7 +1815,7 @@
     },
     {
       "label": "1M % Change",
-      "value": "+18.11%",
+      "value": "+23.90%",
       "change": "",
       "direction": "up"
     }
