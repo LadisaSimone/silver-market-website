@@ -1,11 +1,19 @@
-name: Update price (every 30 min)
+name: Update price (hourly)
 
 on:
   schedule:
-    # Every 30 minutes. GitHub Actions cron is UTC only — this runs all
+    # Hourly, on the hour. GitHub Actions cron is UTC only — this runs all
     # day, every day; yfinance simply returns empty intraday bars outside
     # market hours and update_price.py leaves the chart as-is in that case.
-    - cron: "*/30 * * * *"
+    #
+    # This used to be "every 30 min" (*/30 * * * *). GitHub's `schedule:`
+    # trigger is best-effort, not exact, and sub-hourly cron gets deprioritized
+    # the hardest — in practice we were seeing runs land 2-6+ hours apart
+    # despite the 30-min setting, with the price on the site going stale for
+    # hours with no visible warning. Hourly won't make GitHub's scheduler
+    # exact either, but it's the honest cadence to advertise, and shorter
+    # schedules are documented to slip more, not less.
+    - cron: "0 * * * *"
   workflow_dispatch: {}
 
 permissions:

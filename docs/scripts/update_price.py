@@ -1,6 +1,7 @@
 """Fast refresh for docs/data.json — price + intraday chart only.
 
-Runs every ~15-30 min (GitHub Actions cron, see .github/workflows/update-price.yml).
+Runs hourly, best-effort (GitHub Actions cron, see .github/workflows/update-price.yml —
+that file explains why this is hourly rather than the every-30-min it used to be).
 Read-modify-write: only price/intraday/updated_at are touched, so this
 never clobbers the once-daily outlook/drivers/metrics/stories written
 by update_daily.py.

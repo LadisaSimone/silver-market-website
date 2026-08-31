@@ -8,7 +8,7 @@ shape script.js (docs/script.js) expects.
 
 Read-modify-write: only the fields owned by this script are touched
 (outlook, drivers, metrics, stories, history, updated_at). price/intraday
-are owned by update_price.py's faster ~15min cadence and are left alone
+are owned by update_price.py's faster, roughly-hourly cadence and are left alone
 here so the two schedules never clobber each other.
 
 Requires ANTHROPIC_API_KEY in the environment (GitHub Actions secret).

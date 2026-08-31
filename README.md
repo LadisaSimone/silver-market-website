@@ -27,9 +27,13 @@ yet (real yield, COT positioning), and the website itself.
 Two scripts keep it current, each owning a different, non-overlapping
 slice of the file so they never clobber each other:
 
-- **`docs/scripts/update_price.py`** — every 30 min
+- **`docs/scripts/update_price.py`** — hourly, best-effort
   (`.github/workflows/update-price.yml`). Fetches the live silver price
-  and today's intraday bars. Updates `price` + `intraday` only.
+  and today's intraday bars. Updates `price` + `intraday` only. "Hourly"
+  is what the cron asks for, not a guarantee — GitHub's `schedule:`
+  trigger can slip by hours during high load, and the site's "As of"
+  timestamp (from the last real exchange bar, not script run time)
+  reflects that honestly rather than pretending to be always-fresh.
 - **`docs/scripts/update_daily.py`** — once/day, ~9:30 AM ET
   (`.github/workflows/update-daily.yml`). Runs the full pipeline (prices,
   30-day history, news, quantitative signals, the two-stage Claude
