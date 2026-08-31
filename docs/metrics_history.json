@@ -308,7 +308,7 @@
       },
       {
         "label": "RSI (14)",
-        "value": "63",
+        "value": "62",
         "change": "",
         "direction": "up",
         "note": "Neutral"
@@ -329,7 +329,7 @@
       },
       {
         "label": "1M % Change",
-        "value": "+15.54%",
+        "value": "+15.46%",
         "change": "",
         "direction": "up"
       }

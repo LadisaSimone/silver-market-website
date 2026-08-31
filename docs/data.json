@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-31T16:52:24Z",
+  "updated_at": "2026-08-31T19:34:36Z",
   "price": {
     "value": 66.5,
     "change": -0.08,
@@ -36,7 +36,7 @@
       },
       {
         "date": "2026-08-31",
-        "close": 66.731446
+        "close": 66.683511
       }
     ],
     "1M": [
@@ -158,7 +158,7 @@
       },
       {
         "date": "2026-08-31",
-        "close": 66.731446
+        "close": 66.683511
       }
     ],
     "3M": [
@@ -420,7 +420,7 @@
       },
       {
         "date": "2026-08-31",
-        "close": 66.731446
+        "close": 66.683511
       }
     ],
     "1Y": [
@@ -1430,7 +1430,7 @@
       },
       {
         "date": "2026-08-31",
-        "close": 66.731446
+        "close": 66.683511
       }
     ]
   },
@@ -1438,71 +1438,71 @@
     "score": 4,
     "label": "Moderately Bearish",
     "sentiment": "bearish",
-    "summary": "No verdict extracted.",
+    "summary": "Silver's 67.4 gold/silver ratio sits +2.4 above historical average while RSI 62.4 approaches overbought without conviction, yet Warsh-driven Fed rate-hike revival has lifted US 10Y yields +4 bps to 4.76%, establishing rising-rate macro headwinds as the dominant constraint. Macro factors carry 30% weight in the conviction score and drive the overall 4/10 bearish stance, with sentiment capitulation (\u22123% to \u22124% ETF declines across 8+ sources) and elevated nominal yields offsetting technical mean-reversion appeal. Monitor Fed commentary at the next Jackson Hole or FOMC communication for any softening of rate-hike expectations; a 10+ bps decline in US 10Y yields would materially improve silver's risk-reward profile.",
     "updated_at": "Snapshot from 9:00 AM ET \u2014 may differ from live price"
   },
   "drivers": [
     {
-      "label": "Fed Rate-Hike Expectations",
+      "label": "Rate-Hike Expectations Revival",
       "status": "risk",
       "icon": "bank",
-      "reason": "US10Y +4bps, Warsh revival of September hike trade cited in 3+ sources, DXY weakness insufficient offset; quantitative yield data + multi-source news alignment."
+      "reason": "Warsh commentary revived September Fed-hike trade (news: 6+ sources Aug 28\u201331); US10Y +4bps to 4.76% confirms tightening bias; silver historically underperforms in rising-rate regimes."
     },
     {
-      "label": "Jackson Hole Volatility & Risk-Off Sentiment",
+      "label": "Sentiment Capitulation & Etf Outflows",
       "status": "risk",
       "icon": "people",
-      "reason": "8+ news sources report 'sell-off,' 'tumble,' 'decline,' 'sink' on Aug 28\u201331; Jackson Hole tested key support across gold/silver; uniform bearish tone confirms market panic."
+      "reason": "Gold/Silver ETFs declined up to 4% with 'tumble' and 'top losers' language across 8+ news sources; sustained bearish tone reinforces macro headwinds and signals retail/institutional repositioning."
     },
     {
-      "label": "Technical Mean-Reversion Setup",
+      "label": "Silver-Gold Ratio Undervaluation",
       "status": "supportive",
       "icon": "trend",
-      "reason": "RSI 62.6 neutral, -4% from 30d high, 200-day EMA bounce noted; recovery target $70 mentioned, but no volume/open-interest confirmation limits conviction."
+      "reason": "Ratio 67.4 is +2.4 above historical average; quantitative signal flags silver as undervalued versus gold, but technical mean-reversion (RSI 62.4, -4% drawdown) lacks conviction to offset macro headwinds."
     },
     {
       "label": "ETF Flow Signal",
       "status": "risk",
       "icon": "flows",
-      "reason": "No direct SLV flow data available; volume proxy only shows ETF tumble up to 4% but magnitude and institutional conviction remain unknown."
+      "reason": "ETF volume proxies show 4% decline in Gold/Silver ETFs (Moneycontrol report); no direct SLV flows available\u2014magnitude and institutional conviction unknown, confidence capped at Medium."
     },
     {
       "label": "Industrial Demand",
       "status": "neutral",
       "icon": "industry",
-      "reason": "No sector-specific signals in data; Silvercorp Metals mention isolated; no demand/supply industrial evidence directly available today."
+      "reason": "No direct industrial demand data available; sector margin improvement noted for Avino/SVM mining stocks but insufficient to establish bullish industrial thesis independent of price moves."
     }
   ],
   "stories": [
     {
       "title": "Silver Price Forecast: $70 in Focus After 200-Day EMA Bounce - FXEmpire",
       "summary": "Silver Price Forecast: $70 in Focus After 200-Day EMA BounceFXEmpire",
-      "time_ago": "3h ago",
+      "time_ago": "6h ago",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObkI3UFd1Ym9md1VNdDhUUXhpR0VWWVJ3Zl9EMHBHTURudXlUUTJZNUdoOHlGQWlBaVBZeEw0bm9nWXMtZjdPZzJmQWtoTHFSYktfRUZnY0VxRkVNc3lqUXFYX2JpTXoxSENpbkpGUWVVU2hxX2hhTWdydVlxdXFwTGk0cWlyOUhwM1VLdTlWdGYxT3hObGNPbUVvNVROdmlGNklTazl0SzlfNVB3TFE?oc=5"
+    },
+    {
+      "title": "Government may cut gold, silver import duties as higher rates fuel grey market: Report - Business Today",
+      "summary": "Government may cut gold, silver import duties as higher rates fuel grey market: ReportBusiness Today",
+      "time_ago": "7h ago",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQa0Z0WU5McDRHOEk4M2trOE9YR01ZRVRBLU1FR3piREtwNnNXbnQ1NDVJbHFFSDEtYVJtSlNsSG9GWlktbFUxTFhnN09hNXRNX0FEd3pIcUlrS0hPanBEeUoxeVMwUlpmZEE0cVZvaHlhaHpNMjBYT2k0WndTVE10U2FRWmU2X3FUUVhaMi1pMDh2cEdFYkhjWk01SnB5dDE3UHFQTll2SmstdTVjSWxCMm84cmFkanZhdTRGUk5hUXFCV2kzeUVtbzdNOEZBbjV6Uy1ibHR3V2hYeTJ4cEFEQ3owbk5uaU3SAewBQVVfeXFMTkowSnFXSlVMNFQtMHdVR0xjTzFEMlZDMG5uNHVuLUtZRXlFT1lHQnl0X21raEc4Z2ZxV1pSckJNY2NVVTZYVS1QZ1hoMGNOQ2RjOWZScFlUeFFXbzZBRGljd19jT3RGU2ozeGs0a1dZblVxOVNnTmhGaF9iV0RtaWxuamNvWE9pY3FnaENxZHFBUHNFY29sZXZhdjc1Vy1zZ01nem5QMnF4ODEwZUtnQWloLTFDUFk4TVlaVTl5dWFObk80cFhYODJodmsyY0c2eEJrNi1EQzdEY3FzNXRlVXBlbkhfbk9oQ2padzg?oc=5"
     },
     {
       "title": "Gold and Silver Price Forecast: Jackson Hole Sell-Off Tests Key Support - FXEmpire",
       "summary": "Gold and Silver Price Forecast: Jackson Hole Sell-Off Tests Key SupportFXEmpire",
-      "time_ago": "8h ago",
+      "time_ago": "10h ago",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQQXlTMEpra21LTW5URjhnbVFtWWV1UWJvY1h1VXpCVExyVk9jS2dFc1ljREVMZG1hcnp1N2JTaFBMOHdQdEF5dnQ1Z2VpLV9oVWJHRm43cjM0ZFItYmFUSWdXblJCN1lKVG9nTEFEY21fcXRrZVNneHhkNUtGTGpHak1LVkdqZkFhTzBxTUwwRnh6bnJ6aHVGZU5RNktFMHc4WGZPblhlTmNncXpCNGlVOW56MGtsTXJQSjFwNm5R?oc=5"
     },
     {
       "title": "Gold, silver prices under pressure in India: What is driving the fall - CNBC TV18",
       "summary": "Gold, silver prices under pressure in India: What is driving the fallCNBC TV18",
-      "time_ago": "8h ago",
+      "time_ago": "11h ago",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNaTlLb0Ytc0RjclUtdTBiTTF1cE5aNmpabmNSVlRjZmN3V0lGUk1oS2Y0bFBFbW9yMzVBMlhQV2NCOVVRSlREWnBtbUxtcmpuTm1YSDNsQlVxb3F4WmZuaHh6NkFIOHJaSndZeDIxaDFBVVNMZm4zRHBldGtQMVA4NVhUS1lzb0lZb3JGMEhaSjNCcUJFc1Vjd2NuMkVvWEF4enpnS2Yzdi1lZ3g5ZGRDYXRVSTc2LU5T0gG-AUFVX3lxTE02QktaWk92WDF3WVNybVozNGdSaE5DZ2NLTWVMekYzSFpMUjllTE5kSW85c0xWZ0JfVG4wRUU4eS1ocU5wN3UwdmZTbXVhSDVoRUZJdXg1cjBBRjZwbDVxTDRwbWhnUjlLMGk0UExlXzR2WXowZTYtNkY4alEySmdkaEt5VHo3MVlRcVM2RFI3aFg5QW1jNldJMGNBM08xTDJrVU42LThaMVZWLTYxNEFQcHp0c3BYd0lGaFJBTmc?oc=5"
     },
     {
-      "title": "Gold and silver prices fall in global markets - Az\u0259rtac",
-      "summary": "Gold and silver prices fall in global marketsAz\u0259rtac",
-      "time_ago": "8h ago",
+      "title": "Gold and silver prices fall in global markets - az\u0259rtac",
+      "summary": "Gold and silver prices fall in global marketsaz\u0259rtac",
+      "time_ago": "11h ago",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQdEtqVlFYRi1NNG0zQW9QdWlpXzdhVW1hX1lKc2xsMXBFY3JvOHluYnZHM0Z5THlWRFBxczJoU3N1aS1PQ3JScUVuMllSR3ZDT2VtdVU1d1ZwcjhOdHYtQk1yU3g2NFJ6Q21waFdrQ2ROdnd4akRuVTFVTjRjY1BTTTVKU1I4ZTRB?oc=5"
-    },
-    {
-      "title": "Silver Futures Decline: Prices Fall on MCX & Global Markets - Rediff MoneyWiz",
-      "summary": "Silver Futures Decline: Prices Fall on MCX & Global MarketsRediff MoneyWiz",
-      "time_ago": "9h ago",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQlVIQ0RmT3F2Z3FYdWJ6ZEI5T01JemZkb3V5TUNKQUU3bHBqb245d1FWcTdTeUVXZFJNcGQzU1IyUzZEN3NMV3RyMFVLS3lMSEJhd05iSUtnZ2FrTWFYc29FSV93bDZOcjJBdmRtb1JvV1AyYWFMTzgzemlpWUxpS3NSdmtLX0NObVRabUZRVjVnWkJoQktxZmFERXlyNEpwSmJ0aUZDZzY0elVf0gGyAUFVX3lxTE5YelM5Sy1TRFpsSGs0cFZBMHJoTEE4RlBOdXNqUE02eXJOZXQtTmRhWDZ0M2l5THVtRDFXTkV4elhjcWNPLXgzZFFwY1R4a09oSmVzUGQyanR4OTAwYnpOT3hlSEdpM1UyLXZLVVljS0QxTjFiTUdrYWpXcjhMZUxQSGZWV2h3S3J6Q1VLWm1qVWp1ZDMzQzJ2d1BsS3lJblhJSFZTNW9ZY1ZPX0FwaV9Ga0E?oc=5"
     }
   ],
   "metrics": [
@@ -1532,7 +1532,7 @@
     },
     {
       "label": "RSI (14)",
-      "value": "63",
+      "value": "62",
       "change": "",
       "direction": "up",
       "note": "Neutral"
@@ -1553,7 +1553,7 @@
     },
     {
       "label": "1M % Change",
-      "value": "+15.54%",
+      "value": "+15.46%",
       "change": "",
       "direction": "up"
     }
