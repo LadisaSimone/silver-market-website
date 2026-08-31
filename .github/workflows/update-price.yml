@@ -3,8 +3,7 @@ name: Update price (hourly)
 on:
   schedule:
     # Hourly, on the hour. GitHub Actions cron is UTC only — this runs all
-    # day, every day; yfinance simply returns empty intraday bars outside
-    # market hours and update_price.py leaves the chart as-is in that case.
+    # day, every day.
     #
     # This used to be "every 30 min" (*/30 * * * *). GitHub's `schedule:`
     # trigger is best-effort, not exact, and sub-hourly cron gets deprioritized
@@ -38,7 +37,7 @@ jobs:
 
       - name: Run price update
         env:
-          TWELVEDATA_API_KEY: ${{ secrets.TWELVEDATA_API_KEY }}
+          GOLD_API_KEY: ${{ secrets.GOLD_API_KEY }}
         run: python docs/scripts/update_price.py
 
       - name: Commit and push if changed
