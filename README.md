@@ -28,12 +28,13 @@ Two scripts keep it current, each owning a different, non-overlapping
 slice of the file so they never clobber each other:
 
 - **`docs/scripts/update_price.py`** — hourly, best-effort
-  (`.github/workflows/update-price.yml`). Fetches the live silver price
-  and today's intraday bars. Updates `price` + `intraday` only. "Hourly"
-  is what the cron asks for, not a guarantee — GitHub's `schedule:`
-  trigger can slip by hours during high load, and the site's "As of"
-  timestamp (from the last real exchange bar, not script run time)
-  reflects that honestly rather than pretending to be always-fresh.
+  (`.github/workflows/update-price.yml`). Fetches spot silver (XAG/USD,
+  via Twelve Data — see `src/fetchers/price.py`) and today's intraday
+  bars. Updates `price` + `intraday` only. "Hourly" is what the cron asks
+  for, not a guarantee — GitHub's `schedule:` trigger can slip by hours
+  during high load, and the site's "As of" timestamp (from Twelve Data's
+  own quote timestamp, not script run time) reflects that honestly
+  rather than pretending to be always-fresh.
 - **`docs/scripts/update_daily.py`** — once/day, ~9:30 AM ET
   (`.github/workflows/update-daily.yml`). Runs the full pipeline (prices,
   30-day history, news, quantitative signals, the two-stage Claude
@@ -50,9 +51,18 @@ share a `concurrency` group so they can never race each other on
 1. **Add the `ANTHROPIC_API_KEY` secret** — Settings → Secrets and
    variables → Actions → New repository secret. Only `update-daily.yml`
    needs it (the Claude scoring/briefing call).
-2. **Enable GitHub Pages** — Settings → Pages → Source: "Deploy from a
+2. **Add the `TWELVEDATA_API_KEY` secret** — same place. Both
+   `update-price.yml` and `update-daily.yml` need it: this is the spot
+   silver (XAG/USD) source in `src/fetchers/price.py`, replacing the old
+   yfinance/SI=F (COMEX futures) source. Sign up for a free account at
+   [twelvedata.com](https://twelvedata.com/pricing) (free tier: 800
+   requests/day — this site uses well under 100/day even hourly), copy
+   the API key from their dashboard, and add it as the secret. Nothing in
+   this repo ever needs the key typed in anywhere except that one GitHub
+   Settings page.
+3. **Enable GitHub Pages** — Settings → Pages → Source: "Deploy from a
    branch" → Branch: `main`, folder: `/docs`.
-3. **First real run** — trigger both workflows manually once
+4. **First real run** — trigger both workflows manually once
    (Actions tab → select workflow → "Run workflow") and check the logs.
    `real_yield.py` (FRED) and `cot.py` (CFTC) were written defensively
    because their endpoints couldn't be network-verified from the build

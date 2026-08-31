@@ -287,17 +287,28 @@ def append_metrics_history(date_str: str, metrics: list[dict], path: Path) -> No
 
 
 def main() -> None:
-    print("Fetching prices...")
-    silver = fetch_silver_price()
-    gold = fetch_gold_price()
-    dxy = fetch_dxy_price()
-    us10y = fetch_us10y_price()
+    try:
+        print("Fetching prices...")
+        silver = fetch_silver_price()
+        gold = fetch_gold_price()
+        dxy = fetch_dxy_price()
+        us10y = fetch_us10y_price()
 
-    print("Fetching price history (1W/1M/3M/1Y)...")
-    history = fetch_silver_history(30)
-    history_1w = fetch_silver_history(5)
-    history_3m = fetch_silver_history(65)
-    history_1y = fetch_silver_history(252)
+        print("Fetching price history (1W/1M/3M/1Y)...")
+        history = fetch_silver_history(30)
+        history_1w = fetch_silver_history(5)
+        history_3m = fetch_silver_history(65)
+        history_1y = fetch_silver_history(252)
+    except Exception as exc:
+        # Same reasoning as update_price.py: a Twelve Data failure here
+        # (bad/missing TWELVEDATA_API_KEY, rate limit, network blip) must
+        # not proceed into a Claude API call (real cost) with bad silver
+        # data, and must not touch docs/data.json — this runs before the
+        # file is even loaded, so nothing to leave untouched yet, but exit
+        # clearly rather than crashing on some later line with a
+        # confusing traceback about a downstream symptom.
+        print(f"ERROR: price/history fetch failed, aborting before any Claude API call: {exc}")
+        sys.exit(1)
 
     print("Fetching news...")
     articles = fetch_articles()

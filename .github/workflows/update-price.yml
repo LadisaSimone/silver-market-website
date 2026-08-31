@@ -37,6 +37,8 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run price update
+        env:
+          TWELVEDATA_API_KEY: ${{ secrets.TWELVEDATA_API_KEY }}
         run: python docs/scripts/update_price.py
 
       - name: Commit and push if changed

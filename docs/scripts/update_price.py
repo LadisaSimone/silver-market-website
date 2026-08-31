@@ -5,6 +5,9 @@ that file explains why this is hourly rather than the every-30-min it used to be
 Read-modify-write: only price/intraday/updated_at are touched, so this
 never clobbers the once-daily outlook/drivers/metrics/stories written
 by update_daily.py.
+
+Requires TWELVEDATA_API_KEY in the environment (GitHub Actions secret) —
+see src/fetchers/price.py and README.md.
 """
 import json
 import sys
@@ -26,14 +29,28 @@ except Exception:
     _ET = None
 
 
-def _as_of_string(intraday: list[dict] | None = None) -> str:
-    # Prefer the timestamp of the most recent actual traded bar (from the
-    # exchange data we already fetched, at zero extra API cost) over our
-    # own script wall-clock time. If the exchange feed is delayed or the
-    # fetch itself is the thing lagging, wall-clock time would falsely
-    # read as "just refreshed" — the last real bar's time shows the true
-    # data freshness instead, so a stuck feed is visible on the page
-    # rather than hidden behind a script-run timestamp.
+def _as_of_string(quote_time=None, intraday: list[dict] | None = None) -> str:
+    # Preference order, most trustworthy first:
+    #   1. quote_time — the real timestamp Twelve Data returned with the
+    #      quote itself (fetch_silver_price()'s "quote_time"). This is the
+    #      actual answer to "when was this price quoted," not a proxy.
+    #   2. The most recent intraday bar's time — a fallback for when the
+    #      API didn't return a timestamp; still real market data, just one
+    #      step removed from the quote endpoint itself.
+    #   3. Our own wall-clock time — last resort, and the least honest one
+    #      (it says when *we* ran, not when the price was actually true).
+    # Whichever is used, the point is the same as before: a stuck feed
+    # must show up as a stale "As of" on the page, not a falsely-fresh one.
+    if quote_time is not None:
+        try:
+            local = quote_time.astimezone(_ET) if _ET else quote_time
+            try:
+                return local.strftime("%-I:%M %p ET" if _ET else "%H:%M UTC")
+            except ValueError:
+                return local.strftime("%I:%M %p ET" if _ET else "%H:%M UTC")
+        except Exception:
+            pass  # fall through
+
     if intraday:
         last_t = intraday[-1].get("t", "")
         try:
@@ -65,13 +82,14 @@ def main() -> None:
         print("Fetching intraday bars...")
         intraday = fetch_silver_intraday()
     except Exception as exc:
-        # A transient yfinance/Yahoo failure must NOT crash before any
-        # write (which would just leave yesterday's file untouched anyway)
-        # and must NOT overwrite good data with zeros. Leave docs/data.json
-        # exactly as-is and exit non-zero so this shows up as a FAILED run
-        # in the GitHub Actions tab — previously an exception here looked
-        # identical to "nothing changed," so a broken feed could go stale
-        # for hours with an all-green run history and no visible signal.
+        # A transient Twelve Data failure (rate limit, network blip, bad
+        # key) must NOT crash before any write (which would just leave the
+        # existing file untouched anyway) and must NOT overwrite good data
+        # with zeros. Leave docs/data.json exactly as-is and exit non-zero
+        # so this shows up as a FAILED run in the GitHub Actions tab —
+        # previously an exception here looked identical to "nothing
+        # changed," so a broken feed could go stale for hours with an
+        # all-green run history and no visible signal.
         print(f"ERROR: price fetch failed, leaving existing price data untouched: {exc}")
         sys.exit(1)
 
@@ -80,7 +98,7 @@ def main() -> None:
         "value": round(silver["price"], 2),
         "change": round(silver.get("change", 0.0), 2),
         "change_pct": round(silver.get("change_pct", 0.0), 2),
-        "as_of": _as_of_string(intraday),
+        "as_of": _as_of_string(silver.get("quote_time"), intraday),
     }
     if intraday:
         # Empty means markets are closed / yfinance has no bars yet today —
