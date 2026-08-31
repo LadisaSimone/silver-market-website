@@ -71,11 +71,11 @@ def render_index_html(data: dict, repo_root: Path) -> None:
     if price.get("value") is not None and price.get("change_pct") is not None:
         direction_word = "up" if (price.get("change") or 0) >= 0 else "down"
         seo_price_sentence = (
-            f"Silver futures (COMEX, SI=F) are trading at ${price['value']:.2f} today, "
+            f"Silver (XAG/USD) is trading at ${price['value']:.2f} today, "
             f"{direction_word} {abs(price['change_pct']):.2f}% from the prior session."
         )
     else:
-        seo_price_sentence = "Silver futures pricing is updating — check back shortly for today's level."
+        seo_price_sentence = "Silver (XAG/USD) pricing is updating — check back shortly for today's level."
 
     drivers = data.get("drivers") or []
     driver_items = []
