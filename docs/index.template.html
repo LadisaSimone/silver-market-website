@@ -78,7 +78,7 @@
             <div class="price-asof" id="price-asof">{{PRICE_ASOF}}</div>
           </div>
           <div class="chart-tabs" role="tablist" aria-label="Chart range">
-            <button class="chart-tab is-active" data-range="1D" role="tab" aria-selected="true">1D</button>
+            <button class="chart-tab is-active" data-range="1D" role="tab" aria-selected="true">Today</button>
             <button class="chart-tab" data-range="1W" role="tab" aria-selected="false">1W</button>
             <button class="chart-tab" data-range="1M" role="tab" aria-selected="false">1M</button>
             <button class="chart-tab" data-range="3M" role="tab" aria-selected="false">3M</button>
@@ -87,7 +87,9 @@
         </div>
         <div class="chart-wrap">
           <canvas id="price-chart" height="220"></canvas>
+          <p class="chart-empty" id="chart-empty" hidden>Intraday data currently unavailable</p>
         </div>
+        <p class="chart-disclosure" id="chart-disclosure" hidden></p>
       </section>
 
       <!-- Outlook -->

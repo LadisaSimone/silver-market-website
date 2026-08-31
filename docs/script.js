@@ -162,24 +162,62 @@
     return h[range] || [];
   }
 
+  const DISCLOSURE_TEXT = {
+    comex_futures: "Intraday movement based on COMEX Silver Futures",
+    spot_snapshots: "Intraday movement based on live spot price snapshots",
+  };
+
+  function fmtPct(val) {
+    if (val === null || val === undefined || Number.isNaN(val)) return "—";
+    return `${val > 0 ? "+" : ""}${val.toFixed(2)}%`;
+  }
+
   function renderChart(data, range) {
     const ctx = document.getElementById("price-chart");
-    let labels, values;
+    const emptyEl = document.getElementById("chart-empty");
+    const disclosureEl = document.getElementById("chart-disclosure");
+    let labels, values, isPercent;
 
     if (range === "1D") {
-      labels = (data.intraday || []).map((i) => i.t);
-      values = (data.intraday || []).map((i) => i.p);
+      // "Today" tab — see docs/scripts/update_price.py's _build_intraday_chart()
+      // for how this series is built (COMEX SI=F shape, percent-normalized,
+      // with a spot-snapshot fallback) and why it's never a raw SI=F price.
+      const ic = data.intraday_chart || { source: null, points: [] };
+      labels = ic.points.map((p) => p.t);
+      values = ic.points.map((p) => p.pct);
+      isPercent = true;
+
+      if (ic.points.length < 2) {
+        emptyEl.hidden = false;
+        disclosureEl.hidden = true;
+      } else {
+        emptyEl.hidden = true;
+        disclosureEl.hidden = false;
+        disclosureEl.textContent =
+          DISCLOSURE_TEXT[ic.source] || "Intraday movement (source unavailable)";
+      }
     } else {
       const series = historyFor(data, range);
       labels = series.map((h) => h.date.slice(5));
       values = series.map((h) => h.close);
+      isPercent = false;
+      emptyEl.hidden = true;
+      disclosureEl.hidden = true;
     }
 
     const lineColor = "#3b82f6";
+    const yTickCallback = isPercent ? (val) => fmtPct(val) : (val) => `$${val}`;
+    const tooltipLabelCallback = isPercent
+      ? (item) => fmtPct(item.parsed.y)
+      : (item) => `$${item.parsed.y.toFixed(2)}`;
 
     if (chart) {
       chart.data.labels = labels;
       chart.data.datasets[0].data = values;
+      chart.options.scales.y.ticks.callback = function (val) {
+        return yTickCallback(val);
+      };
+      chart.options.plugins.tooltip.callbacks.label = tooltipLabelCallback;
       chart.update();
       return;
     }
@@ -219,7 +257,13 @@
           },
           y: {
             grid: { color: "#243247" },
-            ticks: { color: "#64748b", font: { size: 10 } },
+            ticks: {
+              color: "#64748b",
+              font: { size: 10 },
+              callback: function (val) {
+                return yTickCallback(val);
+              },
+            },
           },
         },
         plugins: {
@@ -231,7 +275,7 @@
             titleColor: "#f1f5f9",
             bodyColor: "#f1f5f9",
             callbacks: {
-              label: (item) => `$${item.parsed.y.toFixed(2)}`,
+              label: tooltipLabelCallback,
             },
           },
         },

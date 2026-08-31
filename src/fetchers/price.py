@@ -13,6 +13,8 @@ from config.settings import GOLD_TICKER, DXY_TICKER, US10Y_TICKER
 # yfinance — only silver's instrument mismatch was ever in question.
 _GOLD_API_BASE = "https://api.gold-api.com"
 
+_SILVER_FUTURES_TICKER = "SI=F"
+
 
 def _gold_api_key() -> str:
     key = os.environ.get("GOLD_API_KEY")
@@ -81,6 +83,45 @@ def fetch_silver_price() -> dict:
         "change_pct": change_pct,
         "quote_time": quote_time,
     }
+
+
+def fetch_silver_intraday_comex(interval: str = "15m") -> list[dict]:
+    """COMEX silver futures (SI=F) intraday bars, percent-normalized against
+    the FIRST bar returned by yfinance's period="1d" fetch (this is the same
+    call the site used for its 1D chart for weeks before the 2026-08-31 spot
+    switch, so the data itself is proven — only the percent-normalization is
+    new). Used ONLY to draw the shape of today's intraday movement on the
+    "Today" chart tab, and only as a fallback source when it's unavailable
+    (see docs/scripts/update_price.py's _build_intraday_chart()).
+
+    This is a deliberate, disclosed exception to "silver = spot XAG/USD
+    everywhere" (see config/settings.py, claude/website-roadmap.md): the
+    headline price, change%, and 1W/1M/3M/1Y history/RSI all stay true spot
+    from gold-api.com. Percent-normalizing (never showing the raw SI=F
+    dollar value) plus the on-page disclosure text (docs/script.js) are both
+    there specifically so this can't be mistaken for spot data the way the
+    original SI=F-labeled-as-XAG/USD bug was.
+
+    Returns [] (not an exception) on any failure — closed market, holiday,
+    network issue, insufficient bars — since the caller has a real fallback
+    and a missing/short SI=F series is an expected, routine outcome here,
+    not the fatal condition a failed live-price fetch would be.
+    """
+    try:
+        hist = yf.Ticker(_SILVER_FUTURES_TICKER).history(period="1d", interval=interval)
+        closes = hist["Close"].dropna()
+        if len(closes) < 2:
+            return []
+        baseline = float(closes.iloc[0])
+        if not baseline:
+            return []
+        return [
+            {"t": idx.strftime("%H:%M"), "pct": round((float(val) / baseline - 1) * 100, 3)}
+            for idx, val in zip(closes.index, closes.values)
+        ]
+    except Exception as exc:
+        print(f"WARNING: SI=F intraday fetch failed (falling back to spot snapshots): {exc}")
+        return []
 
 
 def fetch_price(ticker: str) -> dict:

@@ -11,13 +11,29 @@ src/fetchers/price.py and README.md. (The live price call itself needs no
 key; fetch_silver_price() also fetches yesterday's close to compute
 change/change_pct, and that call is key-gated.)
 
-Intraday (1D chart) bars are self-recorded here rather than fetched from a
-separate endpoint: gold-api.com's free tier only exposes hourly-grouped
-history on its paid plan, so each hourly run appends its own live-price
-reading as one bar (see _update_intraday()). This also means the 1D chart
-is now genuinely spot XAG/USD, consistent with the headline price — it
-just starts sparse after a fresh deploy and fills in over the first few
-runs of the day.
+Two separate things happen for the "Today" chart tab (2026-09-01 update):
+
+1. `_update_intraday()` self-records today's live spot XAG/USD price as one
+   bar per hourly run (gold-api.com's free tier has no fine-grained intraday
+   endpoint, so this is how we get any spot intraday series at all). Stored
+   under "intraday" — dollar values, used as a fallback source and to seed
+   _as_of_string()'s timestamp fallback.
+2. `_build_intraday_chart()` builds what's actually drawn on the "Today"
+   tab, stored under "intraday_chart": it prefers COMEX SI=F futures
+   (percent-normalized, via fetch_silver_intraday_comex()) for a much
+   richer intraday shape than one bar/hour can give, and falls back to the
+   spot bars above (also percent-normalized) when SI=F has too few points
+   (closed market, holiday, yfinance hiccup). See src/fetchers/price.py's
+   fetch_silver_intraday_comex() docstring for why futures are acceptable
+   here specifically — never as a price, only as a disclosed movement
+   shape — and docs/script.js for how the "source" field drives the
+   on-page disclosure text.
+
+Requires GOLD_API_KEY in the environment (GitHub Actions secret) — see
+src/fetchers/price.py and README.md. (The live price call itself needs no
+key; fetch_silver_price() also fetches yesterday's close to compute
+change/change_pct, and that call is key-gated. The SI=F intraday fetch
+needs no key either — it's yfinance, same as gold/DXY/US10Y.)
 """
 import json
 import sys
@@ -27,7 +43,7 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 sys.path.insert(0, str(REPO_ROOT))
 
-from src.fetchers.price import fetch_silver_price  # noqa: E402
+from src.fetchers.price import fetch_silver_price, fetch_silver_intraday_comex  # noqa: E402
 from src.render_static import render_index_html  # noqa: E402
 
 DATA_JSON = REPO_ROOT / "docs" / "data.json"
@@ -100,6 +116,30 @@ def _update_intraday(existing: dict, price: float, quote_time) -> list[dict]:
     return intraday
 
 
+def _build_intraday_chart(spot_intraday: list[dict], date_str: str) -> dict:
+    """The series actually drawn on the "Today" chart tab — see the module
+    docstring for the full source/fallback story. Always percent-normalized,
+    never a raw SI=F dollar value (that distinction is the whole point:
+    see fetch_silver_intraday_comex()'s docstring)."""
+    comex_points = fetch_silver_intraday_comex()
+    if len(comex_points) >= 2:
+        return {"date": date_str, "source": "comex_futures", "points": comex_points}
+
+    if len(spot_intraday) >= 2:
+        baseline = spot_intraday[0].get("p")
+        if baseline:
+            points = [
+                {"t": pt["t"], "pct": round((pt["p"] / baseline - 1) * 100, 3)}
+                for pt in spot_intraday
+            ]
+            return {"date": date_str, "source": "spot_snapshots", "points": points}
+
+    # Neither source has enough points (e.g. the very first run right after
+    # market open, or right after a fresh deploy). No fabricated line —
+    # docs/script.js shows an explicit "unavailable" state for this.
+    return {"date": date_str, "source": None, "points": []}
+
+
 def main() -> None:
     existing = {}
     if DATA_JSON.exists():
@@ -122,6 +162,9 @@ def main() -> None:
 
     intraday = _update_intraday(existing, silver["price"], silver.get("quote_time"))
 
+    print("Building Today chart series (COMEX SI=F shape, spot-snapshot fallback)...")
+    intraday_chart = _build_intraday_chart(intraday, existing["intraday_date"])
+
     existing["updated_at"] = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     existing["price"] = {
         "value": round(silver["price"], 2),
@@ -130,6 +173,7 @@ def main() -> None:
         "as_of": _as_of_string(silver.get("quote_time"), intraday),
     }
     existing["intraday"] = intraday
+    existing["intraday_chart"] = intraday_chart
 
     DATA_JSON.write_text(json.dumps(existing, indent=2) + "\n")
     print(f"Wrote {DATA_JSON}")

@@ -72,13 +72,13 @@
           <div>
             <h1 id="price-heading" class="eyebrow">Silver (XAG/USD Spot)</h1>
             <div class="price-row">
-              <span class="price-value" id="price-value">$66.88</span>
-              <span class="price-change is-up" id="price-change">+0.04 (+0.06%)</span>
+              <span class="price-value" id="price-value">$67.98</span>
+              <span class="price-change is-up" id="price-change">+0.05 (+0.07%)</span>
             </div>
-            <div class="price-asof" id="price-asof">As of 11:15 AM ET</div>
+            <div class="price-asof" id="price-asof">As of 10:38 AM ET</div>
           </div>
           <div class="chart-tabs" role="tablist" aria-label="Chart range">
-            <button class="chart-tab is-active" data-range="1D" role="tab" aria-selected="true">1D</button>
+            <button class="chart-tab is-active" data-range="1D" role="tab" aria-selected="true">Today</button>
             <button class="chart-tab" data-range="1W" role="tab" aria-selected="false">1W</button>
             <button class="chart-tab" data-range="1M" role="tab" aria-selected="false">1M</button>
             <button class="chart-tab" data-range="3M" role="tab" aria-selected="false">3M</button>
@@ -87,7 +87,9 @@
         </div>
         <div class="chart-wrap">
           <canvas id="price-chart" height="220"></canvas>
+          <p class="chart-empty" id="chart-empty" hidden>Intraday data currently unavailable</p>
         </div>
+        <p class="chart-disclosure" id="chart-disclosure" hidden></p>
       </section>
 
       <!-- Outlook -->
@@ -97,16 +99,16 @@
           <div class="score-ring-wrap">
             <svg class="score-ring" viewBox="0 0 140 140" width="140" height="140" aria-hidden="true">
               <circle class="score-ring-track" cx="70" cy="70" r="60"></circle>
-              <circle class="score-ring-fill" id="score-ring-fill" cx="70" cy="70" r="60" style="stroke:#ef4444;stroke-dashoffset:226.19"></circle>
+              <circle class="score-ring-fill" id="score-ring-fill" cx="70" cy="70" r="60" style="stroke:#f59e0b;stroke-dashoffset:188.50"></circle>
             </svg>
             <div class="score-ring-label">
-              <span class="score-number" id="score-number">4</span>
+              <span class="score-number" id="score-number">5</span>
               <span class="score-outof">/10</span>
             </div>
           </div>
           <div class="outlook-text">
-            <span class="outlook-label is-bearish" id="outlook-label">Moderately Bearish</span>
-            <p class="outlook-summary" id="outlook-summary">Silver declined -2.56% as US 10Y yields rose +5 bps to 4.72% and Warsh commentary revived September rate-hike expectations, cited by four independent sources as the primary suppressor. Macro factors—elevated real rates and DXY strength—dominate pricing dynamics and cap conviction despite neutral technical setup. Monitor US 10Y yields and Fed commentary for signs the rate-hike narrative is receding; a break below 4.60% would signal relief.</p>
+            <span class="outlook-label is-neutral" id="outlook-label">Neutral</span>
+            <p class="outlook-summary" id="outlook-summary">Silver&#x27;s 68.9 gold-silver ratio, +3.9 above historical average, signals structural undervaluation even as DXY weakness (-11 bps) and falling US10Y yields (-4 bps) support precious metals broadly. Macro tailwinds are offset by profit-taking discipline and near-term inflation data uncertainty, the dominant neutral-leaning factor, leaving conviction anchored at neutral. Monitor the August PCE inflation print and Federal Reserve commentary for evidence that rate-hike expectations are softening; a sustained break below $67.50 would confirm technical breakdown inconsistent with the gold-silver ratio signal.</p>
             <span class="outlook-updated" id="outlook-updated">Updated daily at 9:00 AM ET</span>
           </div>
         </div>
@@ -143,13 +145,13 @@
       <!-- SEO summary (server-rendered, not JS-populated — for search crawlers) -->
       <section class="panel seo-panel" aria-labelledby="seo-market-heading">
         <h2 id="seo-market-heading" class="panel-title">Silver Market Today</h2>
-        <p>Silver (XAG/USD spot) is trading at $66.88 today, up 0.06% from the prior session.</p>
-        <p>Silver declined -2.56% as US 10Y yields rose +5 bps to 4.72% and Warsh commentary revived September rate-hike expectations, cited by four independent sources as the primary suppressor. Macro factors—elevated real rates and DXY strength—dominate pricing dynamics and cap conviction despite neutral technical setup. Monitor US 10Y yields and Fed commentary for signs the rate-hike narrative is receding; a break below 4.60% would signal relief.</p>
+        <p>Silver (XAG/USD spot) is trading at $67.98 today, up 0.07% from the prior session.</p>
+        <p>Silver&#x27;s 68.9 gold-silver ratio, +3.9 above historical average, signals structural undervaluation even as DXY weakness (-11 bps) and falling US10Y yields (-4 bps) support precious metals broadly. Macro tailwinds are offset by profit-taking discipline and near-term inflation data uncertainty, the dominant neutral-leaning factor, leaving conviction anchored at neutral. Monitor the August PCE inflation print and Federal Reserve commentary for evidence that rate-hike expectations are softening; a sustained break below $67.50 would confirm technical breakdown inconsistent with the gold-silver ratio signal.</p>
       </section>
 
       <section class="panel seo-panel" aria-labelledby="seo-drivers-heading">
         <h2 id="seo-drivers-heading" class="panel-title">What is driving the silver price today?</h2>
-        <ul class="seo-driver-list"><li><strong>Fed Rate-Hike Expectations:</strong> Risk</li><li><strong>Dollar Strength Headwind:</strong> Risk</li><li><strong>Technical Mean-Reversion Setup:</strong> Supportive</li><li><strong>News Sentiment:</strong> Risk</li><li><strong>ETF Flow Signal:</strong> Neutral</li><li><strong>Industrial Demand:</strong> Neutral</li></ul>
+        <ul class="seo-driver-list"><li><strong>Gold-Silver Ratio Divergence:</strong> Supportive</li><li><strong>Profit-Taking From Recent Highs:</strong> Neutral</li><li><strong>Near-Term Price Pressure From Macro Data Watch:</strong> Supportive</li><li><strong>Technical Setup:</strong> Neutral</li><li><strong>ETF Flow Signal:</strong> Neutral</li><li><strong>Industrial Demand:</strong> Risk</li></ul>
       </section>
 
     </div>

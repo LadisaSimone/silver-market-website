@@ -255,6 +255,25 @@ a { color: inherit; }
   position: relative;
 }
 
+.chart-disclosure {
+  margin: 6px 0 0;
+  font-size: 11px;
+  color: var(--faint);
+}
+
+.chart-empty {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  font-size: 13px;
+  color: var(--faint);
+  text-align: center;
+  pointer-events: none;
+}
+
 /* ---------- Outlook panel ---------- */
 
 .outlook-body {
