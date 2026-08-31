@@ -25,7 +25,25 @@ except Exception:
     _ET = None
 
 
-def _as_of_string() -> str:
+def _as_of_string(intraday: list[dict] | None = None) -> str:
+    # Prefer the timestamp of the most recent actual traded bar (from the
+    # exchange data we already fetched, at zero extra API cost) over our
+    # own script wall-clock time. If the exchange feed is delayed or the
+    # fetch itself is the thing lagging, wall-clock time would falsely
+    # read as "just refreshed" — the last real bar's time shows the true
+    # data freshness instead, so a stuck feed is visible on the page
+    # rather than hidden behind a script-run timestamp.
+    if intraday:
+        last_t = intraday[-1].get("t", "")
+        try:
+            hh, mm = last_t.split(":")
+            hour = int(hh) % 24
+            suffix = "AM" if hour < 12 else "PM"
+            hour12 = hour % 12 or 12
+            return f"{hour12}:{mm} {suffix} ET"
+        except (ValueError, AttributeError):
+            pass  # fall through to wall-clock time below
+
     now = datetime.now(_ET) if _ET else datetime.now(timezone.utc)
     try:
         return now.strftime("%-I:%M %p ET" if _ET else "%H:%M UTC")
@@ -35,22 +53,33 @@ def _as_of_string() -> str:
 
 
 def main() -> None:
-    print("Fetching live silver price...")
-    silver = fetch_silver_price()
-
-    print("Fetching intraday bars...")
-    intraday = fetch_silver_intraday()
-
     existing = {}
     if DATA_JSON.exists():
         existing = json.loads(DATA_JSON.read_text())
+
+    try:
+        print("Fetching live silver price...")
+        silver = fetch_silver_price()
+
+        print("Fetching intraday bars...")
+        intraday = fetch_silver_intraday()
+    except Exception as exc:
+        # A transient yfinance/Yahoo failure must NOT crash before any
+        # write (which would just leave yesterday's file untouched anyway)
+        # and must NOT overwrite good data with zeros. Leave docs/data.json
+        # exactly as-is and exit non-zero so this shows up as a FAILED run
+        # in the GitHub Actions tab — previously an exception here looked
+        # identical to "nothing changed," so a broken feed could go stale
+        # for hours with an all-green run history and no visible signal.
+        print(f"ERROR: price fetch failed, leaving existing price data untouched: {exc}")
+        sys.exit(1)
 
     existing["updated_at"] = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     existing["price"] = {
         "value": round(silver["price"], 2),
         "change": round(silver.get("change", 0.0), 2),
         "change_pct": round(silver.get("change_pct", 0.0), 2),
-        "as_of": _as_of_string(),
+        "as_of": _as_of_string(intraday),
     }
     if intraday:
         # Empty means markets are closed / yfinance has no bars yet today —

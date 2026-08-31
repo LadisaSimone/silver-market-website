@@ -134,7 +134,12 @@ def build_outlook(final_scores: dict) -> dict:
         "label": label,
         "sentiment": sentiment,
         "summary": final_scores.get("verdict", "No briefing available yet."),
-        "updated_at": "Updated daily at 9:00 AM ET",
+        # Explicit "snapshot" framing + the caveat, not just a timestamp —
+        # this sits right next to the live price card, which updates far
+        # more often, so without this it reads as describing the same
+        # instant. See docs/styles.css .outlook-updated for the badge
+        # styling that also sets this apart visually.
+        "updated_at": "Snapshot from 9:00 AM ET — may differ from live price",
     }
 
 
