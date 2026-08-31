@@ -17,7 +17,12 @@ yet (real yield, COT positioning), and the website itself.
   (one responsive page, mobile-first with a desktop breakpoint) reading
   `docs/data.json`, plus `docs/scripts/` (the two jobs that keep
   `data.json` fresh) and ad placeholder slots (leaderboard, in-content,
-  160×600 desktop sidebar).
+  160×600 desktop sidebar). `docs/index.template.html` links `styles.css`
+  and `script.js` with a `?v=N` query string (currently `v=2`) purely for
+  cache-busting — GitHub Pages/browsers cache both fairly aggressively, so
+  bump `N` (both places it appears in the template) whenever either file
+  changes, or a deploy can silently keep serving the old one for a while
+  even after a hard refresh of the HTML itself. Confirmed live 2026-09-01.
 - `.github/workflows/` — the two schedules that run those scripts and
   commit `docs/data.json` back to the repo.
 

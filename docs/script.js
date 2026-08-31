@@ -189,9 +189,11 @@
 
       if (ic.points.length < 2) {
         emptyEl.hidden = false;
+        emptyEl.style.display = "flex"; // belt-and-suspenders: see chart-empty[hidden] in styles.css
         disclosureEl.hidden = true;
       } else {
         emptyEl.hidden = true;
+        emptyEl.style.display = "none"; // set directly, not just via [hidden] — see styles.css comment
         disclosureEl.hidden = false;
         disclosureEl.textContent =
           DISCLOSURE_TEXT[ic.source] || "Intraday movement (source unavailable)";
@@ -202,6 +204,7 @@
       values = series.map((h) => h.close);
       isPercent = false;
       emptyEl.hidden = true;
+      emptyEl.style.display = "none";
       disclosureEl.hidden = true;
     }
 
@@ -230,16 +233,16 @@
           {
             data: values,
             borderColor: lineColor,
-            borderWidth: 2,
+            borderWidth: 2.5,
             pointRadius: 0,
             pointHoverRadius: 4,
             tension: 0.3,
             fill: true,
             backgroundColor: (context) => {
               const chartArea = context.chart.chartArea;
-              if (!chartArea) return "rgba(59,130,246,0.08)";
+              if (!chartArea) return "rgba(59,130,246,0.1)";
               const g = context.chart.ctx.createLinearGradient(0, chartArea.top, 0, chartArea.bottom);
-              g.addColorStop(0, "rgba(59,130,246,0.25)");
+              g.addColorStop(0, "rgba(59,130,246,0.38)");
               g.addColorStop(1, "rgba(59,130,246,0.0)");
               return g;
             },
@@ -253,13 +256,13 @@
         scales: {
           x: {
             grid: { display: false },
-            ticks: { color: "#64748b", font: { size: 10 }, maxTicksLimit: 6 },
+            ticks: { color: "#94a3b8", font: { size: 11 }, maxTicksLimit: 6 },
           },
           y: {
             grid: { color: "#243247" },
             ticks: {
-              color: "#64748b",
-              font: { size: 10 },
+              color: "#94a3b8",
+              font: { size: 11 },
               callback: function (val) {
                 return yTickCallback(val);
               },
