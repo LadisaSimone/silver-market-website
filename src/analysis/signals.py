@@ -89,13 +89,6 @@ def compute_price_signals(
     silver_change_pct = silver.get("change_pct", 0.0)
     significant_move = abs(silver_change_pct) >= _SIGNIFICANT_MOVE_THRESHOLD
 
-    # Note: gold is still COMEX futures (GC=F, yfinance) while silver is
-    # spot XAG/USD (Twelve Data) as of the switch documented in
-    # config/settings.py — this mixes a futures price with a spot price,
-    # which introduces a small, usually-negligible basis difference into
-    # the ratio (the same order of magnitude as futures cost-of-carry).
-    # Not worth a second spot-gold integration for a directional/vs-average
-    # signal like this one; flagging here so it isn't mistaken for a bug.
     ratio_val = gold["price"] / silver["price"]
 
     dxy_change_pct = dxy.get("change_pct", 0.0)

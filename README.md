@@ -28,13 +28,15 @@ Two scripts keep it current, each owning a different, non-overlapping
 slice of the file so they never clobber each other:
 
 - **`docs/scripts/update_price.py`** — hourly, best-effort
-  (`.github/workflows/update-price.yml`). Fetches spot silver (XAG/USD,
-  via Twelve Data — see `src/fetchers/price.py`) and today's intraday
-  bars. Updates `price` + `intraday` only. "Hourly" is what the cron asks
-  for, not a guarantee — GitHub's `schedule:` trigger can slip by hours
-  during high load, and the site's "As of" timestamp (from Twelve Data's
-  own quote timestamp, not script run time) reflects that honestly
-  rather than pretending to be always-fresh.
+  (`.github/workflows/update-price.yml`). Fetches the live silver price
+  (COMEX futures, SI=F, via yfinance — see `src/fetchers/price.py`; a
+  spot-XAG/USD switch was attempted 2026-08-31 but reverted, see that
+  file's `fetch_silver_price()` docstring and `claude/website-roadmap.md`
+  in the project) and today's intraday bars. Updates `price` + `intraday`
+  only. "Hourly" is what the cron asks for, not a guarantee — GitHub's
+  `schedule:` trigger can slip by hours during high load, and the site's
+  "As of" timestamp (from the last real exchange bar, not script run
+  time) reflects that honestly rather than pretending to be always-fresh.
 - **`docs/scripts/update_daily.py`** — once/day, ~9:30 AM ET
   (`.github/workflows/update-daily.yml`). Runs the full pipeline (prices,
   30-day history, news, quantitative signals, the two-stage Claude
@@ -51,15 +53,14 @@ share a `concurrency` group so they can never race each other on
 1. **Add the `ANTHROPIC_API_KEY` secret** — Settings → Secrets and
    variables → Actions → New repository secret. Only `update-daily.yml`
    needs it (the Claude scoring/briefing call).
-2. **Add the `TWELVEDATA_API_KEY` secret** — same place. Both
-   `update-price.yml` and `update-daily.yml` need it: this is the spot
-   silver (XAG/USD) source in `src/fetchers/price.py`, replacing the old
-   yfinance/SI=F (COMEX futures) source. Sign up for a free account at
-   [twelvedata.com](https://twelvedata.com/pricing) (free tier: 800
-   requests/day — this site uses well under 100/day even hourly), copy
-   the API key from their dashboard, and add it as the secret. Nothing in
-   this repo ever needs the key typed in anywhere except that one GitHub
-   Settings page.
+2. **`TWELVEDATA_API_KEY`** — this secret may already exist in the repo
+   from an abandoned attempt to switch the silver price to true spot
+   XAG/USD (2026-08-31): Twelve Data's free tier turned out not to
+   include commodities data, so the code was reverted back to
+   yfinance/SI=F and this key is currently unused. Safe to leave the
+   secret in place (harmless, nothing reads it right now) or delete it —
+   see `claude/website-roadmap.md` for the status of finding a real free
+   spot source.
 3. **Enable GitHub Pages** — Settings → Pages → Source: "Deploy from a
    branch" → Branch: `main`, folder: `/docs`.
 4. **First real run** — trigger both workflows manually once
