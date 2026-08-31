@@ -209,7 +209,7 @@
     }
 
     const lineColor = "#3b82f6";
-    const yTickCallback = isPercent ? (val) => fmtPct(val) : (val) => `$${val}`;
+    const yTickCallback = isPercent ? (val) => fmtPct(val) : (val) => `$${val.toFixed(2)}`;
     const tooltipLabelCallback = isPercent
       ? (item) => fmtPct(item.parsed.y)
       : (item) => `$${item.parsed.y.toFixed(2)}`;
