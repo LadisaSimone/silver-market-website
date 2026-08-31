@@ -27,8 +27,8 @@ def _metals_snapshot(silver: dict, gold: dict) -> str:
 
     ratio = gold["price"] / silver["price"]
     return (
-        f"  Silver  (SI=F)  {fmt(silver)}\n"
-        f"  Gold    (GC=F)  {fmt(gold)}\n"
+        f"  Silver  (XAG/USD spot)  {fmt(silver)}\n"
+        f"  Gold    (GC=F)          {fmt(gold)}\n"
         f"  Gold/Silver Ratio: {ratio:.1f}"
     )
 

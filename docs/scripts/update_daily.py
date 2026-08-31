@@ -11,7 +11,9 @@ Read-modify-write: only the fields owned by this script are touched
 are owned by update_price.py's faster, roughly-hourly cadence and are left alone
 here so the two schedules never clobber each other.
 
-Requires ANTHROPIC_API_KEY in the environment (GitHub Actions secret).
+Requires ANTHROPIC_API_KEY and GOLD_API_KEY in the environment (GitHub
+Actions secrets) — the latter for fetch_silver_history()'s spot XAG/USD
+history calls, see src/fetchers/price.py and README.md.
 """
 import json
 import sys
@@ -300,8 +302,8 @@ def main() -> None:
         history_3m = fetch_silver_history(65)
         history_1y = fetch_silver_history(252)
     except Exception as exc:
-        # Same reasoning as update_price.py: a Twelve Data failure here
-        # (bad/missing TWELVEDATA_API_KEY, rate limit, network blip) must
+        # Same reasoning as update_price.py: a gold-api.com failure here
+        # (bad/missing GOLD_API_KEY, rate limit, network blip) must
         # not proceed into a Claude API call (real cost) with bad silver
         # data, and must not touch docs/data.json — this runs before the
         # file is even loaded, so nothing to leave untouched yet, but exit

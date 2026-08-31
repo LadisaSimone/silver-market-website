@@ -29,14 +29,17 @@ slice of the file so they never clobber each other:
 
 - **`docs/scripts/update_price.py`** — hourly, best-effort
   (`.github/workflows/update-price.yml`). Fetches the live silver price
-  (COMEX futures, SI=F, via yfinance — see `src/fetchers/price.py`; a
-  spot-XAG/USD switch was attempted 2026-08-31 but reverted, see that
-  file's `fetch_silver_price()` docstring and `claude/website-roadmap.md`
-  in the project) and today's intraday bars. Updates `price` + `intraday`
-  only. "Hourly" is what the cron asks for, not a guarantee — GitHub's
-  `schedule:` trigger can slip by hours during high load, and the site's
-  "As of" timestamp (from the last real exchange bar, not script run
-  time) reflects that honestly rather than pretending to be always-fresh.
+  — true spot XAG/USD via gold-api.com, not a futures contract; see
+  `src/fetchers/price.py`'s `fetch_silver_price()` docstring and
+  `claude/website-roadmap.md` in the project for how this was verified
+  and the two earlier free-source attempts that failed before it. Also
+  self-records today's intraday bars from that same live price (see
+  `_update_intraday()` in the script) rather than calling a separate
+  endpoint. Updates `price` + `intraday` only. "Hourly" is what the cron
+  asks for, not a guarantee — GitHub's `schedule:` trigger can slip by
+  hours during high load, and the site's "As of" timestamp (from the
+  quote's own timestamp, not script run time) reflects that honestly
+  rather than pretending to be always-fresh.
 - **`docs/scripts/update_daily.py`** — once/day, ~9:30 AM ET
   (`.github/workflows/update-daily.yml`). Runs the full pipeline (prices,
   30-day history, news, quantitative signals, the two-stage Claude
@@ -53,14 +56,18 @@ share a `concurrency` group so they can never race each other on
 1. **Add the `ANTHROPIC_API_KEY` secret** — Settings → Secrets and
    variables → Actions → New repository secret. Only `update-daily.yml`
    needs it (the Claude scoring/briefing call).
-2. **`TWELVEDATA_API_KEY`** — this secret may already exist in the repo
-   from an abandoned attempt to switch the silver price to true spot
-   XAG/USD (2026-08-31): Twelve Data's free tier turned out not to
-   include commodities data, so the code was reverted back to
-   yfinance/SI=F and this key is currently unused. Safe to leave the
-   secret in place (harmless, nothing reads it right now) or delete it —
-   see `claude/website-roadmap.md` for the status of finding a real free
-   spot source.
+2. **Add the `GOLD_API_KEY` secret** — sign up free at
+   https://gold-api.com/signup (name/email/password, no credit card),
+   then get your key from their dashboard. Both workflows need it: the
+   live headline price itself is a free, no-auth call, but computing
+   change/change_pct (yesterday's close) and the history/RSI chart both
+   go through gold-api.com's key-gated endpoints — free tier is capped
+   at 10 requests/hour, comfortably covering our ~hourly + once-daily
+   cadence. See `src/fetchers/price.py` and `claude/website-roadmap.md`
+   for the two earlier free-source attempts (Twelve Data, Yahoo's
+   `XAGUSD=X`) that failed live before this one. If you still have an
+   old `TWELVEDATA_API_KEY` secret from that abandoned attempt, it's
+   unused now and safe to delete.
 3. **Enable GitHub Pages** — Settings → Pages → Source: "Deploy from a
    branch" → Branch: `main`, folder: `/docs`.
 4. **First real run** — trigger both workflows manually once
