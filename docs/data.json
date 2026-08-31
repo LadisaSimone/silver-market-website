@@ -1,191 +1,99 @@
 {
-  "updated_at": "2026-08-26T14:38:06Z",
+  "updated_at": "2026-08-31T09:12:15Z",
   "price": {
-    "value": 68.19,
-    "change": -1.07,
-    "change_pct": -1.54,
-    "as_of": "10:38 AM ET"
+    "value": 67.69,
+    "change": 0.85,
+    "change_pct": 1.27,
+    "as_of": "5:12 AM ET"
   },
   "intraday": [
     {
       "t": "00:00",
-      "p": 69.17500305175781
+      "p": 66.96499633789062
     },
     {
       "t": "00:15",
-      "p": 69.1500015258789
+      "p": 66.86499786376953
     },
     {
       "t": "00:30",
-      "p": 69.06500244140625
+      "p": 66.94999694824219
     },
     {
       "t": "00:45",
-      "p": 68.99500274658203
+      "p": 67.05999755859375
     },
     {
       "t": "01:00",
-      "p": 69.06999969482422
+      "p": 67.1500015258789
     },
     {
       "t": "01:15",
-      "p": 69.16999816894531
+      "p": 67.4749984741211
     },
     {
       "t": "01:30",
-      "p": 69.08000183105469
+      "p": 67.32499694824219
     },
     {
       "t": "01:45",
-      "p": 69.13999938964844
+      "p": 67.43000030517578
     },
     {
       "t": "02:00",
-      "p": 68.99500274658203
+      "p": 67.17500305175781
     },
     {
       "t": "02:15",
-      "p": 68.66000366210938
+      "p": 67.32499694824219
     },
     {
       "t": "02:30",
-      "p": 68.7699966430664
+      "p": 67.41000366210938
     },
     {
       "t": "02:45",
-      "p": 68.74500274658203
+      "p": 67.37999725341797
     },
     {
       "t": "03:00",
-      "p": 68.88999938964844
+      "p": 67.40499877929688
     },
     {
       "t": "03:15",
-      "p": 68.73999786376953
+      "p": 67.61000061035156
     },
     {
       "t": "03:30",
-      "p": 68.79499816894531
+      "p": 67.71499633789062
     },
     {
       "t": "03:45",
-      "p": 68.66999816894531
+      "p": 67.66000366210938
     },
     {
       "t": "04:00",
-      "p": 68.58000183105469
+      "p": 67.67500305175781
     },
     {
       "t": "04:15",
-      "p": 68.5999984741211
+      "p": 67.75499725341797
     },
     {
       "t": "04:30",
-      "p": 68.6050033569336
+      "p": 67.58499908447266
     },
     {
       "t": "04:45",
-      "p": 68.61000061035156
+      "p": 67.66000366210938
     },
     {
       "t": "05:00",
-      "p": 68.54000091552734
-    },
-    {
-      "t": "05:15",
-      "p": 68.44999694824219
-    },
-    {
-      "t": "05:30",
-      "p": 68.58499908447266
-    },
-    {
-      "t": "05:45",
-      "p": 68.65499877929688
-    },
-    {
-      "t": "06:00",
-      "p": 68.50499725341797
-    },
-    {
-      "t": "06:15",
-      "p": 68.45500183105469
-    },
-    {
-      "t": "06:30",
-      "p": 68.55000305175781
-    },
-    {
-      "t": "06:45",
-      "p": 68.44000244140625
-    },
-    {
-      "t": "07:00",
-      "p": 68.48999786376953
-    },
-    {
-      "t": "07:15",
-      "p": 68.4800033569336
-    },
-    {
-      "t": "07:30",
-      "p": 68.51499938964844
-    },
-    {
-      "t": "07:45",
-      "p": 68.62000274658203
-    },
-    {
-      "t": "08:00",
-      "p": 68.72000122070312
-    },
-    {
-      "t": "08:15",
-      "p": 68.88999938964844
-    },
-    {
-      "t": "08:30",
-      "p": 68.84500122070312
-    },
-    {
-      "t": "08:45",
-      "p": 68.31999969482422
-    },
-    {
-      "t": "09:00",
-      "p": 68.12000274658203
-    },
-    {
-      "t": "09:15",
-      "p": 68.15499877929688
-    },
-    {
-      "t": "09:30",
-      "p": 68.33000183105469
-    },
-    {
-      "t": "09:45",
-      "p": 68.44499969482422
-    },
-    {
-      "t": "10:00",
-      "p": 68.22000122070312
-    },
-    {
-      "t": "10:15",
-      "p": 68.19000244140625
+      "p": 67.69000244140625
     }
   ],
   "history": {
     "1W": [
-      {
-        "date": "2026-08-20",
-        "close": 68.0260009765625
-      },
-      {
-        "date": "2026-08-21",
-        "close": 69.46600341796875
-      },
       {
         "date": "2026-08-24",
         "close": 68.54100036621094
@@ -196,18 +104,18 @@
       },
       {
         "date": "2026-08-26",
-        "close": 68.4749984741211
+        "close": 67.98999786376953
+      },
+      {
+        "date": "2026-08-27",
+        "close": 69.42900085449219
+      },
+      {
+        "date": "2026-08-28",
+        "close": 67.78600311279297
       }
     ],
     "1M": [
-      {
-        "date": "2026-07-16",
-        "close": 55.89799880981445
-      },
-      {
-        "date": "2026-07-17",
-        "close": 56.03799819946289
-      },
       {
         "date": "2026-07-20",
         "close": 56.801998138427734
@@ -318,18 +226,18 @@
       },
       {
         "date": "2026-08-26",
-        "close": 68.4749984741211
+        "close": 67.98999786376953
+      },
+      {
+        "date": "2026-08-27",
+        "close": 69.42900085449219
+      },
+      {
+        "date": "2026-08-28",
+        "close": 67.78600311279297
       }
     ],
     "3M": [
-      {
-        "date": "2026-05-26",
-        "close": 76.30500030517578
-      },
-      {
-        "date": "2026-05-27",
-        "close": 74.5989990234375
-      },
       {
         "date": "2026-05-28",
         "close": 75.6449966430664
@@ -580,26 +488,18 @@
       },
       {
         "date": "2026-08-26",
-        "close": 68.4749984741211
+        "close": 67.98999786376953
+      },
+      {
+        "date": "2026-08-27",
+        "close": 69.42900085449219
+      },
+      {
+        "date": "2026-08-28",
+        "close": 67.78600311279297
       }
     ],
     "1Y": [
-      {
-        "date": "2025-08-26",
-        "close": 38.582000732421875
-      },
-      {
-        "date": "2025-08-27",
-        "close": 38.68899917602539
-      },
-      {
-        "date": "2025-08-28",
-        "close": 39.189998626708984
-      },
-      {
-        "date": "2025-08-29",
-        "close": 40.20000076293945
-      },
       {
         "date": "2025-09-02",
         "close": 41.07099914550781
@@ -1590,130 +1490,144 @@
       },
       {
         "date": "2026-08-26",
-        "close": 68.4749984741211
+        "close": 67.98999786376953
+      },
+      {
+        "date": "2026-08-27",
+        "close": 69.42900085449219
+      },
+      {
+        "date": "2026-08-28",
+        "close": 67.78600311279297
       }
     ]
   },
   "outlook": {
-    "score": 5,
-    "label": "Neutral",
-    "sentiment": "neutral",
-    "summary": "Silver's gold/silver ratio at 68.4 \u2014 up 3.4 points above the 65 historical average \u2014 signals relative undervaluation, yet this advantage appears insufficient to offset today's dominant macro constraint: DXY strength (+22 bps) and US10Y yield rise (+3 bps) together cap upside conviction despite robust forward-looking industrial demand from AI and data-center sectors. Monitor the PCE inflation release and US 10Y yield direction; a drop below 4.60% in yields or a softer-than-expected print would reassess macro headwinds and validate the technical mean-reversion setup.",
+    "score": 4,
+    "label": "Moderately Bearish",
+    "sentiment": "bearish",
+    "summary": "Silver declined -2.56% as US 10Y yields rose +5 bps to 4.72% and Warsh commentary revived September rate-hike expectations, cited by four independent sources as the primary suppressor. Macro factors\u2014elevated real rates and DXY strength\u2014dominate pricing dynamics and cap conviction despite neutral technical setup. Monitor US 10Y yields and Fed commentary for signs the rate-hike narrative is receding; a break below 4.60% would signal relief.",
     "updated_at": "Updated daily at 9:00 AM ET"
   },
   "drivers": [
     {
-      "label": "Industrial Demand Expansion",
-      "status": "supportive",
-      "icon": "industry",
-      "reason": "AI/data-center sector demand explicitly cited in pv magazine and Jefferies analyst upgrade, but no quantitative volume or contract data to confirm magnitude."
+      "label": "Fed Rate-Hike Expectations",
+      "status": "risk",
+      "icon": "bank",
+      "reason": "US10Y +5bps to 4.72% and four independent news sources (FXEmpire, Laodong, Kitco, TOI) cite Fed hike fears as primary price suppressor; Warsh commentary revived September rate-hike trade."
+    },
+    {
+      "label": "Dollar Strength Headwind",
+      "status": "risk",
+      "icon": "bank",
+      "reason": "DXY +51bps to 99.68 marks +1.8bps above historical avg; quantitative signal confirmed by implied real-rate compression in precious-metals complex."
     },
     {
       "label": "Technical Mean-Reversion Setup",
       "status": "supportive",
       "icon": "trend",
-      "reason": "RSI 68.9 neutral zone with -1.4% pullback from 30d high creates tactical long bias; one quantitative signal without volume confirmation limits conviction."
-    },
-    {
-      "label": "Macro Headwinds From Rates And Dollar",
-      "status": "risk",
-      "icon": "bank",
-      "reason": "DXY +22bps and US10Y +3bps both quantitative signals confirming bearish macro setup; dual rate-and-currency pressure outweighs PCE-hope narrative in fundamental terms."
+      "reason": "RSI 62.4 and -2.56% single-day move within normal volatility (34.7% annualized); no oversold conditions yet, but momentum exhaustion supports near-term pullback bounce potential."
     },
     {
       "label": "News Sentiment",
-      "status": "supportive",
+      "status": "risk",
       "icon": "people",
-      "reason": "News tone mixed but tilted bullish: PCE speculation, AI/data-center demand narrative, and $72-$90 price targets offset by fiscal-risk headwinds."
+      "reason": "Four news sources cite Fed rate-hike risks and market adjustment to higher rate expectations; no bullish contrarian signals present."
     },
     {
       "label": "ETF Flow Signal",
       "status": "neutral",
       "icon": "flows",
-      "reason": "No direct SLV flow data available; volume proxy only limits conviction to neutral pending institutional positioning confirmation."
+      "reason": "No direct SLV flow data available; volume proxy only suggests neutral positioning without confirming institutional ETF buying or selling intent."
+    },
+    {
+      "label": "Industrial Demand",
+      "status": "neutral",
+      "icon": "industry",
+      "reason": "Sector margin improvement noted in silver-mining stocks (Avino, Silvercorp) but no direct demand data; industrial off-take signals remain unconfirmed by COMEX or survey data."
     }
   ],
   "stories": [
     {
-      "title": "Current price of silver as of Wednesday, Aug. 26, 2026 - Fortune",
-      "summary": "Current price of silver as of Wednesday, Aug. 26, 2026Fortune",
-      "time_ago": "3h ago",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBieXdVWklISER0NjlLS3VCYUU0R2NEYU5RVVF5VlFvQnZSMWVxa0w5RHhZNWRyUzJpWFlTWEpEa0V0X25aSXlpQUlSVkJUeExHVTZFc3I5a1BKS0drTEx6ODR2SDdhWUVIaHBwZzhwOA?oc=5"
+      "title": "Silver Price Forecast: Fed Rate Hike Fears Keep Silver Trapped Below $72 - FXEmpire",
+      "summary": "Silver Price Forecast: Fed Rate Hike Fears Keep Silver Trapped Below $72FXEmpire",
+      "time_ago": "46m ago",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPeU10clQ1cnU4YkJVdzU4MndMSlVEbUpKSTdKVHBCaGl4TmZlaUNkRzhHMGRYV2M5SjE3RjA0VHUtMmt5RmZVQy1SUFNoQ2N6a0F4WWZxS0tYdXU5VmdnQzg4WTdXNElEWkpvdjFxeEE0RFgweWFBcjc0VmlMamxrdVJzanVtMjQ2Y0hYY3JWRDBIb1BvNGlvemVpc0Nha1hqWWI4LXhuVFBKbW5oRlhiMWFQZUYwVGhvTTMyMF90T29vZk9iVFlyY2RCN2RWanZSNHA1ZTlB?oc=5"
     },
     {
-      "title": "Gold (XAU/USD) & Silver Price Forecast: Lower Yields Support Metals Before PCE - FXEmpire",
-      "summary": "Gold (XAU/USD) & Silver Price Forecast: Lower Yields Support Metals Before PCEFXEmpire",
+      "title": "Silver price at the close of the session on August 30th: Decline as market adjusts interest rate expectations - Laodong.vn",
+      "summary": "Silver price at the close of the session on August 30th: Decline as market adjusts interest rate expectationsLaodong.vn",
+      "time_ago": "5h ago",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOUWNDOW52cEJwb3JYY2cxRGFCMHJyMFllWkdia0taOG5lT1RBdWlFZW1XMzFVMHltcWtiS2k0OEVJS1JlQmNIVklSSzI1cWQzNzEteG9leERHZHZvY3lRY2tZMGphQUhKWVZ6LW1uQ0ZnUHdqRFNyT0FQMGhEMlVMX09rWFUyY0F2ajJVdmpyU3VlbDA0cTVQY1dSWTNKZFdwTk9LS1plSGl4bGdxNjd0dUFlWmIyeWVWVS0ySWVuN2Y1Mmc?oc=5"
+    },
+    {
+      "title": "Bullion watch: What will shape gold, silver prices? Fed bets, US jobs data in focus - The Times of India",
+      "summary": "Bullion watch: What will shape gold, silver prices? Fed bets, US jobs data in focusThe Times of India",
       "time_ago": "6h ago",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPYkJObGZPZWpsQjNCWENoVFNMYmNxLWpDT3FlenZ1VHZOX3Y2NW5KWWJlNTRrMGN3MG5uWXJVQVRXUmhPemRldUlfbjljMUd0T3Z5Vnk3ZXh2RDhWN3JIOTVHdEdQSUptd28tMmRTUTZDTGVnYmk5TTV0YXRpZERfRzRIelAzY0ZCcUdfSC0zYW9fSHE4a3J2bXZIN3UxeFFsYzgtcXluTjJ4dXh4OW9JallHbGRoSkVORGQyQW5pX2dVdw?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPbEZiVU8tdGxvWWhmWmxSUGJILUFkazh0Yk1WTXZEUkNtNTF0cnBYR015Nmd1b09qWGZIWGQ0T2xFRmJEYXktRlBJSjNqRFN3WnlMRmtRZVVVMUMtMXVYTS1wNDdfX0dkeDBFaWRBNXJybG1lbi1DVjdSUGpMZENYMFdKTjZubldMcE92Z2M4dHVzNFBZaE9FZ1dzaDhyY1Y4d1Q4Z1JITENCYVFneDlMWjdULVRxeGZkV1N4RFFjdUt3NS01OHFjbkV0ZWQ0NFlESEJfdlN4Nk16bHdZOGlJUHZ0UncwLWNFNjJlaHFkZ0tmVDZFd3VlbNIB_gFBVV95cUxOc0JiTE9ZMUFZZ2ItalNSVFlMN3Foc0JIeGlhNUVxVTBaeHMyQUl5clFxTjRlOTBjV1kzVHp1Z3F3c2RrMWFQcHNCaWFIaHdyU2V2ZzVLR2dLNW5rU1dDaGFGbUZNV2lJdlhJVDVxQ0ZuUUhTME1oalBMUVhkZTh2VmN3ZEJtOE5CSE5kZUFGd1RMR3VoTlJrQnROaGR1YXZNZ1NYMFZPaGkyOFpnS0wyLUdkOVBrcVg5VW5mcUtCdFlPd3dqcXB4S2JBd1NpWVJLWUtwOWZfX2R6cEdGWlgtOUFqQzh1eGFEUDYtY3VIU3N4OVNveUktVWhTX1E4dw?oc=5"
     },
     {
-      "title": "Argent Minerals Ltd (ASX:ARD): Assessing the Silver Developer's Share Price Trend - Kalkine",
-      "summary": "Argent Minerals Ltd (ASX:ARD): Assessing the Silver Developer's Share Price TrendKalkine",
-      "time_ago": "7h ago",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNeVJ1MlM0d2Z1N3hmUGZSRlh5emZkTGpXYlVWT2xORVRhOGxhYWFKZmdXWmxUczV1cDVaTEd4djNrdVpwWUxxQ2pJak9TWjhzSld6aHREUXJpS2tvaU9pVEw1QVVrWmdIYVNkRHJUa2dBZ21WaFZiUzVfbWc1Z2JGNFAxMy01d2JvNjNzZTBQVHR4YVZuOG4zTEY5QmV4bmRmTGFuX1BqVXM0bFNBMUoxeg?oc=5"
+      "title": "Gold and silver prices drop in domestic market today - NepalNews",
+      "summary": "Gold and silver prices drop in domestic market todayNepalNews",
+      "time_ago": "12h ago",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNUVI5WTNIeUVkTDYwU2wwWUl5WE95aG9TU2U2dzRnXzl5aWdVbDNGUWZuZDZmM2xPeGZFTUh4VmpiYTRldGhpeW5QY3pKTnNlYURoYjV0alZCSExad1JiWDB4VFZpYW1zc0QyanNRNVk2RWRtbXFQdjBTbENSZnBUY0Rtcmc4MFFXS1BCYzdlUW81Um9nSjZ4Y3FOOVJYQQ?oc=5"
     },
     {
-      "title": "Gold and silver prices rise in global markets - Az\u0259rtac",
-      "summary": "Gold and silver prices rise in global marketsAz\u0259rtac",
-      "time_ago": "7h ago",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUC1FdUhsc0RnZDYyaEdYVERWY29DT3l3RzNrd2xBdFF1REhVS3E0MDJGamQ2eVR3dk1tMXZxQjNmNV9FdlJoVmQxQlJqcVVXN2RmVl9YcWNxMHB4Vl83QWtfNGQzMUNVbkdvck83aTZWcjlTcDNTUmlNS2QxNEFCZnB1MFRfVnNL?oc=5"
-    },
-    {
-      "title": "Zinc, Silver Shine Bright(er): Jefferies Prefers Hindustan Zinc Over Hindalco \u2014 Check Target Price, Upside - NDTV Profit",
-      "summary": "Zinc, Silver Shine Bright(er): Jefferies Prefers Hindustan Zinc Over Hindalco \u2014 Check Target Price, UpsideNDTV Profit",
-      "time_ago": "9h ago",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbmpiQjRYZW1YdFFWeC1yeUdKb09VMU51TlB5Q1hQd2dvU3o5aHJXRy1KWDVPb1hDRmRhZEY4VF9LYkp1bVNEcWppVC1LUW43RHBURmkyaXBlTHlZQ24wY3F5WGNtT01oZDcwdVR3Q3NKNFJoU2JQd0Y2TnZ0ZDU0QWpPUlpoUUxiRmlJWVg2cUh4YjBnN2gxb0JjaWpNSmZjMm9XX1h5dS1mWTdTeGNrQ0JOLTRUeDTSAb8BQVVfeXFMUE5nUFBqd014YndfSko4SGpYWEtGSEtzNXZ6NUFMR0s4S1RVTHVvSE1OMlpOekV2TVJLblBFM09GM2NOUTM2dkt2cnBLNDVXOEctRVR5WGNqXzJxcmlNR1VpMzFzQ1B4cVhfUGd6c1J1VkwzTVUxa2dTWWtYUW1ZNE9LOW1zZWZzcTM0WnVuZEJiY09pRlhHY3BWSElQeF96ME1MajdzOUt1aDZPRzRIdVMwWVk2VHk0S2p0amhRcEU?oc=5"
+      "title": "Gold, silver prices today (August 30): Check latest rates in Delhi, Mumbai, Kolkata, other cities - Business Today",
+      "summary": "Gold, silver prices today (August 30): Check latest rates in Delhi, Mumbai, Kolkata, other citiesBusiness Today",
+      "time_ago": "13h ago",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPNDNCcExUVERLZ2ZyVlV4dkY5cTF1VEpQdEcwWFUyOGJrTC1aZ3ozMmJtQms4dlVEMVM1SjJvN2ZnbzJPMC1LYUl4ZWhRNXhFTWV6UlBGeGYyQXB4YUI2U250Y2s2NHh5bVdvU2xwWUF2cUlud0E0SmI0NHNYcWRWMV8zSU1PblRCYjl1NnJuUTlXUEZZTDZialFPRV9zazctZk9zRGhqQ2RQMHJFME1QcGdvV202dm5WaHNMSWZURWIwa3Q3aFF4TzNSMGlxYTBFTnRQLTFaQU15UlY0b24xYlRwenFjM1VlZ0ZoY3FNZW83QdIB9wFBVV95cUxPVGtBYS1BcGEzSWhqYy1LRUZsenpfRG5GRGJfZGdYUVJqT19lXzZKaF9obHdmNlZxNl9PMmpoV0dmckFGZmtDTzdQYTZwNjJySFNUOUI0eUpMNDR4QTdQV0xpdnRLMVR0OVRiTmRzMzViNVo4UFNobG50WU9FdGdkbDFjcVN6V0J0Q1NKaGQ5QW1UT3lld0F5dUNZUVJGd3drXzVoRUJvN1M2MHpsMWJhcjhXTlVoQ2ZkSTltbWItendnSDVvMFJqaUNaUFZhV2VsMEhOdHd4YUZqUmFLYTRFN3BJUmp1SEpsWGdmTE1NejdDcl9ZdHVn?oc=5"
     }
   ],
   "metrics": [
     {
       "label": "DXY (USD)",
-      "value": "99.19",
-      "change": "+0.22%",
+      "value": "99.68",
+      "change": "+0.51%",
       "direction": "up"
     },
     {
       "label": "US 10Y Yield",
-      "value": "4.66%",
-      "change": "+0.03",
+      "value": "4.72%",
+      "change": "+0.05",
       "direction": "up"
     },
     {
       "label": "Real Yield",
-      "value": "2.38%",
-      "change": "-0.02",
-      "direction": "down"
+      "value": "2.34%",
+      "change": "+0.00",
+      "direction": "up"
     },
     {
       "label": "Gold/Silver",
-      "value": "68.4",
+      "value": "66.8",
       "change": "",
       "direction": "up"
     },
     {
       "label": "RSI (14)",
-      "value": "69",
+      "value": "62",
       "change": "",
       "direction": "up",
       "note": "Neutral"
     },
     {
       "label": "COT Net-Long",
-      "value": "23,625",
-      "change": "-21",
-      "direction": "down",
+      "value": "25,261",
+      "change": "+1,636",
+      "direction": "up",
       "note": "Weekly (CFTC)"
     },
     {
       "label": "ETF Holdings",
-      "value": "493.9M oz",
+      "value": "493.8M oz",
       "change": "",
       "direction": "up",
       "note": "SLV"
     },
     {
       "label": "1M % Change",
-      "value": "+22.50%",
+      "value": "+19.34%",
       "change": "",
       "direction": "up"
     }
