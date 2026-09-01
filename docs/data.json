@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-01T06:00:46Z",
+  "updated_at": "2026-09-01T08:43:44Z",
   "price": {
     "value": 66.84,
     "change": 0.1,
@@ -15,10 +15,6 @@
   "history": {
     "1W": [
       {
-        "date": "2026-08-27",
-        "close": 69.009756
-      },
-      {
         "date": "2026-08-28",
         "close": 68.772137
       },
@@ -32,14 +28,14 @@
       },
       {
         "date": "2026-08-31",
-        "close": 66.683511
+        "close": 66.679636
+      },
+      {
+        "date": "2026-09-01",
+        "close": 66.646803
       }
     ],
     "1M": [
-      {
-        "date": "2026-08-02",
-        "close": 57.75514
-      },
       {
         "date": "2026-08-03",
         "close": 58.071762
@@ -154,14 +150,14 @@
       },
       {
         "date": "2026-08-31",
-        "close": 66.683511
+        "close": 66.679636
+      },
+      {
+        "date": "2026-09-01",
+        "close": 66.646803
       }
     ],
     "3M": [
-      {
-        "date": "2026-06-28",
-        "close": 59.265128
-      },
       {
         "date": "2026-06-29",
         "close": 58.400934
@@ -416,14 +412,14 @@
       },
       {
         "date": "2026-08-31",
-        "close": 66.683511
+        "close": 66.679636
+      },
+      {
+        "date": "2026-09-01",
+        "close": 66.646803
       }
     ],
     "1Y": [
-      {
-        "date": "2025-12-23",
-        "close": 70.149321
-      },
       {
         "date": "2025-12-24",
         "close": 71.98833
@@ -1426,7 +1422,11 @@
       },
       {
         "date": "2026-08-31",
-        "close": 66.683511
+        "close": 66.679636
+      },
+      {
+        "date": "2026-09-01",
+        "close": 66.646803
       }
     ]
   },
@@ -1434,79 +1434,86 @@
     "score": 4,
     "label": "Moderately Bearish",
     "sentiment": "bearish",
-    "summary": "Silver's 67.4 gold/silver ratio sits +2.4 above historical average while RSI 62.4 approaches overbought without conviction, yet Warsh-driven Fed rate-hike revival has lifted US 10Y yields +4 bps to 4.76%, establishing rising-rate macro headwinds as the dominant constraint. Macro factors carry 30% weight in the conviction score and drive the overall 4/10 bearish stance, with sentiment capitulation (\u22123% to \u22124% ETF declines across 8+ sources) and elevated nominal yields offsetting technical mean-reversion appeal. Monitor Fed commentary at the next Jackson Hole or FOMC communication for any softening of rate-hike expectations; a 10+ bps decline in US 10Y yields would materially improve silver's risk-reward profile.",
+    "summary": "Macro's bearish 3/10 score (highest 30% weight) dominates the conviction calculation, reinforced by sentiment's 4/10 (20% weight) on Fed hawkishness fears; technicals' bullish 6/10 (25% weight) partially offsets but cannot overcome DXY +11bps and US10Y +4bps headwinds. The #1 ranked driver (Federal Reserve Hawkish Shift) remains the primary market determinant today.",
+    "watch": "Fed rate-hike probability expectations and US 10Y yield direction \u2014 a meaningful yield decline would improve silver's near-term setup.",
     "updated_at": "Snapshot from 9:00 AM ET \u2014 may differ from live price"
   },
   "drivers": [
     {
-      "label": "Rate-Hike Expectations Revival",
+      "label": "Federal Reserve Hawkish Shift",
       "status": "risk",
       "icon": "bank",
-      "reason": "Warsh commentary revived September Fed-hike trade (news: 6+ sources Aug 28\u201331); US10Y +4bps to 4.76% confirms tightening bias; silver historically underperforms in rising-rate regimes."
+      "reason": "DXY +11bps and US10Y +4bps confirmed by multiple news sources citing Fed rate-hike bets; quantitative macro signals + news consensus (2+ sources: IndexBox, CNBC TV18, Times of India)."
     },
     {
-      "label": "Sentiment Capitulation & Etf Outflows",
-      "status": "risk",
-      "icon": "people",
-      "reason": "Gold/Silver ETFs declined up to 4% with 'tumble' and 'top losers' language across 8+ news sources; sustained bearish tone reinforces macro headwinds and signals retail/institutional repositioning."
-    },
-    {
-      "label": "Silver-Gold Ratio Undervaluation",
+      "label": "Silver Undervaluation Vs Gold Ratio",
       "status": "supportive",
       "icon": "trend",
-      "reason": "Ratio 67.4 is +2.4 above historical average; quantitative signal flags silver as undervalued versus gold, but technical mean-reversion (RSI 62.4, -4% drawdown) lacks conviction to offset macro headwinds."
+      "reason": "Gold/Silver ratio 67.9 +2.9 above historical average signals silver relatively cheap; FXEmpire forecasts $70 target with 200-day EMA bounce setup, quantitative signal + technical analysis agreement."
+    },
+    {
+      "label": "Mean-Reversion Technical Setup",
+      "status": "supportive",
+      "icon": "trend",
+      "reason": "RSI 62.4 neutral and -6.0% drawdown from 30d high present mild oversold condition; quantitative technical signal only, no volume or open interest confirmation available."
+    },
+    {
+      "label": "News Sentiment",
+      "status": "risk",
+      "icon": "people",
+      "reason": "News mixed: Jackson Hole sell-off and Fed rate-hike fears dominate recent headlines; year-end rally speculation present but heavily outweighed by near-term bearish tone."
     },
     {
       "label": "ETF Flow Signal",
       "status": "risk",
       "icon": "flows",
-      "reason": "ETF volume proxies show 4% decline in Gold/Silver ETFs (Moneycontrol report); no direct SLV flows available\u2014magnitude and institutional conviction unknown, confidence capped at Medium."
+      "reason": "ETF volume proxy only; Gold/Silver BeES tumble up to 4% on rate-hike bets reported, but no direct SLV flow magnitude available; confidence capped at Medium."
     },
     {
       "label": "Industrial Demand",
       "status": "neutral",
       "icon": "industry",
-      "reason": "No direct industrial demand data available; sector margin improvement noted for Avino/SVM mining stocks but insufficient to establish bullish industrial thesis independent of price moves."
+      "reason": "No industrial-specific signals or sector demand data provided in available market data; score reflects neutral baseline absent contrary evidence."
     }
   ],
   "stories": [
     {
-      "title": "Silver Price Forecast: $70 in Focus After 200-Day EMA Bounce - FXEmpire",
-      "summary": "Silver Price Forecast: $70 in Focus After 200-Day EMA BounceFXEmpire",
+      "title": "Gold and silver prices rise in global markets - AZ\u018fRTAC \u2013 Az\u0259rbaycan D\u00f6vl\u0259t \u0130nformasiya Agentliyi",
+      "summary": "Gold and silver prices rise in global marketsAZ\u018fRTAC \u2013 Az\u0259rbaycan D\u00f6vl\u0259t \u0130nformasiya Agentliyi",
+      "time_ago": "2h ago",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZFdlbUJ4YjhoSWE5RU8tYVV4dFdlMXVHb1dRN25vMFFnTTdpMGJmaHFsdU51b05JVnU5LXluQ2QwTVBLY0VDdjlzYzhzRm45S29lZjd2c3BaLUVVOUFuQUw2UmpwNEZYMThVa2VMMmdiRWRnMzNRRGJKTk5mV3dMdVdOSDlkOUtB?oc=5"
+    },
+    {
+      "title": "Gold and silver prices drop in domestic market today - NepalNews",
+      "summary": "Gold and silver prices drop in domestic market todayNepalNews",
+      "time_ago": "2h ago",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbFpMREZxVzJVLXZyZFFpTWZlX1VtaDRPLXNFUkw5dUwwc19sdDRGOWZ4aG1SU3ladlVfT2VJbUE2bkhEMlpfNjczLUlnaWlvNDU5cUU0enhSQUo0V2RLTEVBOXdJcTlMbU9HRzRiUkNkbVV3ckFuTmFYM0hDM1FWbFdyY0NEajVGQlJOYVV2SmhuYXNhcERNalNmekk4QQ?oc=5"
+    },
+    {
+      "title": "Gold prices today, September 1: Check 24K, 22K gold, 999 silver rates in Delhi, Mumbai, Bengaluru - Livemint",
+      "summary": "Gold prices today, September 1: Check 24K, 22K gold, 999 silver rates in Delhi, Mumbai, BengaluruLivemint",
+      "time_ago": "4h ago",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPQzdMdk5aSVF6LTJWMXh2SjltQjBmUno4MUwteXhjcFFSeDRFZGZRcGtHeVVGOGtrOS1QRzc1OExDcnFYZjlKNkFJdUVQMTFCRUVjMkNmdUhLUE5xY0Z0TlM2SncyVHBMblVRVVItODZORDMzVDJLVHRscXY5UVlSeURTVS1LeDNsRzNXNWYxcjlZenZEZ2Y4d0l5X1VBUk5HNGFyVFJhU1FlTUF3LWNTS2U2T1FzTmJnZlJaTXJsT1d2bGJhUG1SaVl3X1Z2bF9PeXdENjZKWmFYRVJXclNKX0RsUWlNNDdnUFphY1VJekvSAfYBQVVfeXFMT0p4NEx3QktHcEp1OUtGSkZMNmRnMWZlRFFOcmsxMFJ5Z09tWWp3aTNHM2NwMUZIZnJoU3g4LUNldFJNS1VaOXFrdEZzM3FuaU5NZTA2NXVadnVaN29fbE5vVHIyZWFld3N2OW94NUxTUk9zT1FkSVdQb0xXTEczU0hyYzd1WTlNa2JhbW5hcEZUeVl4Q1ZDcVg5YVpVY3hZaEg0TE95UDF2ajhPUzdzMU1uQzl2RzE4OVk1eHNmRFpVYVNzT3I0Z1duc0llazAwOFAzblFiNExvRUR0VkRiWDF1emhxb0xrZHROM2JRaDdMajdPZ0JB?oc=5"
+    },
+    {
+      "title": "Gold, silver prices: Key factors investors should watch this week - CNBC TV18",
+      "summary": "Gold, silver prices: Key factors investors should watch this weekCNBC TV18",
       "time_ago": "6h ago",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObkI3UFd1Ym9md1VNdDhUUXhpR0VWWVJ3Zl9EMHBHTURudXlUUTJZNUdoOHlGQWlBaVBZeEw0bm9nWXMtZjdPZzJmQWtoTHFSYktfRUZnY0VxRkVNc3lqUXFYX2JpTXoxSENpbkpGUWVVU2hxX2hhTWdydVlxdXFwTGk0cWlyOUhwM1VLdTlWdGYxT3hObGNPbUVvNVROdmlGNklTazl0SzlfNVB3TFE?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSkp4cTRZdVZEXzdGY05zOHVqVGdvSXdKREdnZXVhTUJORG03QkV3X0dWS2hlc1ZPQ2RJR3NTRXZZY2pMUmM1a0hHOGdxT05PNnM1VGVnNzNhbEQ3NER0ZzJla0lFUEYzcUtGT0lRLUJTdG4wVWdPcDUyS3hFX3FFZlY3WVlTMzZHWUVYZ2xPem1ORGVnU3QwdUtYMUduUDhiUVJTSkdCWGVTbndMWi1pdnRmdW9OLWxld0hRa9IBwgFBVV95cUxQSXRyVVhDdTdiT1otNFlwbzB3UGxXRzc3a2VwOGxZSURXMjItTmRrNFhCQUNydkpJYTZkVzdqcFA1ZFFKakVjU1lNeGJzdlYwd2ZodV9ncVV1Y2FXcHprcWwwRTJrbllXdHZNdHYySlU0aHlMblg0SkduS0hRQ1hzbmxIQ28zYWZGekh5NFpqZDdkYnRiUWNiLTI2em9ub3RNcDJQLVotdHlTbGRoeGlhZnNwTkpaSVZGSG0xblhVdnlndw?oc=5"
     },
     {
-      "title": "Government may cut gold, silver import duties as higher rates fuel grey market: Report - Business Today",
-      "summary": "Government may cut gold, silver import duties as higher rates fuel grey market: ReportBusiness Today",
+      "title": "Gold and Silver Prices Rise in Indian Bullion Market - News On AIR",
+      "summary": "Gold and Silver Prices Rise in Indian Bullion MarketNews On AIR",
       "time_ago": "7h ago",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQa0Z0WU5McDRHOEk4M2trOE9YR01ZRVRBLU1FR3piREtwNnNXbnQ1NDVJbHFFSDEtYVJtSlNsSG9GWlktbFUxTFhnN09hNXRNX0FEd3pIcUlrS0hPanBEeUoxeVMwUlpmZEE0cVZvaHlhaHpNMjBYT2k0WndTVE10U2FRWmU2X3FUUVhaMi1pMDh2cEdFYkhjWk01SnB5dDE3UHFQTll2SmstdTVjSWxCMm84cmFkanZhdTRGUk5hUXFCV2kzeUVtbzdNOEZBbjV6Uy1ibHR3V2hYeTJ4cEFEQ3owbk5uaU3SAewBQVVfeXFMTkowSnFXSlVMNFQtMHdVR0xjTzFEMlZDMG5uNHVuLUtZRXlFT1lHQnl0X21raEc4Z2ZxV1pSckJNY2NVVTZYVS1QZ1hoMGNOQ2RjOWZScFlUeFFXbzZBRGljd19jT3RGU2ozeGs0a1dZblVxOVNnTmhGaF9iV0RtaWxuamNvWE9pY3FnaENxZHFBUHNFY29sZXZhdjc1Vy1zZ01nem5QMnF4ODEwZUtnQWloLTFDUFk4TVlaVTl5dWFObk80cFhYODJodmsyY0c2eEJrNi1EQzdEY3FzNXRlVXBlbkhfbk9oQ2padzg?oc=5"
-    },
-    {
-      "title": "Gold and Silver Price Forecast: Jackson Hole Sell-Off Tests Key Support - FXEmpire",
-      "summary": "Gold and Silver Price Forecast: Jackson Hole Sell-Off Tests Key SupportFXEmpire",
-      "time_ago": "10h ago",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQQXlTMEpra21LTW5URjhnbVFtWWV1UWJvY1h1VXpCVExyVk9jS2dFc1ljREVMZG1hcnp1N2JTaFBMOHdQdEF5dnQ1Z2VpLV9oVWJHRm43cjM0ZFItYmFUSWdXblJCN1lKVG9nTEFEY21fcXRrZVNneHhkNUtGTGpHak1LVkdqZkFhTzBxTUwwRnh6bnJ6aHVGZU5RNktFMHc4WGZPblhlTmNncXpCNGlVOW56MGtsTXJQSjFwNm5R?oc=5"
-    },
-    {
-      "title": "Gold, silver prices under pressure in India: What is driving the fall - CNBC TV18",
-      "summary": "Gold, silver prices under pressure in India: What is driving the fallCNBC TV18",
-      "time_ago": "11h ago",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNaTlLb0Ytc0RjclUtdTBiTTF1cE5aNmpabmNSVlRjZmN3V0lGUk1oS2Y0bFBFbW9yMzVBMlhQV2NCOVVRSlREWnBtbUxtcmpuTm1YSDNsQlVxb3F4WmZuaHh6NkFIOHJaSndZeDIxaDFBVVNMZm4zRHBldGtQMVA4NVhUS1lzb0lZb3JGMEhaSjNCcUJFc1Vjd2NuMkVvWEF4enpnS2Yzdi1lZ3g5ZGRDYXRVSTc2LU5T0gG-AUFVX3lxTE02QktaWk92WDF3WVNybVozNGdSaE5DZ2NLTWVMekYzSFpMUjllTE5kSW85c0xWZ0JfVG4wRUU4eS1ocU5wN3UwdmZTbXVhSDVoRUZJdXg1cjBBRjZwbDVxTDRwbWhnUjlLMGk0UExlXzR2WXowZTYtNkY4alEySmdkaEt5VHo3MVlRcVM2RFI3aFg5QW1jNldJMGNBM08xTDJrVU42LThaMVZWLTYxNEFQcHp0c3BYd0lGaFJBTmc?oc=5"
-    },
-    {
-      "title": "Gold and silver prices fall in global markets - az\u0259rtac",
-      "summary": "Gold and silver prices fall in global marketsaz\u0259rtac",
-      "time_ago": "11h ago",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQdEtqVlFYRi1NNG0zQW9QdWlpXzdhVW1hX1lKc2xsMXBFY3JvOHluYnZHM0Z5THlWRFBxczJoU3N1aS1PQ3JScUVuMllSR3ZDT2VtdVU1d1ZwcjhOdHYtQk1yU3g2NFJ6Q21waFdrQ2ROdnd4akRuVTFVTjRjY1BTTTVKU1I4ZTRB?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTkIxY1NEc0ExVnpDVGsyaEtiZi02V081Z0xaT2J3dTM0SDFrR3M0Q3ZqNHJ5X2ZqVlctMmxIUUo0SlJGeThtby1XYnF3ME50Vk01d1FYeEJDQ21tOU9RU2lzZnpZVGU4THdPdGkyZWxGMjE1TXcxRmFiOGU1d2k3eWZiWHM?oc=5"
     }
   ],
   "metrics": [
     {
       "label": "DXY (USD)",
-      "value": "99.42",
-      "change": "-0.18%",
-      "direction": "down"
+      "value": "99.62",
+      "change": "+0.11%",
+      "direction": "up"
     },
     {
       "label": "US 10Y Yield",
@@ -1516,13 +1523,13 @@
     },
     {
       "label": "Real Yield",
-      "value": "2.34%",
-      "change": "+0.00",
+      "value": "2.42%",
+      "change": "+0.08",
       "direction": "up"
     },
     {
       "label": "Gold/Silver",
-      "value": "67.4",
+      "value": "67.9",
       "change": "",
       "direction": "up"
     },
@@ -1549,7 +1556,7 @@
     },
     {
       "label": "1M % Change",
-      "value": "+15.46%",
+      "value": "+14.77%",
       "change": "",
       "direction": "up"
     }
