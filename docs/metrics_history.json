@@ -340,8 +340,8 @@
     "metrics": [
       {
         "label": "DXY (USD)",
-        "value": "99.62",
-        "change": "+0.11%",
+        "value": "99.56",
+        "change": "+0.05%",
         "direction": "up"
       },
       {
@@ -358,7 +358,7 @@
       },
       {
         "label": "Gold/Silver",
-        "value": "67.9",
+        "value": "68.2",
         "change": "",
         "direction": "up"
       },
@@ -385,7 +385,7 @@
       },
       {
         "label": "1M % Change",
-        "value": "+14.77%",
+        "value": "+14.56%",
         "change": "",
         "direction": "up"
       }
