@@ -85,6 +85,16 @@
 
     document.getElementById("outlook-summary").textContent =
       o.summary || "No briefing available yet.";
+
+    const watchEl = document.getElementById("outlook-watch");
+    const watchTextEl = document.getElementById("outlook-watch-text");
+    if (o.watch) {
+      watchTextEl.textContent = o.watch;
+      watchEl.hidden = false;
+    } else {
+      watchEl.hidden = true;
+    }
+
     document.getElementById("outlook-updated").textContent =
       o.updated_at || relativeUpdated(data.updated_at);
   }

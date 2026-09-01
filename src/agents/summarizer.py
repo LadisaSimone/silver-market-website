@@ -224,6 +224,21 @@ def _extract_verdict(briefing_text: str) -> str:
     return match.group(1).strip() if match else "No verdict extracted."
 
 
+def _split_verdict(verdict_text: str) -> tuple[str, str]:
+    """Splits the VERDICT block into (explanation, watch). prompts/briefing.txt's
+    VERDICT section now outputs two lines: the explanation, then a line starting
+    with "Watch: ". Falls back to treating the whole block as the explanation
+    with an empty watch string if the model doesn't follow the format — mirrors
+    _extract_verdict()'s own defensive fallback, so a parsing miss here degrades
+    to hiding the Watch line rather than showing broken/empty text (see
+    build_outlook() in docs/scripts/update_daily.py and #outlook-watch in
+    docs/script.js)."""
+    match = re.search(r'(?im)^watch:\s*(.+)$', verdict_text)
+    if match:
+        return verdict_text[:match.start()].strip(), match.group(1).strip()
+    return verdict_text.strip(), ""
+
+
 def _call_claude(client, prompt: str, max_tokens: int) -> str:
     """Shared retry wrapper for both stages."""
     max_retries = 3
@@ -347,6 +362,7 @@ def summarize(
     clean_briefing = narrative_raw.strip()
     clean_briefing = reattach_links(clean_briefing, articles)
     verdict_text = _extract_verdict(clean_briefing)
+    verdict_explanation, verdict_watch = _split_verdict(verdict_text)
 
     final_scores = {
         "macro": scores["scores"]["macro"],
@@ -364,7 +380,8 @@ def summarize(
         "ranked_drivers": scores["ranked_drivers"],
         "dominant_category": scores["dominant_category"],
         "weighted_explanation": scores["weighted_explanation"],
-        "verdict": verdict_text,
+        "verdict": verdict_explanation,
+        "verdict_watch": verdict_watch,
         "supply_risk": scores["supply_risk"],
     }
     return clean_briefing, final_scores

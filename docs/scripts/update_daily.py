@@ -136,6 +136,7 @@ def build_outlook(final_scores: dict) -> dict:
         "label": label,
         "sentiment": sentiment,
         "summary": final_scores.get("verdict", "No briefing available yet."),
+        "watch": final_scores.get("verdict_watch", ""),
         # Explicit "snapshot" framing + the caveat, not just a timestamp —
         # this sits right next to the live price card, which updates far
         # more often, so without this it reads as describing the same
