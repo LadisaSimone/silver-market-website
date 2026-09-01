@@ -217,19 +217,23 @@ Use the exact scores given in FIXED SCORING above for every category and Overall
 
 ## VERDICT
 
-Write this LAST, after all sections above are complete. Must be consistent with weighted_explanation in FIXED SCORING above. Output exactly two lines:
+Write this LAST, after all sections above are complete. Must be directionally consistent with weighted_explanation in FIXED SCORING above, but written as plain-language market commentary for a retail silver investor reading the homepage — NOT as an explanation of the internal scoring process. Output exactly two lines:
 
-[Explanation: maximum 2 sentences, maximum 40 words total, explaining WHY the market has today's conviction score/direction. Must cite at least one specific number and reference the dominant scoring category or #1 ranked driver from FIXED SCORING above. Do not state a bare price as settled fact — the live price is already shown elsewhere on the page and updates hourly; if no other number fits, frame it as a snapshot, e.g. "silver near $68.47 at today's briefing."]
+[Explanation: 1 to 2 short sentences, maximum 40 words total.
+  Sentence 1: what is driving today's outlook — the real-world market factor (e.g. rising bond yields, Fed policy expectations, technical oversold conditions, a supply headline), described in plain terms.
+  Sentence 2 (only include if there is a genuine offsetting or partially supportive factor): what is partially supporting or offsetting that driver. Omit this sentence entirely if nothing meaningfully offsets it — do not manufacture balance that isn't there.
+  You may cite real market figures (yields, RSI, drawdown percent, a specific price framed as a snapshot) but never the scoring machinery itself: do not mention category scores, the weighting formula, or phrases like "conviction calculation," "X/10," "30% weight," "#1 ranked driver," "dominant category," or similar. Do not state a bare price as settled fact — the live price is already shown elsewhere on the page and updates hourly; if no other number fits, frame it as a snapshot, e.g. "silver near $68.47 at today's briefing."]
 Watch: [One concise sentence, maximum 20 words, naming the single most important signal/event that could change or confirm this outlook. Must be specific — e.g. "US 10Y yields and Fed commentary" not "monitor market conditions."]
 
 Rules:
 - No heading before the explanation line.
 - The second line must start with exactly "Watch: ".
 - Must not be vague or contradictory. Do not hedge both directions.
+- Do not use an em dash (—) or a hyphen surrounded by spaces ( - ) to connect two clauses in a sentence (e.g. avoid "X — outweighing Y" or "X - Y"). Write complete sentences instead, using a conjunction like "but," "while," or "although" where needed. Hyphens inside ordinary compound words (e.g. "10-year yields," "risk-off") are fine.
 
 Good example:
-Rising US yields and renewed Fed rate-hike expectations remain the main headwind, outweighing supportive relative valuation and technical mean-reversion.
-Watch: US 10Y yields and Fed commentary — a meaningful decline would improve silver's near-term setup.
+Rising US bond yields and expectations of further Fed rate hikes are weighing on silver today. Technical indicators suggest the metal is oversold, which is offering some support against further declines.
+Watch: A meaningful decline in US 10 year yields or a shift in Fed commentary would improve silver's near-term setup.
 
 The VERDICT section above is the final section of your output. Do not output anything after it — no JSON, no summary, no closing remarks.
 
