@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02T14:57:30Z",
+  "updated_at": "2026-09-02T17:15:08Z",
   "price": {
     "value": 65.2,
     "change": 0.92,
@@ -23,10 +23,6 @@
   "history": {
     "1W": [
       {
-        "date": "2026-08-28",
-        "close": 68.772137
-      },
-      {
         "date": "2026-08-29",
         "close": 66.503
       },
@@ -40,14 +36,14 @@
       },
       {
         "date": "2026-09-01",
-        "close": 65.81213
+        "close": 65.405872
+      },
+      {
+        "date": "2026-09-02",
+        "close": 64.329407
       }
     ],
     "1M": [
-      {
-        "date": "2026-08-03",
-        "close": 58.071762
-      },
       {
         "date": "2026-08-04",
         "close": 59.316914
@@ -162,14 +158,14 @@
       },
       {
         "date": "2026-09-01",
-        "close": 65.81213
+        "close": 65.405872
+      },
+      {
+        "date": "2026-09-02",
+        "close": 64.329407
       }
     ],
     "3M": [
-      {
-        "date": "2026-06-29",
-        "close": 58.400934
-      },
       {
         "date": "2026-06-30",
         "close": 58.797263
@@ -424,14 +420,14 @@
       },
       {
         "date": "2026-09-01",
-        "close": 65.81213
+        "close": 65.405872
+      },
+      {
+        "date": "2026-09-02",
+        "close": 64.329407
       }
     ],
     "1Y": [
-      {
-        "date": "2025-12-24",
-        "close": 71.98833
-      },
       {
         "date": "2025-12-25",
         "close": 72.01471
@@ -1434,118 +1430,116 @@
       },
       {
         "date": "2026-09-01",
-        "close": 65.81213
+        "close": 65.405872
+      },
+      {
+        "date": "2026-09-02",
+        "close": 64.329407
       }
     ]
   },
   "outlook": {
-    "score": 4,
-    "label": "Moderately Bearish",
-    "sentiment": "bearish",
-    "summary": "Rising US bond yields and a strengthening dollar are creating opportunity-cost headwinds that outweigh silver's structural undervaluation versus gold at the 67.7 ratio. Technical support at $65.50 remains intact and ETF inflows suggest institutional accumulation, but near-term momentum remains negative without a macro relief signal.",
-    "watch": "US 10Y yield direction and Fed commentary over the next 48 hours; a 10bps decline or hawkish pause would trigger technical mean reversion toward the $70 target.",
+    "score": 5,
+    "label": "Neutral",
+    "sentiment": "neutral",
+    "summary": "Yield headwinds near 20-month highs are outweighing modest dollar weakness and technical consolidation, driving silver lower despite neutral RSI readings. Cascading bearish news coverage across three continents has overwhelmed longer-term scarcity narratives, positioning sentiment as the constraint on any near-term recovery.",
+    "watch": "A meaningful decline in US 10 year yields or a shift in Fed commentary toward easing would improve silver's near-term setup.",
     "updated_at": "Snapshot from 9:00 AM ET \u2014 may differ from live price"
   },
   "drivers": [
     {
-      "label": "Dollar Strength & Yield Surge",
-      "status": "risk",
-      "icon": "bank",
-      "reason": "DXY +18bps and US10Y +3bps confirmed by multiple news sources citing yield pressure as key headwind to silver today."
-    },
-    {
-      "label": "Gold-Silver Ratio Divergence",
-      "status": "neutral",
-      "icon": "flows",
-      "reason": "Ratio 67.7 (+2.7 vs avg) signals silver undervaluation vs gold, supported by FXEmpire forecast of $70 upside target."
-    },
-    {
-      "label": "Technical Support Hold",
+      "label": "Yield Headwind & Hawkish Fed Sentiment",
       "status": "supportive",
-      "icon": "trend",
-      "reason": "Price holds above $65.50 key support with RSI 56.8 neutral; CryptoRank confirms support holding despite -2.77% daily decline."
+      "icon": "bank",
+      "reason": "US10Y near 20-month high and yields surge cited in multiple news sources; FXEmpire headlines explicitly tie silver weakness to yield spikes, confirmed by quantitative macro signals."
     },
     {
-      "label": "News Sentiment",
+      "label": "Sharp Sell-Off Momentum & Bearish News Cascade",
       "status": "risk",
       "icon": "people",
-      "reason": "News emphasizes yield surge pressure and corrections, but KITCO mentions buying opportunities; mixed sentiment leans cautious."
+      "reason": "9+ news articles on Sept 1-2 report gold/silver plunging and falling across three continents (USA, India, Nepal); USA Today reports 3.52% fall, overwhelming bearish tone confirms market risk-off."
+    },
+    {
+      "label": "Technical Mean-Reversion Setup & Neutral Rsi",
+      "status": "supportive",
+      "icon": "trend",
+      "reason": "RSI 47.6 is neutral, silver 6.1% below 30d high creates near-term consolidation signal; no significant move threshold breached, supporting potential bounce from oversold technicals."
     },
     {
       "label": "ETF Flow Signal",
       "status": "neutral",
       "icon": "flows",
-      "reason": "Volume proxy shows renewed ETF demand per Heraeus, but actual SLV flows unavailable; confidence capped at Medium."
+      "reason": "No direct SLV flow data available; volume proxy only\u2014directional indicator confidence capped at Medium; cannot assess institutional positioning magnitude."
     },
     {
       "label": "Industrial Demand",
       "status": "neutral",
       "icon": "industry",
-      "reason": "No sector-specific demand signals in data or news today; score reflects absence of both bullish and bearish industrial evidence."
+      "reason": "No sector-specific demand signals in data or news provided; China silver market mentioned as reshaping supply/demand but no quantitative industrial impact stated today."
     }
   ],
   "stories": [
     {
-      "title": "Silver Price Today: Silver Falls 1.85% on September 01, 2026 - USA Today",
-      "summary": "Silver Price Today: Silver Falls 1.85% on September 01, 2026USA Today",
-      "time_ago": "1h ago",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQSWx4UjliYVpIZ3ZUUFlvaTFOR3A2UXJGa3ZEdWl2RGVabFRObnRkOUhHeDNwbU80MGJta0ZMM1FyQTNYRTQxRkFvZ2FQOUVhTDhSMVI0SzlRNUFxV1p1MnFYU3RiSGpKMms2bUxtb0RxeXRqZHAtT0p3eE9XSDhMRDFXMnZ2UTFBNk9oUUZPMmMtS0J6eW83RnpRWTIxUU9sM3pJb08xX3VNLWpyRHI0?oc=5"
+      "title": "Silver Rate Today in Karnataka 2nd September 2026 : 1 KG, Todays Silver Price in Karnataka - Business Today",
+      "summary": "Silver Rate Today in Karnataka 2nd September 2026 : 1 KG, Todays Silver Price in KarnatakaBusiness Today",
+      "time_ago": "2h ago",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9rZmJHVWZQai1TOVJWcTN0cVU3OC1wNy1Jazd2Y240R3NpUlA1RGdacHc2QXBzNW45STdXNXBrZEFmdC1PbHJrQjRWMHc4UTFtNkU2VU0xdEdZTC1ndnlDanBjcF9XOHEwU3YzcFdWVFNJWGxEeXFmLQ?oc=5"
     },
     {
-      "title": "Silver Price Tests Key Support as US Yields Surge - FXEmpire",
-      "summary": "Silver Price Tests Key Support as US Yields SurgeFXEmpire",
+      "title": "Gold, silver prices fall in Indian Bullion Market - News On AIR",
+      "summary": "Gold, silver prices fall in Indian Bullion MarketNews On AIR",
+      "time_ago": "2h ago",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE42cjNCaDRWS2pDTzhtSVdtM1MzRnRDWEJFODNGMmY2M01HcTZPVnVQbUdJOUp3TEVrQlBBRFpqR2YyTDFKcjVXUmJXdkUzazgwRnBva25RbGE0Mk5MaktiWW9fcTR1ajRRUUZFa0dYTE00VG1ZeUFqNDF0OUg0RTg?oc=5"
+    },
+    {
+      "title": "US Market Outlook: Gold and silver spot prices saw slight movement following the US ADP Employment Report; Omron unveils new technology in collaboration with NVIDIA; AIG Chairman Zaffino steps down - moomoo.com",
+      "summary": "US Market Outlook: Gold and silver spot prices saw slight movement following the US ADP Employment Report; Omron unveils new technology in collaboration with NVIDIA; AIG Chairma...",
+      "time_ago": "3h ago",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNc01CTEwzR0FEZzZDdFE2Q3Z4Um9UWk1Nc1lJNlN5NVFVZklKckNIaS0xZ1ctUWYtclZCNE1yZWp6b0pLZkRSU01wM0hzUGJ5T3o1bmN1UlhzVjNwOXVCcU5UYm0wVHdEeGQyODN4SkhTZUd0cktBMnJsUjVTR1d3OS0ydmI4OGN3WXVLWXJhdzBSWWt0bGJWZEVlNnNlb3NXUjl1Snc5WFgxUQ?oc=5"
+    },
+    {
+      "title": "Silver Price Today: Silver Falls 3.52% on September 02, 2026 - USA Today",
+      "summary": "Silver Price Today: Silver Falls 3.52% on September 02, 2026USA Today",
       "time_ago": "4h ago",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxObTA3d1NUNG8yUW45NUJOM0JmVHpXYU8xa3FNTWhGTDRvZjBXNEVrMWFTSTlRWU9jSGtJSTFyWU5SXzBXanFIdk52SmdFem45NHZEQUpCTXJPdDIzWmcxWnNEYWFmcU5jd1pVQ3ZjdTJDMTgwbTFzeGhtbWtEVE9sSy1UbmtBbDBmZTVBSW1YRkx6SEtFTG5yUHE5M2hqTERJZmc?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNN3VCdHk1VXFlc3hwNFZtOU1FVWhBYXQzVXBiYTVKUHVPTnk4S0kzZk5CMHc2dVA0MGtUdGtwRndxSUFjd1lCeUZaZmdXMUpsVF9VY0dHNm1yOTkzMDFmaDZvT3cxdmJyRm91U2FPczM2QkNablQ2Rllmc3FXQkJKQXNHLV9CUGpBdEJNOGh1cHppRWxmLXREYzNkTnhwaXF3ZFN1OGFubXYyYS1TSnM0?oc=5"
     },
     {
-      "title": "Gold Or Silver? Understanding The Different Roles Of Precious Metals - Exchange Rates Org UK",
-      "summary": "Gold Or Silver? Understanding The Different Roles Of Precious MetalsExchange Rates Org UK",
+      "title": "Current price of silver as of Wednesday, Sept. 2, 2026 - Fortune",
+      "summary": "Current price of silver as of Wednesday, Sept. 2, 2026Fortune",
       "time_ago": "5h ago",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPbUpqOTdWZ2Rqa1FSYm9VazN6SjhVeDhVQXN5eXdxUm8tYlg1dVFfZXFzSDBQS2R3dmZEWkktYlBtcVlSNTlrVF8tNVdGUk54cEMxVDdmZkJaZ3RxN0VkZFlGRzh0bnRVYW1DcUZwa3JFblI5ekRKbnhIS2lrZ1pVd1N4QnY0dllTWXZWSzVZemdjVzhlb3pudThCbGxwUXBUZi0yLWI3dWcxLTlUaGtJ?oc=5"
-    },
-    {
-      "title": "Current price of silver as of Sept. 1, 2026 - Fortune",
-      "summary": "Current price of silver as of Sept. 1, 2026Fortune",
-      "time_ago": "5h ago",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5rQ29GVEktNmptdzlQWWYzRTdfUUtkWFlEWDZLb2RLN0xXckdSQWtaRGJOUFlMMU5TSEFzWDJwd2NLSGN6WFVBbHVTUE12VHU0ZVY1UmFSSGJEQXpOSEpzTEdmZmhXWmhOYVI0NTF3?oc=5"
-    },
-    {
-      "title": "Silver Price Forecast: XAG/USD Holds Above Key $65.50 Support as Traders Await Direction - CryptoRank",
-      "summary": "Silver Price Forecast: XAG/USD Holds Above Key $65.50 Support as Traders Await DirectionCryptoRank",
-      "time_ago": "5h ago",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNVWV2aFFIc1hObGxISWowUEhzSzFlSXBRMUlqM245T3J6VnBqdEQyalBJcURudlB3c09aSjVtMzNfd0JPYnFpQkdUQ0NYS2g1OUJJbWxSLXh3WGhlOU9iU0VjNVJEdWk1WGR2eVBGSFFBanRMY3dDZE5QbGM4MVdVVjR3a1FOdjV2bWZ5c2xn?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1HRzhfbTRZaFBUYkZpcUZQMm0ySU51V0VIaTNGeG5rdVM2eU5IUUV3Q3BZVDlDN2dHb1V0SktoaFR1bTNJZjZjTFpHeWVZcmg3ZGhVZzdMeDJ4cVJwT3JHYlI4OHBfQmZ0V0JMc0RR?oc=5"
     }
   ],
   "metrics": [
     {
       "label": "DXY (USD)",
-      "value": "99.69",
-      "change": "+0.18%",
-      "direction": "up"
+      "value": "99.57",
+      "change": "-0.20%",
+      "direction": "down"
     },
     {
       "label": "US 10Y Yield",
       "value": "4.79%",
-      "change": "+0.03",
-      "direction": "up"
+      "change": "+0.00",
+      "direction": "down"
     },
     {
       "label": "Real Yield",
-      "value": "2.42%",
-      "change": "+0.08",
+      "value": "2.44%",
+      "change": "+0.02",
       "direction": "up"
     },
     {
       "label": "Gold/Silver",
-      "value": "67.7",
+      "value": "67.8",
       "change": "",
       "direction": "up"
     },
     {
       "label": "RSI (14)",
-      "value": "57",
+      "value": "48",
       "change": "",
-      "direction": "up",
+      "direction": "down",
       "note": "Neutral"
     },
     {
@@ -1564,7 +1558,7 @@
     },
     {
       "label": "1M % Change",
-      "value": "+13.33%",
+      "value": "+8.45%",
       "change": "",
       "direction": "up"
     }
