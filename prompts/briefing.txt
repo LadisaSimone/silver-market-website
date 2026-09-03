@@ -186,7 +186,7 @@ Apply the same High/Medium/Low confidence methodology used in the scoring pass: 
 
 ## CONVICTION SCORE
 
-Use the exact scores given in FIXED SCORING above for every category and Overall — do not recalculate them. Use the exact format below. Each component requires 2–3 bullet points with specific numbers and a "Net impact" line consistent with its fixed score: ≤4 = bearish, 5–6 = neutral/mixed, ≥7 = bullish.
+Use the exact scores given in FIXED SCORING above for every category and Overall — do not recalculate them. Use the exact format below. Each component requires 2–3 bullet points with specific numbers and a "Net impact" line consistent with its fixed score: ≤4 = bearish, =5 = neutral/mixed, ≥6 = bullish. (Same scale as Overall and every category score above — a score of 6 is bullish, not neutral.)
 
 **Macro: X/10**
 - [MACRO] DXY: [value and change in pts/bps] ([↑/↓] [bullish/bearish] for silver)

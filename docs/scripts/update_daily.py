@@ -121,12 +121,18 @@ def build_outlook(final_scores: dict) -> dict:
     overall = final_scores.get("overall", 5)
     label_raw = (final_scores.get("overall_label") or "NEUTRAL").upper()
 
+    # Thresholds aligned with _status_for_score() above and with
+    # prompts/scoring.txt's overall_label rule: 1-4 bearish, 5 neutral,
+    # 6-10 bullish, so a given score means the same thing on the Outlook
+    # badge as it does on every Key Driver card. Intensity within each
+    # band: 8-10 Strongly / 6-7 Moderately Bullish, 3-4 Moderately /
+    # 1-2 Strongly Bearish.
     if label_raw == "BULLISH":
         sentiment = "bullish"
         label = f"{'Strongly' if overall >= 8 else 'Moderately'} Bullish"
     elif label_raw == "BEARISH":
         sentiment = "bearish"
-        label = f"{'Strongly' if overall <= 3 else 'Moderately'} Bearish"
+        label = f"{'Strongly' if overall <= 2 else 'Moderately'} Bearish"
     else:
         sentiment = "neutral"
         label = "Neutral"

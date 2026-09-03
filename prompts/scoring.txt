@@ -72,7 +72,7 @@ Output exactly this JSON shape:
 Rules:
 - Overall is calculated using this fixed weighting formula — do not deviate from these weights:
     Overall = (Macro × 0.30) + (Technicals × 0.25) + (Sentiment × 0.20) + (ETF Flows × 0.15) + (Industrial Demand × 0.10)
-  Round to the nearest integer. Show your arithmetic is internally consistent — the five category scores you output must actually produce this Overall value under the formula above. overall_label: ≤4 BEARISH, 5-6 NEUTRAL, ≥7 BULLISH.
+  Round to the nearest integer. Show your arithmetic is internally consistent — the five category scores you output must actually produce this Overall value under the formula above. overall_label: 1-4 BEARISH, 5 NEUTRAL, 6-10 BULLISH — this must use the exact same 1-10 scale meaning as every individual category score (see SCORE REASONING above: Supportive >=6, Neutral =5, Risk <=4), so Overall and the category scores never disagree about what a given number means.
 - weighted_explanation must reference the formula weighting explicitly where relevant, e.g. "Macro carries the highest weight (30%) and its bearish 3/10 score is the primary drag on Overall despite Technicals scoring 6/10."
 - Driver names must never begin with their own category label (write "MACRO UNCERTAINTY" not "MACRO MACRO UNCERTAINTY").
 - score_reasoning must include all 5 categories (macro, technicals, sentiment, etf_flows, industrial_demand), even ones not among the top 3 ranked_drivers — every category shown on the website needs its own reasoning sentence.
