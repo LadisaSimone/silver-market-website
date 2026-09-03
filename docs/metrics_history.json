@@ -446,5 +446,61 @@
         "direction": "up"
       }
     ]
+  },
+  {
+    "date": "2026-09-03",
+    "metrics": [
+      {
+        "label": "DXY (USD)",
+        "value": "99.09",
+        "change": "-0.33%",
+        "direction": "down"
+      },
+      {
+        "label": "US 10Y Yield",
+        "value": "4.76%",
+        "change": "-0.04",
+        "direction": "down"
+      },
+      {
+        "label": "Real Yield",
+        "value": "2.44%",
+        "change": "+0.00",
+        "direction": "up"
+      },
+      {
+        "label": "Gold/Silver",
+        "value": "67.8",
+        "change": "",
+        "direction": "up"
+      },
+      {
+        "label": "RSI (14)",
+        "value": "53",
+        "change": "",
+        "direction": "up",
+        "note": "Neutral"
+      },
+      {
+        "label": "COT Net-Long",
+        "value": "25,261",
+        "change": "+1,636",
+        "direction": "up",
+        "note": "Weekly (CFTC)"
+      },
+      {
+        "label": "ETF Holdings",
+        "value": "492.5M oz",
+        "change": "",
+        "direction": "up",
+        "note": "SLV"
+      },
+      {
+        "label": "1M % Change",
+        "value": "+7.06%",
+        "change": "",
+        "direction": "up"
+      }
+    ]
   }
 ]
