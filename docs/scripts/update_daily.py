@@ -326,6 +326,21 @@ def main() -> None:
         articles, silver, gold, dxy, us10y,
         signals_text=signals_text, data_quality=data_quality,
     )
+    # Diagnostic-only: data.json never persists the raw 1-10 category scores
+    # (only the derived supportive/risk/neutral status per driver), so this
+    # is the only place to read the actual numbers back — e.g. to verify a
+    # scoring.txt consistency-rule change actually changed a category's
+    # score. No effect on data.json, scoring logic, or site behavior.
+    print(
+        "Category scores: "
+        f"macro={final_scores.get('macro')} "
+        f"technicals={final_scores.get('technicals')} "
+        f"sentiment={final_scores.get('sentiment')} "
+        f"etf_flows={final_scores.get('etf_flows')} "
+        f"industrial_demand={final_scores.get('industrial_demand')} "
+        f"overall={final_scores.get('overall')} ({final_scores.get('overall_label')}) "
+        f"dominant_category={final_scores.get('dominant_category')}"
+    )
 
     print("Fetching real yield + COT positioning...")
     real_yield = fetch_real_yield()
