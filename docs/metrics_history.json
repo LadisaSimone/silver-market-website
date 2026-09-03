@@ -452,14 +452,14 @@
     "metrics": [
       {
         "label": "DXY (USD)",
-        "value": "99.09",
-        "change": "-0.33%",
+        "value": "98.85",
+        "change": "-0.58%",
         "direction": "down"
       },
       {
         "label": "US 10Y Yield",
-        "value": "4.76%",
-        "change": "-0.04",
+        "value": "4.75%",
+        "change": "-0.05",
         "direction": "down"
       },
       {
@@ -470,13 +470,13 @@
       },
       {
         "label": "Gold/Silver",
-        "value": "67.8",
+        "value": "67.4",
         "change": "",
         "direction": "up"
       },
       {
         "label": "RSI (14)",
-        "value": "53",
+        "value": "54",
         "change": "",
         "direction": "up",
         "note": "Neutral"
@@ -497,7 +497,7 @@
       },
       {
         "label": "1M % Change",
-        "value": "+7.06%",
+        "value": "+7.31%",
         "change": "",
         "direction": "up"
       }

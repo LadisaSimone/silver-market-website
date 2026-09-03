@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T16:55:08Z",
+  "updated_at": "2026-09-03T17:06:55Z",
   "price": {
     "value": 67.16,
     "change": 1.67,
@@ -40,7 +40,7 @@
       },
       {
         "date": "2026-09-03",
-        "close": 66.021191
+        "close": 66.177167
       }
     ],
     "1M": [
@@ -162,7 +162,7 @@
       },
       {
         "date": "2026-09-03",
-        "close": 66.021191
+        "close": 66.177167
       }
     ],
     "3M": [
@@ -424,7 +424,7 @@
       },
       {
         "date": "2026-09-03",
-        "close": 66.021191
+        "close": 66.177167
       }
     ],
     "1Y": [
@@ -1434,99 +1434,93 @@
       },
       {
         "date": "2026-09-03",
-        "close": 66.021191
+        "close": 66.177167
       }
     ]
   },
   "outlook": {
-    "score": 6,
+    "score": 5,
     "label": "Neutral",
     "sentiment": "neutral",
-    "summary": "Softening US bond yields (down 4 basis points) and a weaker dollar (down 33 basis points) are driving silver higher today in a constructive macro setup; however, neutral technical indicators and the absence of volume confirmation limit conviction in a sustained breakout toward the $70 target being cited by Wall Street.",
-    "watch": "US non-farm payroll data and any shift in Federal Reserve rate-hike expectations, as these remain the primary catalysts for confirming or invalidating the current macro tailwind.",
+    "summary": "Elevated US bond yields at 4.75% remain the dominant structural headwind offsetting today's relief rally tied to softer employment data and dovish Fed sentiment. A tactical bounce driven by sentiment reversal may lack durability if rate-hike expectations re-accelerate.",
+    "watch": "US 10Y yield direction and any shift in Fed officials' guidance ahead of the September jobs report.",
     "updated_at": "Snapshot from 9:00 AM ET \u2014 may differ from live price"
   },
   "drivers": [
     {
-      "label": "Yield and Dollar Tailwinds",
-      "status": "supportive",
-      "icon": "bank",
-      "reason": "DXY -33bps and US10Y -4bps both favor silver; quantitative data confirmed by news citing 'yields soften' as key driver; macro score 7/10 reflects supportive policy backdrop."
-    },
-    {
-      "label": "Constructive News Sentiment and Bull Narrative",
+      "label": "Positive News Sentiment & Adp-Driven Dovish Pivot",
       "status": "supportive",
       "icon": "people",
-      "reason": "10+ sources report silver rising/surging with bullish tone; Wall Street 'most bullish set-up' and $70 resistance target cited across multiple outlets; sentiment score 7/10."
+      "reason": "8+ news sources confirm silver surge on ADP miss cooling Fed-hike trade; +2.69% price move aligns with bullish narrative across Kitco, USA Today, and international outlets."
     },
     {
-      "label": "Gold/Silver Ratio Undervaluation Signal",
-      "status": "supportive",
+      "label": "Persistent Elevated Yields Despite Today'S Dip",
+      "status": "risk",
       "icon": "bank",
-      "reason": "Ratio 67.8 trades +2.8 above 30-year average, signaling silver undervalued versus gold; one quantitative signal with limited news corroboration; supports macro score 7/10."
+      "reason": "US 10Y at 4.75% remains restrictive headwind; DXY weakness (-58bps) only mild offset; news from Sept 1-2 explicitly cite Fed rate-hike risk at 70% as silver drag."
     },
     {
-      "label": "Technical Setup",
+      "label": "Neutral Technical Setup With No Mean-Reversion Signal",
       "status": "neutral",
       "icon": "trend",
-      "reason": "RSI 52.9 is neutral midrange with no oversold/overbought extreme; silver down 3.9% from 30d high shows pullback but not capitulation; no clear bullish technical setup present."
+      "reason": "RSI 53.6 is mid-range neutral; -3% drawdown insufficient for oversold bounce evidence; no support break or confirmed technical reversal pattern visible."
     },
     {
       "label": "ETF Flow Signal",
       "status": "neutral",
       "icon": "flows",
-      "reason": "No direct SLV flow data available; volume proxy signals only; confidence capped at Medium per data availability; neutral score reflects absence of confirming institutional positioning data."
+      "reason": "No direct SLV flow data available; volume proxy only; cannot confirm magnitude or institutional positioning; neutral pending actual flow confirmation."
     },
     {
       "label": "Industrial Demand",
       "status": "neutral",
       "icon": "industry",
-      "reason": "No industrial demand or sector-specific signals in dataset; neutral score reflects complete absence of direct evidence or news commentary on fabrication, solar, electronics, or other industrial end-use demand."
+      "reason": "No industrial demand signals in news or data provided; cannot assess manufacturing, photography, or renewable energy sector drivers; neutral by absence of evidence."
     }
   ],
   "stories": [
     {
-      "title": "Silver Price Today: Silver Rises 2.69% on September 03, 2026 - USA Today",
-      "summary": "Silver Price Today: Silver Rises 2.69% on September 03, 2026USA Today",
-      "time_ago": "2h ago",
+      "title": "Silver Price Today: Silver Rises 4.54% on September 03, 2026 - USA Today",
+      "summary": "Silver Price Today: Silver Rises 4.54% on September 03, 2026USA Today",
+      "time_ago": "53m ago",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNR3daaUN0LWljZ2Rfd09lZklOenFDWmNjZ1k1alFmeXdqel9uZUJuRU16WHgxcEtMUUppcEstcVEyWC1VOVBVOUJCOTFNUThoVUswVWxMRVZVa2FqTWZmakRUZUloRzhOY1hxVjdDN2R5eXE3c1pMZUZiTVlMTWlSVWg4WTNEOXhOaWMxWUpLVXlSUVlFdjQ2ck9xbUE3cmRfdVZacVcyTVh0NEM5U1hN?oc=5"
     },
     {
-      "title": "Silver Price Forecast: NFP Puts 200-Day EMA in Focus - FXEmpire",
-      "summary": "Silver Price Forecast: NFP Puts 200-Day EMA in FocusFXEmpire",
+      "title": "Is Americas Gold and Silver (TSX:USA) Set For Growth? - Kalkine Media",
+      "summary": "Is Americas Gold and Silver (TSX:USA) Set For Growth?Kalkine Media",
       "time_ago": "2h ago",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNOEZ2NHRnY0hSeDFES1FBQXpFYTRVQ3FxYzVjcGxUSFAxcjNGSWF1RklsUWNGcHhHOHBlMW5JbHQ0R0ZBbnhmTVJHZDQ0cGRjMFZzb3NpcWtqelJxYmRReGlzQUpxTk54T3Jqb1JXNktZOWhZUEJmeWNzMlVoS0NnX1EyMHdsejAxRmVFMjRFRTZmZTBpdWY1NGFCYXJ2Q0FabU00?oc=5"
+    },
+    {
+      "title": "Silver Price Forecast: NFP Puts 200-Day EMA in Focus - fxempire.com",
+      "summary": "Silver Price Forecast: NFP Puts 200-Day EMA in Focusfxempire.com",
+      "time_ago": "5h ago",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOVWF6ZnplcmhZTWZVcjBES05XMEk5VzBWNUFmU0NnN1NLWUVxdzFMZHd3XzVEUTZXNmlYVFVhVUtCUnNZaFhaUXNfQlNtYUFhb2xEbG1jQW1Nb0xmLUROZ01CZzNPamNITWdwaFNTTFJsci1pRGVvLThrd0hEUzNYbzhZRGk3NEhGaFVPTmxzZnhoSUJwRTFEM2gybmZZd0pfZHdDWg?oc=5"
+    },
+    {
+      "title": "Current price of silver as of Thursday, Sept. 3, 2026 - Fortune",
+      "summary": "Current price of silver as of Thursday, Sept. 3, 2026Fortune",
+      "time_ago": "5h ago",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE16UG9JNFNXVHFPM1VIREx2MGlZWXlXRk41ZjVaRTFPQjNNQnE4YURaYk1JY1lmUXJFY0h0dnc3d0J3NEZhSjl1WkZ3aHl5eVJNQ1F6d0M2N2thNXZ3YmdIWmEtN2VRMFVJVlgzcUdB?oc=5"
     },
     {
       "title": "Silver Price Forecast: XAG/USD struggles to extend upside above $66.25, NFP data awaited - tmgm.com",
       "summary": "Silver Price Forecast: XAG/USD struggles to extend upside above $66.25, NFP data awaitedtmgm.com",
-      "time_ago": "5h ago",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxONVl5YjFOZ2tpb09jbUpCU2ZGQXBQLWVFLWpxVmItUk44Q0NJWTRRNzQtM1JybmVFM0tvRm1zMHBSM25ULU8xTXVlZGdUTTE2LWFlRVFmRXJ2MlM3VUxfY2tGNmpYQk8tRE55RTBvV2hXU1ZJM1FLQ042S20wMDJzQnFBRUs4cy12RVRCQzVrc3JFcHY2Y2k4YUFqc3ZkWS12ek9zazBzLV9tdHZ5ZUtveXRzWjYwVGFWZlhSbGhYTVdrbGVCQmhpTXJIRElhYXVETnF1LUJCRDR2c2MwMnQzaXVGNHI?oc=5"
-    },
-    {
-      "title": "Gold and silver prices rise in global markets - Az\u0259rtac",
-      "summary": "Gold and silver prices rise in global marketsAz\u0259rtac",
       "time_ago": "8h ago",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVGpVRUFkVUFZNnhQUHloa0FXeFBQZkwwZVRIRzQxd1l1bnY1a3g5cVZjS1RRbERYM2xvdWlISWphTjN1Q0x1MnRGSERxUTA3RVhFUHV1ckRKUTQyc0t6T1FwU1laUjh1elBoR3p3Y1BPaFU5ckNnR3JPWFU3S010T2UxblFBd2M2?oc=5"
-    },
-    {
-      "title": "Gold, silver prices surge in domestic market today - NepalNews",
-      "summary": "Gold, silver prices surge in domestic market todayNepalNews",
-      "time_ago": "9h ago",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPRENBdlpxYUVpa0E5bllXQnB4UXRtWVdEdGRzeDhPZVF3RDhTNFdCS1ZLVlVKSXUta2RyZktxX253OWh3THhGelBmVVVSU1EwbWtUX0hKclk1bk5pUG9Dc3lhaHpZNjlSLUl2MzF6Z2Z1dC1JejQyd2tOTy1vaTRVWUhLQUFOa0FhYW9SVHdqdW5PX0JFcEE?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxONVl5YjFOZ2tpb09jbUpCU2ZGQXBQLWVFLWpxVmItUk44Q0NJWTRRNzQtM1JybmVFM0tvRm1zMHBSM25ULU8xTXVlZGdUTTE2LWFlRVFmRXJ2MlM3VUxfY2tGNmpYQk8tRE55RTBvV2hXU1ZJM1FLQ042S20wMDJzQnFBRUs4cy12RVRCQzVrc3JFcHY2Y2k4YUFqc3ZkWS12ek9zazBzLV9tdHZ5ZUtveXRzWjYwVGFWZlhSbGhYTVdrbGVCQmhpTXJIRElhYXVETnF1LUJCRDR2c2MwMnQzaXVGNHI?oc=5"
     }
   ],
   "metrics": [
     {
       "label": "DXY (USD)",
-      "value": "99.09",
-      "change": "-0.33%",
+      "value": "98.85",
+      "change": "-0.58%",
       "direction": "down"
     },
     {
       "label": "US 10Y Yield",
-      "value": "4.76%",
-      "change": "-0.04",
+      "value": "4.75%",
+      "change": "-0.05",
       "direction": "down"
     },
     {
@@ -1537,13 +1531,13 @@
     },
     {
       "label": "Gold/Silver",
-      "value": "67.8",
+      "value": "67.4",
       "change": "",
       "direction": "up"
     },
     {
       "label": "RSI (14)",
-      "value": "53",
+      "value": "54",
       "change": "",
       "direction": "up",
       "note": "Neutral"
@@ -1564,7 +1558,7 @@
     },
     {
       "label": "1M % Change",
-      "value": "+7.06%",
+      "value": "+7.31%",
       "change": "",
       "direction": "up"
     }
