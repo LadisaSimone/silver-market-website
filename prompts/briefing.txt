@@ -226,7 +226,8 @@ Write this LAST, after all sections above are complete. Must be directionally co
 Watch: [One concise sentence, maximum 20 words, naming the single most important signal/event that could change or confirm this outlook. Must be specific — e.g. "US 10Y yields and Fed commentary" not "monitor market conditions."]
 
 Rules:
-- No heading before the explanation line.
+- Begin this section with the literal heading "## VERDICT" exactly as shown at the top of this section — every response must include it, even under space or length pressure. Do not skip straight from CONVICTION SCORE's "**Overall: X/10**" line into the explanation without it.
+- Do not add any OTHER heading (such as "Main Takeaway") between "## VERDICT" and the explanation line — the explanation starts immediately after the "## VERDICT" heading itself, with nothing in between.
 - The second line must start with exactly "Watch: ".
 - Must not be vague or contradictory. Do not hedge both directions.
 - Do not use an em dash (—) or a hyphen surrounded by spaces ( - ) to connect two clauses in a sentence (e.g. avoid "X — outweighing Y" or "X - Y"). Write complete sentences instead, using a conjunction like "but," "while," or "although" where needed. Hyphens inside ordinary compound words (e.g. "10-year yields," "risk-off") are fine.

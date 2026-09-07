@@ -224,14 +224,33 @@ def _extract_verdict(briefing_text: str) -> str:
     if match:
         return match.group(1).strip()
 
-    # Diagnostic-only, failure path only: this regex has intermittently
-    # missed a well-formed VERDICT section before ("No verdict extracted."
-    # showing live on the site), and with no trace of the model's actual
-    # output there was no way to tell whether the heading was missing,
-    # misformatted, or something else entirely. This logs enough context
-    # to diagnose it next time, straight to the Action log — no effect on
-    # data.json, parsing behavior, or the returned fallback string.
-    print("WARNING: _extract_verdict() found no '## VERDICT' section match.")
+    # Fallback — confirmed live on 2026-09-07 via the diagnostic log below:
+    # the model sometimes drops the "## VERDICT" heading entirely while
+    # still writing correct VERDICT content (explanation + "Watch: ..."
+    # line) immediately after CONVICTION SCORE's mandatory
+    # "**Overall: X/10**" line, sometimes with a bare "---" separator in
+    # between, sometimes not. prompts/briefing.txt guarantees VERDICT is
+    # always the LAST section of the response ("Do not output anything
+    # after it"), so whatever follows the Overall line IS the verdict even
+    # when the heading itself is missing.
+    overall_match = re.search(r'\*\*Overall:\s*\d+/10\*\*', briefing_text, re.IGNORECASE)
+    if overall_match:
+        remainder = briefing_text[overall_match.end():]
+        remainder = re.sub(
+            r'^\s*(?:#{1,3}\s*VERDICT\s*\n+)?-{2,}\s*\n+', '', remainder, flags=re.IGNORECASE
+        ).strip()
+        if remainder:
+            print(
+                "WARNING: _extract_verdict() found no '## VERDICT' heading; "
+                "used the CONVICTION SCORE fallback (text after '**Overall: X/10**') instead."
+            )
+            return remainder
+
+    # Diagnostic-only, failure path only: both the primary regex and the
+    # fallback above missed. Logs enough context to diagnose next time,
+    # straight to the Action log — no effect on data.json, parsing
+    # behavior, or the returned fallback string.
+    print("WARNING: _extract_verdict() found no '## VERDICT' section match, and the fallback found nothing usable either.")
     verdict_idx = briefing_text.lower().find("verdict")
     if verdict_idx == -1:
         print("  'verdict' does not appear anywhere in the briefing text.")
