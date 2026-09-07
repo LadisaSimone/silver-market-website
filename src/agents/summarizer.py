@@ -221,7 +221,31 @@ def _extract_verdict(briefing_text: str) -> str:
         r'##\s*VERDICT\s*\n+(.*?)(?:\n---|\Z)',
         briefing_text, re.DOTALL | re.IGNORECASE
     )
-    return match.group(1).strip() if match else "No verdict extracted."
+    if match:
+        return match.group(1).strip()
+
+    # Diagnostic-only, failure path only: this regex has intermittently
+    # missed a well-formed VERDICT section before ("No verdict extracted."
+    # showing live on the site), and with no trace of the model's actual
+    # output there was no way to tell whether the heading was missing,
+    # misformatted, or something else entirely. This logs enough context
+    # to diagnose it next time, straight to the Action log — no effect on
+    # data.json, parsing behavior, or the returned fallback string.
+    print("WARNING: _extract_verdict() found no '## VERDICT' section match.")
+    verdict_idx = briefing_text.lower().find("verdict")
+    if verdict_idx == -1:
+        print("  'verdict' does not appear anywhere in the briefing text.")
+    else:
+        start = max(0, verdict_idx - 40)
+        print(
+            "  Nearest 'verdict' occurrence, with context:\n"
+            f"  ...{briefing_text[start:verdict_idx + 300]!r}..."
+        )
+    print(
+        "  Last 600 chars of the briefing (VERDICT should be the final section):\n"
+        f"  {briefing_text[-600:]!r}"
+    )
+    return "No verdict extracted."
 
 
 def _split_verdict(verdict_text: str) -> tuple[str, str]:
