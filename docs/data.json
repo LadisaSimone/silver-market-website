@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T18:09:00Z",
+  "updated_at": "2026-09-07T18:19:52Z",
   "price": {
     "value": 66.4,
     "change": 0.12,
@@ -40,7 +40,7 @@
       },
       {
         "date": "2026-09-07",
-        "close": 66.050307
+        "close": 66.052708
       }
     ],
     "1M": [
@@ -162,7 +162,7 @@
       },
       {
         "date": "2026-09-07",
-        "close": 66.050307
+        "close": 66.052708
       }
     ],
     "3M": [
@@ -424,7 +424,7 @@
       },
       {
         "date": "2026-09-07",
-        "close": 66.050307
+        "close": 66.052708
       }
     ],
     "1Y": [
@@ -1434,7 +1434,7 @@
       },
       {
         "date": "2026-09-07",
-        "close": 66.050307
+        "close": 66.052708
       }
     ]
   },
@@ -1448,34 +1448,40 @@
   },
   "drivers": [
     {
-      "label": "Us Treasury Yields And Fed Rate Expectations",
+      "label": "Elevated Us Treasury Yields With Persistent Rate-Hike Bias",
       "status": "risk",
       "icon": "bank",
-      "reason": "4.78% US 10Y yield paired with persistent Fed rate-hike bets in 7 news articles create a direct headwind; elevated rates raise silver's opportunity cost versus bonds and cash."
+      "reason": "US10Y 4.78% (+2bps today), multiple news sources cite Fed rate expectations and inflation/CPI catalysts as headwinds; DXY -0.25% provides no material offset to restrictive yield regime."
     },
     {
-      "label": "Technical Consolidation And Drawdown From 30D High",
-      "status": "neutral",
-      "icon": "trend",
-      "reason": "Price down 4.4% from 30d high ($69.31 implied) with RSI neutral at 51.2 and no significant move today; consolidation pattern corroborates news forecasts of $64\u2013$68 trading range, suggesting near-term sideways bias."
-    },
-    {
-      "label": "Mixed Sentiment And Geopolitical Uncertainty",
+      "label": "Bearish Technical Sentiment And Pattern Recognition",
       "status": "risk",
       "icon": "people",
-      "reason": "News articles reference Iran tensions, CPI breakout forecasts, and head-and-shoulders reversal; bullish $70 rebound calls contrast with bearish technical warnings, creating unresolved sentiment tilt toward caution and volatility."
+      "reason": "Five news sources highlight rate pressure, technical fault lines, bearish H&S pattern, and $64\u2013$68 range constraint; bullish rebound calls (Brave New Coin) exist but minority versus cautionary/bearish tone."
+    },
+    {
+      "label": "Gold/Silver Ratio Undervaluation Signal",
+      "status": "neutral",
+      "icon": "flows",
+      "reason": "Ratio 67.6 is +2.6 above historical average, signaling silver undervalued relative to gold; however, undervaluation alone does not overcome macro headwinds in current rate environment."
+    },
+    {
+      "label": "Technical Setup",
+      "status": "neutral",
+      "icon": "trend",
+      "reason": "RSI 51.2 is neutral midpoint with no oversold bounce setup; -4.4% drawdown from 30d high is unremarkable; no confirmed support or momentum reversal evident in available data."
     },
     {
       "label": "ETF Flow Signal",
       "status": "neutral",
       "icon": "flows",
-      "reason": "No direct SLV flow data available; volume proxy only provides directional indicator without magnitude confirmation\u2014neutral pending actual institutional positioning data."
+      "reason": "No direct SLV flow data available; volume proxy only; cannot establish directional institutional positioning; score reflects absence of confirmatory flow signals."
     },
     {
       "label": "Industrial Demand",
       "status": "neutral",
       "icon": "industry",
-      "reason": "No industrial sector-specific signals, news, or inventory data provided; score reflects absence of demand-side evidence in market data or news today."
+      "reason": "No sector-specific demand signals in provided data; industrial use case absent from news coverage; score reflects lack of evidence, not weakness in underlying demand."
     }
   ],
   "stories": [
@@ -1513,8 +1519,8 @@
   "metrics": [
     {
       "label": "DXY (USD)",
-      "value": "98.90",
-      "change": "-0.26%",
+      "value": "98.91",
+      "change": "-0.25%",
       "direction": "down"
     },
     {
@@ -1531,7 +1537,7 @@
     },
     {
       "label": "Gold/Silver",
-      "value": "67.5",
+      "value": "67.6",
       "change": "",
       "direction": "up"
     },
@@ -1558,7 +1564,7 @@
     },
     {
       "label": "1M % Change",
-      "value": "+3.66%",
+      "value": "+3.67%",
       "change": "",
       "direction": "up"
     }
