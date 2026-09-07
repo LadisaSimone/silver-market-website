@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T17:12:54Z",
+  "updated_at": "2026-09-07T18:09:00Z",
   "price": {
     "value": 66.4,
     "change": 0.12,
@@ -23,10 +23,6 @@
   "history": {
     "1W": [
       {
-        "date": "2026-09-02",
-        "close": 64.620544
-      },
-      {
         "date": "2026-09-03",
         "close": 66.447385
       },
@@ -40,14 +36,14 @@
       },
       {
         "date": "2026-09-06",
-        "close": 66.341
+        "close": 66.337787
+      },
+      {
+        "date": "2026-09-07",
+        "close": 66.050307
       }
     ],
     "1M": [
-      {
-        "date": "2026-08-08",
-        "close": 63.707
-      },
       {
         "date": "2026-08-09",
         "close": 63.717294
@@ -162,14 +158,14 @@
       },
       {
         "date": "2026-09-06",
-        "close": 66.341
+        "close": 66.337787
+      },
+      {
+        "date": "2026-09-07",
+        "close": 66.050307
       }
     ],
     "3M": [
-      {
-        "date": "2026-07-04",
-        "close": 62.517
-      },
       {
         "date": "2026-07-05",
         "close": 62.56921
@@ -424,14 +420,14 @@
       },
       {
         "date": "2026-09-06",
-        "close": 66.341
+        "close": 66.337787
+      },
+      {
+        "date": "2026-09-07",
+        "close": 66.050307
       }
     ],
     "1Y": [
-      {
-        "date": "2025-12-29",
-        "close": 75.029828
-      },
       {
         "date": "2025-12-30",
         "close": 75.327663
@@ -1434,7 +1430,11 @@
       },
       {
         "date": "2026-09-06",
-        "close": 66.341
+        "close": 66.337787
+      },
+      {
+        "date": "2026-09-07",
+        "close": 66.050307
       }
     ]
   },
@@ -1448,74 +1448,74 @@
   },
   "drivers": [
     {
-      "label": "Fed Rate Expectations & Elevated Yields",
+      "label": "Us Treasury Yields And Fed Rate Expectations",
       "status": "risk",
       "icon": "bank",
-      "reason": "US10Y 4.78% and strong payrolls data reviving Fed-hike trades are primary headwind; DXY +10bps adds currency headwind to silver."
+      "reason": "4.78% US 10Y yield paired with persistent Fed rate-hike bets in 7 news articles create a direct headwind; elevated rates raise silver's opportunity cost versus bonds and cash."
     },
     {
-      "label": "Geopolitical Volatility & Risk-Off Sentiment",
-      "status": "risk",
-      "icon": "people",
-      "reason": "Iran tensions dominate news cycle (6+ sources this week); market described as facing volatility; risk-off tone limits upside momentum."
-    },
-    {
-      "label": "Emerging Technology Demand Tailwind",
-      "status": "supportive",
-      "icon": "industry",
-      "reason": "Silver alloy and technology sector demand growing through 2035; long-term fundamental support, but near-term macro headwinds dominate price action."
-    },
-    {
-      "label": "Technical Setup",
+      "label": "Technical Consolidation And Drawdown From 30D High",
       "status": "neutral",
       "icon": "trend",
-      "reason": "RSI 52.3 is neutral midpoint; silver down 4.3% from 30-day high but no oversold bounce setup; momentum is unremarkable."
+      "reason": "Price down 4.4% from 30d high ($69.31 implied) with RSI neutral at 51.2 and no significant move today; consolidation pattern corroborates news forecasts of $64\u2013$68 trading range, suggesting near-term sideways bias."
+    },
+    {
+      "label": "Mixed Sentiment And Geopolitical Uncertainty",
+      "status": "risk",
+      "icon": "people",
+      "reason": "News articles reference Iran tensions, CPI breakout forecasts, and head-and-shoulders reversal; bullish $70 rebound calls contrast with bearish technical warnings, creating unresolved sentiment tilt toward caution and volatility."
     },
     {
       "label": "ETF Flow Signal",
       "status": "neutral",
       "icon": "flows",
-      "reason": "No direct SLV flow data available; volume proxy only; cannot confirm magnitude of institutional positioning."
+      "reason": "No direct SLV flow data available; volume proxy only provides directional indicator without magnitude confirmation\u2014neutral pending actual institutional positioning data."
+    },
+    {
+      "label": "Industrial Demand",
+      "status": "neutral",
+      "icon": "industry",
+      "reason": "No industrial sector-specific signals, news, or inventory data provided; score reflects absence of demand-side evidence in market data or news today."
     }
   ],
   "stories": [
     {
-      "title": "Gold, Silver Prices Likely To Face Volatility This Week As Iran Tensions Take Centre Stage: Analysts - ndtvprofit.com",
-      "summary": "Gold, Silver Prices Likely To Face Volatility This Week As Iran Tensions Take Centre Stage: Analystsndtvprofit.com",
-      "time_ago": "1h ago",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPTnhSVjA0R1Z6ZzlVcXROVExUbkk1MzlnQ3Bobjlnd2F4UHpuS3R5NjRJN1FEQ0p2MGM2QkNIc1l3NTZ3LVZFR2o2cVRQbGJpcEVtU3YxRHg5SEU4ZVNGTVFJd1RPSUpTbmFKOGx2MW1mbUE1enUtQ29IVXd2VzZBR2xmbElCMmFwZXpGYkY0QkM1aG9qQVJzTV9DVXFjdVhyWGc0cWhUR2hpaUlDcWg0eTZvbkNqdjVZdjR2QjhZVVZiTGpiYW50SlhMS2F3aFRYM1d4eVFtY3B3QQ?oc=5"
+      "title": "Silver Price Forecast: Rate Pressure Keeps $64\u2013$68 Range Intact - FXEmpire",
+      "summary": "Silver Price Forecast: Rate Pressure Keeps $64\u2013$68 Range IntactFXEmpire",
+      "time_ago": "4h ago",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOb1dHeXEtX2xSSHFUaXJRUGZDNTNWdVQtRERJa0Fnb1ZUbXlMbGJHU0dWaDJ6ejFYaHNOSGFrc0l4R09paHNlLTFZX21VUWhNWXdmLU1ZbFEwWlF0Qm9TeW5OYjc4SzdhRzBXSWhDT2l3MjFwWVhWR0RyQ2tNY2VpZm9acUVkZVdqcTRaM19oU0x6ZklsTVA2YmxMcnBLeWR4QUx5ZjFabUp0UVlTWlhibA?oc=5"
     },
     {
-      "title": "US Inflation, Iran Conflict to Steer Gold & Silver Prices - Rediff MoneyWiz",
-      "summary": "US Inflation, Iran Conflict to Steer Gold & Silver PricesRediff MoneyWiz",
-      "time_ago": "3h ago",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSHExRW1lOE9GcWZwNmxEVkd6bUhud2tCMHdWR0NtNURMVElFM1FhcHJfaFg0bnhpSEV0QWZGNjdscnY4dDJfZlRKYXhQS0dSN1FfVE5neHl4WW1ja2dsRjRYdWktOWU1NkR5MVhLVnp0QW1YbExLWkVBTDRXd2RmY3F0aFRBWGNtQTJhY0xzTFVDVF9pT3p3UFlFRGJnUFlIS0RpcWEtWHptd9IBrwFBVV95cUxQUVRCdHc4V0dXaHhGbTBzdTZpajJObVhVR2pBVk00QVhydm82TG54aW5CV0FWVXpKelNGelV1NVF0RDJzOGpPbUI5RTlSSlRjQmdUMzZFNWh4TjZjc0dEaTJQTzVrZGlTdmUwLXdWX0dCcnh0NXVxTDJJQ0k5c3pVVHBROFdHR1VnV2dfMGRRODFwRWxVbTdyUUhhU2VhTE80NTFGamNXRlhWSXpjTkVz?oc=5"
+      "title": "Silver Price Analysis: Bulls Prepare for a $70 Rebound - Brave New Coin",
+      "summary": "Silver Price Analysis: Bulls Prepare for a $70 ReboundBrave New Coin",
+      "time_ago": "5h ago",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPRFVWS2RxcGFhdl9McWlBVTR4MjRTSHZfLVVlTG1pQklrNlhHQ19YYk9mTFI1U0sxNV8tN0FRQnMxQWQwS01kdWVKNEhpc19uNlN4WlU2dXc4YWZCa1k2eXZaXzZwWGctVWhpQkRFNXFHYlhEMUhNS0wzMzdBZHNVemQzOWVCTUZGMTJWeFM4SQ?oc=5"
     },
     {
-      "title": "Gold and silver prices drop in the local market today - NepalNews",
-      "summary": "Gold and silver prices drop in the local market todayNepalNews",
-      "time_ago": "10h ago",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNMnpHbGFfZXNUTXk5VWxZNnRoV1A0TmVUTmZwa2V6MVZUdzh4bmF3cjFiekFVN0dCNm1sMURYM3NsMFZMMkdqMXNFRGZGbzgwSFk1UkhWcndCM2JDZ1dJVW5JMklNN3JHeVAxSGhueFdVdTRZZnFjWDVxWE51REFpb1R3Zy03d216WWZuWVlaVU5JSjhMMXktR1VzYVNUdw?oc=5"
+      "title": "Silver's Fragile Footing: A Market Caught Between Technical Fault Lines and Rate-Driven Pressure - AD HOC NEWS",
+      "summary": "Silver's Fragile Footing: A Market Caught Between Technical Fault Lines and Rate-Driven PressureAD HOC NEWS",
+      "time_ago": "6h ago",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPWEtnNE5wUmp3bWxnbkJTVm4xUGxVTng3U1JiN2VWQ2JQSkpXb0VNZE5EdlZGSmJyYUIxWXVxckZORU45c2tmWU00TmUxT1NkODZQQUNqOWdKdHVrN052OG1zSG5JYUs1enBYNE9Kek55TW9Ka0ZCNVJtUTg4TWRwRG5SV3JjdXV2S19iUkNpQVFkbGdGY3FnUll4TWt5S2kwZG9pMWUwSnA0YmJhUkVYVHdUYVdvdktHTUtwQ2lSWW05VW4tMzZXbUtucUU1OVdfY25EYVUtMWxOZw?oc=5"
     },
     {
-      "title": "Silver Alloy Sliding Contacts Market Outlook to 2035 - IndexBox",
-      "summary": "Silver Alloy Sliding Contacts Market Outlook to 2035IndexBox",
-      "time_ago": "21h ago",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQQUZqUGdnQXF2Z2llQzVnM2ZvYV9admM2blhiWjNZMlpoSUE5Zi1pSGpKNU5sY1N6cjN1YmxtenVycFk2U0UxTzBNLUQwcFVmbG9XUnpuamtGaUl6VlBxTHp6VWZHM1VIZm5qQW9ZOEplS2kzbVZuNXRJZ3lpYVRFeXZtdWVNNElCWUE?oc=5"
+      "title": "Silver Price September 8 2026 - Robinhood",
+      "summary": "Silver Price September 8 2026Robinhood",
+      "time_ago": "8h ago",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQakZkTmJseXZPdWxrcTdVVm5MNDdFSVFtQjRveFRuMENSMExVTWExRThNODBqdTlxTjJtTlFpTEYyRDEyazhVM2FqWHhpR25oSU16XzNyZHlfWHZORW9sSlFFWk4zbW9LWEFOdFhZTFcxMjktWkVFR2w5V3k5TzlJSjNoYlFwbktSWmNMZ0Uxd00zcy1KTEo2M0tVcVVtczRrV3BKTEZ3?oc=5"
     },
     {
-      "title": "Silver Is Becoming a Technology Story As Much as an Investment Story - techbusinessnews.com.au",
-      "summary": "Silver Is Becoming a Technology Story As Much as an Investment Storytechbusinessnews.com.au",
-      "time_ago": "1d ago",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQNEdCWHcwbHlXVU8xMXVFd2tYTG10VGRRek9JV0RBUENVMGVUS0djaXhuN25nd1JUX3l5OFJreHpmakotNXFDNUtDRTZNOERLdndtRjFQVDdOQ0dZYV9nbjFFVmhnMlVSNkJKMUNpZG5xWFVFVmt0LWxueGRHeXNZcWVSYlR5UmpaY3p5Wk8ycmpNMTZmQ2Z1R2Z1ODBxUzhwVzBhUC1hUWk?oc=5"
+      "title": "Gold, silver prices: What is driving the latest fall in MCX rates - CNBC TV18",
+      "summary": "Gold, silver prices: What is driving the latest fall in MCX ratesCNBC TV18",
+      "time_ago": "9h ago",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbmUzOVR4N1YxTjB6UzFONDhJbnJUaUV1d1VUVkI1NjdodGNVRHRaTjNRaWxMMmpwWkNoNzhfLWxiSTl2dkFyN1g3SVNzY3hXQXNNM1o0N0h1cE9zSnlXclVaX08zM1pUdDVLeGpzQnNPbVI0d1V1TkN1SFVxQm51QTZ6alNsRUIzemJxNUE0aWZHd0xxOEVKSWhPc01vOGFaV19BODZkSGJCMWw5RzV3X0FMSm00MzB5ZGZIRdIBwgFBVV95cUxNVHB1aDdoZUQ4UTNOQURjRUR1VEtxVk9xT2NtdUFsQ0VlU2xoaXowWXhiS3pHSG83TVFLeWRDQXEtNFE4TkZWZ2E2a3kybkRkLUk3SVhYaVExVUx0U0JVMlBlMzdBRG9sS2JIb2ptT0FpWEUzcGJtbTJHdFAzbWt6eUtQS21WbXNwS051bXV2bDh5STlNR0ZfSVJUdGJfRVQ0Um9sSXdaREp6azNDa1lYREVPVHJwaGZ4RjdkNkV4LW1WQQ?oc=5"
     }
   ],
   "metrics": [
     {
       "label": "DXY (USD)",
-      "value": "99.16",
-      "change": "+0.10%",
-      "direction": "up"
+      "value": "98.90",
+      "change": "-0.26%",
+      "direction": "down"
     },
     {
       "label": "US 10Y Yield",
@@ -1537,7 +1537,7 @@
     },
     {
       "label": "RSI (14)",
-      "value": "52",
+      "value": "51",
       "change": "",
       "direction": "up",
       "note": "Neutral"
@@ -1558,7 +1558,7 @@
     },
     {
       "label": "1M % Change",
-      "value": "+4.13%",
+      "value": "+3.66%",
       "change": "",
       "direction": "up"
     }
