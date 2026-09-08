@@ -1,23 +1,15 @@
 {
-  "updated_at": "2026-09-07T18:19:52Z",
+  "updated_at": "2026-09-08T04:01:09Z",
   "price": {
-    "value": 66.4,
-    "change": 0.12,
-    "change_pct": 0.18,
-    "as_of": "1:12 PM ET"
+    "value": 67.13,
+    "change": 0.5,
+    "change_pct": 0.75,
+    "as_of": "12:00 AM ET"
   },
   "intraday": [
     {
-      "t": "01:39",
-      "p": 66.11
-    },
-    {
-      "t": "07:32",
-      "p": 65.61
-    },
-    {
-      "t": "13:12",
-      "p": 66.4
+      "t": "00:00",
+      "p": 67.13
     }
   ],
   "history": {
@@ -1569,23 +1561,10 @@
       "direction": "up"
     }
   ],
-  "intraday_date": "2026-09-07",
+  "intraday_date": "2026-09-08",
   "intraday_chart": {
-    "date": "2026-09-07",
-    "source": "spot_snapshots",
-    "points": [
-      {
-        "t": "01:39",
-        "pct": 0.0
-      },
-      {
-        "t": "07:32",
-        "pct": -0.756
-      },
-      {
-        "t": "13:12",
-        "pct": 0.439
-      }
-    ]
+    "date": "2026-09-08",
+    "source": null,
+    "points": []
   }
 }
