@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T16:54:33Z",
+  "updated_at": "2026-09-11T17:05:26Z",
   "price": {
     "value": 64.53,
     "change": 0.96,
@@ -23,10 +23,6 @@
   "history": {
     "1W": [
       {
-        "date": "2026-09-06",
-        "close": 66.337787
-      },
-      {
         "date": "2026-09-07",
         "close": 66.124182
       },
@@ -40,14 +36,14 @@
       },
       {
         "date": "2026-09-10",
-        "close": 66.480602
+        "close": 65.720136
+      },
+      {
+        "date": "2026-09-11",
+        "close": 64.108598
       }
     ],
     "1M": [
-      {
-        "date": "2026-08-12",
-        "close": 65.7408
-      },
       {
         "date": "2026-08-13",
         "close": 65.026588
@@ -162,14 +158,14 @@
       },
       {
         "date": "2026-09-10",
-        "close": 66.480602
+        "close": 65.720136
+      },
+      {
+        "date": "2026-09-11",
+        "close": 64.108598
       }
     ],
     "3M": [
-      {
-        "date": "2026-07-08",
-        "close": 59.163839
-      },
       {
         "date": "2026-07-09",
         "close": 59.424081
@@ -424,14 +420,14 @@
       },
       {
         "date": "2026-09-10",
-        "close": 66.480602
+        "close": 65.720136
+      },
+      {
+        "date": "2026-09-11",
+        "close": 64.108598
       }
     ],
     "1Y": [
-      {
-        "date": "2026-01-02",
-        "close": 73.307853
-      },
       {
         "date": "2026-01-03",
         "close": 72.891
@@ -1434,7 +1430,11 @@
       },
       {
         "date": "2026-09-10",
-        "close": 66.480602
+        "close": 65.720136
+      },
+      {
+        "date": "2026-09-11",
+        "close": 64.108598
       }
     ]
   },
@@ -1442,76 +1442,70 @@
     "score": 3,
     "label": "Moderately Bearish",
     "sentiment": "bearish",
-    "summary": "Rising US Treasury yields and Federal Reserve rate-hike expectations on hot Producer Price Index data are the dominant driver compressing silver valuations today, with the 8 basis point yield rise reflecting higher real rates that penalize non-yielding precious metals disproportionately. Silver's technical undervalue signal (gold/silver ratio at 68.3 vs historical 65) and neutral RSI momentum offer limited near-term offset in a macro-driven sell environment.",
-    "watch": "US 10-year yields and Fed rate-hike probability signals; any decline below 4.80% or shift in central bank messaging could stabilize silver near the $65 support zone.",
+    "summary": "Rising US bond yields anchored at 4.95% and Fed rate hike expectations lifted by hot inflation data are creating a structural headwind to silver valuations, while broad risk-off sentiment and relative silver ETF weakness compound selling pressure. The elevated gold/silver ratio and neutral RSI offer modest technical support, but macro policy expectations remain the dominant driver.",
+    "watch": "A meaningful decline in US 10-year yields or a shift in Fed rate hike pricing would be required to alter the bearish near-term setup.",
     "updated_at": "Snapshot from 9:00 AM ET \u2014 may differ from live price"
   },
   "drivers": [
     {
-      "label": "Rising US Treasury Yields & Fed Rate-Hike Expectations",
+      "label": "Fed Rate Hike Expectations Surge on Hot Inflation Data",
       "status": "risk",
       "icon": "bank",
-      "reason": "US 10Y +8bps to 4.91% and PPI-driven hawkish Fed bets confirmed across 5+ news sources; yields are primary headwind for silver opportunity cost."
+      "reason": "Hot PPI and core CPI reports lifted Fed hike odds materially today; US10Y elevated at 4.95% and rising-yield trend creates direct headwind to silver valuations."
     },
     {
-      "label": "Silver Undervaluation vs Gold Ratio Signal",
-      "status": "risk",
-      "icon": "bank",
-      "reason": "Gold/Silver ratio 68.3 is +3.3 above historical average, signaling relative silver undervalue; however, rising yields offset this technical opportunity."
-    },
-    {
-      "label": "Neutral Technical Momentum with No Oversold Setup",
-      "status": "neutral",
-      "icon": "trend",
-      "reason": "RSI 51.1 is neutral midpoint without mean-reversion trigger; -4.29% drop is modest relative to established $65\u2013$70 range with no breakdown confirmation."
-    },
-    {
-      "label": "News Sentiment",
+      "label": "Risk-Off Sentiment and Broad Metal Sector Selloff",
       "status": "risk",
       "icon": "people",
-      "reason": "News tone dominated by rate-hike risk and PPI surprise driving downside; geopolitical war complications and structural premium-to-discount swings add uncertainty but no bullish conviction."
+      "reason": "10+ news sources report coordinated metal-sector decline, gold/silver ETF drops (1\u20133%), and whipsawed price action; no bullish narrative; risk sentiment bearish."
     },
     {
-      "label": "ETF Flow Signal",
-      "status": "neutral",
+      "label": "Silver ETF Outflows and Institutional Liquidation",
+      "status": "risk",
       "icon": "flows",
-      "reason": "No direct SLV flow data available; volume proxy only; score reflects absence of confirming institutional positioning evidence."
+      "reason": "Silver ETFs fell up to 3% versus gold's 1%, signaling relative institutional selling; actual SLV flows unconfirmed but volume proxy strongly suggests outflows."
+    },
+    {
+      "label": "Technical Setup",
+      "status": "neutral",
+      "icon": "trend",
+      "reason": "RSI 40.5 (neutral, not oversold) and -6.9% drawdown from 30d high show weakness but no mean-reversion extreme; mixed momentum picture without clear bullish reversal setup."
     },
     {
       "label": "Industrial Demand",
       "status": "neutral",
       "icon": "industry",
-      "reason": "No sector-specific demand signals in data or news today; score reflects data unavailability and neutral baseline."
+      "reason": "No sector-specific demand signals in news or data; industrial recovery or slowdown unaddressed; score reflects absent bullish or bearish evidence."
     }
   ],
   "stories": [
     {
-      "title": "Silver Price Today: Silver Falls 2.24% on September 10, 2026 - USA Today",
-      "summary": "Silver Price Today: Silver Falls 2.24% on September 10, 2026USA Today",
-      "time_ago": "50m ago",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZ3NjWWUtblo3TUhwZ3B5QzBDYzFkb0ZyX1FKSGJOeW5GTThoSEJJY3FfMWgteVI2dWs3Rl9CejhmVDgyM1gyWDF3RG1VWlIwdkFNUEY1X0xRbGdCeGxtZUExSXVDNzJUdTNTZkVKZlZUdUQteWNjRFhjUi1vMDRKdEN1Q2lBZl9LQkN4cHJJRXA0cEFBUkZiRHAxQnZtaXYybW5XbGNFcFI5bExFWEd3?oc=5"
+      "title": "Silver Price Forecast: Bulls Eye Return to $65\u2013$70 Range - FXEmpire",
+      "summary": "Silver Price Forecast: Bulls Eye Return to $65\u2013$70 RangeFXEmpire",
+      "time_ago": "2h ago",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQdElGeUdCcHdaN3ZLcmVveHhYdkdMYWRXYVhkcm1lSVRjT21zUWFuT2EyUnpVOGxYYU1keGNMcVVtVkZ3RW1nOTl5QXZGLTA0Y2huVTV6dG9FS01oNXZvMjhORnVTcHVKNFZlTll2NXBIakdDamQ2VFY5enJ2SWs0cWFBMGRueVJSUlA3VUxYZm9xR0NEWFg3NVBPaUpMZzZXdmUwVEtKcw?oc=5"
     },
     {
-      "title": "Silver slides below $65 as US PPI revives Fed rate-hike bets - FXStreet",
-      "summary": "Silver slides below $65 as US PPI revives Fed rate-hike betsFXStreet",
-      "time_ago": "1h ago",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTkM2cmNRV2dCVU40QUdHLXlnSXNTZkNjaDJueHZoRTlXNF9oc1FwQ2wycUdrbnlIZ3hPelVTaFAtT0dfX3B3bWY3WFFMOVFQZEd3Y1ZHTTQ0QUs5amd3Tm5qVGQ1VzQ1TGFTMjNCd05xalZyQ1pSQktYdVZJdEgyRjJGY2R4TG9nV3JXOC1NLVVoMXBZTGNQaVJSWWVkWVV5VEk1Ng?oc=5"
-    },
-    {
-      "title": "Gold Price Steadies Near $4,400, Silver Holds Above $66 as Markets Brace for a Fed Decision Complicated by War - India Infoline",
-      "summary": "Gold Price Steadies Near $4,400, Silver Holds Above $66 as Markets Brace for a Fed Decision Complicated by WarIndia Infoline",
+      "title": "Gold price drops \u20b92,700 to \u20b91.55 lakh/10g; silver slips by \u20b910,000 - BusinessLine",
+      "summary": "Gold price drops \u20b92,700 to \u20b91.55 lakh/10g; silver slips by \u20b910,000BusinessLine",
       "time_ago": "3h ago",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxONUVVRFlPWlNmUllPWWI0RHo3NnpoV0VNdm56M2gxS0poMkxkMzhheWZJbmZpY3VPM2JKTmQ4VFZYY2Z5bVhLbk0wc1lVb0J1MkYzR1hfZzh1QWxybGUwbUVuYVdTOGsyZzZGNDNjZzRsdXdEQ0J3NkNCcS1jVWhEWkxTMnJQLUNjaFdEdzVVUjRnanBDWS0ta1lSRTBoeXRKaFJtdjkzeWNJNnM1WmM0QWJOekI2Y3lERzBNYkpjci1tZVRFMUVSdko1ai1VVjUxV2FVTlVOWVFGdmhwNTZn?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOMnprQ1ZPdHdZcnhUaVhsR0M3RThPUlBwemdPQVk4MVc5NW5KUnI2QTY5OGNfQ0JtbjhNMWlNelBkeFhlOTFSSGk3Y2pfYV9WX1NudHlveENPNUxJdkFxLUJoNkFJQnRrVVpoTXRjSWZCSVI4T2ZwNExzcTJYZ3FfUHp1R0JMRldjdDh5WjNZZlRxaFByR1BBU29vSVFaR1YwOHY2Vk5pN3JOYVNGLUQ0NnlXMUFYb2xtNHZINTZsMzhnZkN1Wllz0gHOAUFVX3lxTFB2NFpjLW8zSE5md1NoWHpzYmVJbFVWdkN4YkM3RDlNazdRUDMtYnAyMXVNVzRSQ2Jmc00zUHhRTURTYmNZdVZ3TlBaMkZUeHhtOUdmU1l6UWtubzdYdmtNbFVycElxZGtiZUJpU2pFOUlyc3BDcm5MWkJYZzNtLTMxR0hSRUltWWlNMjZndDhmd0lPUGFQNG5KeEZITERYOGhzbTZQX0xtUl8wNXJBZ2xTdzJxRjY0dnlOQ0prZTNWVTBYTHpfMmZneF9VZ05B?oc=5"
     },
     {
-      "title": "Silver Price Forecast: $65\u2013$70 Range Holds Near 200-Day EMA - FXEmpire",
-      "summary": "Silver Price Forecast: $65\u2013$70 Range Holds Near 200-Day EMAFXEmpire",
-      "time_ago": "4h ago",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSmVseXJaTWVRYzZudUNiMkFJVW9wUXRpVjRYQnpqdVhNempWS29HQ1dSclMxVHY1UGZBTlZfbHRtWUg4SUcyUC16WnB4OENIaVNXdmh3azZ0Z084N2t3SGhranZNT3RNODBqM3ZUNnhOal8xQXZkZWtRV0U1OVVfeHhSb2ZLVlQ3d0tIelZGdTRjdkdMOENGSDZ4SzhfdmVnekpVNWpYNzB3ZW8?oc=5"
+      "title": "Gold, Silver Prices Plunge in Delhi: Rs 2,700 & Rs 10,000 Drop - Rediff MoneyWiz",
+      "summary": "Gold, Silver Prices Plunge in Delhi: Rs 2,700 & Rs 10,000 DropRediff MoneyWiz",
+      "time_ago": "3h ago",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPcWhIejBZLUpoOGNNRUxSLXVSWmhlZEFFXzFKdF9rN2NOU08yZEFmbVhEZ2U3VlU0akVIMWMwWWdROE5ndHM3NGNIZm1UcHhMVF90djZTQUh5THBiWFhIWXpZaWNTcjM1UTY2MS1sa0JWNDlsM2MzWnhKbWszSGdmV05OazgxLVV4UDFyUHo4WGtNZjJZOE9BTlZHTzJyRXZORjY5WGU1U29wMjJhVHFr0gG0AUFVX3lxTE5FMXNGY1ZZXzFjS3dkeFVrbEJfYm1FdXRuTFhwc2pndl9hWU03SVdvanF6UllOWHh3dnJ2QWlKMmNJQWk5WXJFX1B4Uno2NzFNY09Mb2FTelh3T2xleXlwTDJZTGZQV1ZwdHFsUTZoNHVsdlNKQ3FGT0s1MURNaWVMbDRmckpqdjNPSWxteU8wNE1aSUgzSThJeXpSTzVrSGQyUGVFZ3FjLVpjTXRZU1Y2RHVpWQ?oc=5"
     },
     {
-      "title": "Gold, silver prices tumble as hot PPI lifts Fed-hike risk - Kitco AM Report - kitco.com",
-      "summary": "Gold, silver prices tumble as hot PPI lifts Fed-hike risk - Kitco AM Reportkitco.com",
+      "title": "Current price of silver as of Friday, Sept. 11, 2026 - Fortune",
+      "summary": "Current price of silver as of Friday, Sept. 11, 2026Fortune",
+      "time_ago": "3h ago",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBoOWVPbHFFYnRFNm9pVE1ENThWVFMtcThSOS1LcUNfR0czT3V4Q1E4WnB5NE9BZDRXcTR1aWQyWGluUEhpYkg4d1NISjRGRUhtc1JWWVJSR1dGNWktR3AySmliakxzd3NOVXBoNmRGaw?oc=5"
+    },
+    {
+      "title": "Gold, silver prices tumble as hot PPI lifts Fed-hike risk - Kitco AM Report - KITCO",
+      "summary": "Gold, silver prices tumble as hot PPI lifts Fed-hike risk - Kitco AM ReportKITCO",
       "time_ago": "6h ago",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMGVHTDNsSjhzWEVYOEJIX0RQcVJVWFhTVmRWRXFMZFNnelVxNVVNYWp6R3U4T0xuWTBQckphUzVYRkE3Mi1DS3g1OERoQi0tOTBKdm9RTWRMX1YyWEc1dU9RX1NCM1VtckZrUTZ6Skp1R2prcEVuT3hyeXBuUk1BZXFpRmVZajliOTFJRzNmd0cyelJsR1VtR3hxU2hHMTR0WktLeEJ5SmJhbGtFaEQ5RXdGRFVRdw?oc=5"
     }
@@ -1519,33 +1513,33 @@
   "metrics": [
     {
       "label": "DXY (USD)",
-      "value": "98.98",
-      "change": "+0.25%",
-      "direction": "up"
+      "value": "99.10",
+      "change": "-0.05%",
+      "direction": "down"
     },
     {
       "label": "US 10Y Yield",
-      "value": "4.91%",
-      "change": "+0.08",
-      "direction": "up"
-    },
-    {
-      "label": "Real Yield",
-      "value": "2.43%",
+      "value": "4.95%",
       "change": "+0.00",
       "direction": "up"
     },
     {
+      "label": "Real Yield",
+      "value": "2.46%",
+      "change": "+0.03",
+      "direction": "up"
+    },
+    {
       "label": "Gold/Silver",
-      "value": "68.3",
+      "value": "68.2",
       "change": "",
       "direction": "up"
     },
     {
       "label": "RSI (14)",
-      "value": "51",
+      "value": "40",
       "change": "",
-      "direction": "up",
+      "direction": "down",
       "note": "Neutral"
     },
     {
@@ -1557,16 +1551,16 @@
     },
     {
       "label": "ETF Holdings",
-      "value": "493.2M oz",
+      "value": "492.4M oz",
       "change": "",
       "direction": "up",
       "note": "SLV"
     },
     {
       "label": "1M % Change",
-      "value": "+1.13%",
+      "value": "-1.41%",
       "change": "",
-      "direction": "up"
+      "direction": "down"
     }
   ],
   "intraday_date": "2026-09-11",
