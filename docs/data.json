@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T14:46:43Z",
+  "updated_at": "2026-09-18T17:08:57Z",
   "price": {
     "value": 66.39,
     "change": 0.84,
@@ -23,10 +23,6 @@
   "history": {
     "1W": [
       {
-        "date": "2026-09-13",
-        "close": 64.581158
-      },
-      {
         "date": "2026-09-14",
         "close": 63.547414
       },
@@ -40,14 +36,14 @@
       },
       {
         "date": "2026-09-17",
-        "close": 64.513379
+        "close": 64.766338
+      },
+      {
+        "date": "2026-09-18",
+        "close": 66.560644
       }
     ],
     "1M": [
-      {
-        "date": "2026-08-19",
-        "close": 64.652148
-      },
       {
         "date": "2026-08-20",
         "close": 67.495165
@@ -162,14 +158,14 @@
       },
       {
         "date": "2026-09-17",
-        "close": 64.513379
+        "close": 64.766338
+      },
+      {
+        "date": "2026-09-18",
+        "close": 66.560644
       }
     ],
     "3M": [
-      {
-        "date": "2026-07-15",
-        "close": 58.242542
-      },
       {
         "date": "2026-07-16",
         "close": 56.552925
@@ -424,14 +420,14 @@
       },
       {
         "date": "2026-09-17",
-        "close": 64.513379
+        "close": 64.766338
+      },
+      {
+        "date": "2026-09-18",
+        "close": 66.560644
       }
     ],
     "1Y": [
-      {
-        "date": "2026-01-09",
-        "close": 78.336362
-      },
       {
         "date": "2026-01-10",
         "close": 79.961
@@ -1434,112 +1430,116 @@
       },
       {
         "date": "2026-09-17",
-        "close": 64.513379
+        "close": 64.766338
+      },
+      {
+        "date": "2026-09-18",
+        "close": 66.560644
       }
     ]
   },
   "outlook": {
-    "score": 4,
-    "label": "Moderately Bearish",
-    "sentiment": "bearish",
-    "summary": "No verdict extracted.",
-    "watch": "",
+    "score": 5,
+    "label": "Neutral",
+    "sentiment": "neutral",
+    "summary": "Bond yields remain the dominant structural headwind at 5.00%, offsetting today's sentiment-driven rally from oil pullback and ETF inflows. Technical consolidation and shallow drawdown leave silver vulnerable to yield reassessment.",
+    "watch": "US 10Y yield trajectory and any shift in Fed commentary on rate-cut timing.",
     "updated_at": "Snapshot from 9:00 AM ET \u2014 may differ from live price"
   },
   "drivers": [
     {
-      "label": "Elevated Yields and Hawkish Fed Tightening Signals",
+      "label": "Oil Pullback & Sentiment Recovery",
+      "status": "supportive",
+      "icon": "people",
+      "reason": "20+ news sources on Sep 18 cite oil fall as primary driver of gold/silver recovery; Business Standard and Kitco confirm ETF gains of 2-3% amid investor return."
+    },
+    {
+      "label": "Yield Elevation Headwind",
       "status": "risk",
       "icon": "bank",
-      "reason": "US 10Y at 4.95% remains elevated; Warsh hawkish signal on Sept 16\u201317 triggered gold plunge 3% and silver weakness\u2014quantitative (yield data) + multi-source news confirmation (NDTV, KITCO, CNBCTV18)."
+      "reason": "US 10Y at 5.00% (+5bps) signals strong bearish pressure on silver; despite news framing yield 'easing,' absolute 5.00% level remains restrictive and contradicts bullish sentiment."
     },
     {
-      "label": "Sixth Consecutive Market Deficit and Physical Stock Depletion",
+      "label": "Etf Inflows & Technical Consolidation",
       "status": "supportive",
-      "icon": "industry",
-      "reason": "CLSA report flags supply squeeze and stock depletion as market heads for sixth deficit\u2014single strong news source confirming structural supply tightness despite price decline."
-    },
-    {
-      "label": "Dollar Weakness and Oil Price Adjustment",
-      "status": "neutral",
-      "icon": "people",
-      "reason": "DXY down 8bps and oil softer supported intraday +3.62% rebound on Sept 17 (Kedia Advisory, Investing.com), but gains capped by Fed tightening narrative\u2014dual-source news with quantitative DXY backing."
+      "icon": "flows",
+      "reason": "Gold/silver ETF gains of 2-3% and volume recovery reported; RSI 53.7 neutral and -3.6% drawdown create modest technical rebound setup without conviction."
     },
     {
       "label": "Technical Setup",
       "status": "neutral",
       "icon": "trend",
-      "reason": "RSI 47.6 is neutral mid-range; price at $65.70 is 5.2% below 30d high\u2014mild weakness without oversold setup or confirmed support bounce."
+      "reason": "RSI 53.7 (neutral midpoint), -3.6% from 30d high, and no significant move detected (+1.90% < 2% threshold) show mixed momentum with no oversold bounce setup or clear bullish breakout."
     },
     {
-      "label": "ETF Flow Signal",
+      "label": "Industrial Demand",
       "status": "neutral",
-      "icon": "flows",
-      "reason": "No direct SLV actual flows data available; volume proxy and ETF volume signals unavailable\u2014score reflects absence of confirmed institutional positioning."
+      "icon": "industry",
+      "reason": "No direct industrial demand signals in news or data; MAG Silver stock gain mentioned but insufficient for sector-specific conviction score."
     }
   ],
   "stories": [
     {
-      "title": "Silver Price Forecast: $60\u2013$70 Range Holds as US Rates Ease - FXEmpire",
-      "summary": "Silver Price Forecast: $60\u2013$70 Range Holds as US Rates EaseFXEmpire",
-      "time_ago": "3h ago",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPc3U3WE85bkdETFgzNjRQb2thZmtDbDNKbjUydHM1dk9Tbjd3dVlxYlBLb2twWjFMUXJJSkZ5NWt5b3lVSkNZR3l3TWxWMmxYSk1vR2F2cFJvTjV2Y21ZemFQN2NJTFdLOVd3ZVMtaC04R3NOem9hV2ZMd1lsUjAzdjFOb0w3eVhDMUVmU0RVQmp3YVpRY0NSWGRHbWo4YVFhTThLYkd4V1BKcGs?oc=5"
+      "title": "Silver Price Today: Silver Rises 4.62% on September 18, 2026 - USA Today",
+      "summary": "Silver Price Today: Silver Rises 4.62% on September 18, 2026USA Today",
+      "time_ago": "55m ago",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZUpnZURFbXh0bm9iYkdrWTlHVjhITnVsT2lXa2U0ZTFJd0swY1JsLWMzMmdMY3Q5TkpTOHFjNXRaVjBURTZHbzBCcFVZYTVqQWl0QlE2NHNXYlYtQUxYWDJEZkxSVndTS1pTZ1U2WHZTWWFwci1KVlFRbHhKN0R3bXpZLS1UX19xeW0zYnJCVlc5TUVPdXA2WXpnTlp5d3A0TVJaMmNiVjlUdl9Femx3?oc=5"
     },
     {
-      "title": "Current price of silver as of Thursday, Sept. 17, 2026 - Fortune",
-      "summary": "Current price of silver as of Thursday, Sept. 17, 2026Fortune",
+      "title": "MAG Silver Corp. stock gains after Q2 2026 update and silver price rally - AD HOC NEWS",
+      "summary": "MAG Silver Corp. stock gains after Q2 2026 update and silver price rallyAD HOC NEWS",
+      "time_ago": "1h ago",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPZ0gxT0kyNWMzLTc1aTE4ak9ZZTFjSnotamtXVGtoY2s5Mk9VT3ZMVUQzcHB4Q1VHNVM5R1NBeWdpcHNFMnpXbV9XU3poREJTTVhzbjNrMHJEX2dpTUhMRWJkS2JNeFh4b2pHWjVQUmdOS05SUEhURS1MZUkzSGxjUnZpem55ZW5Bb3N6bUlrSnFkVGV1aS1Ocjg4RkQ4MzVPSnp5NUNQSGsyd2VHU09yUm1fcWFoYU1YVi1UR2NNOTVGZHJETmlieGZR?oc=5"
+    },
+    {
+      "title": "Gold, silver extend rebound as oil, yields ease after Fed hike - Kitco AM Report - KITCO",
+      "summary": "Gold, silver extend rebound as oil, yields ease after Fed hike - Kitco AM ReportKITCO",
+      "time_ago": "4h ago",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNU1RUWTh6RHpZNHExWVcydEh0WnlERWl4M2NHenJEdXVURWctbDc2QXMtTWx3N1JZQm9EWURQM2dDQjV0NWF5cEpyMEhfeS1wNTBFNXlYY1hRcktRSXFaZ05RdGhkbDlMV1lFQW1ZN19vT0h4WlJiTWtNSEpFd2ZkSFFIUXFGX0hYVFhDNUFObm5LRUtHX1FwWHdVMFJCR2psd1pGcXRPVFJreTRXT0RSNlZnRkxZZ0didXpB?oc=5"
+    },
+    {
+      "title": "Silver Price Forecast: $70 Resistance Caps Bullish Pressure - FXEmpire",
+      "summary": "Silver Price Forecast: $70 Resistance Caps Bullish PressureFXEmpire",
+      "time_ago": "4h ago",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNc04tb2RIVWlUR2V4aDU3bmhJZjZQdC1oZ1pCVW01d091UXN1ZFdCMjNMVllXcm5tLWtvaHFxT01UYUlaX1J6UEFpZ0FfR3BCM0V2NEplenNrelZhdlZ6U1NsNFZzeWxOeTBwdjZoSUx5aXc3QUdwT1BxYnprLXAxZnBxQzkxQ2prcXp2RkNZUkJlb3NhUnNsdGZpeHpjbnBuUWI1X0Q5c25mTHJu?oc=5"
+    },
+    {
+      "title": "Current price of silver as of Friday, Sept. 18, 2026 - Fortune",
+      "summary": "Current price of silver as of Friday, Sept. 18, 2026Fortune",
       "time_ago": "5h ago",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBMU1RwVy1wRXk4ZXNjdWNsODVYZHN3ZGlsdkQ2aHVObjVMZzU2TlZ2azU3WjJLdXJndnNfUzRQa2VLbjdLUHpxUXBKT1h0U3dTSlFGRXpLblRJRF9TSFBOZF9LOE9YMWdGMjdYS2REMA?oc=5"
-    },
-    {
-      "title": "Silver price rebounds on softer Oil but Fed tightening caps recovery - FXStreet",
-      "summary": "Silver price rebounds on softer Oil but Fed tightening caps recoveryFXStreet",
-      "time_ago": "5h ago",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQOTBuaTR0SnlkNDdMdzBmUVhvSXJ6cVhnYTExT3dILWNYREFSUk4wTHlZSlF3MVFnS3A5cTRRTDVoT1JjQWRJT21uMGtJcm1iREpCSVBPRkVXbFFQcHVWelN4QXYta1ZES3hMNWxXbFNHMGJjWDhJMmkwVnVQcjBnemtLV0d0elRPWWNZR3lPa2tGUlB1NTNHUFBZbFdNak9sdkplTmhKQ2d2MnlIZVB1UQ?oc=5"
-    },
-    {
-      "title": "Gold, Silver Prices Decline In Futures Trade - Deccan Chronicle",
-      "summary": "Gold, Silver Prices Decline In Futures TradeDeccan Chronicle",
-      "time_ago": "9h ago",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOUFZDZUhJbVdieTBXZk1reUV2WGIzcDRidElMaWVPMk1UdGhjTDdlR2dYRTZ5WVM4MmFRS19CX1RhT0o4NEdHaFhvTk1pMThzYkJPU2N5YkVCTFdOZ0FXWXMyQkxqemhiR1JzSkhfWDBVNFhlRUdsVEQ3YkJ1LVdmZ0NKSXp4TVZoTlZEaEJOQ3pQX2RhLUFqLU9hY1k5aWt6azgyNtIBqgFBVV95cUxPNjFIOVZtVWNud1ZPSElPSUMwd2ZDT0tjWE1qbVp1Tk0tLWxiQTY3YlBpbXp5WDdqQTdwLUJkRUt5bGlLakhCM0pLMVVXZzBEZm9QTllCLUlxOGdzaExCdW5kOHNNU1dhTWlia2ZxYlVPS240MFlHRkxuaEdnbEhOU1E5UzAxUVhZaXJWeDVjdS1ydFY1YkE5UFd3bi1vWEhvTXRLUHluM3RTdw?oc=5"
-    },
-    {
-      "title": "Silver Futures Decline: Prices Fall on MCX & Global Markets - Rediff MoneyWiz",
-      "summary": "Silver Futures Decline: Prices Fall on MCX & Global MarketsRediff MoneyWiz",
-      "time_ago": "9h ago",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOOWRENjFpU1VOV29xZmJRQThHNWpTelpaWEVkR0EwMHZqMXNsSDhsVjI4aWlYREpHQS1ENXRIc1BSc0NxN3llZWRBNFhNZHFtSFNReXotTnV4c3B6dkpsczFLWGp2NnN5ZFk1N1lSVmZCcUxtZExkM1hKV0JuU3Nqek0zQUlkOVBLaC1SMUtKdWhucDh2Z0puNUlVZ2lubjh3S3ViZXF4NUZvVjRV0gGyAUFVX3lxTE5Yb2h6MDB5QWZpSDk0a3ppTlBIUG03RWFHXzlrNXVhanRjZmtSb09aSWpscl94N2EzeWNyQXlXTF93c2dpVTgtM3UxMy1VamxxQm1rcm5BUWZGaFFxUHkzcDJXT2xjT2dxeFY2dnRTamVKY05xZTZadXFDLTB2V2lBcTNFZFNPbHo0SXJYTDY0WjBnYVhrZEVSbzVLbThTR2xZd1lzYnI3TTBweVdIY204SVE?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE50RW9wNl9DcUJqSXo2bWVNdEZMSnhqRHBjaDB1SnVKUzdOTUV3N0hEMERJeEtyanY2OHpVRklSaWthbDJCQ0g2ZGI3dEdfYmJvcEFKQXRGZi1xbk4zNkY4RWxXbVI2R0JSblR2MDZWZw?oc=5"
     }
   ],
   "metrics": [
     {
       "label": "DXY (USD)",
-      "value": "100.24",
-      "change": "-0.08%",
-      "direction": "down"
+      "value": "100.29",
+      "change": "+0.06%",
+      "direction": "up"
     },
     {
       "label": "US 10Y Yield",
-      "value": "4.95%",
-      "change": "-0.05",
-      "direction": "down"
+      "value": "5.00%",
+      "change": "+0.05",
+      "direction": "up"
     },
     {
       "label": "Real Yield",
-      "value": "2.62%",
-      "change": "+0.02",
+      "value": "2.68%",
+      "change": "+0.06",
       "direction": "up"
     },
     {
       "label": "Gold/Silver",
-      "value": "67.0",
+      "value": "66.2",
       "change": "",
       "direction": "up"
     },
     {
       "label": "RSI (14)",
-      "value": "48",
+      "value": "54",
       "change": "",
-      "direction": "down",
+      "direction": "up",
       "note": "Neutral"
     },
     {
@@ -1558,7 +1558,7 @@
     },
     {
       "label": "1M % Change",
-      "value": "-0.21%",
+      "value": "-1.38%",
       "change": "",
       "direction": "down"
     }
