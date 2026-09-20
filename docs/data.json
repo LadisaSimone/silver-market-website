@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T14:29:06Z",
+  "updated_at": "2026-09-20T16:55:56Z",
   "price": {
     "value": 66.38,
     "change": -0.0,
@@ -23,10 +23,6 @@
   "history": {
     "1W": [
       {
-        "date": "2026-09-15",
-        "close": 63.489666
-      },
-      {
         "date": "2026-09-16",
         "close": 64.244183
       },
@@ -40,14 +36,14 @@
       },
       {
         "date": "2026-09-19",
-        "close": 66.37694
+        "close": 66.376959
+      },
+      {
+        "date": "2026-09-20",
+        "close": 66.377
       }
     ],
     "1M": [
-      {
-        "date": "2026-08-21",
-        "close": 69.317528
-      },
       {
         "date": "2026-08-22",
         "close": 69.108
@@ -162,14 +158,14 @@
       },
       {
         "date": "2026-09-19",
-        "close": 66.37694
+        "close": 66.376959
+      },
+      {
+        "date": "2026-09-20",
+        "close": 66.377
       }
     ],
     "3M": [
-      {
-        "date": "2026-07-17",
-        "close": 55.761129
-      },
       {
         "date": "2026-07-18",
         "close": 56.08
@@ -424,14 +420,14 @@
       },
       {
         "date": "2026-09-19",
-        "close": 66.37694
+        "close": 66.376959
+      },
+      {
+        "date": "2026-09-20",
+        "close": 66.377
       }
     ],
     "1Y": [
-      {
-        "date": "2026-01-11",
-        "close": 80.015728
-      },
       {
         "date": "2026-01-12",
         "close": 84.476035
@@ -1434,7 +1430,11 @@
       },
       {
         "date": "2026-09-19",
-        "close": 66.37694
+        "close": 66.376959
+      },
+      {
+        "date": "2026-09-20",
+        "close": 66.377
       }
     ]
   },
@@ -1442,79 +1442,79 @@
     "score": 4,
     "label": "Moderately Bearish",
     "sentiment": "bearish",
-    "summary": "Rising US 10-year yields to 5.00% and explicit Fed tightening signals from official commentary remain the primary headwind, offsetting transient support from dollar weakness and oil pullback. Technical indicators offer no oversold bounce setup to sustain recovery above $70 resistance.",
-    "watch": "US 10-year yields and the next Federal Reserve speaker commentary for any softening of the tightening narrative.",
+    "summary": "US 10Y yields at 5.00% and expectations of sustained Fed tightening remain the primary structural weight on silver, overriding bullish sentiment narratives that cite oil weakness and technical resilience. Neutral technical conditions and broad media optimism are providing modest tactical support but lack the conviction to challenge yield-driven headwinds.",
+    "watch": "US 10Y yield direction and any shift in Fed rate-cut expectations\u2014a meaningful decline below 4.85% would improve silver's fundamental setup materially.",
     "updated_at": "Snapshot from 9:00 AM ET \u2014 may differ from live price"
   },
   "drivers": [
     {
-      "label": "Elevated Us Real Rates",
+      "label": "US 10Y Yield Strength",
       "status": "risk",
       "icon": "bank",
-      "reason": "US 10Y at 5.00% (+5bps today, persistently elevated) is primary headwind; Fed tightening signals from Warsh quoted in news override temporary oil softness."
+      "reason": "US 10Y at 5.00% with +5bps daily move; sustained elevated yields are primary headwind to silver valuations."
     },
     {
-      "label": "Bullish Sentiment On Dollar Weakness",
+      "label": "Broad Bullish Sentiment Momentum",
       "status": "supportive",
       "icon": "people",
-      "reason": "Multiple sources (Business Today, Kitco, FXEmpire) cite dollar weakness and oil pullback as supportive; $70 resistance and yield-easing narrative dominate headlines."
+      "reason": "18+ news sources over 3 days report silver rebound themes despite Fed hikes; consistent bullish narrative across Kitco, FXEmpire, Business Today."
     },
     {
-      "label": "Neutral Technical Setup",
+      "label": "Neutral Technical Structure",
       "status": "neutral",
       "icon": "trend",
-      "reason": "RSI 49.1 (neutral midrange) and -4.2% drawdown from 30d high show neither oversold bounce setup nor clear momentum confirmation."
+      "reason": "RSI 49.1 neutral midrange with -4.0% pullback from 30d high; no oversold or bullish breakout setup present today."
     },
     {
       "label": "ETF Flow Signal",
       "status": "neutral",
       "icon": "flows",
-      "reason": "Volume proxy only, no direct SLV flow data available; score reflects absence of confirmed institutional positioning signals."
+      "reason": "Volume proxy only, no direct SLV flow data available; directional signals mixed, confidence capped at Medium per data availability."
     },
     {
       "label": "Industrial Demand",
       "status": "neutral",
       "icon": "industry",
-      "reason": "No industrial demand signals in market data or news; score reflects data absence rather than demand weakness."
+      "reason": "No sector-specific demand signals in news or data; SilverCrest stock near highs noted but insufficient to confirm industrial tailwind."
     }
   ],
   "stories": [
     {
-      "title": "Gold Price Outlook: Why Dollar Weakness Could Keep Gold And Silver Prices Attractive Ahead - Business Today",
-      "summary": "Gold Price Outlook: Why Dollar Weakness Could Keep Gold And Silver Prices Attractive AheadBusiness Today",
-      "time_ago": "6h ago",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNTFFNX3U3enRVNkQ1VWxoZXhrRnJGeFFtcngwRkxSM1hsWlhPZHpTZjZ6VC15RGFsSG5nNksyVFNJTTdVN05BVzR4dnpJZ2VPdHhZMXRPckJuNVVIQVVqQ3F2NmYwSms0QnNaNFo0OGkyUXhuakdKd0FKdzc2Q3pXRS1LVjhvaFBLN09fb0NJX0Zsck9vdHhPRGlSMnJOaWRoTUl2MV9Fc0pLbTJPRHJFNGc1eHZCa1U2dFI5OVFGRVRaanljU1FZVnNKNTZ3TVpNdHl5SGI4Q1MxMnZ6QTlBWmc0SW9lVGZDSjUxTzhkNlRsSlHSAfgBQVVfeXFMUHVMRWpKcURKTDI5RXNhWEh1WUdxXzcyQmljZEFGbkhEY1BYeEZ2d2lNVEJKR1dVQVlIYXZIRm1ESWUtN3B1UXFiT3U3OERrdWJyOTZoeUQzWTVaX0hVX2RlcHpTT3Y4XzRGTFo4NGVvOHlRY3k5b2pSaWhHaUZoSGxDSThpN2ZITW8yT2sxRkpMZlJmczR5ME4waklUUTVDUWhleDE5LXNBZlhYNVdJNVNnc3RXQUNRajhCUk5UckQ1azdocG1Mbm80MXVOQ0p2Tm5lbGdQbUV2eHJmNVV5QW9qX0N1VEdaTVRkYzJMbFFjV2prajZDOEY?oc=5"
+      "title": "SilverCrest Metals stock trades near silver price highs amid recent quarter results - ad-hoc-news.de",
+      "summary": "SilverCrest Metals stock trades near silver price highs amid recent quarter resultsad-hoc-news.de",
+      "time_ago": "1h ago",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPRjF0ZW85cTVDamdPWVFPT3FCM09DN3d6M1lsLTMxQnZqVUU4V05CaDhTZjBHTy1KR3NtOFhnUENSbWh4Ymp4M1M0S0pLblhtSUFnS3dfX2ZpdWlPbkhzOUFOOE1jenBUY2pheWFrZ2JwRkJJUHFWSVQ1cHRhMzhrOWZUSC02azNGUkFjN0g2TjZYWHVUd1h2TzJpUkpoNF9TVW1iNjlOSEoyQVlkV25EZmE4ODZmelVRQmx1WFhMUF9uY2pK?oc=5"
     },
     {
-      "title": "Gold vs Silver Investment Strategy: Is This The Right Time To Buy For Long-Term Returns? - Business Today",
-      "summary": "Gold vs Silver Investment Strategy: Is This The Right Time To Buy For Long-Term Returns?Business Today",
-      "time_ago": "8h ago",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPUDZ1b0dXQVRIemJIZkJBZzN0NHhIdks2c2YwYUVJeU0zU2hrNktLQ2pEMUJBVDM0c01WTmhLYkJNakozVzZRZV9ZN29qWDhmbVpwQ2ktWGJLMXM3X3c2SFJiRHZyNDRLaS1wVVJwRzROakdpUTY2bTMzRFBnN3EtMDBOYnNkc2dFbFJHVlU5RVhlSHBNd3dYMkhNS3A5Z1F1RV9oc185aGZ3cUNjM0kwMnZ3aF9RTWNzUHpBVXVsa1FSMl96dmVOVU9McDE4eENPdEd0eGdxc1hBaF90RVRKT1JLZGhMMzBHVV9lZjR2VdIB9AFBVV95cUxQR1lxYi1GMFp0UmFOZHl4NThuUTVsR1JBNlJBbFdxZXFod1BvUmpUQm9VNUNfai10d3dhelh3bTFaeFpGMHctMmM0SUhabnlHMHdoak0wUld5UkNSRWFKTFlkUHV2QlVVQkZFSjFaUzZiV1NyTVZ0ODdmOWNQSDVlbzdKc1VrMWxhdno4RGRpVHBLejhaWGZ2V25xMS1DRGVVNk43MzdoT2VrSk1TZVBMUlRkcU5UZ2RTVHNGVDF0bkRPRDFKQmVjTVdCMmFUWjVOSXd1eDIyLWJ3Y0w5MjgzUzMxNnZ4WGYzc1pCdlRHOUs1SEN1?oc=5"
+      "title": "Silver Price Forecast: Silver Rebounds Despite Fed Hike and 5% Yields - FXEmpire",
+      "summary": "Silver Price Forecast: Silver Rebounds Despite Fed Hike and 5% YieldsFXEmpire",
+      "time_ago": "2h ago",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOT202cFB2NkJxMGhKa3B2NGNGczRpcEJtWUQ1RExGUUFRY0NKcFc2dFFNcHJpdDFuRXFGVnptdG9ockx0NlEwZkhKTzdDUVpYVmNFMXppZ3BPLVFIT2ppOUFQS0hoaGgtZWV4ZGgxTlVLWU9Na0RlT2ZXUjFRMV8wQVh3b19kZ0dyVlQ5VTdDN09rVnZKWGhlbVpOWTQ4UjlaS3JHcEFqYUU1U3hYMklfNTlzMWV0OVdyM0QwUVg4cjZjaFZ1?oc=5"
+    },
+    {
+      "title": "Gold and silver prices rise in domestic market on Sunday - Nepalnews.com",
+      "summary": "Gold and silver prices rise in domestic market on SundayNepalnews.com",
+      "time_ago": "11h ago",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPaEN2TktaaVFnS0ZjYWVmdmphT3ZnTnd6NGc5TEprV2lYWUZYMmtXS0VkQmNNY2VpNXRIUW5vc2RCTERSRElCRlVieUhFd2NmdDV1c1piQmg5dzk1RWc5ZENxcUE3VU1PdU51SUxSUmw1R2t2dDVjOFF6SXI2ZzVKRVJoOUN6cUNfUmpZZWthaTZnQ2tHU0hRbmp6RWhRYWc?oc=5"
+    },
+    {
+      "title": "Gold Price Outlook: Why Dollar Weakness Could Keep Gold And Silver Prices Attractive Ahead - Business Today",
+      "summary": "Gold Price Outlook: Why Dollar Weakness Could Keep Gold And Silver Prices Attractive AheadBusiness Today",
+      "time_ago": "1d ago",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNTFFNX3U3enRVNkQ1VWxoZXhrRnJGeFFtcngwRkxSM1hsWlhPZHpTZjZ6VC15RGFsSG5nNksyVFNJTTdVN05BVzR4dnpJZ2VPdHhZMXRPckJuNVVIQVVqQ3F2NmYwSms0QnNaNFo0OGkyUXhuakdKd0FKdzc2Q3pXRS1LVjhvaFBLN09fb0NJX0Zsck9vdHhPRGlSMnJOaWRoTUl2MV9Fc0pLbTJPRHJFNGc1eHZCa1U2dFI5OVFGRVRaanljU1FZVnNKNTZ3TVpNdHl5SGI4Q1MxMnZ6QTlBWmc0SW9lVGZDSjUxTzhkNlRsSlHSAfgBQVVfeXFMUHVMRWpKcURKTDI5RXNhWEh1WUdxXzcyQmljZEFGbkhEY1BYeEZ2d2lNVEJKR1dVQVlIYXZIRm1ESWUtN3B1UXFiT3U3OERrdWJyOTZoeUQzWTVaX0hVX2RlcHpTT3Y4XzRGTFo4NGVvOHlRY3k5b2pSaWhHaUZoSGxDSThpN2ZITW8yT2sxRkpMZlJmczR5ME4waklUUTVDUWhleDE5LXNBZlhYNVdJNVNnc3RXQUNRajhCUk5UckQ1azdocG1Mbm80MXVOQ0p2Tm5lbGdQbUV2eHJmNVV5QW9qX0N1VEdaTVRkYzJMbFFjV2prajZDOEY?oc=5"
     },
     {
       "title": "Gold Price Outlook: Why Gold Could Rise Despite Global Interest Rate Hikes | Silver Market Update - Business Today",
       "summary": "Gold Price Outlook: Why Gold Could Rise Despite Global Interest Rate Hikes | Silver Market UpdateBusiness Today",
-      "time_ago": "11h ago",
+      "time_ago": "1d ago",
       "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQeGMzZW5JQnYzUUtucmdXWGQ0dlptc0U2djNZVnZwWFVudmZoUVZxcEFaSnNNc1lrR1BoVzVKXy1kYTE5RmViRnRQOTAxcktDMjlGbzVmQ1dTM2pXeENac2pJSS1jSGJ0M0JfUEM3cDZvU0lST3c4Qkt0QWJRbG1sYjhjLWhEWnFNcUM2TGpmUHduVk1ubEpYbXFqOHgxTHpiLUx2Z3JqU3VkYUthdW1nUE1WOEFsY1FFVDloTWotNkkwWG9hemg3SF9Bb1JSMFFvaHJBc01TSElzV1NPZVpRUDl2eUJaWERTQnJtbE9mX0ZEYk9zVnM1WU930gH_AUFVX3lxTE5LV1FnUm5WTVUyRVJVNU9Tc2I4RnVsaVJ3Ympqblo1WnFMNzdLVFZwMDJhNE11NVdPYU51N1NmU2p2UVJfeThSSkZvQUtXME15ZHluSlVvQlc0MUhNck14Mk5xTGZROWtSVTZ2M2p1Mm9Gblp5ZmdQVzlDNnpibDdiSkFnN2h0Tm9HRHJLcUhUSEhHUjM2dmVVNnVyajd3bW02VVNDdGZxVTFVNEs0ZDM3bXZaWlY0MmhTeTMxTkhlOGlKLUxsMjhnbWF4WHc5Qm1Nc24td0hjdm5QM1pRZW1GVlY0NXh2eUpfR0NvNFBtUFJ5WEFSd0ZzNEpjZVZZQQ?oc=5"
-    },
-    {
-      "title": "Silver prices rise sharply, surpassing the 66 USD/ounce mark as oil cools down - Laodong.vn",
-      "summary": "Silver prices rise sharply, surpassing the 66 USD/ounce mark as oil cools downLaodong.vn",
-      "time_ago": "12h ago",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZTZ6TzZBcUQwNnBBYU94dmZ4YXJUQ2gyc1JBa0tqamVVd0ZZUU9LeVA3ZjRndWlvdDdBRzlxTnR5d19MdjcwRnJsQ1ZjMzYyWVdmNm1kQXZCcE01d1dEYzBvVzZBc3lWYWNlaWNramRqZDI1UHluMmhUdTV1V2RaeklXUk92cHBXTHQwbFNQTHB6aEtFSHdpQXZKOWlkMmhFcTNoRmk3MkNSQQ?oc=5"
-    },
-    {
-      "title": "Gold, silver prices hold weekly gains as oil drops, yields return to 5% - Kitco PM Report - KITCO",
-      "summary": "Gold, silver prices hold weekly gains as oil drops, yields return to 5% - Kitco PM ReportKITCO",
-      "time_ago": "19h ago",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQOC04SFRVZ1hweHN1YkpVUTJGZEZxVzNteTYwNk5FSThiNmdVSHFCQlRkNHd0OGhJajZKRnc4NXFyTFA3aWU0OWRoQnp0Q21nX3AtSHd6R09LVWdEMUQxUzRyb29jNEFRUnZDN0RmMFVOWEttSGZOQkxyNklXbzE2VmRnREdxNThhM2M2aVBGVTlMT2R6WU1POS1WTDhvTDdJOHVDZ2xwX0F5QkZnTF91d0dHQkwzQ1BT?oc=5"
     }
   ],
   "metrics": [
     {
       "label": "DXY (USD)",
       "value": "100.22",
-      "change": "-0.01%",
+      "change": "-0.02%",
       "direction": "down"
     },
     {
@@ -1558,7 +1558,7 @@
     },
     {
       "label": "1M % Change",
-      "value": "-4.24%",
+      "value": "-3.95%",
       "change": "",
       "direction": "down"
     }
