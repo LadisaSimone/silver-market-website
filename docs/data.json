@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T14:39:38Z",
+  "updated_at": "2026-09-23T17:55:02Z",
   "price": {
     "value": 64.76,
     "change": -2.75,
@@ -19,10 +19,6 @@
   "history": {
     "1W": [
       {
-        "date": "2026-09-18",
-        "close": 66.55561
-      },
-      {
         "date": "2026-09-19",
         "close": 66.376959
       },
@@ -36,14 +32,14 @@
       },
       {
         "date": "2026-09-22",
-        "close": 65.894129
+        "close": 66.24226
+      },
+      {
+        "date": "2026-09-23",
+        "close": 65.782403
       }
     ],
     "1M": [
-      {
-        "date": "2026-08-24",
-        "close": 69.089617
-      },
       {
         "date": "2026-08-25",
         "close": 68.543747
@@ -158,14 +154,14 @@
       },
       {
         "date": "2026-09-22",
-        "close": 65.894129
+        "close": 66.24226
+      },
+      {
+        "date": "2026-09-23",
+        "close": 65.782884
       }
     ],
     "3M": [
-      {
-        "date": "2026-07-20",
-        "close": 56.849073
-      },
       {
         "date": "2026-07-21",
         "close": 58.616355
@@ -420,14 +416,14 @@
       },
       {
         "date": "2026-09-22",
-        "close": 65.894129
+        "close": 66.24226
+      },
+      {
+        "date": "2026-09-23",
+        "close": 65.782403
       }
     ],
     "1Y": [
-      {
-        "date": "2026-01-14",
-        "close": 91.094751
-      },
       {
         "date": "2026-01-15",
         "close": 90.626859
@@ -1430,104 +1426,114 @@
       },
       {
         "date": "2026-09-22",
-        "close": 65.894129
+        "close": 66.24226
+      },
+      {
+        "date": "2026-09-23",
+        "close": 65.782403
       }
     ]
   },
   "outlook": {
-    "score": 4,
+    "score": 3,
     "label": "Moderately Bearish",
     "sentiment": "bearish",
-    "summary": "Rising US bond yields (4.98%) and hawkish Fed expectations, reinforced by dollar strength, create a structural headwind for silver that outweighs neutral technical conditions. Fading safe-haven demand as equity rallies continues to limit upside pressure.",
-    "watch": "US 10Y yield movement and any Fed policy signaling shift; if yields dip below 4.85% or Fed messaging softens, silver could rally toward $70 resistance.",
+    "summary": "Rising US bond yields (now at 5.13%, up 16 bps) combined with dollar strength (+38 bps) from the Fed's first rate hike since 2023 are creating a sustained opportunity-cost headwind for silver. Technical indicators remain neutral without oversold confirmation to support a near-term bounce.",
+    "watch": "US",
     "updated_at": "Snapshot from 9:00 AM ET \u2014 may differ from live price"
   },
   "drivers": [
     {
-      "label": "Hawkish Fed Outlook and Elevated Yields",
+      "label": "Fed Rate Hike and Rising Yields Headwind",
       "status": "risk",
       "icon": "bank",
-      "reason": "US10Y 4.98%, DXY +31bps, plus explicit news citations of hawkish Fed expectations and dollar demand pressure create quantitative + news-confirmed macro headwind."
+      "reason": "Recent Fed rate hike (first since 2023) + US 10Y at +16bps (5.13%) + market commentary on 'hawkish Fed outlook' create direct headwind; two independent quantitative signals (yield + DXY move) confirmed by multiple news sources."
     },
     {
-      "label": "Risk-On Sentiment and Equity Rally Pressure",
+      "label": "Dollar Strength Offsetting Risk-On Signals",
       "status": "risk",
-      "icon": "people",
-      "reason": "Multiple news sources (Kitco, CNBC) cite stock rally easing precious metals; mentions of fading risk premium reduce safe-haven bid for silver despite price weakness."
+      "icon": "bank",
+      "reason": "DXY +38bps at 101.1 signals sustained USD strength; combined with rising real yields (inferred from +16bps nominal yield move), this represents two macro headwinds; mentioned explicitly in news as pressure on silver."
     },
     {
-      "label": "Neutral Technical Setup Without Oversold Bounce",
+      "label": "Neutral Technical Positioning Without Clear Momentum",
       "status": "neutral",
       "icon": "trend",
-      "reason": "RSI 45.4 is midrange neutral; -0.88% drawdown is below significant-move threshold (2%); no mean-reversion or confirmed support bounce to contradict macro bearishness."
+      "reason": "RSI 45.3 mid-range is neither oversold nor overbought; -4.11% intraday move is significant but lacks oversold confirmation or bounce signal; technical picture offers no bullish edge to counter macro headwinds."
+    },
+    {
+      "label": "News Sentiment",
+      "status": "risk",
+      "icon": "people",
+      "reason": "News coverage mentions Fed hike risk, hawkish outlook, and dollar pressure as caps on gains; conflicting intra-day reports of silver gains in some markets undercut overall bearish tone."
     },
     {
       "label": "ETF Flow Signal",
       "status": "neutral",
       "icon": "flows",
-      "reason": "No direct SLV flow data available; volume proxy only; directional confidence capped at Medium per data availability rules."
+      "reason": "No direct SLV flow data available; volume proxy only; cannot confirm institutional positioning direction or magnitude of flows today."
     },
     {
       "label": "Industrial Demand",
       "status": "neutral",
       "icon": "industry",
-      "reason": "No sector-specific demand signals provided in news or data; cannot assess industrial appetite independently."
+      "reason": "No industrial-specific demand signals in data or news; generic references to \"pressure\" do not isolate demand drivers from macro/currency effects."
     }
   ],
   "stories": [
     {
-      "title": "Silver Price Today on September 22, 2026 - USA Today",
-      "summary": "Silver Price Today on September 22, 2026USA Today",
-      "time_ago": "55m ago",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORTZVNUVrdjhzMnNCUGhMV0l0cTBfS0ZFRk5IVGNGRGt2eFN0Zkw2UXNJekRpejdpeTNqMWoydUJfRmN4anM3dWpDWG0tcTE3X2tGYnFQb0ZSaHh5M2VIV1NzM1VTYzJManR2SXRLLXZwOG5HWDlBU2dvMzBnZ0pnVk5hN1NOdWg1VmxyR1JLLUJoWm5aYy1SNXc3Z1doOWczWnRDXzNNUW5QLUI1dzhZ?oc=5"
-    },
-    {
-      "title": "Silver Price Forecast: $65 Support Holds as $71 Breakout Looms - FXEmpire",
-      "summary": "Silver Price Forecast: $65 Support Holds as $71 Breakout LoomsFXEmpire",
+      "title": "Current price of silver as of Wednesday, Sept. 23, 2026 - Fortune",
+      "summary": "Current price of silver as of Wednesday, Sept. 23, 2026Fortune",
       "time_ago": "3h ago",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWU1TZUliTTdxMmxVZTNOOGR5VHk1bnh1NnllU0REWXpJTlUyNmpGamNKUW1rVUstdnl6ZGRBaE1Jb2Z1ZlNiZDBDc3NtVGs4NGE1d21pUTVhaVlRMzJyX2M0Slc1WV9BT0lWekdfaU90RGdWSjJ1eXpFZVVXc29zeW9YWlZ2TU11a2xpQVlfd0F0STRnU1d4VVl3TUtvcDlIYkhGMHVUTVpKSFhoNGJR?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBpLVFROTlURE9MRnpvb2gzNkFCaDMydXVZeWt5T2VoMHAtRlZKRFNORFo2WUxBWVEwWjR6cUcxV2JRRUVRdzMxanlnc0VGWWpSa0UxNjBLRUU2YTgyTHlfWm1zVVhLM2NqQm94OWFiaw?oc=5"
     },
     {
-      "title": "Gold, silver prices fall on MCX: Key factors driving prices today - CNBC TV18",
-      "summary": "Gold, silver prices fall on MCX: Key factors driving prices todayCNBC TV18",
-      "time_ago": "5h ago",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRk8wcVdkMVBkc3psWS1mSk42V1R1NjNwZ3lFb0NGeWYyZnlPOEJERS1GdFBhS1Fxb0o5SEpScTFPTTFVSXI5Nlh5MjF0YjdrV3A2QkZUNHNydjQ2M19INk40MXVOYUdJSWhTbjdDM0l4WXhpQnBZaHVCOVotRkRwdjdOWEZJRTFHY0JKZFNNUG1NZmdOWlhxZUl4YXpOS0ktZ0ZDS0hQN21mNjRGZGhEcnpWQTTSAboBQVVfeXFMUEhsdEJyVG5kVE1zOW5BVUlMQWJKSXlsNVVKVGp4c2xoSDlwVTFTblB2NW9nMU9JaFJpdkRhZWM1MmJ0d0pFZ2dZcHJJVDZuc042ZEFNeEpLbzNTTWxQTWZiVElXV0lmbWdjU3p3bWpKXzdSaEVLUFVuWnF3R1l2a0hSaklZVmMzcUJzT2ZCZUJ1YW9xcjZOOEh4TERTdm5EV3RpVUtlNHhiaW5Hc041aXU3R2p0YnA1Y1hn?oc=5"
+      "title": "Silver Price Forecast: $63.50\u2013$70 Range Keeps Traders Waiting - FXEmpire",
+      "summary": "Silver Price Forecast: $63.50\u2013$70 Range Keeps Traders WaitingFXEmpire",
+      "time_ago": "4h ago",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZEtfenVubjdlRk5VMUxjaFFPMkI5czZYVFZwZ1VhcHEzSW1Nd0pwRDFMQ3BQTHNQNGdURVNGRjNLWk9aNkFBaF9kYnZEaVd5VkdnZTJEWGcwbnFMajItM0hxUjZGRVY0R0dneEJtLTBmUXZaWGp2Sklydk5JdlJ2VlFwcE1WUTdWMTlZd0cwUWtWUHhUUGJHSVJnQ0loN0FGOXBwM3NMRXNQZ0JQVEE?oc=5"
     },
     {
-      "title": "Current price of silver as of Tuesday, Sept. 22, 2026 - Fortune",
-      "summary": "Current price of silver as of Tuesday, Sept. 22, 2026Fortune",
-      "time_ago": "8h ago",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBBTEVhczhFWTJtcmxPci13OVIxOG9kSzByQ01TSWNRaWdNSVJHb0RIN1ZNQWgtM2dEZ0hrNFpMbTdIZVVpSlJYMjB6RVBIbzNQbWFZWVB5TFBKMnN0czhwaUhseDJHRnFIWWx4bnN6UQ?oc=5"
+      "title": "MCX gold falls to \u20b91.52 lakh per 10 grams, silver also under pressure - cnbctv18.com",
+      "summary": "MCX gold falls to \u20b91.52 lakh per 10 grams, silver also under pressurecnbctv18.com",
+      "time_ago": "6h ago",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNOEFCd3NFai1vZTFHQXAwLXVoRGk5WHRodlY1R0k4eWQxQTZhbmF0Z3g5VDVEdHQ5Si1CdFA1aFJzd0VqVFgyRHI4YkxZbjdhT0xDc2N4azh3WE9vZVFlbEpQM3FUZGM1cHEzQndray1UalJHUnlRa3JhaHVWdC1yb0lyeC0xeDRyWU91eHEyMms5MklnMHdERzN3clhLRnZaZnFpd1c0MV9rSGMtNHR1eNIBtgFBVV95cUxPRGNzejFLMVRFT0N2M2FNYjhSUk94b0l4ZkJrSHg4UmZQTlBhVmt4c1NRN3lGSWtrZ1JVTXZGWldiYk9tQnlDRHJKSFBzanVlSUVSdGY1YWhLQkVDb1g0dTBuMkpGU2stbUh0OUFBTFNaVzVjdmoxNzU3Tlp3TFpRUTF6Nm1NYllRRnRqZTd6eG1TUHRteEo0am9ZSWYyUEdyZVJxOG80aVhrMVc5dGljWWhmdE5qUQ?oc=5"
     },
     {
-      "title": "Gold and silver prices fall in local market today - Nepalnews.com",
-      "summary": "Gold and silver prices fall in local market todayNepalnews.com",
+      "title": "Silver Price Targets $66.50 Ahead of PCE as Fed Hike Risk Persists - FXEmpire",
+      "summary": "Silver Price Targets $66.50 Ahead of PCE as Fed Hike Risk PersistsFXEmpire",
+      "time_ago": "7h ago",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZFVsMnJjVkNWclEyVVFwdWNDM2NYMF9uMWdDdV9KYVZIRTlSZm5GYVluUnBkQ2tUUDBWcERUOENzZ05jQ2EwOWtSWmtXVUFNWXVFdXZkcHBFN2RFaEptZXFVOTEyc3l2ZDFkSndacG5BMkVYdW1icWhvSEIwNWN0d0lrLTJ3SkpBM1JPeVJtR0VWX2FjcXpWNkRGdTdoMGdNanh1Qmt5SjhPaVdqaHJoR3hJRUphNnRpRjVRaEpIQkZaUQ?oc=5"
+    },
+    {
+      "title": "Micro Silver (XAGUSD-M) Drops on Sep 23: Key Factors to Watch - TradingKey",
+      "summary": "Micro Silver (XAGUSD-M) Drops on Sep 23: Key Factors to WatchTradingKey",
       "time_ago": "10h ago",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNMnNpNDRwUlFwTTVybUNQaDVMWmJjRkFOWG9HWWd5QlVmVHYwLWl2OW43WXBtakZWR19pUkloc2QtakhheU1pT2RlaDIzTG1SVVkyT1FIUC0wRzdxOUdNa0F3RTlQdU5LemZMNWlWNnNqZnMwWkc5SE11Vmx5NFQ2WTNmRFRYZHBvZ2tRMlNXRnFGeHhFVlE?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQVmJINHplUjcxUmFLTUNFR0V1Ry13dmdOMllSXzBsSW5XNHhDaXpfdXlvSGxmTEsyWDRxeDJnX1lVMUVhRkJSOXBYdzZ0d1BVeFBwRW9EejRsSjFfd1NySHJfblBXaHlCeHRFRi1KN3FSS2ZNNW11ZmpuZ0U2Mm54UldWc2hmZk0zT3NUeHdEOWM?oc=5"
     }
   ],
   "metrics": [
     {
       "label": "DXY (USD)",
-      "value": "100.67",
-      "change": "+0.31%",
+      "value": "101.10",
+      "change": "+0.38%",
       "direction": "up"
     },
     {
       "label": "US 10Y Yield",
-      "value": "4.98%",
-      "change": "+0.02",
+      "value": "5.13%",
+      "change": "+0.16",
       "direction": "up"
     },
     {
       "label": "Real Yield",
-      "value": "2.68%",
-      "change": "+0.07",
-      "direction": "up"
+      "value": "2.62%",
+      "change": "-0.06",
+      "direction": "down"
     },
     {
       "label": "Gold/Silver",
-      "value": "66.1",
+      "value": "66.8",
       "change": "",
       "direction": "up"
     },
@@ -1547,14 +1553,14 @@
     },
     {
       "label": "ETF Holdings",
-      "value": "496.1M oz",
+      "value": "494.3M oz",
       "change": "",
       "direction": "up",
       "note": "SLV"
     },
     {
       "label": "1M % Change",
-      "value": "-4.63%",
+      "value": "-4.03%",
       "change": "",
       "direction": "down"
     }
