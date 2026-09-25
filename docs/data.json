@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T16:30:00Z",
+  "updated_at": "2026-09-25T18:02:06Z",
   "price": {
     "value": 64.6,
     "change": 0.87,
@@ -23,10 +23,6 @@
   "history": {
     "1W": [
       {
-        "date": "2026-09-20",
-        "close": 66.384078
-      },
-      {
         "date": "2026-09-21",
         "close": 66.349501
       },
@@ -40,14 +36,14 @@
       },
       {
         "date": "2026-09-24",
-        "close": 63.949803
+        "close": 63.928903
+      },
+      {
+        "date": "2026-09-25",
+        "close": 64.250658
       }
     ],
     "1M": [
-      {
-        "date": "2026-08-26",
-        "close": 68.694982
-      },
       {
         "date": "2026-08-27",
         "close": 69.009756
@@ -162,14 +158,14 @@
       },
       {
         "date": "2026-09-24",
-        "close": 63.949803
+        "close": 63.928903
+      },
+      {
+        "date": "2026-09-25",
+        "close": 64.250658
       }
     ],
     "3M": [
-      {
-        "date": "2026-07-22",
-        "close": 59.794027
-      },
       {
         "date": "2026-07-23",
         "close": 58.625987
@@ -424,14 +420,14 @@
       },
       {
         "date": "2026-09-24",
-        "close": 63.949803
+        "close": 63.928903
+      },
+      {
+        "date": "2026-09-25",
+        "close": 64.250658
       }
     ],
     "1Y": [
-      {
-        "date": "2026-01-16",
-        "close": 90.246576
-      },
       {
         "date": "2026-01-17",
         "close": 90.289
@@ -1434,7 +1430,11 @@
       },
       {
         "date": "2026-09-24",
-        "close": 63.949803
+        "close": 63.928903
+      },
+      {
+        "date": "2026-09-25",
+        "close": 64.250658
       }
     ]
   },
@@ -1442,102 +1442,102 @@
     "score": 4,
     "label": "Moderately Bearish",
     "sentiment": "bearish",
-    "summary": "Rising US 10-year yields at 5.16% and Fed rate tightening have raised silver's opportunity cost, overwhelming bullish technical signals despite RSI oversold at 35.5. Four consecutive daily declines and gold outperformance reinforce institutional selling momentum.",
-    "watch": "US 10-year yield direction and any shift in Fed rate expectations\u2014a meaningful decline below 5.0% would restore near-term bullish technical setup.",
+    "summary": "Elevated US bond yields at 5.19% remain the primary structural headwind, constraining silver's ability to sustain rallies despite emerging supply tightness and retail buy-on-dip sentiment. Technical oversold conditions and defensive accumulation offer modest near-",
+    "watch": "",
     "updated_at": "Snapshot from 9:00 AM ET \u2014 may differ from live price"
   },
   "drivers": [
     {
-      "label": "Rate Headwinds From Fed Tightening",
+      "label": "Persistent Elevated Yield Headwind",
       "status": "risk",
       "icon": "bank",
-      "reason": "Fed raised rates for first time since 2023 (confirmed multiple news sources); US10Y 5.16% and rising DXY suppress silver's carry-free upside fundamentally."
+      "reason": "US 10Y at 5.19% persists as rate-sensitive drag on silver; DXY weakness (-23bps) insufficient to offset; macro carries 30% weight in Overall formula, dominating bearish signal."
     },
     {
-      "label": "Technical Oversold Bounce Setup",
+      "label": "Supply Tightness & Emerging Alternative Demand",
       "status": "supportive",
-      "icon": "trend",
-      "reason": "RSI 35.5 is classically oversold; -7.8% drawdown from 30d high creates mean-reversion entry, but limited by macro headwinds preventing breakout."
+      "icon": "industry",
+      "reason": "Kitco reports 'tight supply creates yield opportunity' and tokenized product launch signal structural demand support; industrial category scores 7/10 bullish but carries only 10% weight in formula."
     },
     {
-      "label": "Gold-Silver Ratio Divergence",
-      "status": "risk",
+      "label": "Consensus Buy-On-Dip Retail Sentiment",
+      "status": "supportive",
       "icon": "people",
-      "reason": "Ratio at 67.5 (+2.5 above historical average) signals relative silver undervaluation, but gold outperformance today (rises while silver falls) contradicts short-term bullish thesis."
+      "reason": "Multiple news sources (Business Standard, Business Today, CNBC TV18) reinforce positive tone on 'rebound' and 'lower levels' buying; sentiment scores 6/10 bullish but carries 20% weight, insufficient to offset macro bearishness."
+    },
+    {
+      "label": "Technical Setup",
+      "status": "neutral",
+      "icon": "trend",
+      "reason": "RSI 37.1 is near-neutral zone (neither oversold nor overbought); price -6.7% below 30-day high shows drawdown but no confirmed reversal; mixed technical setup warrants neutral score."
     },
     {
       "label": "ETF Flow Signal",
       "status": "neutral",
       "icon": "flows",
-      "reason": "No direct SLV flow data available; volume proxy only. Score reflects neutral positioning with no confirmed institutional buying or liquidation signals."
-    },
-    {
-      "label": "Industrial Demand",
-      "status": "neutral",
-      "icon": "industry",
-      "reason": "No sector-specific demand data provided; news articles focus on macro/macro-rate drivers rather than industrial offtake, solar, or electronics demand signals."
+      "reason": "Volume proxy only; no direct SLV flow data available; directional signals absent; confidence capped at Medium; neutral score reflects data gap without assuming direction."
     }
   ],
   "stories": [
     {
-      "title": "Current price of silver as of Thursday, Sept. 24, 2026 - Fortune",
-      "summary": "Current price of silver as of Thursday, Sept. 24, 2026Fortune",
-      "time_ago": "3h ago",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1fRWUxamJMdTV1RXBSMWlzZzZrRTlBQ3hxRFU0aFpPU2JpN0ZiVGF5b2xtOU1jSFpiUHFNb1ZXMmtjeGNkUnBxaGszNVQwQzFWQzF6UFFhUFk0XzJIYzlQZEdBU1ROUmFMcGxScnAxaw?oc=5"
+      "title": "Silver\u2019s tight supply creates yield opportunity as Theo launches new tokenized product - kitco.com",
+      "summary": "Silver\u2019s tight supply creates yield opportunity as Theo launches new tokenized productkitco.com",
+      "time_ago": "2h ago",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNWVppel9VYm1nSVEtV0tpOXpZb3NqZHUzLWd0Q2pJaDNLSk9jZ25zVUctUnhDZ1J1OFpjWVVGdVdBTkQtWU1BTGt0bHAybmxfNHpxTnVtLWlzZGZjd3pCWi0tMkVzTGNKV3VlOGFDaFR0TnlHVGxVdU5fVTBEbFhCUm1RVk5zLTlXM1RKU2lpaDdselhzQ21LU09wVFlqalVQQWdDbXJmakViQWh4Rmp5SXVxc3pSUnNqNEg1MA?oc=5"
     },
     {
-      "title": "Silver Price Forecast: Rising Rates Put Range Support at Risk - FXEmpire",
-      "summary": "Silver Price Forecast: Rising Rates Put Range Support at RiskFXEmpire",
+      "title": "Current price of silver as of Friday, Sept. 25, 2026 - Fortune",
+      "summary": "Current price of silver as of Friday, Sept. 25, 2026Fortune",
       "time_ago": "4h ago",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQMURTS2Nsa056VlZLS0hKdDRvendBVktpOHVwTVJMZjM2a21zMnZtdGZ5cmdiT3VnTWRodzBSNUxEWk91VjRNcncwelVuZ25EOU9lUUUzTFNHTUlsMkFwWVUzbFB3bXVIYkRZZF92VnVxLUdnN3dRTGQzSV9ndWhucWhMWWRoOGxiWmdhRmExLS0wQjYtWEZqaG5GenZQSUkyWG9KMUxyemtiU1MzdFFzMA?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBNWEFNRVI1Q0pxNjl4dXY5VjFNSm9VR2xaWnFTTVlyem9aRUpFTDg2UXFzTmlEUlFpT1hHVVFTVWNyYlZnODB0bEdUaVg4d0RYVnBEVzk3a3FDZkdqS2k0dnNZN3dpLUw1aGlHXzE0OA?oc=5"
     },
     {
-      "title": "Current price of silver as of Wednesday, Sept. 23, 2026 - Fortune",
-      "summary": "Current price of silver as of Wednesday, Sept. 23, 2026Fortune",
-      "time_ago": "7h ago",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBpLVFROTlURE9MRnpvb2gzNkFCaDMydXVZeWt5T2VoMHAtRlZKRFNORFo2WUxBWVEwWjR6cUcxV2JRRUVRdzMxanlnc0VGWWpSa0UxNjBLRUU2YTgyTHlfWm1zVVhLM2NqQm94OWFiaw?oc=5"
+      "title": "Silver Price Forecast: $63\u2013$70 Range Tightens as Rates Bite - FXEmpire",
+      "summary": "Silver Price Forecast: $63\u2013$70 Range Tightens as Rates BiteFXEmpire",
+      "time_ago": "4h ago",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQLTU5bEZkSm1MM2swV3pnbGpmdkZBYVJTakhLbTBtZTBSWWFVM3dLaTI0UDh2b0RrXzh4OXZ3WGdrSWMwbWRab0tkamRkZV9xMmtUc294OVp1aW9UczVJVTNocjFkNVc5R1FDX1NnZlFNbjI5blBZZkNxaDJ3NUVTSi1ITkhPck5RUm9vOHh1ZEJocmdVUnh0ZHBCN0Z3Q1ZFVnotT25weGVFUEE?oc=5"
     },
     {
-      "title": "Planning to Buy Gold or Silver? Get Price Predictions for Diwali and Year-End 2026 - ETV Bharat",
-      "summary": "Planning to Buy Gold or Silver? Get Price Predictions for Diwali and Year-End 2026ETV Bharat",
+      "title": "Gold And Silver Price Outlook: Key Support Levels And Buy-on-Dip Strategy Explained - Business Today",
+      "summary": "Gold And Silver Price Outlook: Key Support Levels And Buy-on-Dip Strategy ExplainedBusiness Today",
       "time_ago": "8h ago",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOLXRjRTRSNkRDb0NPV2FKREpDampFMG5tdzluSlNjSFB3cjhrYXhCTDhWTGtubktkY2oyYVUzNXQ3d0xOQlByeU43Q3BCRThDVkFna3g4SmhJS3RESWYyZlN1WXd4MnlfYXQxZ3lKOUlUMFBjVnY2TG1HS3djUk5iaEpiVWdmdzZDUmwxOGpzSjhON1JBX1JJdkdfdHZhRnpDSnVERWdmVy1EaEJUUWtJbmRlYzl0QUlrZWdaa2ZBcjAxOVZhUGh6NXdfck0tQlnSAdQBQVVfeXFMTjYtandaRVJuRnFQRVFKeUtwVUFlTFFfV3o5aUFRb0dVcGdWbmh6bUQzaWZscGlWd3lrbmhId1FURFl6bGhERUdLaWtQYldjandfQmZMbDk4ZWdibE5NZkN5dUJ2MHVKc1BlQU1UWUQ4RjJGQjZkb1Rid3VFMklnd0lSTFNhcndJNTR2UXFZT21JbFNnU3pjZThrM2Vfb1d5VWRVb0IxM2JpQXBXNDJIRWdzRVR6b0xlc2ktUnkzVWw5dkw1Q2otcko5VzhWSy1la2dJREE?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPUXR5Q2IySkdRSzJyS3JOV3ZmRE0yZHZFN000cWFTMVFiMWdPWHZkaVpqcUF2LTVLVE9vZnFqd0JjRUg3U1dsNnV5TkVENGwyTEJ3M3VlaUpFQTNLQTRNdmNtTnNSd3prT29uU1Q0d2NyeVZ2akhsVFpNc1N0TExSRWZiYWtQRHJFdEw1MW5DclhCb0w3azZlbHJvTGkyWmpmaWFYRnN3cXVvTUJKZndKNmNGTnoxTjdnVGE5c0U5ZXliNWg1eEVvdEJrUktBcm9FM3hMYjlEUFJESExRSGx3RUx2NmZUWDBodVHSAe8BQVVfeXFMT1VqNDAtbWRubldQVVhhTGg5MVpyS2tUTW1BWEF1TTczR2tuY21TOVpYbENGX21fZ2pnamp0b3YySW1tQW1fZldrUERzVm8xQnJCSHRmLU1iT2ZIdDRvcUhYdkZhTVdJd0xvTjFSUnhkZUZSekNCT2tzdWVmMXZoNlB3S3VFTGt3bkU0UU12Sm9WbU5ubVBxRDJORW1pVDZVMVNrM3FHSzdTY1pObmo3MDZFcGV3cUpDMHNLWGZXci1fOWR4QVMtWlZnYjVIVmNiV2N4V0FwSE9GR3dtQkZQa0hrcDB3cmw1N29pQU5oV2s?oc=5"
     },
     {
-      "title": "Gold, silver prices fall for 4th straight day: Gold gets \u20b92,500/10 gm cheaper; silver plunges \u20b97,000/kg in ... - Bhaskar English",
-      "summary": "Gold, silver prices fall for 4th straight day: Gold gets \u20b92,500/10 gm cheaper; silver plunges \u20b97,000/kg in ...Bhaskar English",
+      "title": "Gold and silver prices decline in domestic market - Khabarhub",
+      "summary": "Gold and silver prices decline in domestic marketKhabarhub",
       "time_ago": "9h ago",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPdlNvQmlscWdxOWhvYU9GcWJjMTRwN3Y1dTNXaTVReUhKazUySG5MbHVqaVJOYjMtd3JMdGhsTnhjZE9BazZpblg1T2FTYWZ0aFpqRXRJM2Z5cXctRXJGQ0VxdmtodmppVVhfZXp4bVBRN1pPd0x6QWwtRkRVQmV6SlZyTEt0SHVpZ1hLWTVraUtzTHN5dWQxdms5ek9vaXpBUUhQa3J4QlVYcjloMWfSAbMBQVVfeXFMTUV2elg5STZIa2ZqU0tBNGxLem5XSW5OWnlKMHZmbnFVc25kQUdaWnM3QUY3YlJrY1FabHBRa1JleVBvS2R6bWJ0c1RDczNnbXUwVXdSR19SbFd5LVRJMnRfdWpKQWljYW5FUWsxSmlld0sxYldIc3JDcXp5SzllMDdaVVhIb0hlZ1FPQk1XSm9BRjhEbFdHOS13TXgxamlWUkllTkw0WHlzX1B1RTFwTm1vVmc?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9mM2JHb0daeUtfMnV0Nll2SG1IaFJNdEktUkVCV1J0Qk45LXFnTmw1R3dFck90b2ZqdHVQOG9tdnRNMHVVM2stQmRPeXpYUUdJS05vc0czaWM?oc=5"
     }
   ],
   "metrics": [
     {
       "label": "DXY (USD)",
-      "value": "101.31",
-      "change": "+0.17%",
-      "direction": "up"
+      "value": "101.05",
+      "change": "-0.23%",
+      "direction": "down"
     },
     {
       "label": "US 10Y Yield",
-      "value": "5.16%",
-      "change": "+0.04",
+      "value": "5.19%",
+      "change": "+0.03",
       "direction": "up"
     },
     {
       "label": "Real Yield",
-      "value": "2.63%",
-      "change": "+0.01",
+      "value": "2.76%",
+      "change": "+0.13",
       "direction": "up"
     },
     {
       "label": "Gold/Silver",
-      "value": "67.5",
+      "value": "67.1",
       "change": "",
       "direction": "up"
     },
     {
       "label": "RSI (14)",
-      "value": "36",
+      "value": "37",
       "change": "",
       "direction": "down",
       "note": "Neutral"
@@ -1551,14 +1551,14 @@
     },
     {
       "label": "ETF Holdings",
-      "value": "493.5M oz",
+      "value": "493.9M oz",
       "change": "",
       "direction": "up",
       "note": "SLV"
     },
     {
       "label": "1M % Change",
-      "value": "-6.91%",
+      "value": "-6.90%",
       "change": "",
       "direction": "down"
     }
