@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T18:25:33Z",
+  "updated_at": "2026-09-28T20:11:48Z",
   "price": {
     "value": 61.31,
     "change": -2.56,
@@ -19,10 +19,6 @@
   "history": {
     "1W": [
       {
-        "date": "2026-09-23",
-        "close": 65.477388
-      },
-      {
         "date": "2026-09-24",
         "close": 63.928903
       },
@@ -36,14 +32,14 @@
       },
       {
         "date": "2026-09-27",
-        "close": 64.419
+        "close": 64.381528
+      },
+      {
+        "date": "2026-09-28",
+        "close": 61.704115
       }
     ],
     "1M": [
-      {
-        "date": "2026-08-29",
-        "close": 66.503
-      },
       {
         "date": "2026-08-30",
         "close": 66.503364
@@ -158,14 +154,14 @@
       },
       {
         "date": "2026-09-27",
-        "close": 64.419
+        "close": 64.381528
+      },
+      {
+        "date": "2026-09-28",
+        "close": 61.704115
       }
     ],
     "3M": [
-      {
-        "date": "2026-07-25",
-        "close": 58.282
-      },
       {
         "date": "2026-07-26",
         "close": 58.401413
@@ -420,14 +416,14 @@
       },
       {
         "date": "2026-09-27",
-        "close": 64.419
+        "close": 64.381528
+      },
+      {
+        "date": "2026-09-28",
+        "close": 61.704115
       }
     ],
     "1Y": [
-      {
-        "date": "2026-01-19",
-        "close": 93.757605
-      },
       {
         "date": "2026-01-20",
         "close": 94.526234
@@ -1430,7 +1426,11 @@
       },
       {
         "date": "2026-09-27",
-        "close": 64.419
+        "close": 64.381528
+      },
+      {
+        "date": "2026-09-28",
+        "close": 61.704115
       }
     ]
   },
@@ -1438,85 +1438,85 @@
     "score": 4,
     "label": "Moderately Bearish",
     "sentiment": "bearish",
-    "summary": "Rising US bond yields at 5.18% and elevated carry costs remain the dominant headwind for silver, outweighing tactical dip-buying and structural supply tightness. Modest dollar weakness and financial innovation in silver products provide some offset but are insufficient to overcome the macro yield drag.",
-    "watch": "US 10Y yield movements and Fed policy commentary for any signal of yield peaking or softening; a meaningful decline in real rates would materially improve silver's setup.",
+    "summary": "Rising US Treasury yields (5.24%, +6 bps) and intensifying Fed rate-hike expectations are compressing silver valuations by increasing the opportunity cost of non-yielding assets, confirmed uniformly across 22 news sources. Technical indicators show silver is oversold at RSI 30.2 following a 9.1% drawdown, offering potential for a mean-reversion bounce, though macro headwinds may limit its amplitude and duration.",
+    "watch": "US 10Y yield direction and any shift in Fed rate-hike expectations; reversal below 5.20% or peak-hawkishness signals could rapidly reverse positioning flows.",
     "updated_at": "Snapshot from 9:00 AM ET \u2014 may differ from live price"
   },
   "drivers": [
     {
-      "label": "Persistent Yield Headwind",
+      "label": "Rising US Treasury Yields and Fed Rate-Hike Bets",
       "status": "risk",
       "icon": "bank",
-      "reason": "US 10Y at 5.18% + elevated DXY create sustained opportunity-cost pressure on non-yielding silver; 2 independent macro signals converge."
+      "reason": "US 10Y +6bps to 5.24% and widespread news coverage of rate-hike fears directly suppress silver valuations as opportunity cost of holding non-yielding metal increases."
     },
     {
-      "label": "Supply Tightness Support",
+      "label": "Oversold Technical Setup with Mean-Reversion Potential",
       "status": "supportive",
-      "icon": "industry",
-      "reason": "Kitco reports tight silver supply and new tokenized yield product; structural supply constraint provides floor but insufficient to offset macro drag."
-    },
-    {
-      "label": "Oversold Rebound Buying",
-      "status": "supportive",
-      "icon": "people",
-      "reason": "Multiple news sources (Business Standard, cnbctv18, Khabarhub) confirm buying at depressed levels; tactical short-term support but no macro reversal signal."
-    },
-    {
-      "label": "Technical Setup",
-      "status": "neutral",
       "icon": "trend",
-      "reason": "RSI 42.2 is neutral midrange; -3.8% drawdown from 30d high is modest; no oversold setup or confirmed support bounce evident today."
+      "reason": "RSI 30.2 signals oversold condition and silver drawdown of 9.1% from 30-day high creates textbook bounce setup despite near-term bearish macro headwinds."
+    },
+    {
+      "label": "Overwhelmingly Bearish News Sentiment",
+      "status": "risk",
+      "icon": "people",
+      "reason": "22 news sources unanimously report sell-off with no bullish counterweight; mass negative sentiment reinforces macro-driven liquidation across precious metals."
     },
     {
       "label": "ETF Flow Signal",
-      "status": "neutral",
+      "status": "risk",
       "icon": "flows",
-      "reason": "Volume proxy only; no direct SLV flow data available; directional signals capped at neutral per data quality limitations."
+      "reason": "No direct SLV flow data available; volume proxy and ETF tumble (-3.6% to -4%) suggest outflows but magnitude unknown\u2014confidence capped at Medium."
+    },
+    {
+      "label": "Industrial Demand",
+      "status": "neutral",
+      "icon": "industry",
+      "reason": "No sector-specific demand signals in news or data; only generic precious-metals coverage\u2014no evidence of industrial support or deterioration today."
     }
   ],
   "stories": [
     {
-      "title": "Gold, silver prices rise in local market - Khabarhub",
-      "summary": "Gold, silver prices rise in local marketKhabarhub",
-      "time_ago": "12h ago",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE4xUkpEdmZvdGdya1JEbl8yYXUwRUlxaWhJd3lScDN2MHMxUXBXVlRqcnRRdXB2QzRSS2M4WHZlQmNCWFRmcVRjVDBSNmRqaWVZVFMxWHRVRlo?oc=5"
+      "title": "Gold or silver in 2026? How these two investments compare - USA Today",
+      "summary": "Gold or silver in 2026? How these two investments compareUSA Today",
+      "time_ago": "4h ago",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOeDFEejZaeUpiTjhDRDl4QngwWU9zWi1SMURfRC1jTktkcS1id2I5dmlKek5zZGVia01jbmpOX2ZidGdXR3REZTZUVlBrLUdmdU1jQXdHOXVhZG82dlRFQTBJQnVaaFAzQ20zY1p4ZUdHODV6b0k0YndBV1NxelF0YlN2bTBBS3FCOWdoVFV2eW9zUTJCZTliX1VMN2xFQmg1cUZn?oc=5"
     },
     {
-      "title": "Gold, silver prices on September 27: Check latest rates in Delhi, Mumbai, Kolkata, other cities - Business Today",
-      "summary": "Gold, silver prices on September 27: Check latest rates in Delhi, Mumbai, Kolkata, other citiesBusiness Today",
-      "time_ago": "13h ago",
-      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOSTROVzJtSDQzOS1NTlpXVXpXeWxWVnU4MkpaYklsYlNwejA1LU1pQU1JVFY1TnpQVmFmelFhYjZnVThwS2JBVlZiUlRVWHdQVGUwLWdPSTVEZG11R2FtbDI4REl3VWV6QjJSOGZaWHpwWXNqRExmbFZMYlh3Z1djM3FaLWFvNW90RjFqb2dZN1prLTNQdW4wMmc4SzJlNDJ1ZDFvUzIwMUlYSzlPVW5VSHYyWS11S0kwYUZXWGJRcURkTFU5ZEx0dHZ0WVVIckxtOUNZNXVwWHg1SjFMZExjS2RNX0VXUllTU0xqcmFHQ0dTQdIB9wFBVV95cUxPRUQ5OVU3S2NqNm9acmpjbmxJSHVJZVpBODI4R0NTWGxBWUx3NXRDYkxOQnJ1X0Z1VTZnSlpPbFFwVWY0TXlsWjlRRXZWcENPOWszZXQ3WkRaRHRhQVIzTnpadURvYW95dTBDbmY3cHhXVkk4UnVVOG0wQ19MV1JaQy1uUUg2eFJ3a3dZa3V6TGgwNFdLUnNIYk1lMzdmUUR4cjk0bVFDS0s3TkpabVFBc3VKRFY2OUo0SU51LTE3aWVRb1pIRFZqSERuT1JjemUtOUFXWGdvUEJoMTRScld6SElGV0VxTDU1cEJCYWttU1pObFg4UHBJ?oc=5"
+      "title": "Silver Price Today In The UK, 28 September 2026 - forbes.com",
+      "summary": "Silver Price Today In The UK, 28 September 2026forbes.com",
+      "time_ago": "6h ago",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5GY2NSNTc5Y0RCLW9QeXlCNDFpZ21IRFpsbDFWTXZSUTYwNWZPckFSak1ZZzhRaUk2azJ0WFZJWjFuXzc3bGxyVnRLMFNtemdYMktkZFlIUWE0N05HWHZQd05IRHpjR0tY?oc=5"
     },
     {
-      "title": "Silver price fluctuation 27.9: Losses up to 5.6 million VND/kg after a month - Laodong.vn",
-      "summary": "Silver price fluctuation 27.9: Losses up to 5.6 million VND/kg after a monthLaodong.vn",
-      "time_ago": "15h ago",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPNGl5dW1ZdEJFLThpWVpyaGpoUDVGOFBndklzVUlURnFFdE5kLWxkTW5JY3ZTLVdjWk8wdF9NbXJsRDZ6NVJCVUNWQ3lhR2ZPdHJ2N0RDZDNRVk9OcFVtSzZEQjRBYjhsTkVoaUl2SGZSXzVuaE5ISWl2YzRoZU51UWh5d0QxbWVpQkFidXQtLXk4V0NwLVZSS1pBT0NOOUVqUGNBbm53S25KS0xQMlE?oc=5"
+      "title": "Gold and silver prices are struggling now, but a much higher long-term base is building - BMO Capital Markets - Kitco",
+      "summary": "Gold and silver prices are struggling now, but a much higher long-term base is building - BMO Capital MarketsKitco",
+      "time_ago": "6h ago",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVC15WjVOUk9TZEJ3NGtRMHF0Vm1WaEQ2TndjMUxIeTBaQ0VWS0R4b093U3R0NXA1NHdrbWE2QU5mRXhfODJORkY4ejY4NktMeTZNQU1RQWhVbVVYczJwOUdRX2JVVm1RZDdiaTdWSjlDai1SUXdzQjFvaHNXTnhqdnAwTE1UdDZGdUc1aWhxbWpXa0RpNDk4b2VpOUxONDk3alZsRDlFLVlvWDJCejBUV0xkbng?oc=5"
     },
     {
-      "title": "Silver prices rebound but still under pressure from US bond yields - Laodong.vn",
-      "summary": "Silver prices rebound but still under pressure from US bond yieldsLaodong.vn",
-      "time_ago": "17h ago",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQdlpMMU1wNzZHTk9WeHFsbVFvNGFMMWVqMHZ6a0lDWmJLOHNEaHVoU3MyNGp2VVc4WmRVZTJydTVLR3VNdHcyeW9DcUQxTEhUcjd1eTlLRTkwRkl2M0NMUUJveVM0SzMzdzk0V1VNR2JJbl80YVg3RWZyeG5lWHk4SzN3M0t4UlJEVGxHbDV2dnl5eU9qWTdMd00xcS1WSnFwaG9XVUJJUHFTYmlZQ1dSWGJMV1c0d1JGd29B?oc=5"
+      "title": "Why is silver price down today? - The Economic Times",
+      "summary": "Why is silver price down today?The Economic Times",
+      "time_ago": "6h ago",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOdUFId2tIbUNjaG9DWU11NDA4ZUM2QWI5RE9GcTlxckJsYk9GNmZROUFncVM5NDEwU1NsdEQyd1NrR1p3YVdGNjVWWk54VkYwZzA5bjd2OXd2WVl6dzA2bmNSVExKbGpXaGQzWXFlTDJHV3hBQ2tTY2hXMGJRQnI4VXRlY29CLUZVekQxVVBkaFZXcU1ERjRKM3F0S3TSAaIBQVVfeXFMUEFuaHFxVEFBYkpTRlotQVVGMVZqV0E0b0ZaTkQ0VHVSUF9jZnU2NFVhbFlKSEVVcUNHajFXbUd3RnJmSlNBaFJXdUdtLTk0MEVhS21VRDBEMC1VRTZEMi1PZUpDN3hLZGJfYnVUM05Xc2lyRFpUcVhxQjBfRGNlT0lwbmVtT0JKZmhCWE92NlZ3WGt4b3FvTjhXUzhFbTF4RjhB?oc=5"
     },
     {
-      "title": "Silver Price September 28 2026 - Robinhood",
-      "summary": "Silver Price September 28 2026Robinhood",
-      "time_ago": "1d ago",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPdS1OU0xRT19oUzl5UlhNQ2dBaGRGZG1vTEVnV2E1SmU2Rl9yV1ptei16VWVHOXZCMF8zZzFKNHBlQ2FHTUpMeHliQUtBSXdtbmlJV05pWDZGcWgtNHFZUnRZSUN5MjlxWnUwejk4dElGcURGWXpCNThIRlpwR1BpalZWb2dJbHpRN2VqZHZ3Q2l6OU9RYnBScjhRRl85T3drZXlPdE5iVQ?oc=5"
+      "title": "Silver Price Forecast: Rising Rates Put $60 Support at Risk - FXEmpire",
+      "summary": "Silver Price Forecast: Rising Rates Put $60 Support at RiskFXEmpire",
+      "time_ago": "7h ago",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObGlDLXFtdGpwaW5LZ1BWdnFrek1MX2haZVRJSWQ1SWJINVJTNTNBV1p3T3RFdUwzWmNZTWplcC1WZ1pSSE9taEoyS3ZRR3Zicy1jc0tBTmhPZG04MWc1Qm5oR3hUQ0J6RzlwNDNBMXJiOTh0a0Q5MGlCTnBUYUhoVTRkTFVneXJJdHNoVVY0NUFndHpHeWljVER6ODZoOVZDMEt6VENIOGtEaEdE?oc=5"
     }
   ],
   "metrics": [
     {
       "label": "DXY (USD)",
-      "value": "101.03",
-      "change": "-0.24%",
-      "direction": "down"
+      "value": "101.21",
+      "change": "+0.09%",
+      "direction": "up"
     },
     {
       "label": "US 10Y Yield",
-      "value": "5.18%",
-      "change": "+0.02",
+      "value": "5.24%",
+      "change": "+0.06",
       "direction": "up"
     },
     {
@@ -1527,13 +1527,13 @@
     },
     {
       "label": "Gold/Silver",
-      "value": "67.1",
+      "value": "68.3",
       "change": "",
       "direction": "up"
     },
     {
       "label": "RSI (14)",
-      "value": "42",
+      "value": "30",
       "change": "",
       "direction": "down",
       "note": "Neutral"
@@ -1554,7 +1554,7 @@
     },
     {
       "label": "1M % Change",
-      "value": "-3.13%",
+      "value": "-7.22%",
       "change": "",
       "direction": "down"
     }
