@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02T08:22:16Z",
+  "updated_at": "2026-10-02T18:35:29Z",
   "price": {
     "value": 61.42,
     "change": 0.13,
@@ -15,10 +15,6 @@
   "history": {
     "1W": [
       {
-        "date": "2026-09-27",
-        "close": 64.381528
-      },
-      {
         "date": "2026-09-28",
         "close": 61.568004
       },
@@ -32,14 +28,14 @@
       },
       {
         "date": "2026-10-01",
-        "close": 60.94925
+        "close": 60.983267
+      },
+      {
+        "date": "2026-10-02",
+        "close": 61.024627
       }
     ],
     "1M": [
-      {
-        "date": "2026-09-02",
-        "close": 64.620544
-      },
       {
         "date": "2026-09-03",
         "close": 66.447385
@@ -154,14 +150,14 @@
       },
       {
         "date": "2026-10-01",
-        "close": 60.94925
+        "close": 60.983267
+      },
+      {
+        "date": "2026-10-02",
+        "close": 61.024627
       }
     ],
     "3M": [
-      {
-        "date": "2026-07-29",
-        "close": 57.772797
-      },
       {
         "date": "2026-07-30",
         "close": 58.343231
@@ -416,14 +412,14 @@
       },
       {
         "date": "2026-10-01",
-        "close": 60.94925
+        "close": 60.983267
+      },
+      {
+        "date": "2026-10-02",
+        "close": 61.024627
       }
     ],
     "1Y": [
-      {
-        "date": "2026-01-23",
-        "close": 99.892144
-      },
       {
         "date": "2026-01-24",
         "close": 103.327
@@ -1426,119 +1422,117 @@
       },
       {
         "date": "2026-10-01",
-        "close": 60.94925
+        "close": 60.983267
+      },
+      {
+        "date": "2026-10-02",
+        "close": 61.024627
       }
     ]
   },
   "outlook": {
-    "score": 6,
-    "label": "Moderately Bullish",
-    "sentiment": "bullish",
-    "summary": "Falling US 10-year yields (down 5 basis points to 5.24%) paired with oversold technical conditions (RSI 30.5) are driving a modest recovery, though a strengthening dollar remains a headwind. Festive demand and exploration success provide tertiary support but lack conviction without institutional flow confirmation.",
-    "watch": "US 10Y yield direction and any Fed commentary on rate expectations; a reversal above 5.30% would undermine the bullish case.",
+    "score": 4,
+    "label": "Moderately Bearish",
+    "sentiment": "bearish",
+    "summary": "Rising US Treasury yields at 5.28% and a firming dollar index are suppressing silver's valuations despite technical oversold conditions at RSI 26.0. Short-term mean-reversion bounce mechanics may offer 2\u20134% relief within days, but macro headwinds remain structural absent a shift in Fed expectations.",
+    "watch": "US 10-year yield direction and any Fed policy commentary; a decline below 5.20% would materially improve silver's near-term setup.",
     "updated_at": "Snapshot from 9:00 AM ET \u2014 may differ from live price"
   },
   "drivers": [
     {
-      "label": "Falling Us 10Y Yields Tailwind",
-      "status": "supportive",
-      "icon": "bank",
-      "reason": "US 10Y yield dropped 5bps to 5.24%, removing key headwind; -5bps move directly supportive to silver valuations and macro environment."
-    },
-    {
       "label": "Oversold Rsi Mean-Reversion Setup",
       "status": "supportive",
       "icon": "trend",
-      "reason": "RSI 30.5 is in oversold territory (<30), a classical mean-reversion bullish signal paired with -9.0% drawdown from 30-day high."
+      "reason": "RSI at 26.0 is deeply oversold (threshold <30); -9.7% drawdown from recent high creates textbook short-term bounce potential."
     },
     {
-      "label": "Silver Undervaluation Vs Gold Ratio",
-      "status": "neutral",
-      "icon": "flows",
-      "reason": "Gold/silver ratio 69.0 is +4.0 above historical average, quantitatively confirming silver is undervalued relative to gold on a mean-reversion basis."
+      "label": "Elevated Real Rates Headwind",
+      "status": "risk",
+      "icon": "bank",
+      "reason": "US 10Y yield at 5.28% (+5bps today) and DXY at 101.95 directly suppress silver valuations as opportunity cost rises."
+    },
+    {
+      "label": "Supply Oversupply Warning",
+      "status": "risk",
+      "icon": "industry",
+      "reason": "Deutsche Bank (Oct 2) explicitly cites silver oversupply outlook; no offsetting industrial demand catalysts in available news."
     },
     {
       "label": "News Sentiment",
-      "status": "supportive",
+      "status": "neutral",
       "icon": "people",
-      "reason": "News tone is uniformly constructive across Indian markets, festive demand themes, and sector rallies; no bearish headlines detected, supporting neutral-to-bullish tone."
+      "reason": "News tone mixed: weak payrolls support dovish Fed hopes, but Deutsche Bank warns of silver oversupply; conflicting narratives."
     },
     {
       "label": "ETF Flow Signal",
       "status": "neutral",
       "icon": "flows",
-      "reason": "Volume proxy only; no direct SLV flow data available. News mentions price moves but not fund positioning. Score capped at Medium confidence per DATA AVAILABILITY."
-    },
-    {
-      "label": "Industrial Demand",
-      "status": "supportive",
-      "icon": "industry",
-      "reason": "BP Silver Corp. announced 1,328 g/t AgEq feeder discovery (exploration strength); festive demand noted in CNBC/Indian market reports. Supply-side positive signals present."
+      "reason": "No direct SLV flow data available; volume proxy only. Score reflects news-only signals with medium confidence."
     }
   ],
   "stories": [
     {
-      "title": "Silver Price Forecast \u2013 Silver Continues to Move to Rates - FXEmpire",
-      "summary": "Silver Price Forecast \u2013 Silver Continues to Move to RatesFXEmpire",
+      "title": "Silver Price October 5 2026 - Robinhood",
+      "summary": "Silver Price October 5 2026Robinhood",
+      "time_ago": "45m ago",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSjdMcGU0eUxwZm1sb0xfWjNpdjZzd09IcmYtRF8wWXc4RzhyeTBsUDlVLU9kajFtLVU0Rzl6YzRyYzRnNVVZVXdqbGkwY3hQNGluaWJIVnJwYzFFZkpOMmdNZjNKLUgwbkU2UXk3Sm83UGlVYVI2bzlvazcxdnpwQUZ4LXRUTGFiYkh5T0NYUUhoYjdhc2FkeHo0akg1b29xem5r?oc=5"
+    },
+    {
+      "title": "Silver Price Today on October 02, 2026 - usatoday.com",
+      "summary": "Silver Price Today on October 02, 2026usatoday.com",
+      "time_ago": "2h ago",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRVo3LXNwbmoyYUdwZWlBd3RnUlN6NGNHZ1FOVGQxV2lJQVlMMXlDMHJUYjNwOWZsNTRCSDdFdUxjdjBwYU5ucS1kcEVCck90Rkd4M0hSOFdua1A4RnJiLTRZWGM2bXlMc3lZcHBGR2l3Q2Rwd3NVOUhIT2pOMjZyVnVnWXI5WTJyRGNlUFJPYkRSOEFWYkN2ZENWYVZMRTdDTHZsSjkwODFoazZK?oc=5"
+    },
+    {
+      "title": "Current price of silver as of Friday, Oct. 2, 2026 - Fortune",
+      "summary": "Current price of silver as of Friday, Oct. 2, 2026Fortune",
       "time_ago": "5h ago",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWnc0V2ZVNDRIcWc0ZDAxeHpib2poNnRZZHI4VXdwX2VWM2dGSnVSeUExZ3dRa1hReWItdFpWVXJsaWZsLWdLVkNyb0xJR0xYNmwtUkgzaUJ2aUZDdHF4UlZUd2ZKNXR1REY2UGRROHMwQUVBVVlhQWNTUlNFYnY4WGlvc25jeVFNSjBFQjFRMTgtNndKNWtoUkQ4Mjh3dVhibDJWWU9wajRlZw?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBEMTVqLTVMOXpmSWhVMHpDRjZXdVZxaDNQUDZvaVcxQ0N2M1ppN2FrcWkzeUctXzF1dFZqbmpPOERTWFBHX3RJbGVKT3Z5UnpWampmR0hJLTBZbk9Hd2xmdllBSDRLUWZqa05yQ2h4dw?oc=5"
     },
     {
-      "title": "Current price of silver as of Thursday, Oct. 1, 2026 - Fortune",
-      "summary": "Current price of silver as of Thursday, Oct. 1, 2026Fortune",
+      "title": "The Silver Market Has a Seat Shortage - Investing.com",
+      "summary": "The Silver Market Has a Seat ShortageInvesting.com",
       "time_ago": "5h ago",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9CTXdqaWdPclpkcTFqa3RsaVVsdWJhbzE4NlRmYnZLeTlUZU5HV3oteFdIMWpUZmNsemZTLWd4cGUxTTUtOEp6djVnU1J1bXF3Y1F4MUhGTXVDcmNVWVpIdENQcU5tUUFsc1JhcU5ncw?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQOS1LWmgtQWV6YXBSdkdzVlZkUXVlT1cydXZCdkdHc1lWTUJDbkh2S1V1NFB1TTMyZWR1TkwyUnp2Z0t6Y1B6RmkyaWhkanc0azRJd0xhcWI4enI3QU1IaUxWZzhhS2VwaTJTSjBkZVRJdXkyUU5YYmxsMnFDM1VMRkt5eXVhODJTeUE?oc=5"
     },
     {
-      "title": "BP Silver Corp. Hits 1,328 g/t AgEq Feeder at Cosuno Project - Streetwise Reports",
-      "summary": "BP Silver Corp. Hits 1,328 g/t AgEq Feeder at Cosuno ProjectStreetwise Reports",
-      "time_ago": "8h ago",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxORHhQVGhDWHF3Tm9YZFNMRHVreXUyckpwYWRlRS0wREVwVy1tWGU0bVU3MHF5UGEtdVZtM3hxUVVhTEFFNjF3Yi1fT00xbkIxazg5OEFGOENURkd2ODY4azB0TEpxSEJTY0s4XzZKUjlqV0xtWEhmMFQxa2ZXbGpySllYdGJDZS1WakRLNVpwbV90OXpfd3pnNk43cS1WeEx3T2tzM0tFQmhYUHpnbXMxaERhZ2V6S28?oc=5"
-    },
-    {
-      "title": "Gold Futures Rise To Rs 1.50 Lakh/10 Gm; Silver Prices Jump 0.93% - ETV Bharat",
-      "summary": "Gold Futures Rise To Rs 1.50 Lakh/10 Gm; Silver Prices Jump 0.93%ETV Bharat",
-      "time_ago": "9h ago",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOVTF0QVphdGgwbldYekRHRkR6dnkza3BqU0ViQ05GdEllN1F6d04xaGRJclZ4aGZQZXlXX1Q2bkR4MWUyOG5JWHdnVmRrbkJYUk50eVpvbTlhNEFvOE1QQnFuUTR5N3FtMnJKQzRNT25KR0Vfdk5RdURwNTFlQU1ybzBPdldpcUNZVDdVeGdsX3lDZV9LMHpOVS1iSmMwQU91M3VXdGhVVzd0VDNGMHM3VnFxZHhaVDJLc1pLdDB1ZVVJQi1yc0pvNmhnQTVtcl9wQ2c2bdIB2gFBVV95cUxQZkotdnhzZENHUlBIZll6YTRwTXhCdDVEZV9nTUFIMWZOemhYTGhTWEtidTRGZmt0RDZnbzRXWU9ka05TZS1uY3F0LW04SmFfcVFsbjg1NEZMZ1lwRVBsQUZNRm9TY0JhcnpxcndrWTRVS1I5Rnh0RXNMeExmcnl1c1g3YkVCbU1PdlVJYzJob2hybDJfSVYxdndmTV9HQjBtX1dXVEk2RlR2YTlXbW5ycDVoLUI0bXlzYnVFdndhbFdxWDlNVmFRb2R4dm9jcGxWc0haMjUtbFF6Zw?oc=5"
-    },
-    {
-      "title": "Gold, silver prices edge higher: How festive demand could shape the outlook - CNBC TV18",
-      "summary": "Gold, silver prices edge higher: How festive demand could shape the outlookCNBC TV18",
-      "time_ago": "9h ago",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOUHViWDdySjFJYkwyZm5ielRzcFZMMUpMbFlFNGw2eFkyckxiQ1ZXTVRfcGNhcU5nZHFyODRJUFgzTXlaX0s4aVZ3ei1vQVd4MVF4SEFBR3pWUFMtUlNWRC1DcU5BMW1TaWFvWC1iQ29wWHZ1M004REhBZVI5d2ZncnpCdVUyMldTZWIxVTg2Z3ZVVWdyNGZSNVB5ck94UlhRSDVWZEV2RFVxa1VYNlpVT1FTdmRHRTg5c2xxcDJRTFNhYUJn0gHKAUFVX3lxTE90TVIzc0ktTGVoY1lDdlMxYUstQWcyNjdEeHhhRUxDdkFXeUE2YS1Ba1RnVjBGX1VQYjIzaG05bFF1ZGVHdlhLaHFrYUtyN0hnU1paTjVnMFJoOVU3VVpYM3dhVkJtNXZ5V1VtUXlYUWFheWZWY2ZMUlBqNVBrSnRBRjdiMjhQVnItbkd6VHhaNEFMbktwdGRDZXJjY1VqM1BYSm01aUd0WlA0Ry1fd3E3VkNaVS1fdWo5Y0FZb1hCTnFOQjRQSnpTOFE?oc=5"
+      "title": "Gold\u2019s resilience supports strong outlook, silver faces oversupply, copper could be the big gainer \u2013 Deutsche Bank\u2019s Ghali - Kitco",
+      "summary": "Gold\u2019s resilience supports strong outlook, silver faces oversupply, copper could be the big gainer \u2013 Deutsche Bank\u2019s GhaliKitco",
+      "time_ago": "6h ago",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOYmZvbFVneGdTamxBN3NtWmxSQnIyNzRuSGVSdTMzWnlBenRSeVczajJRUVhLcXZZV0NwVlJGenNqb1UwaDVhWEYwRHZtUFk5U2U2OEQ2OEpLM1h3Si1lV3lYNTdFdGp1WGNUQUgwdVBNd3hNOWJxVFRVajBEZEkzbEp6d0JJeWZFQVpjNVhRYTBBMjNEdUNvN1lSRlg4WXRIVHlJaFRScWVCUmlicGlGZlZCWjZsb3Fu?oc=5"
     }
   ],
   "metrics": [
     {
       "label": "DXY (USD)",
-      "value": "102.08",
-      "change": "+0.52%",
+      "value": "101.95",
+      "change": "+0.01%",
       "direction": "up"
     },
     {
       "label": "US 10Y Yield",
-      "value": "5.24%",
-      "change": "-0.05",
-      "direction": "down"
+      "value": "5.28%",
+      "change": "+0.05",
+      "direction": "up"
     },
     {
       "label": "Real Yield",
-      "value": "2.91%",
-      "change": "+0.01",
+      "value": "2.93%",
+      "change": "+0.02",
       "direction": "up"
     },
     {
       "label": "Gold/Silver",
-      "value": "69.0",
+      "value": "68.9",
       "change": "",
       "direction": "up"
     },
     {
       "label": "RSI (14)",
-      "value": "30",
+      "value": "26",
       "change": "",
       "direction": "down",
-      "note": "Neutral"
+      "note": "Oversold"
     },
     {
       "label": "COT Net-Long",
@@ -1556,7 +1550,7 @@
     },
     {
       "label": "1M % Change",
-      "value": "-5.68%",
+      "value": "-8.16%",
       "change": "",
       "direction": "down"
     }
