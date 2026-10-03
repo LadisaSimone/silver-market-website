@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-03T16:57:52Z",
+  "updated_at": "2026-10-03T17:29:57Z",
   "price": {
     "value": 60.52,
     "change": -0.0,
@@ -19,10 +19,6 @@
   "history": {
     "1W": [
       {
-        "date": "2026-09-28",
-        "close": 61.568004
-      },
-      {
         "date": "2026-09-29",
         "close": 61.077003
       },
@@ -36,14 +32,14 @@
       },
       {
         "date": "2026-10-02",
-        "close": 61.024627
+        "close": 60.91904
+      },
+      {
+        "date": "2026-10-03",
+        "close": 60.524
       }
     ],
     "1M": [
-      {
-        "date": "2026-09-03",
-        "close": 66.447385
-      },
       {
         "date": "2026-09-04",
         "close": 66.566359
@@ -158,14 +154,14 @@
       },
       {
         "date": "2026-10-02",
-        "close": 61.024627
+        "close": 60.91904
+      },
+      {
+        "date": "2026-10-03",
+        "close": 60.524
       }
     ],
     "3M": [
-      {
-        "date": "2026-07-30",
-        "close": 58.343231
-      },
       {
         "date": "2026-07-31",
         "close": 58.105752
@@ -420,14 +416,14 @@
       },
       {
         "date": "2026-10-02",
-        "close": 61.024627
+        "close": 60.91904
+      },
+      {
+        "date": "2026-10-03",
+        "close": 60.524
       }
     ],
     "1Y": [
-      {
-        "date": "2026-01-24",
-        "close": 103.327
-      },
       {
         "date": "2026-01-25",
         "close": 103.390986
@@ -1430,7 +1426,11 @@
       },
       {
         "date": "2026-10-02",
-        "close": 61.024627
+        "close": 60.91904
+      },
+      {
+        "date": "2026-10-03",
+        "close": 60.524
       }
     ]
   },
@@ -1438,123 +1438,123 @@
     "score": 4,
     "label": "Moderately Bearish",
     "sentiment": "bearish",
-    "summary": "Rising US Treasury yields at 5.28% and a firming dollar index are suppressing silver's valuations despite technical oversold conditions at RSI 26.0. Short-term mean-reversion bounce mechanics may offer 2\u20134% relief within days, but macro headwinds remain structural absent a shift in Fed expectations.",
-    "watch": "US 10-year yield direction and any Fed policy commentary; a decline below 5.20% would materially improve silver's near-term setup.",
+    "summary": "Rising US bond yields at 5.28% remain the dominant bearish constraint, overriding technical oversold conditions and transient payroll disappointment. Extreme RSI and a 9.6% drawdown offer mechanical rebound support, but macro yield regime limits upside.",
+    "watch": "US 10-year yield direction and any shift in Fed forward guidance; a 10 to 15 basis point yield decline would validate technical bounce.",
     "updated_at": "Snapshot from 9:00 AM ET \u2014 may differ from live price"
   },
   "drivers": [
     {
-      "label": "Oversold Rsi Mean-Reversion Setup",
+      "label": "Technicals Oversold Setup",
       "status": "supportive",
       "icon": "trend",
-      "reason": "RSI at 26.0 is deeply oversold (threshold <30); -9.7% drawdown from recent high creates textbook short-term bounce potential."
+      "reason": "RSI 23.9 deep oversold (<30) with -9.6% drawdown from 30d high; quantitative mean-reversion signal without conflicting news."
     },
     {
-      "label": "Elevated Real Rates Headwind",
+      "label": "Macro Yield Headwind",
       "status": "risk",
       "icon": "bank",
-      "reason": "US 10Y yield at 5.28% (+5bps today) and DXY at 101.95 directly suppress silver valuations as opportunity cost rises."
+      "reason": "US 10Y yield 5.28% (+4bps) and DXY 101.93 remain elevated; restrictive rate environment contradicts Fed-pivot narrative from Oct 2 payrolls news."
     },
     {
-      "label": "Supply Oversupply Warning",
+      "label": "Oversupply Pressure",
       "status": "risk",
       "icon": "industry",
-      "reason": "Deutsche Bank (Oct 2) explicitly cites silver oversupply outlook; no offsetting industrial demand catalysts in available news."
+      "reason": "Deutsche Bank warns silver faces oversupply (Oct 2); contrasts with seat-shortage mention but no volumetric inventory data to confirm magnitude."
     },
     {
       "label": "News Sentiment",
-      "status": "neutral",
+      "status": "risk",
       "icon": "people",
-      "reason": "News tone mixed: weak payrolls support dovish Fed hopes, but Deutsche Bank warns of silver oversupply; conflicting narratives."
+      "reason": "News split between price declines (Oct 3) and earlier weakness (Oct 1\u20132); Deutsche Bank warns of oversupply; no strong institutional bullish conviction evident."
     },
     {
       "label": "ETF Flow Signal",
       "status": "neutral",
       "icon": "flows",
-      "reason": "No direct SLV flow data available; volume proxy only. Score reflects news-only signals with medium confidence."
+      "reason": "No direct SLV flow data available; volume proxy only; score reflects uncertainty without confirmation of institutional positioning."
     }
   ],
   "stories": [
     {
-      "title": "Silver Price October 5 2026 - Robinhood",
-      "summary": "Silver Price October 5 2026Robinhood",
-      "time_ago": "45m ago",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSjdMcGU0eUxwZm1sb0xfWjNpdjZzd09IcmYtRF8wWXc4RzhyeTBsUDlVLU9kajFtLVU0Rzl6YzRyYzRnNVVZVXdqbGkwY3hQNGluaWJIVnJwYzFFZkpOMmdNZjNKLUgwbkU2UXk3Sm83UGlVYVI2bzlvazcxdnpwQUZ4LXRUTGFiYkh5T0NYUUhoYjdhc2FkeHo0akg1b29xem5r?oc=5"
-    },
-    {
-      "title": "Silver Price Today on October 02, 2026 - usatoday.com",
-      "summary": "Silver Price Today on October 02, 2026usatoday.com",
-      "time_ago": "2h ago",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRVo3LXNwbmoyYUdwZWlBd3RnUlN6NGNHZ1FOVGQxV2lJQVlMMXlDMHJUYjNwOWZsNTRCSDdFdUxjdjBwYU5ucS1kcEVCck90Rkd4M0hSOFdua1A4RnJiLTRZWGM2bXlMc3lZcHBGR2l3Q2Rwd3NVOUhIT2pOMjZyVnVnWXI5WTJyRGNlUFJPYkRSOEFWYkN2ZENWYVZMRTdDTHZsSjkwODFoazZK?oc=5"
-    },
-    {
-      "title": "Current price of silver as of Friday, Oct. 2, 2026 - Fortune",
-      "summary": "Current price of silver as of Friday, Oct. 2, 2026Fortune",
+      "title": "Gold price down Rs 3,800 as silver loses Rs 170 per tola - myRepublica",
+      "summary": "Gold price down Rs 3,800 as silver loses Rs 170 per tolamyRepublica",
       "time_ago": "5h ago",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBEMTVqLTVMOXpmSWhVMHpDRjZXdVZxaDNQUDZvaVcxQ0N2M1ppN2FrcWkzeUctXzF1dFZqbmpPOERTWFBHX3RJbGVKT3Z5UnpWampmR0hJLTBZbk9Hd2xmdllBSDRLUWZqa05yQ2h4dw?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNY2VXcFRPWUJEdU9HREFoczQ3cUlSa0hTMU5tVnRfci1SbTIxczFhaG55ZmdNdnBvRUdJbVRvZUowTk1MSXcyTE91SlpqbVppaG9oVjZOY2lkQlVvYzZaaTEteGhfNUF4RnBSYkRVcXJzck53RnQ5YmV6VF9rS0hCd19Eb01NaGkyaDlPVkJ2dlJvU2JIWmZSMVlvMVBxUGxXc25VYnBvbnJ4TmdtcDY0?oc=5"
     },
     {
-      "title": "The Silver Market Has a Seat Shortage - Investing.com",
-      "summary": "The Silver Market Has a Seat ShortageInvesting.com",
-      "time_ago": "5h ago",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQOS1LWmgtQWV6YXBSdkdzVlZkUXVlT1cydXZCdkdHc1lWTUJDbkh2S1V1NFB1TTMyZWR1TkwyUnp2Z0t6Y1B6RmkyaWhkanc0azRJd0xhcWI4enI3QU1IaUxWZzhhS2VwaTJTSjBkZVRJdXkyUU5YYmxsMnFDM1VMRkt5eXVhODJTeUE?oc=5"
+      "title": "Gold, silver prices fall in local, global markets - The Express Tribune",
+      "summary": "Gold, silver prices fall in local, global marketsThe Express Tribune",
+      "time_ago": "7h ago",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOUEpxZ0Y3d2VsdzFGaE9xUjgzTWJ4Q1lHTTgyRjhtS19uU1J0cjBEbkdxSVk4MlFpU3EzY0U2cDNmX3AtU3FDOF9nZjNySjcwdjBTN0dwTjJ4d2MxcXVFWUFPNk9kNEp5a08yT3RfcWVHSVIyWjRiVzRvdnMyVy1zRnhaMF9DSmlFUWd0aTRscDhpTnNlQzVn0gGUAUFVX3lxTE9qcG5sQlFfVXh2ZkZ3bm5VcnNiM0VUQktka2JXNVZ0ZU9jeDlSZmM4YThVOTZWZ2NOZ2xoZE9FSVZ0V3ViS0JMZzgyeEVBVWNKMEw2emduRmFRMExDejBtUGwxeVVBSy1Fd3U2ZkY5ZTRwUHNLdk50YkNSTXI4cVhRcFB0UjUtOTd0X3pPVnRrOUF0Tkw?oc=5"
+    },
+    {
+      "title": "Gold and silver price today, Oct 3: Check retail rates of 24K, 22K gold and 999 silver in your city ahead of Durga Puja - Livemint",
+      "summary": "Gold and silver price today, Oct 3: Check retail rates of 24K, 22K gold and 999 silver in your city ahead of Durga PujaLivemint",
+      "time_ago": "11h ago",
+      "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPVGRqdHEtVlNYRU5xNTM0WWRqZy1ORlNLbUtQcHl0VzBaSTh2VEtJVDF5cEdscklIQk5lZS1HYlNvTUxKTm8yTGtXc3Jld1JwMENZVmhRX25yQ3hHWk0zQ0NGUEVOWXA3dWR0cWQ4S3E5cE9KVy1vZkhENDR6akd0VEd3VkpHOExPNGdOQUpIV0p1b253UDVkZHQwbU9OTXZDQnZFX1lRMGRFeFhBX2N5LXZKaTRhMjJVOHZzTzh6ejlkRFlvLU1CSHpSTEhtdGJYYU1zSy1LZXVjSXZsVlhVSHdoRXVxaE5FUU84Smc1RVFlODJJTGlTWFhzeFZxRjkyV2RpVmVsdXhEcUJ6eTZnOFd30gGXAkFVX3lxTE9WaXRGT2VhbEVUQ3JxT0l0SGlIcnV6d0ZzRl9iVFBhcWViVnljOG90U0FZamdZdHJGWWxMVmtwaTNWXy1pZjJTLUEtRVpORFFGU1h5cXQ5VEhrZGx0NGFBLVNMRklFbVRHSF90alFzaW5wMFEySGk0ajBpWXRoUERpeTc1enlLaEN5YWZCVDJwekJuMnZURTFUaFNPMDBrM3ROREJuVGM0QlVqS1QzX1hUQVRpTGNZcUxQMHU2dmlMM1dTcE9ETmpJTVlBTktwQW9NcFN0YVFqT3NWLTJLSnctMkViTHZDUzQ2RklYeXVZOTFTbWlJUW5GUEsxNFdBYkJSeEpSYVVPODdlaExkcWViazFpNmd6Zw?oc=5"
     },
     {
       "title": "Gold\u2019s resilience supports strong outlook, silver faces oversupply, copper could be the big gainer \u2013 Deutsche Bank\u2019s Ghali - Kitco",
       "summary": "Gold\u2019s resilience supports strong outlook, silver faces oversupply, copper could be the big gainer \u2013 Deutsche Bank\u2019s GhaliKitco",
-      "time_ago": "6h ago",
+      "time_ago": "21h ago",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOYmZvbFVneGdTamxBN3NtWmxSQnIyNzRuSGVSdTMzWnlBenRSeVczajJRUVhLcXZZV0NwVlJGenNqb1UwaDVhWEYwRHZtUFk5U2U2OEQ2OEpLM1h3Si1lV3lYNTdFdGp1WGNUQUgwdVBNd3hNOWJxVFRVajBEZEkzbEp6d0JJeWZFQVpjNVhRYTBBMjNEdUNvN1lSRlg4WXRIVHlJaFRScWVCUmlicGlGZlZCWjZsb3Fu?oc=5"
+    },
+    {
+      "title": "Silver Price October 5 2026 - Robinhood",
+      "summary": "Silver Price October 5 2026Robinhood",
+      "time_ago": "23h ago",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSjdMcGU0eUxwZm1sb0xfWjNpdjZzd09IcmYtRF8wWXc4RzhyeTBsUDlVLU9kajFtLVU0Rzl6YzRyYzRnNVVZVXdqbGkwY3hQNGluaWJIVnJwYzFFZkpOMmdNZjNKLUgwbkU2UXk3Sm83UGlVYVI2bzlvazcxdnpwQUZ4LXRUTGFiYkh5T0NYUUhoYjdhc2FkeHo0akg1b29xem5r?oc=5"
     }
   ],
   "metrics": [
     {
       "label": "DXY (USD)",
-      "value": "101.95",
-      "change": "+0.01%",
-      "direction": "up"
+      "value": "101.93",
+      "change": "-0.01%",
+      "direction": "down"
     },
     {
       "label": "US 10Y Yield",
       "value": "5.28%",
-      "change": "+0.05",
+      "change": "+0.04",
       "direction": "up"
     },
     {
       "label": "Real Yield",
-      "value": "2.93%",
-      "change": "+0.02",
-      "direction": "up"
+      "value": "2.88%",
+      "change": "-0.05",
+      "direction": "down"
     },
     {
       "label": "Gold/Silver",
-      "value": "68.9",
+      "value": "68.8",
       "change": "",
       "direction": "up"
     },
     {
       "label": "RSI (14)",
-      "value": "26",
+      "value": "24",
       "change": "",
       "direction": "down",
       "note": "Oversold"
     },
     {
       "label": "COT Net-Long",
-      "value": "25,444",
-      "change": "+118",
-      "direction": "up",
+      "value": "22,083",
+      "change": "-3,361",
+      "direction": "down",
       "note": "Weekly (CFTC)"
     },
     {
       "label": "ETF Holdings",
-      "value": "493.6M oz",
+      "value": "493.4M oz",
       "change": "",
       "direction": "up",
       "note": "SLV"
     },
     {
       "label": "1M % Change",
-      "value": "-8.16%",
+      "value": "-9.08%",
       "change": "",
       "direction": "down"
     }
