@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-10-04T19:09:38Z",
+  "updated_at": "2026-10-04T22:42:53Z",
   "price": {
-    "value": 60.52,
-    "change": -0.0,
-    "change_pct": -0.0,
-    "as_of": "3:09 PM ET"
+    "value": 60.83,
+    "change": 0.3,
+    "change_pct": 0.5,
+    "as_of": "6:42 PM ET"
   },
   "intraday": [
     {
@@ -18,6 +18,10 @@
     {
       "t": "15:09",
       "p": 60.52
+    },
+    {
+      "t": "18:42",
+      "p": 60.83
     }
   ],
   "history": {
@@ -1566,19 +1570,19 @@
   "intraday_date": "2026-10-04",
   "intraday_chart": {
     "date": "2026-10-04",
-    "source": "spot_snapshots",
+    "source": "comex_futures",
     "points": [
       {
-        "t": "05:19",
+        "t": "18:00",
         "pct": 0.0
       },
       {
-        "t": "11:07",
-        "pct": 0.0
+        "t": "18:15",
+        "pct": -0.065
       },
       {
-        "t": "15:09",
-        "pct": 0.0
+        "t": "18:30",
+        "pct": -0.057
       }
     ]
   }
