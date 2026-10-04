@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-04T15:07:51Z",
+  "updated_at": "2026-10-04T17:45:01Z",
   "price": {
     "value": 60.52,
     "change": -0.0,
@@ -19,10 +19,6 @@
   "history": {
     "1W": [
       {
-        "date": "2026-09-29",
-        "close": 61.077003
-      },
-      {
         "date": "2026-09-30",
         "close": 60.89632
       },
@@ -37,13 +33,13 @@
       {
         "date": "2026-10-03",
         "close": 60.524
+      },
+      {
+        "date": "2026-10-04",
+        "close": 60.524
       }
     ],
     "1M": [
-      {
-        "date": "2026-09-04",
-        "close": 66.566359
-      },
       {
         "date": "2026-09-05",
         "close": 66.341
@@ -159,13 +155,13 @@
       {
         "date": "2026-10-03",
         "close": 60.524
+      },
+      {
+        "date": "2026-10-04",
+        "close": 60.524
       }
     ],
     "3M": [
-      {
-        "date": "2026-07-31",
-        "close": 58.105752
-      },
       {
         "date": "2026-08-01",
         "close": 57.69
@@ -421,13 +417,13 @@
       {
         "date": "2026-10-03",
         "close": 60.524
+      },
+      {
+        "date": "2026-10-04",
+        "close": 60.524
       }
     ],
     "1Y": [
-      {
-        "date": "2026-01-25",
-        "close": 103.390986
-      },
       {
         "date": "2026-01-26",
         "close": 109.090781
@@ -1431,6 +1427,10 @@
       {
         "date": "2026-10-03",
         "close": 60.524
+      },
+      {
+        "date": "2026-10-04",
+        "close": 60.524
       }
     ]
   },
@@ -1438,78 +1438,78 @@
     "score": 4,
     "label": "Moderately Bearish",
     "sentiment": "bearish",
-    "summary": "Rising US bond yields at 5.28% remain the dominant bearish constraint, overriding technical oversold conditions and transient payroll disappointment. Extreme RSI and a 9.6% drawdown offer mechanical rebound support, but macro yield regime limits upside.",
-    "watch": "US 10-year yield direction and any shift in Fed forward guidance; a 10 to 15 basis point yield decline would validate technical bounce.",
+    "summary": "Rising US bond yields (5.28%, up 4 bps) and sustained dollar strength (DXY 101.92) are compressing silver's macro setup, with forecasters targeting $50 downside. Technical indicators show deep oversold conditions (RSI 24.9) that may offer tactical bounce support, but this is insufficient to offset macro headwinds.",
+    "watch": "Any decline in US 10Y yields below 5.20% or Fed pivot signals could reverse the macro bearish bias.",
     "updated_at": "Snapshot from 9:00 AM ET \u2014 may differ from live price"
   },
   "drivers": [
     {
-      "label": "Technicals Oversold Setup",
+      "label": "Oversold Technical Setup",
       "status": "supportive",
       "icon": "trend",
-      "reason": "RSI 23.9 deep oversold (<30) with -9.6% drawdown from 30d high; quantitative mean-reversion signal without conflicting news."
+      "reason": "RSI 24.9 is deeply oversold; -9.6% drawdown from 30d high signals textbook mean-reversion bounce opportunity with two independent technical metrics."
     },
     {
-      "label": "Macro Yield Headwind",
+      "label": "Elevated Yield Headwind",
       "status": "risk",
       "icon": "bank",
-      "reason": "US 10Y yield 5.28% (+4bps) and DXY 101.93 remain elevated; restrictive rate environment contradicts Fed-pivot narrative from Oct 2 payrolls news."
+      "reason": "US10Y at 5.28% and DXY 101.92 create persistent opportunity-cost drag; forecasts explicitly cite yields as bearish driver for silver targeting $50 downside."
     },
     {
-      "label": "Oversupply Pressure",
+      "label": "Oversupply Structural Concern",
       "status": "risk",
       "icon": "industry",
-      "reason": "Deutsche Bank warns silver faces oversupply (Oct 2); contrasts with seat-shortage mention but no volumetric inventory data to confirm magnitude."
+      "reason": "Deutsche Bank warns of silver oversupply; news flags supply-side headwind but lacks COMEX inventory or COT data to confirm conviction magnitude."
     },
     {
       "label": "News Sentiment",
       "status": "risk",
       "icon": "people",
-      "reason": "News split between price declines (Oct 3) and earlier weakness (Oct 1\u20132); Deutsche Bank warns of oversupply; no strong institutional bullish conviction evident."
+      "reason": "News volume is high but mostly factual price reporting; forecasts cite $50 downside risk and oversupply concerns, with only one payroll-driven bounce mention\u2014net tone is cautious-to-bearish."
     },
     {
       "label": "ETF Flow Signal",
       "status": "neutral",
       "icon": "flows",
-      "reason": "No direct SLV flow data available; volume proxy only; score reflects uncertainty without confirmation of institutional positioning."
+      "reason": "No direct SLV flow data available; volume proxy only provides directional hint, insufficient for confident signal\u2014score reflects data absence at neutral."
     }
   ],
   "stories": [
     {
-      "title": "Gold price down Rs 3,800 as silver loses Rs 170 per tola - myRepublica",
-      "summary": "Gold price down Rs 3,800 as silver loses Rs 170 per tolamyRepublica",
-      "time_ago": "5h ago",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNY2VXcFRPWUJEdU9HREFoczQ3cUlSa0hTMU5tVnRfci1SbTIxczFhaG55ZmdNdnBvRUdJbVRvZUowTk1MSXcyTE91SlpqbVppaG9oVjZOY2lkQlVvYzZaaTEteGhfNUF4RnBSYkRVcXJzck53RnQ5YmV6VF9rS0hCd19Eb01NaGkyaDlPVkJ2dlJvU2JIWmZSMVlvMVBxUGxXc25VYnBvbnJ4TmdtcDY0?oc=5"
+      "title": "Gold and Silver Prices Decrease in Local Market - Ratopati",
+      "summary": "Gold and Silver Prices Decrease in Local MarketRatopati",
+      "time_ago": "41m ago",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRnJTeXNVUnNmSlRkeWRzNk9DejlzNVZuRWxwSExUSFJBdXo1eGx1Q1k0c2prZTZXSTZtZGVtNDhOaGdRU2QwekduRGxJTkhKVExKX0NaTHpLQTRZWENpT1VEblUtdlh6VzJEU0RLOVd1VFZtV1dsSUM3aUFCcEVRUFNtOFFZbEUxMUJZcDcxcUl3THFDckZBZlpqbjNPQ0NWSlFIaDRHcFphM19IOENUUm52dkY?oc=5"
+    },
+    {
+      "title": "Silver Price Forecast: Strong Dollar and High Yields Put $50 in Focus - FXEmpire",
+      "summary": "Silver Price Forecast: Strong Dollar and High Yields Put $50 in FocusFXEmpire",
+      "time_ago": "4h ago",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPWHJqMTQ1a1VyNHprbEk1SVhURUJXdG9EY2x6QWRNdEowV084eWlaS3V2TjFya1RYTGtHRVFIV2ZYbEE4VUFQUC1tQnQ2QjZXVG16T2tiRVhEamE1Q2ZFYWxTQlRZN1FMWGJ1TDZEb3d4VUg2UkhoMHAwVU9HRkg4Ylh3V0RSSk9UbWhhakk3dENXTHpxNENnZUJObE44Z0laTFVlN0FaVkljSEpVQVFLQV9jSVVQZnVDekVZZndYVkFpYTU5aUI3NHBMUzlHTk1CUUE?oc=5"
+    },
+    {
+      "title": "Gold and silver prices drop in domestic market today - Nepalnews.com",
+      "summary": "Gold and silver prices drop in domestic market todayNepalnews.com",
+      "time_ago": "11h ago",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPX1habGlFdWFXVVV2TmdFVmpQR1owYWd5QTFBeTQyeU5pZ1UtX2ppRkVqOXRsR05vYkRYak52YzFQemQ3a09hTUJZdFowYzZ0UHpNVFNOM29hcWN4UEdEQ0ZWdjhDd1NYeWVMWGNHUFBHWEU5WkFxc3ZpRUt2M1JaUmItcGx4TVlqZndSeGtPUzd4SmxmZVB6Z0U2UDZwdw?oc=5"
+    },
+    {
+      "title": "Gold and silver prices decrease in domestic market - Khabarhub",
+      "summary": "Gold and silver prices decrease in domestic marketKhabarhub",
+      "time_ago": "12h ago",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBscnFHX3ptMC0wX0RzbE5DenRwVUFsTDB0YVdqbnNmaU5lc3hWQ3B2QVZtLUVTem5UcXVpTmt1a0h2TkVGa3FCS29icnN1Q0lMSVAzbElKLU4?oc=5"
     },
     {
       "title": "Gold, silver prices fall in local, global markets - The Express Tribune",
       "summary": "Gold, silver prices fall in local, global marketsThe Express Tribune",
-      "time_ago": "7h ago",
+      "time_ago": "1d ago",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOUEpxZ0Y3d2VsdzFGaE9xUjgzTWJ4Q1lHTTgyRjhtS19uU1J0cjBEbkdxSVk4MlFpU3EzY0U2cDNmX3AtU3FDOF9nZjNySjcwdjBTN0dwTjJ4d2MxcXVFWUFPNk9kNEp5a08yT3RfcWVHSVIyWjRiVzRvdnMyVy1zRnhaMF9DSmlFUWd0aTRscDhpTnNlQzVn0gGUAUFVX3lxTE9qcG5sQlFfVXh2ZkZ3bm5VcnNiM0VUQktka2JXNVZ0ZU9jeDlSZmM4YThVOTZWZ2NOZ2xoZE9FSVZ0V3ViS0JMZzgyeEVBVWNKMEw2emduRmFRMExDejBtUGwxeVVBSy1Fd3U2ZkY5ZTRwUHNLdk50YkNSTXI4cVhRcFB0UjUtOTd0X3pPVnRrOUF0Tkw?oc=5"
-    },
-    {
-      "title": "Gold and silver price today, Oct 3: Check retail rates of 24K, 22K gold and 999 silver in your city ahead of Durga Puja - Livemint",
-      "summary": "Gold and silver price today, Oct 3: Check retail rates of 24K, 22K gold and 999 silver in your city ahead of Durga PujaLivemint",
-      "time_ago": "11h ago",
-      "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPVGRqdHEtVlNYRU5xNTM0WWRqZy1ORlNLbUtQcHl0VzBaSTh2VEtJVDF5cEdscklIQk5lZS1HYlNvTUxKTm8yTGtXc3Jld1JwMENZVmhRX25yQ3hHWk0zQ0NGUEVOWXA3dWR0cWQ4S3E5cE9KVy1vZkhENDR6akd0VEd3VkpHOExPNGdOQUpIV0p1b253UDVkZHQwbU9OTXZDQnZFX1lRMGRFeFhBX2N5LXZKaTRhMjJVOHZzTzh6ejlkRFlvLU1CSHpSTEhtdGJYYU1zSy1LZXVjSXZsVlhVSHdoRXVxaE5FUU84Smc1RVFlODJJTGlTWFhzeFZxRjkyV2RpVmVsdXhEcUJ6eTZnOFd30gGXAkFVX3lxTE9WaXRGT2VhbEVUQ3JxT0l0SGlIcnV6d0ZzRl9iVFBhcWViVnljOG90U0FZamdZdHJGWWxMVmtwaTNWXy1pZjJTLUEtRVpORFFGU1h5cXQ5VEhrZGx0NGFBLVNMRklFbVRHSF90alFzaW5wMFEySGk0ajBpWXRoUERpeTc1enlLaEN5YWZCVDJwekJuMnZURTFUaFNPMDBrM3ROREJuVGM0QlVqS1QzX1hUQVRpTGNZcUxQMHU2dmlMM1dTcE9ETmpJTVlBTktwQW9NcFN0YVFqT3NWLTJLSnctMkViTHZDUzQ2RklYeXVZOTFTbWlJUW5GUEsxNFdBYkJSeEpSYVVPODdlaExkcWViazFpNmd6Zw?oc=5"
-    },
-    {
-      "title": "Gold\u2019s resilience supports strong outlook, silver faces oversupply, copper could be the big gainer \u2013 Deutsche Bank\u2019s Ghali - Kitco",
-      "summary": "Gold\u2019s resilience supports strong outlook, silver faces oversupply, copper could be the big gainer \u2013 Deutsche Bank\u2019s GhaliKitco",
-      "time_ago": "21h ago",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOYmZvbFVneGdTamxBN3NtWmxSQnIyNzRuSGVSdTMzWnlBenRSeVczajJRUVhLcXZZV0NwVlJGenNqb1UwaDVhWEYwRHZtUFk5U2U2OEQ2OEpLM1h3Si1lV3lYNTdFdGp1WGNUQUgwdVBNd3hNOWJxVFRVajBEZEkzbEp6d0JJeWZFQVpjNVhRYTBBMjNEdUNvN1lSRlg4WXRIVHlJaFRScWVCUmlicGlGZlZCWjZsb3Fu?oc=5"
-    },
-    {
-      "title": "Silver Price October 5 2026 - Robinhood",
-      "summary": "Silver Price October 5 2026Robinhood",
-      "time_ago": "23h ago",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSjdMcGU0eUxwZm1sb0xfWjNpdjZzd09IcmYtRF8wWXc4RzhyeTBsUDlVLU9kajFtLVU0Rzl6YzRyYzRnNVVZVXdqbGkwY3hQNGluaWJIVnJwYzFFZkpOMmdNZjNKLUgwbkU2UXk3Sm83UGlVYVI2bzlvazcxdnpwQUZ4LXRUTGFiYkh5T0NYUUhoYjdhc2FkeHo0akg1b29xem5r?oc=5"
     }
   ],
   "metrics": [
     {
       "label": "DXY (USD)",
-      "value": "101.93",
+      "value": "101.92",
       "change": "-0.01%",
       "direction": "down"
     },
@@ -1533,7 +1533,7 @@
     },
     {
       "label": "RSI (14)",
-      "value": "24",
+      "value": "25",
       "change": "",
       "direction": "down",
       "note": "Oversold"
@@ -1554,7 +1554,7 @@
     },
     {
       "label": "1M % Change",
-      "value": "-9.08%",
+      "value": "-8.77%",
       "change": "",
       "direction": "down"
     }
