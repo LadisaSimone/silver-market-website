@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T16:32:38Z",
+  "updated_at": "2026-10-11T18:14:55Z",
   "price": {
     "value": 60.95,
     "change": 0.0,
@@ -19,14 +19,6 @@
   "history": {
     "1W": [
       {
-        "date": "2026-10-05",
-        "close": 61.384797
-      },
-      {
-        "date": "2026-10-06",
-        "close": 61.231971
-      },
-      {
         "date": "2026-10-07",
         "close": 60.345179
       },
@@ -36,18 +28,18 @@
       },
       {
         "date": "2026-10-09",
-        "close": 60.541713
+        "close": 60.627162
+      },
+      {
+        "date": "2026-10-10",
+        "close": 60.949
+      },
+      {
+        "date": "2026-10-11",
+        "close": 60.949
       }
     ],
     "1M": [
-      {
-        "date": "2026-09-10",
-        "close": 65.720136
-      },
-      {
-        "date": "2026-09-11",
-        "close": 64.241499
-      },
       {
         "date": "2026-09-12",
         "close": 64.622
@@ -158,18 +150,18 @@
       },
       {
         "date": "2026-10-09",
-        "close": 60.541713
+        "close": 60.627162
+      },
+      {
+        "date": "2026-10-10",
+        "close": 60.949
+      },
+      {
+        "date": "2026-10-11",
+        "close": 60.949
       }
     ],
     "3M": [
-      {
-        "date": "2026-08-06",
-        "close": 61.87788
-      },
-      {
-        "date": "2026-08-07",
-        "close": 63.455754
-      },
       {
         "date": "2026-08-08",
         "close": 63.707
@@ -420,18 +412,18 @@
       },
       {
         "date": "2026-10-09",
-        "close": 60.541713
+        "close": 60.627162
+      },
+      {
+        "date": "2026-10-10",
+        "close": 60.949
+      },
+      {
+        "date": "2026-10-11",
+        "close": 60.949
       }
     ],
     "1Y": [
-      {
-        "date": "2026-01-31",
-        "close": 85.4
-      },
-      {
-        "date": "2026-02-01",
-        "close": 85.216692
-      },
       {
         "date": "2026-02-02",
         "close": 80.0419
@@ -1430,100 +1422,108 @@
       },
       {
         "date": "2026-10-09",
-        "close": 60.541713
+        "close": 60.627162
+      },
+      {
+        "date": "2026-10-10",
+        "close": 60.949
+      },
+      {
+        "date": "2026-10-11",
+        "close": 60.949
       }
     ]
   },
   "outlook": {
-    "score": 5,
-    "label": "Neutral",
-    "sentiment": "neutral",
-    "summary": "Elevated US bond yields and a strengthening dollar are limiting conviction in silver's +2.29% intraday bounce, despite oversold technicals and bullish sentiment on rate-relief expectations. Technical mean-reversion conditions offer short-term support, but macro headwinds must ease before a sustained rally can develop.",
-    "watch": "Fed communications on rate-cut timing and whether US 10Y yields decline below 5.00% to confirm macro regime shift.",
+    "score": 4,
+    "label": "Moderately Bearish",
+    "sentiment": "bearish",
+    "summary": "Elevated US bond yields at 5.24% and a strengthening dollar at 102.23 are weighing on silver despite widespread market sentiment favoring rate relief. Technical indicators remain neutral, offering no mechanical support against the macro headwind, while industrial demand narratives provide modest offset insufficient to overcome real-rate disadvantage.",
+    "watch": "US 10Y yield direction and any shift in Fed rate-cut expectations, as a meaningful decline in yields would improve silver's near-term setup substantially.",
     "updated_at": "Snapshot from 9:00 AM ET \u2014 may differ from live price"
   },
   "drivers": [
     {
-      "label": "Oversold Technical Bounce",
-      "status": "supportive",
-      "icon": "trend",
-      "reason": "RSI 36.8 (oversold) + 2.29% intraday gain confirm mean-reversion support test; quantitative technicals + news agreement across 12+ sources."
-    },
-    {
-      "label": "Bullish Sentiment & Repricing",
-      "status": "supportive",
-      "icon": "people",
-      "reason": "12+ news sources report bullion boom, rate-relief expectations, and record bank trading revenues; unified risk-on narrative supporting rally."
-    },
-    {
-      "label": "Restrictive Rate & Dollar Headwind",
+      "label": "Macro Headwind\u2014Elevated Yields & Strong Dollar",
       "status": "risk",
       "icon": "bank",
-      "reason": "US10Y 5.25% and DXY 102.24 remain elevated structural headwinds; both signals persist despite today's +2.29% bounce, capping upside conviction."
+      "reason": "DXY +0.20% (102.23) and US10Y at 5.24% both signal persistent headwind; combined quantitative macro signals override intraday flat move."
+    },
+    {
+      "label": "Sentiment Upturn\u2014Rate Relief Narrative & Rebounding Tone",
+      "status": "supportive",
+      "icon": "people",
+      "reason": "18+ news articles report 'rebound,' 'rises,' and 'rate relief' over last 48 hours; multi-source consensus contradicts macro but insufficient to overcome yield headwind."
+    },
+    {
+      "label": "Industrial Shortage Narrative\u2014Supply Constraint Signal",
+      "status": "supportive",
+      "icon": "industry",
+      "reason": "Holland Gold 'shortage 2026' report and regional price-steady signals suggest demand support; news-only (no inventory data) limits confidence to Medium."
+    },
+    {
+      "label": "Technical Setup",
+      "status": "neutral",
+      "icon": "trend",
+      "reason": "RSI 41.5 is neutral (not oversold); -8.4% drawdown from 30d high shows weakness but no confirmed support bounce; mixed picture warrants neutral 5."
     },
     {
       "label": "ETF Flow Signal",
       "status": "neutral",
       "icon": "flows",
-      "reason": "No direct SLV flow data available; volume proxy only; score reflects neutral positioning absent institutional flow confirmation."
-    },
-    {
-      "label": "Industrial Demand",
-      "status": "supportive",
-      "icon": "industry",
-      "reason": "News cites firm spot demand and market repricing; Deutsche Bank 2027 forecast signals supply-to-surplus shift; industrial signals present but indirect."
+      "reason": "Volume proxy only; no direct SLV flow data available; news mentions 'ETF Faceoff' comparisons but lacks magnitude\u2014score capped at Medium confidence."
     }
   ],
   "stories": [
     {
-      "title": "Gold, silver boom puts US bank trading revenues on track for record $5 billion - The Economic Times",
-      "summary": "Gold, silver boom puts US bank trading revenues on track for record $5 billionThe Economic Times",
-      "time_ago": "7m ago",
-      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPRmtfVzVqRVM2MWl4bjdoaDNlNzJmRklPVVQzVUZXeWNyUFhrc1FXWFhGUWJHQzNEdE4tZ0FPaUNEVHJOT3UwbUhBNERPa2NWUGNMMWxoLTAxb3RDMFVJWThoemRnMTV2RlNxUk9fdVF6QlI1V21xVXBsWVZVbHVJdXFhU2dGNzdaRWVVTnVQeXc2c0xVdEc0OU56ak9NMU5rYVVaek5VbWF3R3M1bHd5eWNHQk14YkloRTJPLXNBNUpjUWhsVVFTWjJzald0bEY1cXFZR3czQkhWTVBWVkxHaHRpSkZRNFFnd2IwczNMbWNKZUUwdTlFbGlybkIxcmvSAf8BQVVfeXFMT0ZrX1c1akVTNjFpeG43aGgzZTcyZkZJT1VUM1VGV3ljclBYa3NRV1hYRlFiR0MzRHROLWdBT2lDRFRyTk91MG1IQTRET2tjVlBjTDFsaC0wMW90QzBVSVk4aHpkZzE1dkZTcVJPX3VRekJSNVdtcVVwbFlWVWx1SXVxYVNnRjc3WkVlVU51UHl3NnNMVXRHNDlOempPTTFOa2FVWnpOVW1hd0dzNWx3eXljR0JNeGJJaEUyTy1zQTVKY1FobFVRU1oyc2pXdGxGNXFxWUd3M0JIVk1QVlZMR2h0aUpGUTRRZ3diMHMzTG1jSmVFMHU5RWxpcm5CMXJr?oc=5"
+      "title": "Gold and silver prices rise in domestic market - Khabarhub",
+      "summary": "Gold and silver prices rise in domestic marketKhabarhub",
+      "time_ago": "11h ago",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBtX0ZzcTdqb0VMV0tQOE12c3pnZ3J3bmJralUxM1BmYXkwMWkwYXZiNnhETFFXMWMteUNpbm1kc3NuNVBsYWlKWHBPRnAtcmtzMjVGVzVVTi0?oc=5"
     },
     {
-      "title": "Silver Weekly Price Forecast \u2013 Silver Grinds Sideways as We Wait for Rate Relief - FXEmpire",
-      "summary": "Silver Weekly Price Forecast \u2013 Silver Grinds Sideways as We Wait for Rate ReliefFXEmpire",
-      "time_ago": "4h ago",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNeE9uNGFYaDZUWkY1a3VxVzB2VlZpSkowdmRWeVNLZ1dfSjI2Nmd3dDZ1a2hHQlJmTGN3V0hDMl9KbVAxc2tuUmd0MzJTVGVlYjR3b1ZRR3JBSVFhc3JGblNlbzZ2UTg0SXFlZUtPWlRLdmQ2RFR4cU5Sa19Yczd6dmpXMGJkc1VaZVBLdXpBOUdDTTNzbHdPdmZmSGZCTDRPV2pQTktrY2JmQ0dBRUFuTVE4RGRCT1dPeHNZRzBxeWlkR0FhcmdacQ?oc=5"
+      "title": "Gold and silver prices rise in domestic market - Nepalnews.com",
+      "summary": "Gold and silver prices rise in domestic marketNepalnews.com",
+      "time_ago": "12h ago",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNLTVDVGM0SHRMdi1ZS0JuNUVLcVM0NG1yUTlQdUxjNmdyTUNrQllMdEpGQlR3cjhURmdMYjJEelUxcU5kZDhydF9TUGJQMlRucVVFZDctVmp2b0JOY282X0xNWHl6QlMyOVNQa0Y4RmR5YWZrTVdPMTlERUc4STYzWWs4SnhaNElnYllDZXlOMTROdndI?oc=5"
     },
     {
-      "title": "Silver Price Forecast \u2013 Silver Bounces from Crucial Level - FXEmpire",
-      "summary": "Silver Price Forecast \u2013 Silver Bounces from Crucial LevelFXEmpire",
-      "time_ago": "5h ago",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNlVTM01WUHNOWFRWMmVBaGJoSTMxMl9KaFdnMnhSMFZLQXByYnhWVGdaTjF5Zy0zVnRwQldvU1lPR2tNQ3lhQ0t5ZWpYSkFsMkRSS0NReHlnMlVzZFY0SkRlMUdCMW1jRWpjY2hGbDVaT0k1Q0I4ZFgwemVBU1NLWkc4U003Z3NZS05rUUhSendscmRDQm9xUVRFYjJlZHd1VDZuRm9kTmZPZw?oc=5"
+      "title": "Silver Price October 12 2026 - Robinhood",
+      "summary": "Silver Price October 12 2026Robinhood",
+      "time_ago": "14h ago",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOT0pDb1BrWWZXRFdZazk1by1uTTdfbnFfMUYyNEw3WEg0d2hSVmhOVExCSkFSZGt6TUhfZTl0S3lVdUNXYXZ3MGJBbFB2Q21PcFYzWkVDdlloMnNOOGNjU3FLenhnYm9CZ2lKbWprUjgzZkRwdWdsenJRTDBmcUppUlRYUzctR1BlSWoxc19DOVVma1VRMUlnVldVTVVNX28tVlhfZQ?oc=5"
     },
     {
-      "title": "Current price of silver as of Friday, Oct. 9, 2026 - Fortune",
-      "summary": "Current price of silver as of Friday, Oct. 9, 2026Fortune",
-      "time_ago": "7h ago",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE16MTQzdzRyOWp4QzBUOWhNUzNad3J1Yk0xei14ajB5MmZ2RWRTSFhPYjY3bzZzWV9IV3BKbXJWV0dnVDE5dmNKdm9ZcXJqdC1PLTQ1ZUhrdnR0M3hUR3U3N3hRNUtvUDJob3Z1aF9VQQ?oc=5"
+      "title": "Silver price today, October 11, 2026: Rising at the end of the week. - Vietnam.vn",
+      "summary": "Silver price today, October 11, 2026: Rising at the end of the week.Vietnam.vn",
+      "time_ago": "19h ago",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOdGVfVTJjalY3VlNKb1ZRSklaSGFCSFlVQ2FDTldLR3hwV0ZxcHRGa3lJb1Fwb3oxY2Mxb0p6cUpXQ21ZOWtyRkJwM1RfeEFxMGJoNTRvZDQ1Ti1FMmQ2dV9vN2tfYV9GZ3JyQWdzOHQ5NU1jNWx6dENSSl8tT1R3XzR4Zw?oc=5"
     },
     {
-      "title": "Gold, silver prices rebound on MCX: Key factors to watch next - CNBC TV18",
-      "summary": "Gold, silver prices rebound on MCX: Key factors to watch nextCNBC TV18",
-      "time_ago": "9h ago",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNQzVXZEk4U3pRSnlwc09uQmNSaWFHVjdFdTlKb3Y2V3RIQkozQnFpdGVQeTRybkZVQWZpc2NvUmZnTndNd2hLTzFVM1hYZEFjN0l6ZXZYNUVoNWpDQW5Qa0Z1a1kzcV8xdVZIcVFrNDZ3RWFPanpYTmxQNVlrYk1ianpVT1ZlVGlzZHE0OThRc0ZOSHQ5TGZ1Q1FTcFJWcXNvSWluWldDbUExLXprWkhqY0VPOUdPbmfSAbwBQVVfeXFMTlJPWEJFRWYxcS0wOW1fZDBJUEpHaUZtUmxIZkNScjBaRTgtN1FnYWRYZEtZQlJ6WHZoMTNhTk9mNHlZNXRTV2hWcUJBV0ZoeEpad01MU1pkdUNvMnYwNkpEVDNrbXg4LTVISWJ1eVlpUG1FRDdKX0s4VXg2Wk4wcU81ZkNtWEtmczl0NmZLSjJMeW53LUsyYUt2QlpuUVB4QlpMLTlNQWVFS1k1dldDOXpBSWFXZWh3eURtbzI?oc=5"
+      "title": "Silver ETF Faceoff: Will SLV or SIL Give You Better Exposure to the Shiny Metal? - The Globe and Mail",
+      "summary": "Silver ETF Faceoff: Will SLV or SIL Give You Better Exposure to the Shiny Metal?The Globe and Mail",
+      "time_ago": "23h ago",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQbWdmVy1mdVlPZ1BoUUQ5R0lGaFZMV2RMVl8teFpPSkctQllMdmlBQ1B1eGVxclF3ajA2b2NTdHZqOTBzS0tWcFBmZnlGSDNWWlM0cXJRT3kwaGwyVzZXMnoyYVZoY0xOWUNIdS1VaXZYdzB6bDR5MmQzcVZoc1prVHc2X2tDM0ZaNnNyWnBSS3JEc0dqd3JVOTVwZkdKVUZ2alhTOUp6c1RYLUtfYjB4d20yb09pYVhnaHlQd1F5ZEJwSnptVTNkQ1JLZ1QyTjFPQzFEZ3R4dlB4c3NxcXdwR1FEcmFKZXZ1OGpFU093?oc=5"
     }
   ],
   "metrics": [
     {
       "label": "DXY (USD)",
-      "value": "102.24",
-      "change": "+0.21%",
+      "value": "102.23",
+      "change": "+0.20%",
       "direction": "up"
     },
     {
       "label": "US 10Y Yield",
-      "value": "5.25%",
-      "change": "+0.02",
+      "value": "5.24%",
+      "change": "+0.01",
       "direction": "up"
     },
     {
       "label": "Real Yield",
-      "value": "2.92%",
-      "change": "+0.01",
-      "direction": "up"
+      "value": "2.87%",
+      "change": "-0.05",
+      "direction": "down"
     },
     {
       "label": "Gold/Silver",
@@ -1533,28 +1533,28 @@
     },
     {
       "label": "RSI (14)",
-      "value": "37",
+      "value": "42",
       "change": "",
       "direction": "down",
       "note": "Neutral"
     },
     {
       "label": "COT Net-Long",
-      "value": "22,083",
-      "change": "-3,361",
-      "direction": "down",
+      "value": "23,153",
+      "change": "+1,070",
+      "direction": "up",
       "note": "Weekly (CFTC)"
     },
     {
       "label": "ETF Holdings",
-      "value": "493.2M oz",
+      "value": "493.9M oz",
       "change": "",
       "direction": "up",
       "note": "SLV"
     },
     {
       "label": "1M % Change",
-      "value": "-7.88%",
+      "value": "-5.68%",
       "change": "",
       "direction": "down"
     }
