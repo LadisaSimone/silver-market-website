@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T13:55:50Z",
+  "updated_at": "2026-10-15T17:51:09Z",
   "price": {
     "value": 56.69,
     "change": 0.82,
@@ -19,10 +19,6 @@
   "history": {
     "1W": [
       {
-        "date": "2026-10-10",
-        "close": 60.949
-      },
-      {
         "date": "2026-10-11",
         "close": 60.958662
       },
@@ -36,14 +32,14 @@
       },
       {
         "date": "2026-10-14",
-        "close": 58.173886
+        "close": 57.577376
+      },
+      {
+        "date": "2026-10-15",
+        "close": 56.606486
       }
     ],
     "1M": [
-      {
-        "date": "2026-09-15",
-        "close": 63.489666
-      },
       {
         "date": "2026-09-16",
         "close": 64.244183
@@ -158,14 +154,14 @@
       },
       {
         "date": "2026-10-14",
-        "close": 58.173886
+        "close": 57.577376
+      },
+      {
+        "date": "2026-10-15",
+        "close": 56.606486
       }
     ],
     "3M": [
-      {
-        "date": "2026-08-11",
-        "close": 65.173172
-      },
       {
         "date": "2026-08-12",
         "close": 65.7408
@@ -420,14 +416,14 @@
       },
       {
         "date": "2026-10-14",
-        "close": 58.173886
+        "close": 57.577376
+      },
+      {
+        "date": "2026-10-15",
+        "close": 56.606486
       }
     ],
     "1Y": [
-      {
-        "date": "2026-02-05",
-        "close": 77.55346
-      },
       {
         "date": "2026-02-06",
         "close": 74.7127
@@ -1430,113 +1426,117 @@
       },
       {
         "date": "2026-10-14",
-        "close": 58.173886
+        "close": 57.577376
+      },
+      {
+        "date": "2026-10-15",
+        "close": 56.606734
       }
     ]
   },
   "outlook": {
-    "score": 3,
+    "score": 4,
     "label": "Moderately Bearish",
     "sentiment": "bearish",
-    "summary": "Rising US bond yields and expectations of further Fed rate hikes are weighing on silver's zero-yield structure while China's industrial demand slowdown reinforces headwinds. Oversold technicals at RSI 30.7 may provide short-term bounce support, but macro pressures appear dominant.",
-    "watch": "US 10-year yields and Federal Reserve commentary following this week's CPI confirmation.",
+    "summary": "Rising US bond yields and Fed-rate expectations from hot CPI/PPI data are weighing on silver, while the dollar remains structurally strong, limiting gains despite deeply oversold technical conditions and a modest intraday rebound.",
+    "watch": "US 10Y yields and Fed commentary on rate-hike probability; a sustained drop below 5% or dovish Fed signals could ease pressure on near-term technicals.",
     "updated_at": "Snapshot from 9:00 AM ET \u2014 may differ from live price"
   },
   "drivers": [
     {
-      "label": "Fed Rate-Hike Expectations on Hot CPI",
-      "status": "risk",
-      "icon": "bank",
-      "reason": "US September core inflation topped expectations; DXY +58bps and persistent yield elevation confirm market has priced in higher-for-longer rates, a direct headwind to zero-yielding silver."
-    },
-    {
-      "label": "Oversold Technicals & Mean-Reversion Setup",
+      "label": "Technical Oversold Mean-Reversion Bounce",
       "status": "supportive",
       "icon": "trend",
-      "reason": "RSI at 30.7 (oversold threshold) and -16.4% drawdown from 30d high create textbook reversal setup; technicals now favor bounce-back risk despite macro weakness."
+      "reason": "RSI 24.3 is deeply oversold; +2.27% intraday move and recovery off -14.1% drawdown confirm classic bounce pattern with quantitative confirmation."
     },
     {
-      "label": "Demand Destruction from China & Macro Slowdown",
+      "label": "Macro Fed Rate Pressure From Hot Cpi/Ppi",
+      "status": "risk",
+      "icon": "bank",
+      "reason": "September PPI +1.3% and CPI shock (multiple news sources) revive Fed-hike risks; DXY +9bps today and 5.09% yield remain structurally headwinds despite -10bps daily move."
+    },
+    {
+      "label": "Sentiment Inflation-Spike Narrative Dominance",
       "status": "risk",
       "icon": "people",
-      "reason": "China solar slowdown and Bloomberg $50 price-target warnings across 20+ news sources reinforce bearish industrial demand outlook; no contrarian demand signals present."
+      "reason": "News volume heavily tilted to CPI/PPI shock language ('hot CPI,' 'plunge,' 'Fed-rate pressure') with McGlone $50 downside warning; bullish price-action headlines outnumbered."
     },
     {
       "label": "ETF Flow Signal",
       "status": "neutral",
       "icon": "flows",
-      "reason": "No direct SLV flow data available; volume proxy only; score reflects absence of confirming institutional positioning signals."
+      "reason": "No direct SLV flow data available; volume proxy and ETF driver confidence capped at Medium per data availability rules."
     },
     {
       "label": "Industrial Demand",
-      "status": "risk",
+      "status": "neutral",
       "icon": "industry",
-      "reason": "China solar slowdown explicitly mentioned in forecast; broader industrial demand weakness implied by macro tightness; no offsetting positive signals."
+      "reason": "No industrial/sector-specific signals in news or data; score reflects neutral absence of demand evidence, not active weakness."
     }
   ],
   "stories": [
     {
-      "title": "Silver futures plunge 4% on MCX ahead of US CPI; rising oil adds pressure - The Economic Times",
-      "summary": "Silver futures plunge 4% on MCX ahead of US CPI; rising oil adds pressureThe Economic Times",
-      "time_ago": "2h ago",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOTl80aXhkczcyRmtQOEo1d293anNGMkg0MVBJVFMxSDQ1bTI5WS1hSW0xS3pfQk40QW1yeERXa29fZkhhS1pxNmUycURIdzdXb2ZDLXBkTzctdEtjM0luN0NKZUNKQ3V4dGlmQ1FqNzg1MWE1ZmZkb3l0WG5XbVBsdDRxa3hrX2RfcENGYzl5S0FqOHduTVg2TE5mbjNHZjUzWEdSeTBzX1FxRVpBM0VhLWpMaVkzMkpjU3BOYThXZzNZSU9jY09NYUVOTGM0eElYOU9Ibl91WFBnY3QwQ0HSAeMBQVVfeXFMTU1fb2IzMU82czhFTnByT0xST011SHdVcXJoZ21xOEhQUC1GZlZVODdYUmtHMy1sdVdlUGdiWmd6dDFPbmFWUnVNQldGdHF6N3hmamFWZUltbFFpVjY1VXVncmhRQVpweFpzUDRPSTdiY3RsQ3c2dkRoSVBrSko3Vld1WTJUN0N4NWc1TE9IcTBfUk9jWlFvcEc1SnFHa0MyMVh3X0llZjJFMlNOeFhWQm1pZFhtMVJYVWU1V0RnT18tTDMyYTh2TnNFczBRN3N6SEtsOTJ4SUtSU1B5S3MwSU5QSUU?oc=5"
-    },
-    {
-      "title": "Current price of silver as of Wednesday, Oct. 14, 2026 - Fortune",
-      "summary": "Current price of silver as of Wednesday, Oct. 14, 2026Fortune",
-      "time_ago": "2h ago",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9xaWdzTGs3ME5ReUFBSkVKQXdWS3lxMzdPZVdvMzA3dWxNRmNjRFJGZ0tyeDhLcW92eS1pX3dtb2hIRC0xZXY3b0ZzbThsUkxJd3BIb19CZVIzUDJ4MF9nNXRHbXFfUHh4Y3FxckFlZGE?oc=5"
-    },
-    {
-      "title": "Gold (XAUUSD) & Silver Price Forecast: Can Gold Hold $4,160 as Silver Eyes $58.70? - FXEmpire",
-      "summary": "Gold (XAUUSD) & Silver Price Forecast: Can Gold Hold $4,160 as Silver Eyes $58.70?FXEmpire",
+      "title": "Silver Faces Fresh Inflation Test After September PPI Jumps 1.3% - FXEmpire",
+      "summary": "Silver Faces Fresh Inflation Test After September PPI Jumps 1.3%FXEmpire",
       "time_ago": "3h ago",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPWEFuV0hkVU1TWWpGLTF2T2pTWlVpNFg3S3hxM1FQNG1MMkctUVhndVBwOHpkcjFKM20zV01ZdTZJQjJtSVFJX0hfX1NNZ29DR25QXzBIaWl1SGlEUFEzVUpWbU45VXJSeDJZbFlIWVdkOWQ5eUViUkNpRGV2SFNpVlRlWGJBZUZ3ZTZERW9KSU1Lc0hKeW9LNEw5M1dXNjJtSmtvUGtwbGc1SkZQVDVqbENiLTJOdXlQb0txZnF6WDVBdw?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZmotajNUVkNqUmQtTFIwZl9ZQ3VxNk01aHZ0dnlNd1djZlJaMHJCR05FVVllUXZVNS1WRFdlcXVDeDkzZGo0anluWElVUXBtM2FCclc4WDZRRjRIRUJhYUFIUE1JUlRvRTctYnJQNWJobzVKcG5TMkw1VVVGWkVuRkpLWHAxcXYyMndOejNNZnEyXy1OczBUaEJuQ0VjMzB5NGtCOXZVc3o3TkpMOWY3dkw3VjY?oc=5"
     },
     {
-      "title": "Silver prices plunge after hot US CPI report - CMC Markets",
-      "summary": "Silver prices plunge after hot US CPI reportCMC Markets",
-      "time_ago": "4h ago",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNMXRCUWxEa0VSdVdNWlZpNGd6YVA3TWVZMVRESkNNU0ZlX182MXh0TjdHNUIzVFlCZlY0YTlDMDctUW5YeFpndXAxQ0o5Q19JdTZfcXUwMGZGdlhKLWVMOTkwaVhxR3hFeTNpVktnN3l5Q2pETjJLMUtqUzc2ekpKLTNyLXUxZWNoOGp3MUcyV3dZWllfOEl6MkI1QQ?oc=5"
+      "title": "Silver price falls 6% after US CPI: XAG analysis - SunCrypto",
+      "summary": "Silver price falls 6% after US CPI: XAG analysisSunCrypto",
+      "time_ago": "5h ago",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5lRFJWUXFFNllYTzk2eVJOZTVpLW1Ec3U3NjhrYjFyckFQSEg1b2FyRTEtcDlwMUlLbXEtcTlMMEdnb0hJVURMbzJCcEFjWjlUVENsV3JZOG14RlE5OEpvU0tKWUNMbzl2MUE?oc=5"
     },
     {
-      "title": "US September Core Inflation Tops Expectations; Gold and Silver Plunge as Markets Bet on Another Fed Rate Hike - BigGo Finance",
-      "summary": "US September Core Inflation Tops Expectations; Gold and Silver Plunge as Markets Bet on Another Fed Rate HikeBigGo Finance",
-      "time_ago": "4h ago",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5kWldWaG9Zb2RSN0h0YU5WR25QTnJlS1JWWEE2Y0Y4WVFvSmxyQUhybFpld2JDVnlScTF6TmctVVY1SVU4X1p3V2ZRSnBWdEJkUk5aLXFBWTllbm9fTnFpcTlRaDAya1ZYOFo1Z1M0TDA1MVdHT0E?oc=5"
+      "title": "Current price of silver as of Thursday, Oct. 15, 2026 - Fortune",
+      "summary": "Current price of silver as of Thursday, Oct. 15, 2026Fortune",
+      "time_ago": "6h ago",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9LS1o1aV9QeU00RVhUUDlNZlk4cTBCTnBrU2p0WlE1eGlKSjdKWEJmSTJ1UnRqVHhMeFF4TjZKMmNfWmtmeGg0eHF4OGkzQUtTSnZQX2V0OTZJUkR2d2FpSm1sWTlWaEhYWUFUYlhTUXI?oc=5"
+    },
+    {
+      "title": "Aya Gold And Silver (TSX:AYA) Stock Looks Stretched On Its 374% Run - Simply Wall Street",
+      "summary": "Aya Gold And Silver (TSX:AYA) Stock Looks Stretched On Its 374% RunSimply Wall Street",
+      "time_ago": "8h ago",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNTzhOcW5tT3ozR1VhR0VQcThnajZTa2NtTTY3aENTd2xTc3dKLWZ0UUdqYU9QTVVYUnpxMTBqeFd0UG4yOXRObld5dGR0eTBNeEg1Nm9DWS1rQ3RaMVUzOFNxejV6dGFtVXdCVF9Cc1JaZXVKSEJHMEFjVTVOdlFmM2pVWkhQZEZJRl9KOTdyc2diZjV0dWlZWlZQRC01Q0hIakVmNVpmaUR3cjZRamF1UmVwZE9GZUxGY0lWLW5kTV9NVVlOTGpwQkRVTm1TVTJvU2Y40gHYAUFVX3lxTE5tblpfakNVNnF0alh2QXdhZ2JhRDA0bVh5alhrOS1VaExNWkJ3YmJTM05WXzZrZmVNR0tEUm1ZMUFnV2JBNHFKZ0xnX2s0cmdzdFJNaVhBNzN4by1pbUpxU05ueXFROFR2NUdVNGFHSFJqZW1odXFERFJOSjhCeWJ3c3pHZFY5VWdqRjl1NkxjMU9sVzN6NHY5OHg1NXhMR3lKRmlUVXJYcmVGNV90Z0wzWjh4cnZQZlRTelZmM0FweGgtU0FPNXpsUXJIQzFaOGc0Y0FHMDBKaw?oc=5"
+    },
+    {
+      "title": "Gold and silver prices rise on global markets - az\u0259rtac",
+      "summary": "Gold and silver prices rise on global marketsaz\u0259rtac",
+      "time_ago": "10h ago",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPM2lpMTJpRm9zcjFFZkRkYkQxNm9fd09KcFBubmpMeVF3b1gzTmxIYm05U2llalNqUzU3RVZWZGRPLWpTdE96dzY3dEpfUnRmTDlQTElBX20wak5oS0lzZ2V3NlE2bjZZUFVtZmNZR0tOODhjclAyQkdhZWNWR1NOQmkzanBpX2RM?oc=5"
     }
   ],
   "metrics": [
     {
       "label": "DXY (USD)",
-      "value": "102.71",
-      "change": "+0.58%",
+      "value": "102.05",
+      "change": "+0.09%",
       "direction": "up"
     },
     {
       "label": "US 10Y Yield",
-      "value": "5.22%",
-      "change": "+0.00",
-      "direction": "up"
+      "value": "5.09%",
+      "change": "-0.10",
+      "direction": "down"
     },
     {
       "label": "Real Yield",
-      "value": "2.91%",
-      "change": "+0.04",
-      "direction": "up"
+      "value": "2.88%",
+      "change": "-0.03",
+      "direction": "down"
     },
     {
       "label": "Gold/Silver",
-      "value": "73.8",
+      "value": "73.0",
       "change": "",
       "direction": "up"
     },
     {
       "label": "RSI (14)",
-      "value": "31",
+      "value": "24",
       "change": "",
       "direction": "down",
-      "note": "Neutral"
+      "note": "Oversold"
     },
     {
       "label": "COT Net-Long",
@@ -1547,14 +1547,14 @@
     },
     {
       "label": "ETF Holdings",
-      "value": "493.8M oz",
+      "value": "494.2M oz",
       "change": "",
       "direction": "up",
       "note": "SLV"
     },
     {
       "label": "1M % Change",
-      "value": "-8.37%",
+      "value": "-11.89%",
       "change": "",
       "direction": "down"
     }
