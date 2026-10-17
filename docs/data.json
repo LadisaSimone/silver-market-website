@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T14:56:02Z",
+  "updated_at": "2026-10-17T16:34:48Z",
   "price": {
     "value": 57.12,
     "change": 0.0,
@@ -23,10 +23,6 @@
   "history": {
     "1W": [
       {
-        "date": "2026-10-12",
-        "close": 60.755284
-      },
-      {
         "date": "2026-10-13",
         "close": 60.008078
       },
@@ -40,14 +36,14 @@
       },
       {
         "date": "2026-10-16",
-        "close": 57.724061
+        "close": 57.567648
+      },
+      {
+        "date": "2026-10-17",
+        "close": 57.116
       }
     ],
     "1M": [
-      {
-        "date": "2026-09-17",
-        "close": 64.766338
-      },
       {
         "date": "2026-09-18",
         "close": 66.55561
@@ -162,14 +158,14 @@
       },
       {
         "date": "2026-10-16",
-        "close": 57.724061
+        "close": 57.567648
+      },
+      {
+        "date": "2026-10-17",
+        "close": 57.116
       }
     ],
     "3M": [
-      {
-        "date": "2026-08-13",
-        "close": 65.026588
-      },
       {
         "date": "2026-08-14",
         "close": 64.730502
@@ -424,14 +420,14 @@
       },
       {
         "date": "2026-10-16",
-        "close": 57.724061
+        "close": 57.567648
+      },
+      {
+        "date": "2026-10-17",
+        "close": 57.116
       }
     ],
     "1Y": [
-      {
-        "date": "2026-02-07",
-        "close": 77.944
-      },
       {
         "date": "2026-02-08",
         "close": 78.017358
@@ -1434,7 +1430,11 @@
       },
       {
         "date": "2026-10-16",
-        "close": 57.724061
+        "close": 57.567648
+      },
+      {
+        "date": "2026-10-17",
+        "close": 57.116
       }
     ]
   },
@@ -1442,129 +1442,123 @@
     "score": 4,
     "label": "Moderately Bearish",
     "sentiment": "bearish",
-    "summary": "Structurally elevated US 10-year yields at 5.11% and persistent dollar strength remain the dominant headwinds, raising the opportunity cost of holding non-yielding silver. A technical oversold setup (RSI 30.6) creates risk for a tactical bounce, but this mean-reversion bounce lacks macro conviction and could reverse sharply if yields sustain above 5.0%.",
-    "watch": "US 10-year yields and Fed commentary for any shift signaling a willingness to cut rates or ease policy stance.",
+    "summary": "Elevated US 10-year yields at 5.10% and renewed Fed-rate hike expectations are weighing on silver valuations, despite deeply oversold technical conditions (RSI 23.4) signaling a near-term bounce setup. Technical mean reversion and an elevated gold/silver ratio (73.2) offer partial support, but macro headwinds and recession sentiment documented across recent news dominate the near-term outlook.",
+    "watch": "US 10-year yield direction and any Fed communication shifts; a meaningful decline below 5.00% would materially improve silver's setup.",
     "updated_at": "Snapshot from 9:00 AM ET \u2014 may differ from live price"
   },
   "drivers": [
     {
-      "label": "Persistent Elevated Yields Headwind",
+      "label": "Macro Headwinds from Elevated Rates",
       "status": "risk",
       "icon": "bank",
-      "reason": "US10Y at 5.11% remains structurally elevated; DXY strength (+7bps) amplifies opportunity cost, directly bearish for non-yielding silver."
+      "reason": "US 10Y at 5.10% and Fed-hike expectations (confirmed by multiple news sources Oct 13\u201315) create persistent opportunity-cost drag on silver valuations."
     },
     {
-      "label": "Oversold Rsi Mean-Reversion Setup",
+      "label": "Technical Oversold Mean-Reversion Bounce",
       "status": "supportive",
       "icon": "trend",
-      "reason": "RSI 30.6 below 30 threshold is textbook oversold; historically signals bounce risk, but requires confirmation (not yet bouncing at $57.31)."
+      "reason": "RSI 23.4 (deeply oversold <30) and -14.2% drawdown from 30d high signal technical capitulation; near-term bounce setup confirmed by FXStreet/Vietnam.vn reports of recovery attempts."
     },
     {
-      "label": "Gold-Silver Ratio Undervaluation Signal",
-      "status": "neutral",
-      "icon": "flows",
-      "reason": "Ratio 72.9 is +7.9 above historical average, indicating silver deeply undervalued vs gold; quantitative but lacks supporting news confirmation."
-    },
-    {
-      "label": "News Sentiment",
+      "label": "Recession Fear & Macro Sentiment Shock",
       "status": "risk",
       "icon": "people",
-      "reason": "News mixed: some rebound headlines (safe-haven demand, yields tumble) but analyst warning of $48 downside if $54.50 breaks; tone is cautiously negative."
+      "reason": "MarketWatch headline explicitly links 50% drop to economic slowdown fears; multiple Oct 13\u201315 articles cite CPI and Fed-rate pressure as catalysts for sharp sell-off."
     },
     {
       "label": "ETF Flow Signal",
       "status": "neutral",
       "icon": "flows",
-      "reason": "No direct SLV flow data available; volume proxy only; cannot confirm institutional positioning conviction."
+      "reason": "No direct SLV flow data available; volume proxy only; score reflects absence of confirmed institutional positioning signals."
     },
     {
       "label": "Industrial Demand",
       "status": "neutral",
       "icon": "industry",
-      "reason": "No sector-specific industrial demand signals in news or data today; score reflects neutral absence of information."
+      "reason": "No sector-specific demand signals in data or news; industrial outlook unaddressed in current reporting."
     }
   ],
   "stories": [
     {
-      "title": "The Future for U.S. 90 Percent Silver Coins - Numismatic News",
-      "summary": "The Future for U.S. 90 Percent Silver CoinsNumismatic News",
-      "time_ago": "2h ago",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB4MHZPNWl3VmpiTWltN0h2TXVBclJxM3MzSkhCdkp6OTFjR0stYjV5aUVlMURlNEhweUxMUzZRZjlJcEtjZ09yRFVoVWMtQWs1d0d4MWpxWkRSd0RMTzNCWnAyWmctNDh2MTB5YVVXWW1oSXJyVzBrLWJxY1ZLZw?oc=5"
+      "title": "Silver\u2019s recent 50% drop from a record high hints that an economic slowdown looms - MarketWatch",
+      "summary": "Silver\u2019s recent 50% drop from a record high hints that an economic slowdown loomsMarketWatch",
+      "time_ago": "4h ago",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQeVZyMXpxU2t1R0xiMmJpeS1BakhhTm54eEFOYnZ4MDVVTm5HdjNkYXk1YTQ5dXFvaDRHTHRxb1ZNaUpjdUhhXzBnRjdMa3B3aThRN3doUVhnX2ltbzNzWXpyRllOd2tVeU1xeWlhYVRKM2Zvd2U3R0pfcEl6OW43YXZZRG45ZE85dDF6Z19QTkpOdjk2TlhSMWVBM0Q4dGJSLUY2d1VoU3JNOG1lQUlMM0dtVHlEN0d6b2RMTXBJbw?oc=5"
     },
     {
-      "title": "Current price of silver as of Friday, Oct. 16, 2026 - Fortune",
-      "summary": "Current price of silver as of Friday, Oct. 16, 2026Fortune",
-      "time_ago": "2h ago",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBONnZEZG9vUXE2N1l2cWdOdGM4Y0ZlY0NsZjFFUm1uV2pOd1dTeFF0cU9Ub3EzZnpWdWFqbEtlUHlFWk5XcEFMdVdtTEZFTEZxTWZJNlk3Rk1JWm9BQjZONU5BdGhNeFE1Q2F0d1psYVM?oc=5"
+      "title": "Silver price fluctuations on October 17: Unexpected drop - Laodong.vn",
+      "summary": "Silver price fluctuations on October 17: Unexpected dropLaodong.vn",
+      "time_ago": "13h ago",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPc3BrTTBMZ1VuVlZsTjdlcXV2bWdZa25QOHJybk5MRUFxUXhwaFlWTEdZWWh4UVBTV21xSWlzV3A4OUVhOUJzTjhFR1JFSmZOak9fZDluOVJRNXBzY0VFM0RySFo0Mm91NF9Pd3NWcHA4dWVucno4eFdxcy0tamliaTVIZXQ3TzhheTlDYUZ2U1hid3Ba?oc=5"
     },
     {
-      "title": "Gold and Silver Prices Increase in Local Market - Ratopati",
-      "summary": "Gold and Silver Prices Increase in Local MarketRatopati",
-      "time_ago": "10h ago",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaWpuekJWQW5hZ0dZYVdNU2JLc3lYUDdHT1hucFBETEZOdE5WV3l3cDlEd0MxZm9ETFRaQzlZUXpjNjc0ZHpOVHA0dW1sb19RVjVMelNkLTY4SDRMaS1OWUF4UDl5WlBvUFdvMlFHbXd2cVpiNDV3MWxROVM4Unl6SDhVTVpmY3lxLTE5aEc2R0tvUkZWclVBZUZyXzFiQ2xGWUZQenEyS0V5bGJVZDZ5VmV6QjJNQU02TjV3?oc=5"
+      "title": "Silver Rate in Howrah Today (16th October 2026), Silver Price in Howrah - ClearTax",
+      "summary": "Silver Rate in Howrah Today (16th October 2026), Silver Price in HowrahClearTax",
+      "time_ago": "15h ago",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE51cEhSX1NfUGVRWjNpQXM1RnduYVdPWjMwQUJBMEszTFdoaGpqN0t0RHhNUm5NTlhUcWcxazY0emJlTzJkZWhHREs2N01lZmM?oc=5"
     },
     {
-      "title": "Silver outlook bearish; may fall to $48 if $54.50 support breaks: Analyst - Business Standard",
-      "summary": "Silver outlook bearish; may fall to $48 if $54.50 support breaks: AnalystBusiness Standard",
-      "time_ago": "11h ago",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOT2t3bUx2aEVwdUIydEY5UWE5SFJaNnppSmpIbkpIanVrSWlpOVo3WkYySUdleDQzN1dvaTREb1JmUTc2WEctRGlOUlVuOEsxN3FHWjBXbjZKVDIwRlU0UTh2SU5hUE9uVTVpeXZicDFWZmNFMnBGUEp4X3RKNTUxa1ZaSVRBSUtRclJmd29LRWV5S0d4Vkw1RnY3ZnN3MFdhQUxQTEdTNVBsb01kR1V5QzhHTFIyUjNIM3NMRW1yZXNoallJdFJEUEx3TXlhdWZzeXfSAdcBQVVfeXFMTmNzaDQ2M2dXUWdUdWZYN0UtZEdSTkQ5Nm13N0w0VmozV1ltS3NUSVhqcjRLbGF6UTBtZ0w3d0wxU0lEenRCVGtaaFZfa1czSHFoR29pck1fR29DRWFZQS1CV0YzUkRlNjI0U05FeWtDcV8zTTNkTFFNd1pTSDlwb2VUMXBjbWJGZWN4NmQzbkFYWnNmMkVXV1hHUGRJb040bjNCRmxndGJWdEo3SXc1OFp0RHFWM2s0M1BVdlhoZEdoRWFQMkpfYjBlcnlIY1RpM21oUnN4YkU?oc=5"
+      "title": "Silver price today, October 17, 2026: Bouncing back up. - Vietnam.vn",
+      "summary": "Silver price today, October 17, 2026: Bouncing back up.Vietnam.vn",
+      "time_ago": "18h ago",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0zSjVDVnZ0UUlJMFhfbDJqdF9GOVdfc1RGakxtZExpLV9rWEpza2lrUGNEbmE4X3hsYkJOU0tzdFNRUGNGcnpLamhLbEswQzNaQ3hTOEF1S3FnZ2VKRERtS3ZoSVcxZmYwaUxEb3VXWHpWcWRDeHZCUg?oc=5"
     },
     {
-      "title": "Gold and silver prices rise on commodity markets - Apa.az",
-      "summary": "Gold and silver prices rise on commodity marketsApa.az",
-      "time_ago": "11h ago",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPR2ludXY5S3lVZ2Npak4wQzNPWHpFYjdOLTN3R241Wk9IcUxDalJEaWo5TC13cFhwNWVtRy0tbmhQcWFsUVRwT2pRRUV6VzhraFdPa1ZUMzhPZFV6YkxNank2NTh1MjdGbUFRYWxhbkVvMi14RjVjZ0g3S0d3VEw0QjJ5c1UxUW8?oc=5"
+      "title": "Gold, silver diverge as Fed-pause expectations collide with rising crude prices - Kitco PM Report - Kitco",
+      "summary": "Gold, silver diverge as Fed-pause expectations collide with rising crude prices - Kitco PM ReportKitco",
+      "time_ago": "22h ago",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZDVCeWw1ZXhwRFVhZjliUklxQzV1UW9hRmF2MkdQVzBOTHJRQXZIeW4tZUZtX1Z2VkdMU29STkYzVFVZYVhucDAwNk5NVWtrODdSdUw2V0tzTjFpLWkxc20ya2ZJTVo1bVpEOHVuOHZVT1dUVHJEcC1najhaaktkWGpRa3NJRHgzTFJXUmd1Y1Bkc01fenl5ZC1vYTNkeFl4ZnNqdTVjWnkydUlkMEJUSDV0Wk01czA?oc=5"
     }
   ],
   "metrics": [
     {
       "label": "DXY (USD)",
-      "value": "101.91",
-      "change": "+0.07%",
-      "direction": "up"
+      "value": "101.84",
+      "change": "-0.00%",
+      "direction": "down"
     },
     {
       "label": "US 10Y Yield",
-      "value": "5.11%",
-      "change": "+0.02",
+      "value": "5.10%",
+      "change": "+0.01",
       "direction": "up"
     },
     {
       "label": "Real Yield",
-      "value": "2.84%",
-      "change": "-0.04",
+      "value": "2.78%",
+      "change": "-0.06",
       "direction": "down"
     },
     {
       "label": "Gold/Silver",
-      "value": "72.9",
+      "value": "73.2",
       "change": "",
       "direction": "up"
     },
     {
       "label": "RSI (14)",
-      "value": "31",
+      "value": "23",
       "change": "",
       "direction": "down",
-      "note": "Neutral"
+      "note": "Oversold"
     },
     {
       "label": "COT Net-Long",
-      "value": "23,153",
-      "change": "+1,070",
-      "direction": "up",
+      "value": "-5,577",
+      "change": "-28,208",
+      "direction": "down",
       "note": "Weekly (CFTC)"
     },
     {
       "label": "ETF Holdings",
-      "value": "498.6M oz",
+      "value": "497.7M oz",
       "change": "",
       "direction": "up",
       "note": "SLV"
     },
     {
       "label": "1M % Change",
-      "value": "-10.87%",
+      "value": "-14.18%",
       "change": "",
       "direction": "down"
     }
