@@ -1,14 +1,18 @@
 {
-  "updated_at": "2026-10-24T08:37:50Z",
+  "updated_at": "2026-10-24T13:05:26Z",
   "price": {
     "value": 54.05,
     "change": 0.0,
     "change_pct": 0.0,
-    "as_of": "4:37 AM ET"
+    "as_of": "9:05 AM ET"
   },
   "intraday": [
     {
       "t": "04:37",
+      "p": 54.05
+    },
+    {
+      "t": "09:05",
       "p": 54.05
     }
   ],
