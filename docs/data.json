@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T13:56:29Z",
+  "updated_at": "2026-10-27T18:49:40Z",
   "price": {
     "value": 53.94,
     "change": -0.09,
@@ -19,10 +19,6 @@
   "history": {
     "1W": [
       {
-        "date": "2026-10-22",
-        "close": 55.790714
-      },
-      {
         "date": "2026-10-23",
         "close": 54.111837
       },
@@ -36,14 +32,14 @@
       },
       {
         "date": "2026-10-26",
-        "close": 54.147148
+        "close": 54.129124
+      },
+      {
+        "date": "2026-10-27",
+        "close": 53.792309
       }
     ],
     "1M": [
-      {
-        "date": "2026-09-27",
-        "close": 64.381528
-      },
       {
         "date": "2026-09-28",
         "close": 61.568004
@@ -158,14 +154,14 @@
       },
       {
         "date": "2026-10-26",
-        "close": 54.147148
+        "close": 54.129124
+      },
+      {
+        "date": "2026-10-27",
+        "close": 53.792309
       }
     ],
     "3M": [
-      {
-        "date": "2026-08-23",
-        "close": 69.120835
-      },
       {
         "date": "2026-08-24",
         "close": 69.089617
@@ -420,14 +416,14 @@
       },
       {
         "date": "2026-10-26",
-        "close": 54.147148
+        "close": 54.129124
+      },
+      {
+        "date": "2026-10-27",
+        "close": 53.792309
       }
     ],
     "1Y": [
-      {
-        "date": "2026-02-17",
-        "close": 74.406195
-      },
       {
         "date": "2026-02-18",
         "close": 76.190764
@@ -1430,7 +1426,11 @@
       },
       {
         "date": "2026-10-26",
-        "close": 54.147148
+        "close": 54.129124
+      },
+      {
+        "date": "2026-10-27",
+        "close": 53.792309
       }
     ]
   },
@@ -1438,102 +1438,108 @@
     "score": 4,
     "label": "Moderately Bearish",
     "sentiment": "bearish",
-    "summary": "Strong dollar (DXY +34 bps to 101.98) and elevated US 10Y yields (4.99%) are suppressing silver despite deeply oversold technicals (RSI 19.5), creating a bearish macro regime that dominates potential mean-reversion bounce. Technical exhaustion offers limited support against structural rate and dollar headwinds.",
-    "watch": "A meaningful decline in US 10Y yields or a shift in Fed rate-hike expectations would improve silver's near-term setup significantly.",
+    "summary": "Rising US Treasury yields at 4.99% and DXY strength at 102.31 are suppressing silver valuations despite deeply oversold technical conditions signaling a potential bounce. Oversold RSI at 21.2 and an 11.7% drawdown offer tactical support, but macro headwinds lack the conviction to sustain a meaningful rally without a shift in Fed expectations or yield regime.",
+    "watch": "US 10-year yields and Fed rate-cut signals, which remain the primary near-term driver of silver's direction.",
     "updated_at": "Snapshot from 9:00 AM ET \u2014 may differ from live price"
   },
   "drivers": [
     {
-      "label": "Oversold Technical Setup",
+      "label": "Oversold Technical Setup with Mean-Reversion Potential",
       "status": "supportive",
       "icon": "trend",
-      "reason": "RSI 19.5 (deeply oversold) + 16% drawdown from 30d high create high-probability mean-reversion bounce entry; oversold conditions are quantitatively rare."
+      "reason": "RSI 21.2 is deeply oversold (<30), a quantitative signal supporting bounce; 11.7% drawdown from 30d high provides technical floor evidence."
     },
     {
-      "label": "Persistent Macro Headwinds",
+      "label": "Elevated US Treasury Yields Suppressing Silver Valuation",
       "status": "risk",
       "icon": "bank",
-      "reason": "DXY +34bps, US10Y 4.99% elevated, Fed rate-hike fears dominate; strong dollar and higher rates directly suppress silver nominal prices."
+      "reason": "4.99% US 10Y yield persists as headwind to non-yielding assets; DXY +27bps confirms hawkish macro backdrop despite modest daily move."
     },
     {
-      "label": "Bearish Sentiment Consensus",
+      "label": "Silver Undervalued vs. Gold by Ratio Divergence",
+      "status": "neutral",
+      "icon": "flows",
+      "reason": "Gold-silver ratio 74.9 sits +9.9 above historical average, signaling relative silver weakness; technical mean-reversion from extremes often follows ratio divergences."
+    },
+    {
+      "label": "News Sentiment",
       "status": "risk",
       "icon": "people",
-      "reason": "20+ news sources on Oct 26 uniformly describe bears in control, crash, vulnerability, and multi-year lows; no countervailing bullish narrative."
+      "reason": "News volume high but tone mixed: mining stocks pressured, prices falling vs. gold, but long-term accumulation questions suggest defensive positioning rather than panic capitulation."
     },
     {
       "label": "ETF Flow Signal",
       "status": "neutral",
       "icon": "flows",
-      "reason": "No direct SLV flow data available; volume proxy only; cannot confirm institutional positioning strength or direction."
+      "reason": "No direct SLV flow data available; volume proxy only; score reflects neutral positioning with no clear directional confirmation."
     },
     {
       "label": "Industrial Demand",
       "status": "neutral",
       "icon": "industry",
-      "reason": "No sector-specific demand signals in data or news; industrial/fabrication activity unconfirmed; score reflects absence of supporting evidence."
+      "reason": "No sector-specific demand signals in data or news; mining stock weakness (Apollo, Capitan) reflects sentiment, not fundamental industrial offtake strength."
     }
   ],
   "stories": [
     {
-      "title": "Silver Price Forecast: Bulls defend $53 as bearish structure holds - www.tmgm.com",
-      "summary": "Silver Price Forecast: Bulls defend $53 as bearish structure holdswww.tmgm.com",
-      "time_ago": "21m ago",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNWkFpeHVsVWdTT0RiLTByNTdPMElhZFdibHdENzVqV1VVYTBrSThteVA0M0Q2RnZUUG5Ic3JydF9FX1EzaEplZ2ZqRFdrZjZCdDFKMDNzSWtJakh6Zi1mMU8wTG1SN1JSUDFSQUZtWUdfRDdPdFdqSHdoZER6Vm9wSGNwNzVMUmVLdE91a0xPeWtKbnExX29POENpSEdzVnBRNjZyYVZyVFdQTmU2UVh3RFBYN2tJOHVPdm9QYVV2MmtXcjBicjZpU3lB?oc=5"
+      "title": "Silver Price October 28 2026 - Robinhood",
+      "summary": "Silver Price October 28 2026Robinhood",
+      "time_ago": "35m ago",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQ2lvdXNLNTBCZmNIRmlHWG4ySGVFTExET25vd212a21zZkFpTnZXTFVIcEFpV2VoaU9ZLTBuUDk5TnpraldaSFgzcWNWN09kd1JVeVFOVFhteGdKMWpIRUQyTzlSWnZPTXdSaS1xMmF4a0t0RlQ1SVVxVnBSRE0wQngxZFVnS2ptY1JFa3pnMHZKY21pOW9NZGw2Nk5GLWtaTGMtOQ?oc=5"
     },
     {
-      "title": "Gold Coins vs. Silver Coins: Which Has Accumulated More Value Since 2020? - AOL.com",
-      "summary": "Gold Coins vs. Silver Coins: Which Has Accumulated More Value Since 2020?AOL.com",
+      "title": "Gold Coins vs. Silver Coins: Which Has Accumulated More Value Since 2020? - Yahoo Finance",
+      "summary": "Gold Coins vs. Silver Coins: Which Has Accumulated More Value Since 2020?Yahoo Finance",
+      "time_ago": "1h ago",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQTWJDdEF2Z2Z5djRMT01xalJUOFppeENpbmFDekh2WnJRS2JfNE5iaDQ4WWxHUlp5OTAzRzc1bkhmS0J5bXhocHc1WG9lQmpReDFlb1ZEaEpjdUtWTl92eXZwQ2k3LWQzcnNqUmxBM0tkWDB2R2ZtaDFTWW9FS0xJLW1kd09zQ1pybkFqcmx4ZWZma0ZIcFJYaVN4OXU?oc=5"
+    },
+    {
+      "title": "Silver Price Forecast: XAG/USD bounces from year-to-date lows ahead of Fed rate call - FXStreet",
+      "summary": "Silver Price Forecast: XAG/USD bounces from year-to-date lows ahead of Fed rate callFXStreet",
+      "time_ago": "2h ago",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPN2xrbHAzbUYzNjdRRlpJTUJEODNTVzJ1VVdzTXg0ZklqYThkRkxMMWUzVlV6UUQwbmJpYm41cXl5WW5KeHh1QjVIbnFoSXN2eml3SjYyc2lZZ3ltZjM4TUdTY2JLMURYRUQwdWUydDZoTENGUXphTlA1QmpkUFpHQ2EwcW9oOGxIVDFmNm1FMlBJZmFyVVZfTURnZEVaLTZkZjEyb0R3VlNsaGluaTBhUWV1c1hjazFsSFY3RWNLTjJGNmVk?oc=5"
+    },
+    {
+      "title": "Current price of silver as of Tuesday, Oct. 27, 2026 - Fortune",
+      "summary": "Current price of silver as of Tuesday, Oct. 27, 2026Fortune",
       "time_ago": "5h ago",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE85bEVCTjFFeEhialp5MmNuSW9oZlZBbWZIYzQyWnA1WktNeTNweUFsb3BOYmZIS010SDc5MXgxTUVPcnJlMjBIajNJVGpabFhBMnRWX2s2Y3N1YmJ0dGNJWDRQUUZ0bUpNZGdVeWlLNlJrYW1qUDg0VW5n?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAwWkstTWxlRUZBd1htb041S05QZ2ZUUy1IOFBtVFRsT1hfZHdoaHVveUw2T29vdUk4Ujh1VzZLU3FKemtCM3MwSmFmcWs1V3hFc2ZqRF9mRDgwQUVwMDVhRkNVUXVHSDRQQjU5dU5UM2I?oc=5"
     },
     {
-      "title": "Silver Price Today In The UK: October 26, 2026 - Forbes",
-      "summary": "Silver Price Today In The UK: October 26, 2026Forbes",
-      "time_ago": "5h ago",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5GY2NSNTc5Y0RCLW9QeXlCNDFpZ21IRFpsbDFWTXZSUTYwNWZPckFSak1ZZzhRaUk2azJ0WFZJWjFuXzc3bGxyVnRLMFNtemdYMktkZFlIUWE0N05HWHZQd05IRHpjR0tY?oc=5"
-    },
-    {
-      "title": "Silver Price Forecast: XAG/USD treads water around $54.00 with bears in control - www.tmgm.com",
-      "summary": "Silver Price Forecast: XAG/USD treads water around $54.00 with bears in controlwww.tmgm.com",
+      "title": "Apollo Silver Corp. Stock Loses Ground as Calico Project Timelines and Silver Price Swings Test Holder Patience - kalkine.ca",
+      "summary": "Apollo Silver Corp. Stock Loses Ground as Calico Project Timelines and Silver Price Swings Test Holder Patiencekalkine.ca",
       "time_ago": "6h ago",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxObWZzenJoZURGT3BzeEk3clY4RUZCaHpFSUpfMFI0dDlnWnhOcmptQ3hWVmZBSkd5V0pmeFVaeS1ONy00dVdCdkpQVGZNLXY4eVdpQ3BOMmRtRFJYSGJ4QjF2VnVILURKcWFXNzBqT1lGcDBGZVJlMElsYTlqYUhHZmcwams3Q1dLQm5ET3g2ODNrY3FFTjBZZE9zMHVZdGJCNFdyZXBabG8tcmlkWGwxVFdYbk9nVFFtQ3JoTk12Qmg4dnktdmE4TGpwZTVUbkNEazJPMkgyRGh0Zw?oc=5"
-    },
-    {
-      "title": "Silver Price Today on October 26, 2026 - USA Today",
-      "summary": "Silver Price Today on October 26, 2026USA Today",
-      "time_ago": "7h ago",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOalllR1B1NndXZnFWQUFybUFscnN4WGNCSVlWZ21HY3JmUkZkbUFuRElQLUdRaVIxMkhlVnhWdXpjb2htWEg3ZmMwaUJlX1BMSy1jdmItczBwbGlBYUFNRWpkRzFYdFNxRlJRcWNxVm9lSjFDbElhdkdlRDRQMHk4dXNyYnRqYS1RUFpGSkl1YlB5ODJVLUxPdEVkbmFlOTFmcGdHazdXcVhfQ2dK?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPaTA3OGc0ODNfUHcybktmRzRNLXE4ZVNQLVVUMUNxcWtRREZQVTVkYU9SMWo3ak0tSHg0c2lYY1p0aFdOZHJUU0p2eHhOYWhPNi1pV2oxbVlZdmFHR0oyQTZ3ZUZSV091UGdpQzZZdTE2bTFTZURmelppQ3FJM2hUc2xWcWdfYW9LRFI1RmdFOUE1eW1WUWctYjVlWFJHVFhFSW1yRWpJZnZkeWMyUW02bklDUUNNakd2QjFqMUp4bExYZ01LZlZSeEN1STJ4ZEpkYTdTekNZaFI?oc=5"
     }
   ],
   "metrics": [
     {
       "label": "DXY (USD)",
-      "value": "101.98",
-      "change": "+0.34%",
+      "value": "102.31",
+      "change": "+0.27%",
       "direction": "up"
     },
     {
       "label": "US 10Y Yield",
       "value": "4.99%",
-      "change": "+0.00",
-      "direction": "down"
+      "change": "+0.01",
+      "direction": "up"
     },
     {
       "label": "Real Yield",
-      "value": "2.64%",
-      "change": "-0.12",
-      "direction": "down"
+      "value": "2.66%",
+      "change": "+0.02",
+      "direction": "up"
     },
     {
       "label": "Gold/Silver",
-      "value": "74.5",
+      "value": "74.9",
       "change": "",
       "direction": "up"
     },
     {
       "label": "RSI (14)",
-      "value": "20",
+      "value": "21",
       "change": "",
       "direction": "down",
       "note": "Oversold"
@@ -1554,7 +1560,7 @@
     },
     {
       "label": "1M % Change",
-      "value": "-15.90%",
+      "value": "-12.63%",
       "change": "",
       "direction": "down"
     }
