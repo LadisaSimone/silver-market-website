@@ -1,14 +1,18 @@
 {
-  "updated_at": "2026-11-01T11:39:52Z",
+  "updated_at": "2026-11-01T17:37:40Z",
   "price": {
     "value": 49.25,
     "change": 0.0,
     "change_pct": 0.0,
-    "as_of": "6:39 AM ET"
+    "as_of": "12:37 PM ET"
   },
   "intraday": [
     {
       "t": "06:39",
+      "p": 49.25
+    },
+    {
+      "t": "12:37",
       "p": 49.25
     }
   ],
@@ -1564,7 +1568,16 @@
   "intraday_date": "2026-11-01",
   "intraday_chart": {
     "date": "2026-11-01",
-    "source": null,
-    "points": []
+    "source": "spot_snapshots",
+    "points": [
+      {
+        "t": "06:39",
+        "pct": 0.0
+      },
+      {
+        "t": "12:37",
+        "pct": 0.0
+      }
+    ]
   }
 }
