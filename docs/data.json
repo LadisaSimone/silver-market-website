@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-01T17:37:40Z",
+  "updated_at": "2026-11-01T18:29:49Z",
   "price": {
     "value": 49.25,
     "change": 0.0,
@@ -19,10 +19,6 @@
   "history": {
     "1W": [
       {
-        "date": "2026-10-27",
-        "close": 53.958106
-      },
-      {
         "date": "2026-10-28",
         "close": 54.039304
       },
@@ -36,14 +32,14 @@
       },
       {
         "date": "2026-10-31",
-        "close": 49.253937
+        "close": 49.253953
+      },
+      {
+        "date": "2026-11-01",
+        "close": 49.254
       }
     ],
     "1M": [
-      {
-        "date": "2026-10-02",
-        "close": 60.91904
-      },
       {
         "date": "2026-10-03",
         "close": 60.524
@@ -158,14 +154,14 @@
       },
       {
         "date": "2026-10-31",
-        "close": 49.253937
+        "close": 49.253953
+      },
+      {
+        "date": "2026-11-01",
+        "close": 49.254
       }
     ],
     "3M": [
-      {
-        "date": "2026-08-28",
-        "close": 68.772137
-      },
       {
         "date": "2026-08-29",
         "close": 66.503
@@ -420,14 +416,14 @@
       },
       {
         "date": "2026-10-31",
-        "close": 49.253937
+        "close": 49.253953
+      },
+      {
+        "date": "2026-11-01",
+        "close": 49.254
       }
     ],
     "1Y": [
-      {
-        "date": "2026-02-22",
-        "close": 84.834033
-      },
       {
         "date": "2026-02-23",
         "close": 87.270622
@@ -1430,7 +1426,11 @@
       },
       {
         "date": "2026-10-31",
-        "close": 49.253937
+        "close": 49.253953
+      },
+      {
+        "date": "2026-11-01",
+        "close": 49.254
       }
     ]
   },
@@ -1438,85 +1438,79 @@
     "score": 3,
     "label": "Moderately Bearish",
     "sentiment": "bearish",
-    "summary": "Wall Street liquidation and broad risk-off sentiment have driven synchronized selling across gold, silver, and equities, overwhelming technical oversold signals despite lower yields improving silver's relative value. Silver's extreme oversold RSI and steep -19.8% drawdown create mechanical mean-reversion potential, though sentiment remains the dominant driver.",
-    "watch": "Stabilization in US equity futures and a reversal in the gold-silver ratio (currently at",
+    "summary": "Market-wide liquidation cascading through equities, crypto, and precious metals is overwhelming positive technicals; silver at RSI 14.3 shows capitulation-phase oversold conditions, but sentiment-driven panic selling appears to be the dominant driver today. Dollar strength at 101.96 is offsetting the benefit from falling yields, limiting upside relief.",
+    "watch": "US 10Y yield movement below 4.85% or a reversal in DXY from 101.96 would validate technical rebound potential; coordinated equity market stabilization would be the most direct catalyst to halt precious metals liquidation.",
     "updated_at": "Snapshot from 9:00 AM ET \u2014 may differ from live price"
   },
   "drivers": [
     {
-      "label": "Broad Market Liquidation Cascade",
+      "label": "Market-Wide Liquidation Cascade",
       "status": "risk",
       "icon": "people",
-      "reason": "18+ news sources (Oct 30\u201331) report simultaneous gold, silver, Bitcoin, and equity sell-off; Wall Street liquidation explicitly cited as trigger for silver tumble and AI rally crack."
+      "reason": "15+ news articles spanning 48 hours describe coordinated selloff in precious metals, crypto, and equities ('AI rally cracks,' 'everything falling at once'), with analyst warnings of $45 silver and $3,000 gold\u2014consistent panic narrative."
     },
     {
-      "label": "Gold-Silver Ratio Expansion to 79.2",
-      "status": "neutral",
-      "icon": "flows",
-      "reason": "Ratio at 79.2, +14.2 above historical average, with news headlines 'Gold-Silver Ratio Just Hit 80' and 'expanding'; quantitative signal confirms silver underperformance vs gold amid global de-risking."
-    },
-    {
-      "label": "Oversold RSI Mean-Reversion Setup",
+      "label": "Oversold Technical Setup & Mean-Reversion Opportunity",
       "status": "supportive",
       "icon": "trend",
-      "reason": "RSI 13.7 is deeply oversold; silver -19.8% from 30-day high creates technical support zone, but liquidation sentiment and missing volume/OI data prevent high conviction on imminent bounce."
+      "reason": "RSI 14.3 is deeply oversold; silver down 19.8% from 30d high; both quantitative signals indicate capitulation zone where technical bounce becomes probable if selling exhausts."
     },
     {
-      "label": "Macro Backdrop",
+      "label": "Dollar Strength Offsetting Yield Decline",
       "status": "risk",
       "icon": "bank",
-      "reason": "US10Y yields fell 6bps (now 4.93%), a strong tailwind for silver; however, DXY rose 11bps, a headwind. Net macro backdrop is mixed but yield relief outweighs dollar strength."
+      "reason": "DXY +19bps to 101.96 creates headwind despite US 10Y -6bps; elevated dollar erodes silver's appeal to foreign buyers and partially offsets yield benefit from lower rates."
     },
     {
       "label": "ETF Flow Signal",
       "status": "risk",
       "icon": "flows",
-      "reason": "Volume proxy only; no direct SLV flow data available. News describes 'liquidation' and broad sell-off, but magnitude and institution-specific positioning unknown. Confidence capped at Medium; flow signal remains directionally bearish but unconfirmed."
+      "reason": "No direct SLV flow data available; volume proxy only and unconfirmed; liquidation references in news suggest outflows but magnitude unknown, capping confidence."
     },
     {
       "label": "Industrial Demand",
       "status": "neutral",
       "icon": "industry",
-      "reason": "No sector-specific or industrial demand signals in market data or news. Broad market liquidation does not isolate industrial appetite. Score reflects absence of evidence, not bullish or bearish demand signal."
+      "reason": "No sector-specific industrial demand signals in provided data; score reflects absence of evidence rather than evidence of absence."
     }
   ],
   "stories": [
     {
-      "title": "Gold and Silver Are Coiling. What Happens Next? - SchiffGold.com",
-      "summary": "Gold and Silver Are Coiling. What Happens Next?SchiffGold.com",
-      "time_ago": "20m ago",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQMlNDSXNhSFVXbDQwOTVCTDRnaHZGVkhkUEtzYjNKSE1EWmpnN1lYWHFfek1MTWtYVkJEUzlud1ZMcG1Pel82bEhuT2FndmNWeDNHSEduVnMzRTlXbUlBYXVGNXNCMDBRaXcxVDQtTVVNSU9XdktmX1djVG5fS09FWmxXQzVVWXVGU3FvMk0wWHZXMXBocnc?oc=5"
+      "title": "Silver Price Forecast: Tech Sell-Off Raises Risk of a Drop to $45 - FXEmpire",
+      "summary": "Silver Price Forecast: Tech Sell-Off Raises Risk of a Drop to $45FXEmpire",
+      "time_ago": "1h ago",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUkhJMFdNWC03ZHdxVXpsVU1hWTZFRFdaX05pR0M2ZXF2bC1Tci04YTVpNERlb0tvOWFINTRibTF4dF9hOUw0Ql91dlU3bmNtZGJVUzQwb1BQSi1HcUFkN00xdUJNck1abFZaVFZnZDZlRkdUTUY5V1hiZ2pqblVtZXUzQnFWT0pjZm1kX0tJdzd1Y0xjYkI1eHhEODRNX25EWVhyUWpCMi16RlRacWlNMmE2ZUc?oc=5"
     },
     {
-      "title": "Polymarket Launches Gold and Silver Markets with Chainlink as Official Oracle - KuCoin",
-      "summary": "Polymarket Launches Gold and Silver Markets with Chainlink as Official OracleKuCoin",
-      "time_ago": "3h ago",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNdXNuUW5JZ0lVMUdYOWcySEVyUjE5bFhyQTVoaE84ZDdUbFZMOHhFeVRaR2RxRmFBVXY2Q09nWTNsYm5VRDdhTGtidk9qLXUwNWN3YzBJY25MX0poaTZnRGpWQWtZMFoyYnJkdU50Nlh1Z2RQWldReVA5V1RZWGp3ckRjYlNXMmlkLUgwcG4wcS1kcGk4cGZtbkY1YnpZV2ZMaUVpYzJqWWZNYUNzX0YwUw?oc=5"
+      "title": "Silver Price In Free Fall: Will 1 Kg Of White Metal Equal 10 Gm Of Gold Soon? - NDTV Profit",
+      "summary": "Silver Price In Free Fall: Will 1 Kg Of White Metal Equal 10 Gm Of Gold Soon?NDTV Profit",
+      "time_ago": "14h ago",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNLUlwajVvNG5KNmU5aVQzSkVBQ01VQTc1Vm93eHlUMzhycDU1SHU2a0hCLTFCbjJLSDZoX2FPeTlEMDZucjctcXRuRVVJaC1FM3NlNi1pYUdUTW1pM1dzUGhsemNrajR2YmZ6V3pDRzBDOW9lY3pzcTlWTkNmRjZzWV9MWTJnRGp2b2NoX2hpdzRVQU1NSzNRT1VKN1JpOEx3dVRqWXNrcWFiYW16T1NhNlhYcDZoTTBtOWpN0gHDAUFVX3lxTFBCMG1XbDRCNjZKMmI1LXh3UlZHRXQ2a21OWnQ3ancteDZnckVNMGduYlNGQVhrbHBjSDVNNEJiN0EwdURsVi0zYkJQa05Zb0MtYkZhZVhJdmxoM2dKRjFBMkxGUHkzZHp6Unl2Vk1TczJnc09CeldJLXpSamNJU295VjdZM1YyTlJ4ZVB1amVaVjRZSzNLaGdBelJpYlJURGtzUnA4aXAtYzR0NmR4Ul9CSXY0dlZ5M3kwVWU0azYxZnlBVQ?oc=5"
     },
     {
-      "title": "Significant drop in gold and silver prices, decline in the global market as well - Mashriq TV",
-      "summary": "Significant drop in gold and silver prices, decline in the global market as wellMashriq TV",
-      "time_ago": "3h ago",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPa2tUOFYyR0hHb0xKSVZKdW5tQ1lkaVlCLWRNUXJTcjVIVFhLdDA1OTZnUDBxc28zN3hXemRlVVphNVAtaDBqUElVaWFXc2ZvWGxBcEkyZ25xRUgyZEpiVXhXeGpiS0JmTTR4MU9maDYyQ2VZS09IdlpIVlVzYU5sWlBHLWxnV0xocnVweDNmUnY1bG9UM1luT0ZpMHYweDAycFhhaXlBSGFxMjlLZGFlNFdRcFBJQQ?oc=5"
+      "title": "Gold, silver prices today, 1 November: Check retail rate of 24K, 22K gold, 999 silver in Delhi, Mumbai, Kolkata, Chennai - Livemint",
+      "summary": "Gold, silver prices today, 1 November: Check retail rate of 24K, 22K gold, 999 silver in Delhi, Mumbai, Kolkata, ChennaiLivemint",
+      "time_ago": "15h ago",
+      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPZVlqTjdta1RKZzFuY054Qk5HV3YyUjUyNzVhYUVuOHI4MEdKclprNTloLW5QYkpCX2wyUXZUWUF6c0ZGVHRTV09KT1dzaTNlZWhxMThfSTVIWWFLejQ1ZVVVRWFQMG1NVXVMb1NxaDhVREtaNGtHWDJ1ZlhRTVdQeElBYVJnZGRKVHhBSEZMTGxRck93TkNOeGtyS0NtbUhEdkRXWk9SOHExbUIwOHpwXzBoNXFLM1pZOXN0dDVGWUNyM2Qyd3ZSeV9YQURJX2U2NW1qRFYzTTFLeFRCcDJPRkI4eUJQSGVMamJtMzlybUxhZnpPT0hXREpTa0RrcklZ0gGGAkFVX3lxTFBmQlNRRWExQmk0Z2JVM1BQT3FWVkJnSzU5MG1DRldQbjcxd1lOOWRXdVNPOFl5ZHlyWnlac2xmTThSMVB3T0pFTThsdWdDd3piMlJxdUk0bWRueHc3cngzdjNOdVNJUi04c2xCZG04Y2FiSE1neThZMFpRY09MLWsyMFIyVEZLYUFJRmVySElxN05GU0RxbnZPOU1iMlh1bkJjU1JyZFFKVDU0ZUw4Nnk3TWdCZTl2ZE5FdEc1S1RuSWhpdHlBVThzeDBqd2hsZGNUbWo5Skg4N2RtOW9kRVVja29KVzRxQXFGZFp3a1RETU1Eb2M2MEIzYWpnOVlxUHB4cmpwd0E?oc=5"
     },
     {
       "title": "Bitcoin, Gold, Silver & Stocks Face a Market-Wide Sell-Off: Why Is Everything Falling at Once? - Coinpedia",
       "summary": "Bitcoin, Gold, Silver & Stocks Face a Market-Wide Sell-Off: Why Is Everything Falling at Once?Coinpedia",
-      "time_ago": "4h ago",
+      "time_ago": "22h ago",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPbmV2UVRJdk5YUWo5YXZPSEZzMHgzbGdrckNMbXdwMy1CSkpBaU1YZGR5amg2dnZwQUlrd21oMUFJNlN1NmNwMDVWaGJIcUFBY2pSdlk3Mk5jOTB6WUx2Qm16OE5SVkhxczIzaDFiajREd2NWa3B6YVYtMHMzWXY1Z2NSN3JScjdLLTdldTVCZFczb0JWM0ZxNFQyZmtKeER4clFWbFUxTHcyWEZVb0RXTHpyLTc2ekxqdzVlRGtTZ3dsNlZo0gHKAUFVX3lxTE5vUko1R1RRaUJIT2JMaVhfZXMtMGFsa1Rib0l0cVJGWWk1TmdkRFloQmZSTnV5MTUzX3B3STJJU0wyX19RemE0TUpaYmhOTW5BQXJyckxjcGZKMkg2MGY4YUxvUllfTG1XdTZ0bjZIX2dGdUlOdHlsVzEyN1hjQnVVWl9mS0lURWFYLVMtc2Jua0xlOG1BX2tWVXQ5eFljOTdkQk9waWx3T182RnJNZUJsM3pxLUZsdW1JQ1N3TzlsS1BYNXJfSlNIMVE?oc=5"
     },
     {
-      "title": "Gold price plunges Rs 9,900 as silver drops Rs 360 per tola in a week - myRepublica",
-      "summary": "Gold price plunges Rs 9,900 as silver drops Rs 360 per tola in a weekmyRepublica",
-      "time_ago": "5h ago",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOc0FFYUNQNm1lcV9adzFLYlJ0dVBTQlg5TmtGTEZ0ejJNY2FfdDVJQm1FSXBjN0s5bXF1SUY4R1IxZmVfcXpuUV9paHQzOFZneG11bEdYM0Q0azNCeXF0OXllYkZBbzI4RzFydUswYXY4TXhSdkJfM0ZVVjJ5R2RON3ZmQVRCaENKU0F5U1JramVhU1hwdG9wRXYtQkRxV0JxVEpkN3oxMEtXWkZRbElQRXJNZXFNbUcyWWR3cndwdzQ?oc=5"
+      "title": "Silver and SLV ETF Prices Lost Crucial Support: Will US NFP Data Turn the Tide? - Benzinga",
+      "summary": "Silver and SLV ETF Prices Lost Crucial Support: Will US NFP Data Turn the Tide?Benzinga",
+      "time_ago": "1d ago",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPbVc0aEtINzQtRlA3cUVmOS13Vlk3ZzRDcEl4Z3dSS0ZrbE5hUmJqQ0tCZTZiU2ZwU3lEV3NuTEk1YW90RnY1VWJRTTZKdGF2b2hHRXFBRDMwMzJ6SFU1WXhlU3l2Q2h2UWhLWWJWc2FGRGR1OTN4MjN0eTl2TzdqOFZ6eFBPMUxXWXV2VUkwV3BRX3c4ZENDMllOemRkbTY2QllUZkNfUjVENWlaWjdZOUNkcnFPa2k2MklldTNuU2xLWmhSZEpqVF80VnI5cGMyS0xz?oc=5"
     }
   ],
   "metrics": [
     {
       "label": "DXY (USD)",
-      "value": "101.88",
-      "change": "+0.11%",
+      "value": "101.96",
+      "change": "+0.19%",
       "direction": "up"
     },
     {
@@ -1560,7 +1554,7 @@
     },
     {
       "label": "1M % Change",
-      "value": "-19.15%",
+      "value": "-18.62%",
       "change": "",
       "direction": "down"
     }
