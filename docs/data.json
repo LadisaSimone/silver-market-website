@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T07:42:00Z",
+  "updated_at": "2026-11-05T20:45:58Z",
   "price": {
     "value": 52.65,
     "change": 0.27,
@@ -15,10 +15,6 @@
   "history": {
     "1W": [
       {
-        "date": "2026-10-31",
-        "close": 49.253953
-      },
-      {
         "date": "2026-11-01",
         "close": 49.275598
       },
@@ -32,14 +28,14 @@
       },
       {
         "date": "2026-11-04",
-        "close": 51.444076
+        "close": 51.582932
+      },
+      {
+        "date": "2026-11-05",
+        "close": 52.785718
       }
     ],
     "1M": [
-      {
-        "date": "2026-10-06",
-        "close": 61.231971
-      },
       {
         "date": "2026-10-07",
         "close": 60.345179
@@ -154,14 +150,14 @@
       },
       {
         "date": "2026-11-04",
-        "close": 51.444076
+        "close": 51.582932
+      },
+      {
+        "date": "2026-11-05",
+        "close": 52.785718
       }
     ],
     "3M": [
-      {
-        "date": "2026-09-01",
-        "close": 65.405872
-      },
       {
         "date": "2026-09-02",
         "close": 64.620544
@@ -416,14 +412,14 @@
       },
       {
         "date": "2026-11-04",
-        "close": 51.444076
+        "close": 51.582932
+      },
+      {
+        "date": "2026-11-05",
+        "close": 52.785718
       }
     ],
     "1Y": [
-      {
-        "date": "2026-02-26",
-        "close": 88.171435
-      },
       {
         "date": "2026-02-27",
         "close": 91.341167
@@ -1426,110 +1422,114 @@
       },
       {
         "date": "2026-11-04",
-        "close": 51.444456
+        "close": 51.582932
+      },
+      {
+        "date": "2026-11-05",
+        "close": 52.785718
       }
     ]
   },
   "outlook": {
-    "score": 7,
+    "score": 6,
     "label": "Moderately Bullish",
     "sentiment": "bullish",
-    "summary": "Election-driven US bond yield compression (down 6 bps to 4.89%) and Indian Dhanteras seasonal buying are supporting silver's +4.77% rally today. The flat US dollar index and near-term Diwali demand window provide tactical support, though post-festive demand visibility remains limited.\n\nWatch",
-    "watch": "",
+    "summary": "Falling US 10-year yields to 4.84% and post-midterm political uncertainty are driving safe-haven flows into silver, while Dhanteras festival demand in India reinforces seasonal physical buying. Dollar strength (+31bps) and lackluster technicals (RSI 41.5 undersold but not extreme) are partially offsetting upside potential.",
+    "watch": "US 10-year yield direction and any shift in Fed policy expectations\u2014a sustained sub-4.80% yield level would strengthen the safe-haven case significantly.",
     "updated_at": "Snapshot from 9:00 AM ET \u2014 may differ from live price"
   },
   "drivers": [
     {
-      "label": "Election-Driven Dollar/Yield Weakness",
+      "label": "Yield-Driven Safe Haven Demand",
       "status": "supportive",
       "icon": "bank",
-      "reason": "US 10Y yield fell 6bps to 4.89% and DXY rose minimally (+8bps) on Democratic midterm victory; yield decline is strong quantitative tailwind (Kitco, Economic Times, Livemint confirm macro driver)."
+      "reason": "US 10Y yield down 6bps to 4.84% combined with midterm uncertainty creates strong tailwind; DXY mild headwind offset by primary yield support."
     },
     {
-      "label": "Festive Demand Surge Ahead Of Diwali",
+      "label": "Seasonal Physical Demand Surge",
       "status": "supportive",
       "icon": "industry",
-      "reason": "Silver surged Rs 9,000/kg in India with 8+ independent news sources (India TV, Financial Express, India Today, Rediff, Livemint) documenting strong Dhanteras/Diwali seasonal buying; quantitative price move (+4.77%) corroborates demand thesis."
+      "reason": "Dhanteras 2026 festival coincides with reported jewelry-store rush and price-drop-driven retail buying across India; structural deficit narrative reinforces demand fundamentals."
     },
     {
-      "label": "Risk-On Sentiment From Political Outcome",
+      "label": "Retail Sentiment & Mean-Reversion Setup",
       "status": "supportive",
       "icon": "people",
-      "reason": "20+ news sources uniformly frame Democratic victory as risk-on/dollar-down catalyst for precious metals; sentiment consensus is reinforced by actual price action (+4.77% silver gain)."
+      "reason": "Over 50% of retail traders betting silver tops $100 next year; RSI 41.5 undersold; Dhanteras buying fever and midterm safe-haven flows combine for bullish conviction, though no single dominant source."
     },
     {
       "label": "Technical Setup",
       "status": "supportive",
       "icon": "trend",
-      "reason": "RSI 33.2 indicates oversold mean-reversion setup (bullish signal), but -14.5% drawdown from 30d high shows recent weakness; mixed picture supports moderate bullish tilt."
+      "reason": "RSI 41.5 shows mild oversold conditions suggesting mean-reversion upside; -14.5% vs 30d high indicates pullback from elevated levels, but no decisive support confirmation yet."
     },
     {
       "label": "ETF Flow Signal",
-      "status": "supportive",
+      "status": "neutral",
       "icon": "flows",
-      "reason": "Gold/Silver ETFs rally 4-6% reported, volume proxy supports upward move; no actual SLV flow data available, limiting confidence to Medium."
+      "reason": "Volume proxy only; no actual SLV flow data available; news mentions ETF comparisons but directional conviction capped at neutral pending confirmed fund flows."
     }
   ],
   "stories": [
     {
-      "title": "Silver Price November 5 2026 - Robinhood",
-      "summary": "Silver Price November 5 2026Robinhood",
+      "title": "Dhanteras 2026: Gold Prices Surge Over \u20b93,000, Silver Also Becomes Costlier Ahead of Festive Season - theopenpress.in",
+      "summary": "Dhanteras 2026: Gold Prices Surge Over \u20b93,000, Silver Also Becomes Costlier Ahead of Festive Seasontheopenpress.in",
+      "time_ago": "31m ago",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9qVWM1TzdfYzNrcVh5YlV2SGR6UGNTRHNMbGd3X0dWeDl3NWlLUnVSaUh2bGY5MFBHMHVxTkFxclM5T2NUejNxeFljbWxSckhKcHFaRUJ1OXhLekJuTExtNjJPRXhJYS1KTzFBMmh1ZHFabkdpOXdrYWtn?oc=5"
+    },
+    {
+      "title": "Price drop sparks gold, silver rush in jewellery stores - The Times of India",
+      "summary": "Price drop sparks gold, silver rush in jewellery storesThe Times of India",
       "time_ago": "1h ago",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQaUUxamd6WjRsRXpwLVZxMTNMMC1tVmJpVGtsMUUyQWxaWXhyc2Y0eTk4UTlfdTVOV1JyX094bVJ3TVN2dHAxZ2cxWlZxU1MxMGxNWDdiNFV5UlE3SDFZUXJ1ckxhdU5tcUpBTVFZemVTclF3ZzEzZmJBZkRBdmc5NmxRNU5ZaVlyOTJWR2FSUjUyOVl1ZHpKQThjR3NYQjJoZWdsdg?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQT1lSdTBSRVYzQS1keVFlS2c1SnNkZDczVTU4WHFVaTg4bWg1Z1JXOUlFQU9MalZTSmQyWG1IMHEyY2htNEdQSndpbkVGLVctZ0ZmeWFCcWZjT1FnM2xMQUdwbjZPaE9za0V6Tmk1N2RKVGprM0E2QkVtTmluWmdNdk9DWWdXOWVkTkJXQzNOQ01ITFFxa01NdU12bE54a0o0dTVMeGsydmhkNFdlSTl0S3V5bFNmcGE1ZTVOR0gway13SkV4bHkxM3ZrZ9IB0AFBVV95cUxPVW03ZF9STzEzWnBwU2NGWTJ1aVFpdnBRVzE0SlJXZlItSzlWY3hEVFh2Rkl1dzVjX0pEMW4tS0FiUktCOHFBQnZpbXktX1RWOVJjUXdRTlBLX1BzY2dkdERxYXFYWkM3RHZKWWtWMWJ3RDUzTXhfZ0x6ZlhmQklrTEU2OHBteVNfbGl5MkctbEtUaXNUYVhyc0ZqQ25BZ1p3cFozVjFxakNVdGtJTUpzSzA0QWdZd2FPSFgzT1BWUko1VEIwS1NFMUpVb0dKT1NQ?oc=5"
     },
     {
-      "title": "Gold vs Silver on Dhanteras 2026: Which Metal Should You Buy? Compare Prices, Investment Returns, Benefits, Risks and Expert Buying Tips Before Diwali - The Sunday Guardian",
-      "summary": "Gold vs Silver on Dhanteras 2026: Which Metal Should You Buy? Compare Prices, Investment Returns, Benefits, Risks and Expert Buying Tips Before DiwaliThe Sunday Guardian",
+      "title": "Is a Gold Bullion ETF a Better Investment Than a Silver Miners Fund? ETFs from Goldman Sachs and iShares Battle It Out - The Motley Fool",
+      "summary": "Is a Gold Bullion ETF a Better Investment Than a Silver Miners Fund? ETFs from Goldman Sachs and iShares Battle It OutThe Motley Fool",
       "time_ago": "2h ago",
-      "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxPLVoydUljWW4tX2VnSzVNTm8zN3J6NFFEUFBRdnNTUGdDSmFYcUlVMnMxVWc1QzdZMDN3endtOWU3T1V1ZmIxNDFUZWp0dXdKbEhzeEdlQ09yVHkxYnVPbDIwbU91OUk4dGpZLW5JcTd5cXV4MDdzUlJtVUNiQ2hleU1xT0w2bk9PWlJzbXlZclBQb1lwSW5kVEJzU3JqdkJUVkpHdFJpcUN5NjFUOWd2Y1hSZ0dUZ2FiMF96VUZOMTEtUjBpLXFTYktZeC03bnM4aEhyQjE2ZERqR0N6dTlERGxoVV9tVFNlLTFtaGE1UHoyX18wS0JYZFQ3SDJRaThxc3diWDB6N3B5ZEs5WHFmUm5Ncjh4M0xJa1NHd0V30gGjAkFVX3lxTE0wV3FEdmFBLVk1NGRSUUN6QU1KUzZ4NzZaYzZ4ay0wYVhibWpIbktNZHFMWW42MDEzeGVjRWRmcklCMzRWSElYVHdUX1h6RDFXTHB5Q3hxc0xnUUNzbUJVYm5BYjd6eHBZRmV3N1RCdnlfejFNUnB6WUJBYm9wNXZFNE1ZY01Ed3dKd3B5d3VqV05SRXBteHBYZ2RpMjJXOWJoaDRMV2UwQmtyX0F1ZHpqdWV2QVh6bDFib3ppX3ZqbHI5Mmc1dFJPeExXM2d2VTJySzlLa0J6Y29sUUdHMGhxN01pdjBjeXpwME1pT2dhRTkyMHdOLVVMbEhoaU1LX2Z3STFZZ3hQMHYtUUdSbUloNVg0OWlLUFdhczBpOGp6NlNvdw?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPbzBRVzZ1RHh2RGxNRGc0R0ZnWmI4Z3RYVVpNTjJjQk1SMlEyRDVaQ19fTzhIbmNzS3YwVWRLVk8ybWV5alZoVXhmNG4zZk1TUFFtWk9hbDRudWRlV3lJV21iM2FEbTlpMk5tZGpKYV9XU1gxLWM2ZlVXUElyS096ZmpJeHA0QW53cFhmRVI4YmZ1VmJ0V3lwRS03bnBWSjNCU0t0bkJZelhKb0c0cFBRY0d2cVpuVFh3RHZIWWtEd05MeXpNMjBxNVNMSWx0SjZjakF6YUFmTVV3OTZMSllBY1g3aDViWmloVDN2dDRXcm8wVzE0QUp3?oc=5"
     },
     {
-      "title": "Silver Price Today: Silver Rises 3.09% on November 04, 2026 - USA Today",
-      "summary": "Silver Price Today: Silver Rises 3.09% on November 04, 2026USA Today",
-      "time_ago": "3h ago",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQRVZRS3JkUGxTVHdiSVZ6bEVVR2I3cnBsUEdhUmxOVHJkUm9YN1RkeXFPNlBpUGd1U1FfRThUOUVocWxhQ3JZbDhfN0M1UVNqTDZHUXoxbjY1S3hLNVdZaUJIX1NNZkotTnR2a0VZOTNYTUFUUnI0X2Z3bTZWT0oxNzJjUVNJTmdRZS1BNzZidUJQeVp6c1N0QjMwaEM5Tmp6UFVBZjhxYkdZSDlJdmc?oc=5"
+      "title": "CPM market commentary: Gold and silver investments - Kitco",
+      "summary": "CPM market commentary: Gold and silver investmentsKitco",
+      "time_ago": "2h ago",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQc2JKZ2JReGtlN0czVzc1UmVTQk9DU2ktWjNjN3hZbkcwajRiaEFDM1FGZUZIeW5qOWlHajZUT19SYkNiME9MUFZIVWJXWE1mcmFGWHdzX09PaFM1T3ZzU0FFbmEzajdNWkVVamVQTWdaTkp0TjhWcHFrU1hEdERIb3RiRDVrVDFZWl9tLUtWMm8yOXVY?oc=5"
     },
     {
-      "title": "Gold jumps Rs 4,800 per 10 g, silver surges Rs 9,000 per kg ahead of Dhanteras - India TV News",
-      "summary": "Gold jumps Rs 4,800 per 10 g, silver surges Rs 9,000 per kg ahead of DhanterasIndia TV News",
+      "title": "Silver Price Today: Silver Rises 5.80% on November 05, 2026 - USA Today",
+      "summary": "Silver Price Today: Silver Rises 5.80% on November 05, 2026USA Today",
       "time_ago": "4h ago",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNTlzejZrQWY4UC03N29KbXY2dmozR2xWVW5ncC1iNUhJYXRWY2QyNVAzbElDUlhvRk1CZGR1M2J4cWtLTFBwbi1rLUJLMVNHdWc2QzZoYjhvdEZhTmN1LWlpTFQ2QnNnZVpLd19WNnJFZzdpTml1ZEpJczVSS3J6bGlfN3E0TjRvTUZIOWcyamFyVm9xTVgtQWFPcndRZ2FrcXFUTjJYcnljU2loNGtNS3FR0gG3AUFVX3lxTE1ydVBkZFR5ZTVTU0dxSHhiLTJOZ0RjN1p1dGtxRjZFRGtsZ2Zfb3JYR0NrYjg2YXBhTWotWWdyWGtqODBmeEdqNElLMjBMR3lxdklzQVg5YkNRZ0pOcENnNDJYcER3SzJTYnlva216cHZabHh3cjZVbzF3T0tXX1kyT0p3dmpLUU9EdG5FeU8tLWFXTGZ4WUJfSkNqc3p3RXhkcVJuOFNCLVg2cTZCbHFHU1p5NEZFOA?oc=5"
-    },
-    {
-      "title": "Gold and silver surge as Democratic midterm sweep drives dollar, yields lower - Kitco AM Report - Kitco",
-      "summary": "Gold and silver surge as Democratic midterm sweep drives dollar, yields lower - Kitco AM ReportKitco",
-      "time_ago": "6h ago",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZTIzc1F2ZWpzTG5Va1ZsY0RIMEVabFJBSlY0ZFBDb2RDYW5mNW5iTXZRb0owR2xINi1uNTUxakhDeHdvYjBLSWc2U281RlE4eXlTZVVGLUtTWHAyX2NXMUVEVXhzUzdMdXppUTF4dkRCZzBhREx6YVhtcUd5M1d0Z3M3VzZTRkFOWTRGU0RxWUZpZ3EzaUpwcXZ3UG82NmN4bk5lRzZObDZta2dMS1hfMDRxWUZXWGFFUl9F?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNcE5WV1VnVE9LeHlaLXVNLUR0eU9XbFh1dDEtZXdUWEEwdktaTnNBVGhqRmx0TGt1RF9MQW04WWZzUXI4LWJDREV0SHl3UHpRM2NvaTEwTkE2V2lXWkYxcklDc0xraVdCMVY0N0tBUklNLTlRZUgzN2hpdjN0MGI1WTIyMjE3V3VWbW40OS1MX3V6allmRVpTaVlWcHpkcWkxbXM3eVZ6R2lWNng1UWc?oc=5"
     }
   ],
   "metrics": [
     {
       "label": "DXY (USD)",
-      "value": "101.54",
-      "change": "+0.08%",
+      "value": "101.56",
+      "change": "+0.31%",
       "direction": "up"
     },
     {
       "label": "US 10Y Yield",
-      "value": "4.89%",
+      "value": "4.84%",
       "change": "-0.06",
       "direction": "down"
     },
     {
       "label": "Real Yield",
-      "value": "2.62%",
-      "change": "+0.02",
+      "value": "2.65%",
+      "change": "+0.03",
       "direction": "up"
     },
     {
       "label": "Gold/Silver",
-      "value": "77.8",
+      "value": "78.9",
       "change": "",
       "direction": "up"
     },
     {
       "label": "RSI (14)",
-      "value": "33",
+      "value": "42",
       "change": "",
       "direction": "down",
       "note": "Neutral"
@@ -1550,7 +1550,7 @@
     },
     {
       "label": "1M % Change",
-      "value": "-15.98%",
+      "value": "-12.53%",
       "change": "",
       "direction": "down"
     }
