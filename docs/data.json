@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T17:24:22Z",
+  "updated_at": "2026-11-07T18:09:09Z",
   "price": {
     "value": 52.07,
     "change": -0.0,
@@ -19,10 +19,6 @@
   "history": {
     "1W": [
       {
-        "date": "2026-11-02",
-        "close": 50.520854
-      },
-      {
         "date": "2026-11-03",
         "close": 49.754538
       },
@@ -36,14 +32,14 @@
       },
       {
         "date": "2026-11-06",
-        "close": 51.968373
+        "close": 51.984646
+      },
+      {
+        "date": "2026-11-07",
+        "close": 52.071
       }
     ],
     "1M": [
-      {
-        "date": "2026-10-08",
-        "close": 59.436416
-      },
       {
         "date": "2026-10-09",
         "close": 60.627162
@@ -158,14 +154,14 @@
       },
       {
         "date": "2026-11-06",
-        "close": 51.968329
+        "close": 51.984646
+      },
+      {
+        "date": "2026-11-07",
+        "close": 52.071
       }
     ],
     "3M": [
-      {
-        "date": "2026-09-03",
-        "close": 66.447385
-      },
       {
         "date": "2026-09-04",
         "close": 66.566359
@@ -420,14 +416,14 @@
       },
       {
         "date": "2026-11-06",
-        "close": 51.968373
+        "close": 51.984646
+      },
+      {
+        "date": "2026-11-07",
+        "close": 52.071
       }
     ],
     "1Y": [
-      {
-        "date": "2026-02-28",
-        "close": 93.914
-      },
       {
         "date": "2026-03-01",
         "close": 93.983161
@@ -1430,7 +1426,11 @@
       },
       {
         "date": "2026-11-06",
-        "close": 51.968373
+        "close": 51.984646
+      },
+      {
+        "date": "2026-11-07",
+        "close": 52.071
       }
     ]
   },
@@ -1438,79 +1438,85 @@
     "score": 4,
     "label": "Moderately Bearish",
     "sentiment": "bearish",
-    "summary": "Rising US bond yields (4.86%) and a strengthening dollar (DXY +55 bps) are constraining silver despite technical oversold conditions; an analyst forecast of $48 retest reflects rate-hike concerns overriding mean-reversion bounce potential. Profit-taking after the midterm rally and persistent multi-region price declines suggest sentiment weakness outweighs seasonal demand.",
-    "watch": "Fed commentary and US 10-year yield direction; any meaningful decline below 4.80% could ease macro headwinds.",
+    "summary": "Rising US bond yields and a strengthening dollar are suppressing silver prices despite the metal's structural undervaluation relative to gold at a 78.3 ratio. Longer-term industrial demand from HVAC and automotive sectors provides partial support against further declines.",
+    "watch": "US 10Y yields and Federal Reserve policy signals for any reversal that could relieve macro headwinds on precious metals.",
     "updated_at": "Snapshot from 9:00 AM ET \u2014 may differ from live price"
   },
   "drivers": [
     {
-      "label": "Persistent Dollar And Yield Headwinds",
+      "label": "Dollar Strength And Yield Pressure",
       "status": "risk",
       "icon": "bank",
-      "reason": "DXY +55bps and US10Y at 4.86% represent quantitative headwinds confirmed across multiple sources; analyst note predicts $48 retest citing rate-hike concerns."
+      "reason": "DXY +53bps and US10Y at 4.86% together create a 2-signal macro headwind directly suppressing silver prices relative to the 30d high."
     },
     {
-      "label": "Oversold Technical Setup With Bounce Potential",
-      "status": "supportive",
-      "icon": "trend",
-      "reason": "RSI 39.3 and -14.6% drawdown from 30d high create textbook mean-reversion technicals; quantitative signals align with recovery bounce narrative in news."
-    },
-    {
-      "label": "Mixed Sentiment And Profit-Taking Pressure",
+      "label": "Silver Undervaluation Vs Gold Ratio Reversal",
       "status": "neutral",
+      "icon": "flows",
+      "reason": "Gold/Silver ratio 78.3 is +13.3 above historical average, signaling structural silver undervaluation; quantitative ratio signal paired with -14.6% drawdown."
+    },
+    {
+      "label": "Industrial Demand Tailwind From Automotive And Hvac",
+      "status": "supportive",
+      "icon": "industry",
+      "reason": "News confirms 2035 market growth driven by HVAC and automotive demand; provides partial price support despite macro headwinds."
+    },
+    {
+      "label": "Technical Setup",
+      "status": "neutral",
+      "icon": "trend",
+      "reason": "RSI 37.5 is neutral (not oversold <30), and -14.6% vs 30d high shows weakness but no confirmed reversal signal yet; mixed momentum warrants neutral 5."
+    },
+    {
+      "label": "News Sentiment",
+      "status": "risk",
       "icon": "people",
-      "reason": "Midterm rally (+5.1%) countered by profit-booking correction and global market retreat; Dhanteras demand offset by local price declines across India and Pakistan."
+      "reason": "News reports silver weakness globally (Pakistan, India, Bangladesh declines); Dhanteras buying did not offset broader price retreat, suggesting risk-off tone."
     },
     {
       "label": "ETF Flow Signal",
       "status": "neutral",
       "icon": "flows",
-      "reason": "No direct SLV flow data available; volume proxy only limits assessment to Medium confidence; directional signal unconfirmed by institutional positioning data."
-    },
-    {
-      "label": "Industrial Demand",
-      "status": "risk",
-      "icon": "industry",
-      "reason": "Indian Dhanteras demand cited but offset by local price declines and profit-taking; no global industrial use case data available, limiting conviction on sector-specific support."
+      "reason": "Volume proxy only, no actual SLV flow data available; cannot confirm institutional buying or selling conviction; score reflects data absence."
     }
   ],
   "stories": [
     {
-      "title": "Silver Price November 9 2026 - Robinhood",
-      "summary": "Silver Price November 9 2026Robinhood",
-      "time_ago": "39m ago",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNDE4b3pfSHoxS2dESVZ3amF2WUF2aGVZSGRWQV9tR0F1UnpYZUlaRDdhTUpCRkNMOTRZeTF3Yk5pTHczUExSTC1YTDlLaElmUHQwRnhGNE9MRkcyQmE0RmRqT3BPM0hpMUdhdG5GNTIxRkNBRERPWEpHeml3WHliRE5sTlRwRzJDVjdKalc5MFpwc2FZeUxZbjJCc2ZFWjg0Y1JrcQ?oc=5"
+      "title": "Gold prices remain unchanged, silver declines in domestic market - The Nation (Pakistan )",
+      "summary": "Gold prices remain unchanged, silver declines in domestic marketThe Nation (Pakistan )",
+      "time_ago": "4h ago",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNMXdQTU5FS1RiSDRSellFeFZVeEpKd3hrVGpzRFNnZ1RfV0NkZHJYRlVDTy1NNlVzXzRlaW9XMW5vdlhmZ1lMbU1sTFBibUpaSzZuSFAyYmR6cC1jeHZrdVp3WFdfb05yNXRxaFlBVl9IVXZqcUZvZDRIWlY1NnhvVlZvQjFJWi15UEtmV0U2eWMxUHhNbnpsVEozQTRxS3M?oc=5"
     },
     {
-      "title": "Silver price today: 5.1% rally after U.S. midterms, but Indian prices fall on Dhanteras - The Cryptonomist",
-      "summary": "Silver price today: 5.1% rally after U.S. midterms, but Indian prices fall on DhanterasThe Cryptonomist",
+      "title": "Gold prices remain unchanged in local market, silver becomes cheaper - 24 News HD",
+      "summary": "Gold prices remain unchanged in local market, silver becomes cheaper24 News HD",
+      "time_ago": "5h ago",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNc0JfeEdSUEd0VXdJV29DbWk5RmtRczU4dDVvbC0xM3JMeVlTakxtX284ZWIybXZENUJtYm41WTVmU3FqNER6WmJOV2I3OGdCelgtcVpPdGc5TTliS09RVGIyN1I4OVFKV0dwdGI5OUdlSTJ2OThrZEJ3NDR4WExUdDhESDU1a1IxUjU1SEdLaTZvemVaWUIxa2pzOVJ3ODhTbXc?oc=5"
+    },
+    {
+      "title": "Silver Brazing Alloy Rods Market To 2035: HVAC and Automotive Demand Drive Growth - News and Statistics - IndexBox",
+      "summary": "Silver Brazing Alloy Rods Market To 2035: HVAC and Automotive Demand Drive Growth - News and StatisticsIndexBox",
       "time_ago": "6h ago",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9WcU83QVEwc05LTDhKemRUMC1nZ0NiYzM3ZTBIb1JTN21PV0gxaUZfNVZoOUV4RjNrLUZXYm5EYlBMcDU5N1FvSHZucmlxMUxJWHRPeFNIaUxWM2FGLTRZMTRHaWhOR0o0Rk5paGhzbWQ0UDd4?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRTFiWm9EYVhCQmhYVVR3aVl2NnhQdmdhMEVheXowVXo1bXZUM1Y1dXEzN3YzanJ3c2ljYnVTY2IzS1QycHJ4Y2diQ0JHbW8zZS1BYVBBLW9JMWFTTFhHdDZXRDd4eXN5bjlvb2RsUE5qbWVteVFBTXpSWnhfVkdjb1lRRkdQbWZmVkJzREZQVEhDRGthTnl4eDBmWVhvaHJUX3pLbFhweS10VzlkZFJEN29BMV9pMWs?oc=5"
     },
     {
-      "title": "Current price of silver as of Friday, Nov. 6, 2026 - Fortune",
-      "summary": "Current price of silver as of Friday, Nov. 6, 2026Fortune",
-      "time_ago": "7h ago",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9RbjJSbFJZZ2hiVWJmLVpzbW81YzhfejlWYXlpY1hhWFJ4b1pQNmxVLUw0aHFaWFpjU0xhNDZkR1FSQXVrbXJzbXF3clZIc3JfcWFwRnB2U3lwdjkyeE9ha3RWYlNDQ08yYnVxS1BpNA?oc=5"
+      "title": "Silver Rate Today in India, November 7, 2026: Check Latest Silver Prices in Delhi, Mumbai, Chennai, Kolkata, Bengaluru, Lucknow & Other States; Check 1 Gram, 10 Gram and 1 Kg Rates - The Sunday Guardian",
+      "summary": "Silver Rate Today in India, November 7, 2026: Check Latest Silver Prices in Delhi, Mumbai, Chennai, Kolkata, Bengaluru, Lucknow & Other States; Check 1 Gram, 10 Gram and 1 Kg Ra...",
+      "time_ago": "6h ago",
+      "url": "https://news.google.com/rss/articles/CBMivAJBVV95cUxPRDdGeGpMUzJkMTFUU2pOdWRzMF81dzNxY2J6ZzM4ZjF2NzE5ZmVCaTI4SERLY1ZnajNGemdOc0FBbWp3bVNObGJCTTc1U1E3MGVOSnp0b2trUFYzZzg4VnJIQkFxTlpncGJmckY5UjFGM2Z0a1AxWnhQVW5rX3ZyaU8wbmtQRnFTd2IyQXRneXRyVU56N21ZbXl1cE1BZXpWYVo0QVZHUWRmdmZIbVJia190a0pIbUFXaDlnNVlmRDA4aUhfMWlWVGQ0MnBOOGlXTWpPOGg5UThrUFRRX2FBX3BjeEVSUHZGZFVPNVppTGs4U0s3bkxDS3BaczA3TTJFb1lWUTRPOWhzZFV6S1V6UEt2SmpUUzBRMWNhQlFZNTNyNlQ4ZkFCNVF4STNRVkhFWU4wdDJ1NE9UOERP?oc=5"
     },
     {
-      "title": "Silver Rate Today, November 6, 2026: Silver Price Falls Rs 5,000 to Rs 2.05 Lakh Per Kg on Dhanteras; Check Latest 1 Gram, 10 Gram, 100 Gram & 1 Kg Rates in Delhi, Mumbai, Chennai, Hyderabad & Other - The Sunday Guardian",
-      "summary": "Silver Rate Today, November 6, 2026: Silver Price Falls Rs 5,000 to Rs 2.05 Lakh Per Kg on Dhanteras; Check Latest 1 Gram, 10 Gram, 100 Gram & 1 Kg Rates in Delhi, Mumbai, Chenn...",
-      "time_ago": "7h ago",
-      "url": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxNWmNQTXUzQ01CS1BiaUVjRGpGUTU4eEJYdjVmdmlKSTRQdDlMRzhLUWVEdmpFUV9kblRGVmtyNE4teFVfdzJwQmtZb0NsSmxUckpLdFZTNUowdGFaenJaalRUZXNMRlNGZ1JDeDZ3NHlnRllDVm5jdjFpYU1nOW1PQkh6Sy1CWUNMRUNQQW1sbEF6QUowcEsxOXhkNW1RR3pHVmtpTlpwUnUycVBkVWV3YWZlaGh3MjltbkRHMk9pbTNHSk82Y0ZxSzh5RFZVMDRBX0poSTFfTEQ3NWlGWFVJLTZFd0piVFJ3SVBRVHhVc0FPQzB6NXlXaW4zTjRGRVNkVy1OUHNFYWVFMXpqRWQ1NWVsX0xUNjhmUXR0Zk1SbDVXUm5rdUJ3Rm5QVDRWd0x5M1VVb0hoMXE2NzJpLVJJUDlpbXltaXd4ZmFhdW4wT28?oc=5"
-    },
-    {
-      "title": "Why the Silver Price Case Now Rests on Investors - Investorideas.com",
-      "summary": "Why the Silver Price Case Now Rests on InvestorsInvestorideas.com",
-      "time_ago": "8h ago",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWE5qRW93NmVIeWxseWtsWnFkV1ZFYU8zcG5RSGttYXJJaEdtUjFONlpzYWh5Z1g3SVY5RVFuazVmcVZ2d1RoSTdINmI1YXoyUEhQNEttOTlBSDI0OUZEWDRWbFNrNVFDQUhGSVB2X3NQeUhlY25JVDYxR2dRdGhzZ05KeFRILVpkUkJMR1EyRWVVbG9OYTc4UlplQUV4U1lUcFRRZUdIa3E?oc=5"
+      "title": "Gold and silver prices decline on commodity markets - Apa.az",
+      "summary": "Gold and silver prices decline on commodity marketsApa.az",
+      "time_ago": "12h ago",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMnZyckpZeFlIWFR6QldjOWZUZm9uZ3RSdWtOMGRxYnVjcGlYT2pZbEN3dFJpdnZCdy1fVUFCcjFMOU15OE5FSjNrWmNiMVY5NFJyQmI5c0dmUllCM2Q0VlJaMXVqcmxSbGM3WmdmaU56Q0lSZmFwWG1rM0Q5UXRkVnVSNzhJbmNReXZDbkFVVEVyVFhNNWNDRWhKZl8?oc=5"
     }
   ],
   "metrics": [
     {
       "label": "DXY (USD)",
-      "value": "102.31",
-      "change": "+0.55%",
+      "value": "102.30",
+      "change": "+0.53%",
       "direction": "up"
     },
     {
@@ -1521,40 +1527,40 @@
     },
     {
       "label": "Real Yield",
-      "value": "2.64%",
-      "change": "-0.01",
+      "value": "2.60%",
+      "change": "-0.04",
       "direction": "down"
     },
     {
       "label": "Gold/Silver",
-      "value": "78.2",
+      "value": "78.3",
       "change": "",
       "direction": "up"
     },
     {
       "label": "RSI (14)",
-      "value": "39",
+      "value": "38",
       "change": "",
       "direction": "down",
       "note": "Neutral"
     },
     {
       "label": "COT Net-Long",
-      "value": "19,703",
-      "change": "+24,997",
+      "value": "21,251",
+      "change": "+1,548",
       "direction": "up",
       "note": "Weekly (CFTC)"
     },
     {
       "label": "ETF Holdings",
-      "value": "506.4M oz",
+      "value": "505.1M oz",
       "change": "",
       "direction": "up",
       "note": "SLV"
     },
     {
       "label": "1M % Change",
-      "value": "-12.56%",
+      "value": "-14.11%",
       "change": "",
       "direction": "down"
     }
