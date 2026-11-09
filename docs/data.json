@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T07:38:17Z",
+  "updated_at": "2026-11-09T23:04:50Z",
   "price": {
     "value": 52.36,
     "change": 0.61,
@@ -15,10 +15,6 @@
   "history": {
     "1W": [
       {
-        "date": "2026-11-04",
-        "close": 51.582932
-      },
-      {
         "date": "2026-11-05",
         "close": 52.665606
       },
@@ -32,14 +28,14 @@
       },
       {
         "date": "2026-11-08",
-        "close": 52.071
+        "close": 52.064884
+      },
+      {
+        "date": "2026-11-09",
+        "close": 52.956463
       }
     ],
     "1M": [
-      {
-        "date": "2026-10-10",
-        "close": 60.949
-      },
       {
         "date": "2026-10-11",
         "close": 60.958662
@@ -154,14 +150,14 @@
       },
       {
         "date": "2026-11-08",
-        "close": 52.071
+        "close": 52.064884
+      },
+      {
+        "date": "2026-11-09",
+        "close": 52.956463
       }
     ],
     "3M": [
-      {
-        "date": "2026-09-05",
-        "close": 66.341
-      },
       {
         "date": "2026-09-06",
         "close": 66.337787
@@ -416,14 +412,14 @@
       },
       {
         "date": "2026-11-08",
-        "close": 52.071
+        "close": 52.064884
+      },
+      {
+        "date": "2026-11-09",
+        "close": 52.956463
       }
     ],
     "1Y": [
-      {
-        "date": "2026-03-02",
-        "close": 92.545528
-      },
       {
         "date": "2026-03-03",
         "close": 84.93327
@@ -1426,110 +1422,120 @@
       },
       {
         "date": "2026-11-08",
-        "close": 52.071
+        "close": 52.064884
+      },
+      {
+        "date": "2026-11-09",
+        "close": 52.956463
       }
     ]
   },
   "outlook": {
-    "score": 4,
-    "label": "Moderately Bearish",
-    "sentiment": "bearish",
-    "summary": "US dollar strength (DXY +51 bps) and sticky 10-year yields at 4.86% form a structural headwind for silver that dominates the outlook, though technical oversold conditions near $49 support offer a near-term bounce floor. Seasonal Diwali demand and long-term industrial applications in HVAC and automotive segments provide partial offset without overriding the macro regime.",
-    "watch": "US 10-year yields and any shift in Federal Reserve rate expectations; a meaningful decline below 4.80% or dollar weakness would materially improve silver's near-term setup.",
+    "score": 6,
+    "label": "Moderately Bullish",
+    "sentiment": "bullish",
+    "summary": "Global news consensus and the gold-silver ratio's 19% premium to its historical mean appear to be driving today's silver rally, with DXY weakness providing secondary support. Neutral technicals and missing institutional flow data offer only limited confirmation of rally durability.",
+    "watch": "US 10Y yields and CPI data Tuesday; any break below 4.75% or below-forecast inflation reading would reinforce mean-reversion tailwind.",
     "updated_at": "Snapshot from 9:00 AM ET \u2014 may differ from live price"
   },
   "drivers": [
     {
-      "label": "Dollar And Yield Headwinds",
-      "status": "risk",
-      "icon": "bank",
-      "reason": "DXY +51bps and US10Y persistent at 4.86% form dual structural headwind; quantitative macro data + news consensus on USD/rate pressure create two independent bearish signals."
-    },
-    {
-      "label": "Oversold Technicals With Near-Term Bounce Signal",
+      "label": "Positive Sentiment & Global Momentum",
       "status": "supportive",
-      "icon": "trend",
-      "reason": "RSI 36.3 and -14.6% drawdown from 30-day high present textbook oversold mean-reversion setup; $49 support level cited in multiple forecasts confirms technical conviction."
-    },
-    {
-      "label": "Industrial Demand And Seasonal Tailwinds",
-      "status": "supportive",
-      "icon": "industry",
-      "reason": "Diwali consumption demand and HVAC/automotive brazing alloy growth through 2035 provide sector-specific bullish signals; news sources confirm seasonal uptick without quantitative volume backing."
-    },
-    {
-      "label": "News Sentiment",
-      "status": "neutral",
       "icon": "people",
-      "reason": "Mixed sentiment: 5.75% weekly rally and Diwali demand mentioned, but forecast trims for 2027/28 and $49 support level discussion temper bullish narrative."
+      "reason": "16 of 19 news articles describe silver gaining ground and prices surging; consensus narrative of firm spot demand and extended gains supports 7/10 sentiment score."
+    },
+    {
+      "label": "Gold-Silver Ratio Dislocation",
+      "status": "neutral",
+      "icon": "flows",
+      "reason": "Ratio at 77.6, +12.6 above historical average, explicitly signals silver undervalued vs. gold; dual quantitative signals (price data + ratio) support mean-reversion tailwind."
+    },
+    {
+      "label": "Softer Dollar & Oil-Led Inflation Relief",
+      "status": "supportive",
+      "icon": "bank",
+      "reason": "DXY -43bps (mildly bullish) combined with news-reported lower oil easing inflation pressure; macro score 6/10 reflects modest but real tailwind from currency and inflation narrative."
+    },
+    {
+      "label": "Technical Setup",
+      "status": "neutral",
+      "icon": "trend",
+      "reason": "RSI 41.3 is neutral (neither oversold nor overbought); +3.41% gain within normal volatility; -12.2% drawdown from 30d high shows recovery but no breakthrough confirmation."
     },
     {
       "label": "ETF Flow Signal",
       "status": "neutral",
       "icon": "flows",
-      "reason": "No direct SLV flow data available; volume proxy only provides directional hint; cannot confirm institutional conviction magnitude or positioning shift."
+      "reason": "No direct SLV flow data available; volume proxy signals only; confidence capped at Medium per data availability rules."
+    },
+    {
+      "label": "Industrial Demand",
+      "status": "neutral",
+      "icon": "industry",
+      "reason": "No sector-specific demand signals in news or data; references to industrial use absent; cannot distinguish cyclical pickup from baseline."
     }
   ],
   "stories": [
     {
-      "title": "Silver Price Today: $51.89 After a 5.75% Week, CPI Due 10 November, Bull $55, Bear $49 - FinanceFeeds",
-      "summary": "Silver Price Today: $51.89 After a 5.75% Week, CPI Due 10 November, Bull $55, Bear $49FinanceFeeds",
-      "time_ago": "11h ago",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNY0drcENHNEdhSHVwQmV3Q29XUlQ3bE9DajEyai1xUWVTeFRQZm1NOW9uQnI0Um8xYTFFTHJGRVdCaERNTUVzTFZvb2pBXzYtRkEwY1JwcFFhT1UydEFnQWdTZXVndV9Wb05HTjNkTUU3RlBISndTYmRVTm4xNmZWbnFYZGl5NUVFMy1EV1dDU1JJVmVrcGtOaW0xUU1taHlJYjlWdUd5VEFvSTdWU0E?oc=5"
+      "title": "Hong Kong\u2019s Physical Gold Market Could BLOW UP the Paper Price Game! - SilverTrade",
+      "summary": "Hong Kong\u2019s Physical Gold Market Could BLOW UP the Paper Price Game!SilverTrade",
+      "time_ago": "4h ago",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQNXZTU1BYSzZra0pVV2loS0RCSmJhbXJSX2tVVTBOdDFlWkZmQ2FQMnRSRWstczRROTJsaXR6ZWF3TXRfZkJjV1JyRm9nNDRoTkZ4RnB1ZkdBY2c3cDZ1cFgzQndRTzRxYnZWZjBkVGlidmR2bmNuMGYwM01KaWNGYmRIWFZZYVBLbEVmZk9GeDgzUE1kT1htQ0ZkdFRoVDY5ZXdpbHAtOEZrcXVsbnlaRzZfMGh3Zm02SXJGR0xzSlA5UQ?oc=5"
     },
     {
-      "title": "Silver Price Forecasts For 2027/28 Trimmed as Markets Shift - TheBull.com.au",
-      "summary": "Silver Price Forecasts For 2027/28 Trimmed as Markets ShiftTheBull.com.au",
-      "time_ago": "11h ago",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQV1pEanFYVlFaU05jNWVMMVNrX1Joc09lZnN6MHEwWVBPVlhadVBxSzZKMFpKUUdrQ2FEQWxZblpIbm1BS2x2SnBZQXdVbjZjMTdrcmtoXzEwS3RMd2ZUNHlNUU8wYU13UG5LMHE1VTN2VmtQaVFmY0dwTTJMbm82X2FIcTVSZF9IQ2Y1QWU1UWtuUQ?oc=5"
+      "title": "Gold vs silver vs copper vs platinum: Which metal could deliver the biggest returns in Samvat 2083? - Livemint",
+      "summary": "Gold vs silver vs copper vs platinum: Which metal could deliver the biggest returns in Samvat 2083?Livemint",
+      "time_ago": "9h ago",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPVE5lRWJGSWRDTExnTjBKazgwc3FPOFhFV3JaS0RLRW8yaUFRYkxYWmZjSGU3S3ItakJjc1MwWDk5WEJlRVhzekJlSktSQWlyWlgxSHg2bEE2cTJVWmNHakFQV0lYamRQbXdZbHlsNndQelEwaXVVMTRUU3Bqc2Z0anNoVWM3Y3RRNDBHakJhd2RfOTZRcllmUmE5QlFjSzBDNUY4NnBDdVNLQ1FyNkVDNU0wWFNqa2k4cnBzcnpEdXJ0aEtCMUhuNzhrREhzSlpqU1RLNFNJUkY4SXJSR1hqTlR6STEzaFcyaHplZnY3ZkRWN3fSAfgBQVVfeXFMTXo2dFNCdEVQYklXNkkxMDhMeFBYT05DcFZQSjdrY2ZVRDdKUGZObnY2Ykk0T3pTUTJSdEpQblN4a0J6WXBzWC1nNTZMRC1hc1Y2Q3A2ZUxDQjBObmMwUVVPMmNSaUNncDdDTVYwNlBDYkJYZG1oQWtjdkZHeWRtRFg2ZHFPclJJRTJsUXE4UTVRTXhPRG5iSG5KM1dMS0xWWXpZaTNZQW93cW5uSWNrN1NyQW9Kc2Ric1VpZ3J0RkxYeW1reVhqWXc1UDVuTnRtSktkZE9VSTlHTGpYNEp3OUtiZ19WSjJHR1FhcEw5d0NxRTAxRVNnTjg?oc=5"
     },
     {
-      "title": "Gold and silver prices remain stable in domestic market - Khabarhub",
-      "summary": "Gold and silver prices remain stable in domestic marketKhabarhub",
-      "time_ago": "12h ago",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5wZ1prcGE2NWIyZ3NZNXNyUzl4aDZCZ18tNTBubnRVNEJ6UzcwaFRlcm1CNWdISmVsczAydkg2YjRuaTY0ZDdFSjYyODZsVjVZNFRYeGRwNzk?oc=5"
+      "title": "Silver price today: FXStreet data show silver gaining ground - www.tmgm.com",
+      "summary": "Silver price today: FXStreet data show silver gaining groundwww.tmgm.com",
+      "time_ago": "10h ago",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSmtCcjZDVkhlbldSZ1NfaVhVMXZQX2hJSE9CVTZuT3FzRlZxV1BVT3pDMktPYkZ4WGM0dDM0MmFxTVZoY01IU1JwVW56Yy1SZlhIYlNCNktjeDFHOW5Pd0s2OHFyYkU4ZllET1FFcDg1dmdzTWV2N0xHYVdaTk4xOGp5QXhTU1pxcm5yRldaT1FmSVRaeHM2blpwVlNBQ29ZVUdwRTlhMThNQ1ZxUVJOVDY5Mkx3cml0OVRzajJVdEc3U0ROOWc?oc=5"
     },
     {
-      "title": "Gold, Silver price today, November 8: Precious metals to glitter or lose shine during Diwali? Check 24K, 22K rates in Delhi, Mumbai, Chennai and other cities - ET Now",
-      "summary": "Gold, Silver price today, November 8: Precious metals to glitter or lose shine during Diwali? Check 24K, 22K rates in Delhi, Mumbai, Chennai and other citiesET Now",
+      "title": "Gold, Silver Become Costlier as Futures Market Rallies; Check Latest Rates - The Live Nagpur",
+      "summary": "Gold, Silver Become Costlier as Futures Market Rallies; Check Latest RatesThe Live Nagpur",
+      "time_ago": "14h ago",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZVR1TkJBRkZyM09LelBYSmdCYVRPbG9LdkNrdWhnbHprVEhiZUNJZzViazRxRThkWWI3THJMa3d2ZWJWdmN3ZjRFNm04bmlGS2lSVk5hdVNDN1BycXZ5Zk9VcmQ1alZ4QjM4eWRneXRGUk5PUUwtYXRiTjJnV2RfTnVkNmRWNUpCaEhwSk8tak12RHV6MUFTZjhrYk1SNVg3ZjdkTGVKdF9qTVZQejJF?oc=5"
+    },
+    {
+      "title": "Gold and silver prices surge on global markets - Az\u0259rtac",
+      "summary": "Gold and silver prices surge on global marketsAz\u0259rtac",
       "time_ago": "15h ago",
-      "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxOMTVqVXZQVzJleHdIRmJzRlNnNmJ5bWswTjY1MllyRm5MdTcwYmdmWWxZYWpuOEpGdGg5Tks4a0hGYklYUDZWandKQktpbVBnNzA2NGk4UnItelA5VG9ZNEF3LUQtVktlck52QWxNZ09lcTMtTGFoUHZtNWJsWlhZNW9IR0lzNW9VZXpGZF93V2tLNnZmcEpWbHVnWUdJSnBnRFQ2bDE1OUpZRkdOOHFlVWxDSDg0T09aX1hjYnpSRTU0TC1scWRMb01SczFTX2xld1RNR25HZ3F2NE1wR0NFVXU3N24ySmktRXE3ZnJIVVpjVWdvM1hMSkw0UVBGcHBXZmFpTjVHaVo5b2d4ZWN4YjZ0U213S2JhUXJjMXFDMzNNaEstU21lTkJwMFV6MnJUV1pUUFl30gG7AkFVX3lxTFBZUzN6OFI1a3g2ZDlPRnBwNkM3SUp1dU5Ia05NQW9sY1ljYTQya2tVQW9LMXk1U25ZTlZiRXdnQXpHTjBka21xOWhXLVcwU2FxTk1BNmpqUU1OTzNaUnhQYlVzM1ZPU3EweTBrRWtfSk5jWkh2cWtQd2FJYkdPcW1EMXBvZnlMVWlVSzFkaFlxcnZiRDFKTGpMMjN5d21ya29NZmZndjlNRk9KenBrYlIwV2trX0FDNXZfY0RaUVNCc2NDOTEwLWMzVExpdFJTNjkyOTdXTDVIMEZNekdGcGxkck0tcjRpZnluWHlYNDhmU01aYmp3clZJcjl5YU5oMWxtcVRPbEw5akV0a2xCb2RueE84TmxzMEY0bjdPTlFKWXd6NEg1V1lyaXRLU3lJWDFqdmQwTDVpQWdQVQ?oc=5"
-    },
-    {
-      "title": "Silver price today, November 8, 2026: 'Fluctuating' around the $52/ounce mark. - Vietnam.vn",
-      "summary": "Silver price today, November 8, 2026: 'Fluctuating' around the $52/ounce mark.Vietnam.vn",
-      "time_ago": "19h ago",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPbVN2REdQNnVWN2FkVTAweVJPMmJfdEp5VHRkYjg1T3NkQm1iM21KeWpkOUdXakNiWTZJNlpYbzU3VHBqYU5CSWN4eU9FZlFaZWJJV3J3bnR4akZrSTZ5d0hQOWxNVEZ6SEhLX2Z4M1FYMEJTdWU2bmtwUnlNNFN3WU9UOEhaMDFjOWJFV0dqSQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOZ0hkT2syQlIyMENpQ1I3d3pjYTl1REExblNVVHZOMV9WZ2ItOFNSODRsOUJjaDNERUNIOTF3VVEzYW9XcWJSYTFjUDZrTGxfV1RqZG9NVWd6MmkzLUhhOUo1Sk0zY1pHMUtoSnlFaXNWRTYxRWhicmVEM1RGVk5qSDhqWWtuT2ZJVUE?oc=5"
     }
   ],
   "metrics": [
     {
       "label": "DXY (USD)",
-      "value": "102.28",
-      "change": "+0.51%",
-      "direction": "up"
+      "value": "101.68",
+      "change": "-0.43%",
+      "direction": "down"
     },
     {
       "label": "US 10Y Yield",
       "value": "4.86%",
-      "change": "+0.02",
+      "change": "+0.00",
       "direction": "up"
     },
     {
       "label": "Real Yield",
-      "value": "2.60%",
-      "change": "-0.04",
-      "direction": "down"
+      "value": "2.63%",
+      "change": "+0.03",
+      "direction": "up"
     },
     {
       "label": "Gold/Silver",
-      "value": "78.3",
+      "value": "77.6",
       "change": "",
       "direction": "up"
     },
     {
       "label": "RSI (14)",
-      "value": "36",
+      "value": "41",
       "change": "",
       "direction": "down",
       "note": "Neutral"
@@ -1550,7 +1556,7 @@
     },
     {
       "label": "1M % Change",
-      "value": "-14.57%",
+      "value": "-13.13%",
       "change": "",
       "direction": "down"
     }
