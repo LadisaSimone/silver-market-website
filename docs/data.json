@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T17:28:44Z",
+  "updated_at": "2026-11-10T20:32:10Z",
   "price": {
     "value": 51.38,
     "change": -2.15,
@@ -19,10 +19,6 @@
   "history": {
     "1W": [
       {
-        "date": "2026-11-05",
-        "close": 52.665606
-      },
-      {
         "date": "2026-11-06",
         "close": 51.984646
       },
@@ -36,14 +32,14 @@
       },
       {
         "date": "2026-11-09",
-        "close": 52.956463
+        "close": 52.981594
+      },
+      {
+        "date": "2026-11-10",
+        "close": 52.5293
       }
     ],
     "1M": [
-      {
-        "date": "2026-10-11",
-        "close": 60.958662
-      },
       {
         "date": "2026-10-12",
         "close": 60.755284
@@ -158,14 +154,14 @@
       },
       {
         "date": "2026-11-09",
-        "close": 52.956463
+        "close": 52.981594
+      },
+      {
+        "date": "2026-11-10",
+        "close": 52.5293
       }
     ],
     "3M": [
-      {
-        "date": "2026-09-06",
-        "close": 66.337787
-      },
       {
         "date": "2026-09-07",
         "close": 66.124182
@@ -420,14 +416,14 @@
       },
       {
         "date": "2026-11-09",
-        "close": 52.956463
+        "close": 52.981594
+      },
+      {
+        "date": "2026-11-10",
+        "close": 52.5293
       }
     ],
     "1Y": [
-      {
-        "date": "2026-03-03",
-        "close": 84.93327
-      },
       {
         "date": "2026-03-04",
         "close": 84.508813
@@ -1430,99 +1426,103 @@
       },
       {
         "date": "2026-11-09",
-        "close": 52.956463
+        "close": 52.981594
+      },
+      {
+        "date": "2026-11-10",
+        "close": 52.5293
       }
     ]
   },
   "outlook": {
-    "score": 6,
-    "label": "Moderately Bullish",
-    "sentiment": "bullish",
-    "summary": "Global news consensus and the gold-silver ratio's 19% premium to its historical mean appear to be driving today's silver rally, with DXY weakness providing secondary support. Neutral technicals and missing institutional flow data offer only limited confirmation of rally durability.",
-    "watch": "US 10Y yields and CPI data Tuesday; any break below 4.75% or below-forecast inflation reading would reinforce mean-reversion tailwind.",
+    "score": 4,
+    "label": "Moderately Bearish",
+    "sentiment": "bearish",
+    "summary": "Elevated US yields at 4.98% and a strengthening dollar (up 60 bps) are suppressing silver despite technical oversold conditions at RSI 39.3. Technical mean-reversion signals offer some support, but macro headwinds remain the dominant driver of today's bearish setup.",
+    "watch": "US CPI data due today and any shift in Fed rate-hike expectations or US 10Y yield direction.",
     "updated_at": "Snapshot from 9:00 AM ET \u2014 may differ from live price"
   },
   "drivers": [
     {
-      "label": "Positive Sentiment & Global Momentum",
-      "status": "supportive",
-      "icon": "people",
-      "reason": "16 of 19 news articles describe silver gaining ground and prices surging; consensus narrative of firm spot demand and extended gains supports 7/10 sentiment score."
+      "label": "Elevated Real Yields & Dollar Strength Headwind",
+      "status": "risk",
+      "icon": "bank",
+      "reason": "US10Y +12bps to 4.98% and DXY +60bps create dual structural headwind; rising yields increase opportunity cost of non-yielding silver."
     },
     {
-      "label": "Gold-Silver Ratio Dislocation",
+      "label": "Oversold Technical Setup with RSI Mean-Reversion Potential",
+      "status": "supportive",
+      "icon": "trend",
+      "reason": "RSI 39.3 (oversold <40) and -14.9% drawdown from 30d high present classic bounce setup; quantitative technical signal confirmed by multiple forecasts."
+    },
+    {
+      "label": "Gold/Silver Ratio Divergence Suggests Relative Undervaluation",
       "status": "neutral",
       "icon": "flows",
-      "reason": "Ratio at 77.6, +12.6 above historical average, explicitly signals silver undervalued vs. gold; dual quantitative signals (price data + ratio) support mean-reversion tailwind."
+      "reason": "Ratio 78.1 is +13.1 above historical average; signal indicates silver undervalued versus gold, but macro headwinds limit near-term upside."
     },
     {
-      "label": "Softer Dollar & Oil-Led Inflation Relief",
-      "status": "supportive",
-      "icon": "bank",
-      "reason": "DXY -43bps (mildly bullish) combined with news-reported lower oil easing inflation pressure; macro score 6/10 reflects modest but real tailwind from currency and inflation narrative."
-    },
-    {
-      "label": "Technical Setup",
-      "status": "neutral",
-      "icon": "trend",
-      "reason": "RSI 41.3 is neutral (neither oversold nor overbought); +3.41% gain within normal volatility; -12.2% drawdown from 30d high shows recovery but no breakthrough confirmation."
+      "label": "News Sentiment",
+      "status": "risk",
+      "icon": "people",
+      "reason": "News coverage is factual and neutral on price action; no bullish conviction signals evident, mixed signals on dollar/Fed rate bets create cautious tone."
     },
     {
       "label": "ETF Flow Signal",
       "status": "neutral",
       "icon": "flows",
-      "reason": "No direct SLV flow data available; volume proxy signals only; confidence capped at Medium per data availability rules."
+      "reason": "No direct SLV flow data available; volume proxy only provides directional hint; confidence capped at medium due to missing actual fund flow data."
     },
     {
       "label": "Industrial Demand",
       "status": "neutral",
       "icon": "industry",
-      "reason": "No sector-specific demand signals in news or data; references to industrial use absent; cannot distinguish cyclical pickup from baseline."
+      "reason": "No industrial sector-specific signals in data or news today; supply gap mentioned anecdotally but no demand-side evidence provided."
     }
   ],
   "stories": [
     {
-      "title": "Hong Kong\u2019s Physical Gold Market Could BLOW UP the Paper Price Game! - SilverTrade",
-      "summary": "Hong Kong\u2019s Physical Gold Market Could BLOW UP the Paper Price Game!SilverTrade",
-      "time_ago": "4h ago",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQNXZTU1BYSzZra0pVV2loS0RCSmJhbXJSX2tVVTBOdDFlWkZmQ2FQMnRSRWstczRROTJsaXR6ZWF3TXRfZkJjV1JyRm9nNDRoTkZ4RnB1ZkdBY2c3cDZ1cFgzQndRTzRxYnZWZjBkVGlidmR2bmNuMGYwM01KaWNGYmRIWFZZYVBLbEVmZk9GeDgzUE1kT1htQ0ZkdFRoVDY5ZXdpbHAtOEZrcXVsbnlaRzZfMGh3Zm02SXJGR0xzSlA5UQ?oc=5"
+      "title": "Silver Price Today: Silver Falls 4.00% on November 10, 2026 - USA Today",
+      "summary": "Silver Price Today: Silver Falls 4.00% on November 10, 2026USA Today",
+      "time_ago": "3h ago",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZVNNa2JodjloWXE1MWZkVWVJOHNWQVd4Vjk1cm9lcTFYckZGdHhIRVpPVXFyX1pTb09xb3U4eTlBb2xSOXN0YTZtMUhQZUI4ZnpqS2ExM1BiUC1VQi1iSVRnZ09wVWVCcU1RMWgxck5aUU5nX3ZKU2lnellsaXZ3NzFJX2VBUHk0Vl80azdkRUdZTjZjNllRVS1OVG5fZmJSa1ZrYmhNdHBjbWhkU1E?oc=5"
     },
     {
-      "title": "Gold vs silver vs copper vs platinum: Which metal could deliver the biggest returns in Samvat 2083? - Livemint",
-      "summary": "Gold vs silver vs copper vs platinum: Which metal could deliver the biggest returns in Samvat 2083?Livemint",
-      "time_ago": "9h ago",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPVE5lRWJGSWRDTExnTjBKazgwc3FPOFhFV3JaS0RLRW8yaUFRYkxYWmZjSGU3S3ItakJjc1MwWDk5WEJlRVhzekJlSktSQWlyWlgxSHg2bEE2cTJVWmNHakFQV0lYamRQbXdZbHlsNndQelEwaXVVMTRUU3Bqc2Z0anNoVWM3Y3RRNDBHakJhd2RfOTZRcllmUmE5QlFjSzBDNUY4NnBDdVNLQ1FyNkVDNU0wWFNqa2k4cnBzcnpEdXJ0aEtCMUhuNzhrREhzSlpqU1RLNFNJUkY4SXJSR1hqTlR6STEzaFcyaHplZnY3ZkRWN3fSAfgBQVVfeXFMTXo2dFNCdEVQYklXNkkxMDhMeFBYT05DcFZQSjdrY2ZVRDdKUGZObnY2Ykk0T3pTUTJSdEpQblN4a0J6WXBzWC1nNTZMRC1hc1Y2Q3A2ZUxDQjBObmMwUVVPMmNSaUNncDdDTVYwNlBDYkJYZG1oQWtjdkZHeWRtRFg2ZHFPclJJRTJsUXE4UTVRTXhPRG5iSG5KM1dMS0xWWXpZaTNZQW93cW5uSWNrN1NyQW9Kc2Ric1VpZ3J0RkxYeW1reVhqWXc1UDVuTnRtSktkZE9VSTlHTGpYNEp3OUtiZ19WSjJHR1FhcEw5d0NxRTAxRVNnTjg?oc=5"
+      "title": "How much does it cost to buy silver? Don\u2019t overlook these fees - USA Today",
+      "summary": "How much does it cost to buy silver? Don\u2019t overlook these feesUSA Today",
+      "time_ago": "6h ago",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQU2xqOXhSLXkwT2JPcFF0V05kZVJ3VzR6bUZmWGtsQTY2dTRMTW9VeE1vekFWZWFaUldFUUhlWHlIbUxhUlhKVlR0RmI1S2JLOUtXaVdjRkRLSmVLREhoMFlIVlgwZG9sWXg2ZGNJX01FaFN6N3AwT1lQT180c29sTTcxX0lvZ3FZaW9UUmJIZnlCQkVxT3Y4UktVUQ?oc=5"
     },
     {
-      "title": "Silver price today: FXStreet data show silver gaining ground - www.tmgm.com",
-      "summary": "Silver price today: FXStreet data show silver gaining groundwww.tmgm.com",
-      "time_ago": "10h ago",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSmtCcjZDVkhlbldSZ1NfaVhVMXZQX2hJSE9CVTZuT3FzRlZxV1BVT3pDMktPYkZ4WGM0dDM0MmFxTVZoY01IU1JwVW56Yy1SZlhIYlNCNktjeDFHOW5Pd0s2OHFyYkU4ZllET1FFcDg1dmdzTWV2N0xHYVdaTk4xOGp5QXhTU1pxcm5yRldaT1FmSVRaeHM2blpwVlNBQ29ZVUdwRTlhMThNQ1ZxUVJOVDY5Mkx3cml0OVRzajJVdEc3U0ROOWc?oc=5"
+      "title": "Silver price today: FXStreet data shows a decline - www.tmgm.com",
+      "summary": "Silver price today: FXStreet data shows a declinewww.tmgm.com",
+      "time_ago": "6h ago",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMlhSdWF2WHJIWnNrSnVfeEQtXzF0RlY4S3h2VWZHUzI0bHVKQmhST3k2YWxVMUJPckwzTzBuNU96N3ltbmxoU1JYRFJlbHZxZmw1WDc1bU11OS1MbUp4cTVsampIbklzSnJESW9Sd2NidGpyUDU3b3ZpUEpYbUVZcGdJWXB5MTZmY3h4SDJqNjR5QjkteElNQXFpeHI0OXpOUmg0UEJ6bjctbW8xallzZXRoTHdKZUFqa1NLbE5wa0ZFUk54M3c?oc=5"
     },
     {
-      "title": "Gold, Silver Become Costlier as Futures Market Rallies; Check Latest Rates - The Live Nagpur",
-      "summary": "Gold, Silver Become Costlier as Futures Market Rallies; Check Latest RatesThe Live Nagpur",
-      "time_ago": "14h ago",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZVR1TkJBRkZyM09LelBYSmdCYVRPbG9LdkNrdWhnbHprVEhiZUNJZzViazRxRThkWWI3THJMa3d2ZWJWdmN3ZjRFNm04bmlGS2lSVk5hdVNDN1BycXZ5Zk9VcmQ1alZ4QjM4eWRneXRGUk5PUUwtYXRiTjJnV2RfTnVkNmRWNUpCaEhwSk8tak12RHV6MUFTZjhrYk1SNVg3ZjdkTGVKdF9qTVZQejJF?oc=5"
+      "title": "Gold price, silver rate today: Why is gold rate down on Tuesday? Check latest bullion outlook - The Economic Times",
+      "summary": "Gold price, silver rate today: Why is gold rate down on Tuesday? Check latest bullion outlookThe Economic Times",
+      "time_ago": "6h ago",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPa3g1aTM5eFUwZ3VtSjdpTjV0R1hnM0lMazRGMlF3MGlQTXlFUVc1Z2t1NTFzeTlSMFY1YXlnV1BfamlLb2IyeTdNaElmZDFpd25xdW1EbXhERzlRZ20wbjdPZUZtMEhEUU1YMmZmWURZNjdwNjNYMTdLV3ZiaW5QeXFsVWlSeVBLZFpFdjlxdEM1WkpsMTdLQ3dsU2dIUTdXZU9NbEZEdVRGQWY1YmZ3TV9FUW5TWjRTdW11WkkwV0hWVl95b3RFanQxb0RmdVI1Sno5N0h3cG9qSm5BbG8zeFVEQmFhbklCV0FqYlZRRkx6Zkd0cWhoZXRR0gH_AUFVX3lxTE9HMHlOY2V1eEpxWFJUX0NlVlY0TFh5b1FBbEhaNENJbUo0aTFsN2IwRWZ0Q25FeUNETlRsYTh0M3N4ckVwQk10WU5JY0pZUmdkbFlGYmU4elIwalJuT0RkN3dweGNBQUREMG1XWk5Wakx2czdjT3JJbTBpVDVJVnJMbVJPblhTN0gtTUVHbHhaMDNqVDVIc3Z2NDFrQXBBd1duS3hIRVFrRmVac2lZRjZseW5VY2xhMjdUNHduMWxYbHpoTFZzSHpka3p1TWJrZmlOMUpZbUFfTXdlZEtoM0NhbUl4OHZpdTdtdTNtWDFCSkg3N2VXcUE3TEU4ZTA5TQ?oc=5"
     },
     {
-      "title": "Gold and silver prices surge on global markets - Az\u0259rtac",
-      "summary": "Gold and silver prices surge on global marketsAz\u0259rtac",
-      "time_ago": "15h ago",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOZ0hkT2syQlIyMENpQ1I3d3pjYTl1REExblNVVHZOMV9WZ2ItOFNSODRsOUJjaDNERUNIOTF3VVEzYW9XcWJSYTFjUDZrTGxfV1RqZG9NVWd6MmkzLUhhOUo1Sk0zY1pHMUtoSnlFaXNWRTYxRWhicmVEM1RGVk5qSDhqWWtuT2ZJVUE?oc=5"
+      "title": "Silver Slips 2% to $52.33 as Traders Weigh Dollar Relief Against December Rate-Hike Bets - ad-hoc-news.de",
+      "summary": "Silver Slips 2% to $52.33 as Traders Weigh Dollar Relief Against December Rate-Hike Betsad-hoc-news.de",
+      "time_ago": "7h ago",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQLV90c3R0SE1LZVhSOVN5TE5iS1FxWER5N29maGFzSFl4UXFGSnItMXUyRG9CRlFVczg2LUstNEZCZG5WcUVDOU9ic185akJHMWppb1VrZnhIVThsTDB6NnpLbENXR25KY3NHQ204U0dnRWRlUm9VdlYzV1dtVUpOMExybjczcHN3d0RBems0ZVNwMlB5R3JTR3Yxa3BmaXd4WDBWMUlfaDdkTkVvRXh6M3VoTGk3NFRhLXpYMHZSMWZObEJTWVNTQklyU3pWd0EyUzRDc2czd2V6UFdCVWVUQWNSYzlJQ3pGYmVTWTJmQQ?oc=5"
     }
   ],
   "metrics": [
     {
       "label": "DXY (USD)",
-      "value": "101.68",
-      "change": "-0.43%",
-      "direction": "down"
+      "value": "102.25",
+      "change": "+0.60%",
+      "direction": "up"
     },
     {
       "label": "US 10Y Yield",
-      "value": "4.86%",
-      "change": "+0.00",
+      "value": "4.98%",
+      "change": "+0.12",
       "direction": "up"
     },
     {
@@ -1533,13 +1533,13 @@
     },
     {
       "label": "Gold/Silver",
-      "value": "77.6",
+      "value": "78.1",
       "change": "",
       "direction": "up"
     },
     {
       "label": "RSI (14)",
-      "value": "41",
+      "value": "39",
       "change": "",
       "direction": "down",
       "note": "Neutral"
@@ -1553,14 +1553,14 @@
     },
     {
       "label": "ETF Holdings",
-      "value": "505.1M oz",
+      "value": "504.6M oz",
       "change": "",
       "direction": "up",
       "note": "SLV"
     },
     {
       "label": "1M % Change",
-      "value": "-13.13%",
+      "value": "-13.54%",
       "change": "",
       "direction": "down"
     }
