@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T15:32:16Z",
+  "updated_at": "2026-11-14T18:48:05Z",
   "price": {
     "value": 48.65,
     "change": 0.0,
@@ -19,10 +19,6 @@
   "history": {
     "1W": [
       {
-        "date": "2026-11-09",
-        "close": 52.981594
-      },
-      {
         "date": "2026-11-10",
         "close": 52.402979
       },
@@ -36,14 +32,14 @@
       },
       {
         "date": "2026-11-13",
-        "close": 49.823652
+        "close": 49.65714
+      },
+      {
+        "date": "2026-11-14",
+        "close": 48.650102
       }
     ],
     "1M": [
-      {
-        "date": "2026-10-15",
-        "close": 56.812676
-      },
       {
         "date": "2026-10-16",
         "close": 57.567648
@@ -158,14 +154,14 @@
       },
       {
         "date": "2026-11-13",
-        "close": 49.823652
+        "close": 49.65714
+      },
+      {
+        "date": "2026-11-14",
+        "close": 48.650102
       }
     ],
     "3M": [
-      {
-        "date": "2026-09-10",
-        "close": 65.720136
-      },
       {
         "date": "2026-09-11",
         "close": 64.241499
@@ -420,14 +416,14 @@
       },
       {
         "date": "2026-11-13",
-        "close": 49.823652
+        "close": 49.65714
+      },
+      {
+        "date": "2026-11-14",
+        "close": 48.650102
       }
     ],
     "1Y": [
-      {
-        "date": "2026-03-07",
-        "close": 84.593
-      },
       {
         "date": "2026-03-08",
         "close": 84.445915
@@ -1430,7 +1426,11 @@
       },
       {
         "date": "2026-11-13",
-        "close": 49.823652
+        "close": 49.65714
+      },
+      {
+        "date": "2026-11-14",
+        "close": 48.650102
       }
     ]
   },
@@ -1438,79 +1438,79 @@
     "score": 4,
     "label": "Moderately Bearish",
     "sentiment": "bearish",
-    "summary": "Rising US Treasury yields (5.15%, +5 bps) and intensifying Fed rate hike bets are driving silver lower today, amplified by dollar strength and structural jewelry demand contraction. Technical oversold conditions (RSI 33.0) and a \u221215.4% pullback offer some mechanical bounce potential, though constrained by persistent macro headwinds.",
-    "watch": "US 10-year yield direction and Fed communications\u2014any material decline or dovish shift would ease immediate pressure.",
+    "summary": "Rising US bond yields at 5.15% and a strengthening dollar at 103.41 are creating a structural headwind for silver that outweighs near-term technical oversold conditions. Technical indicators suggest a bounce may be due, but macro fundamentals remain unfavourable and industrial demand is contracting.",
+    "watch": "US 10-year yield direction and any shift in Federal Reserve rate expectations would be the most important signal for confirming or reversing this bearish outlook.",
     "updated_at": "Snapshot from 9:00 AM ET \u2014 may differ from live price"
   },
   "drivers": [
     {
-      "label": "Fed Rate Hike Bets & Rising Yields",
+      "label": "Macro Headwinds From Elevated Yields",
       "status": "risk",
       "icon": "bank",
-      "reason": "US 10Y at 5.15% (+5bps) and DXY +26bps (103.42) amid intensifying Fed rate hike expectations create direct headwind; macro carries 30% weight and scores 3/10 bearish."
+      "reason": "US10Y at 5.15% (+5bps) and DXY +25bps both confirmed in market data; persistent rate pressure is primary drag on silver fundamentals."
     },
     {
-      "label": "Oversold Technical Bounce Setup",
+      "label": "Oversold Technicals Signaling Mean-Reversion Buy",
       "status": "supportive",
       "icon": "trend",
-      "reason": "RSI 33.0 (below 30 threshold) and -15.4% pullback from 30d high signal classic oversold mean-reversion opportunity; technicals score 6/10 supportive despite bearish sentiment."
+      "reason": "RSI 27.6 and -15.7% drawdown from 30d high represent extreme technical dislocation; oversold condition is quantitatively confirmed and typically precedes bounce."
     },
     {
-      "label": "Structural Demand Collapse & Supply Deficit",
-      "status": "risk",
-      "icon": "industry",
-      "reason": "Jewelry demand falling 5% in 2026 and sixth consecutive annual deficit confirmed by news; industrial_demand scores 3/10 bearish, creating medium-term headwind independent of macro volatility."
-    },
-    {
-      "label": "News Sentiment",
+      "label": "Sentiment Panic From Global Price Crash Narrative",
       "status": "risk",
       "icon": "people",
-      "reason": "Tone overwhelmingly bearish: 'mayhem in US bond markets,' 'prospects face many pressures,' demand falling 5%, sellers pressing breaks \u2014 minimal bullish framing across 20+ sources."
+      "reason": "20+ news articles across Vietnam, India, Pakistan, and global sources use 'plummet,' 'crash,' 'mayhem,' and 'sharp decline'; uniform bearish tone reflects risk-off capitulation."
     },
     {
       "label": "ETF Flow Signal",
       "status": "neutral",
       "icon": "flows",
-      "reason": "No actual SLV flow data available; volume proxy and ETF signals absent from dataset; unable to assess institutional positioning direction or magnitude."
+      "reason": "No direct SLV flow data available; volume proxy only; score reflects neutral stance absent institutional positioning confirmation."
+    },
+    {
+      "label": "Industrial Demand",
+      "status": "risk",
+      "icon": "industry",
+      "reason": "Reuters/Startup Fortune confirm 5% demand decline in 2026 driven by weaker jewellery purchases; structural headwind despite price-fall opportunity."
     }
   ],
   "stories": [
     {
-      "title": "Silver Price Today Near $50 as October PPI Rises 0.3% - FinanceFeeds",
-      "summary": "Silver Price Today Near $50 as October PPI Rises 0.3%FinanceFeeds",
-      "time_ago": "2h ago",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPOWs3M0NxV1Y5bG9RUEh1UFhjVm1BNE1pQTNrRW1HM2hGVEFqSWNkNGJ1X2huU2RRYVBkS3BhTnUyRDdzZFRGTHFkRHZLb0libWs0Zzc4MTl4MWRCc2ZsU3drMUIwZUtGMXcxcGM2TWxDRF9vYjdyaXA4LWllZmxINTNEOA?oc=5"
+      "title": "Silver Price Today | Price of Silver Per Ounce | 24 Hour Spot Chart - Kitco",
+      "summary": "Silver Price Today | Price of Silver Per Ounce | 24 Hour Spot ChartKitco",
+      "time_ago": "4h ago",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE8yMEZVZlBMcVNiamZhXy0zc09ncWhlZDByYTFoUnhVWTBZUExUVXdKYzFGNkUzdGg5cG9EUXZUVXJuaVRITHE1bnhtbw?oc=5"
     },
     {
-      "title": "Silver Price Today: Silver Falls 2.27% on November 13, 2026 - USA Today",
-      "summary": "Silver Price Today: Silver Falls 2.27% on November 13, 2026USA Today",
-      "time_ago": "3h ago",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZ1U0d2pYQTZ1dHhxWHQtaVR1SU1KdlpQN25WNnFQLXpqTnpKeGFlT2NOajdYVjhGUW9qTjB1RjhhRDFRakszVmN6cWpDX2ptMVRVWm9RWVdTZHlpLTJrd3VndDF3MW10LW5hdzJSLVRvYVF3cHpwQnZUYmVfZVJEdzRnSDRaZzBOdndfMXhzRnhhbDhjVUl6V2FnMTJIS1ppSnVBcXFWczlVVFBGanc?oc=5"
-    },
-    {
-      "title": "Silver demand is set to fall 5% in 2026 as jewellery buyers walk away - Startup Fortune",
-      "summary": "Silver demand is set to fall 5% in 2026 as jewellery buyers walk awayStartup Fortune",
+      "title": "New Website Gives Silver Owners a Free, Independent Way to Check What Their Silver Is Worth - openPR.com",
+      "summary": "New Website Gives Silver Owners a Free, Independent Way to Check What Their Silver Is WorthopenPR.com",
       "time_ago": "5h ago",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZzgwczl4ejFyaWV5N1BoMVIxdkotWlpNNXJtYnFCc1NDYVdENWdXZ01OWG1HZmZOanJpLTVFRWoycWh6LTNMSk03Y3lDR3lvdXRXTGxDVlV1RjhqSmNzSURuTHA0WkJhQXQ3MjlHNWNLSEM5YmpvaFdBQnI4eFF2RHlnQnQxc3RSaXcyZmJOcXE0LUFaUWxoZFNYM0Y?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPby1FRmxqckpoTDRVVzRpRVNiQm9kNXJ0d0RCZWNFdXZFcWV0SWZ3TW5XNWl0V1BBZWlFQkJHMDNZZWxnRWFGUTU2TUl6WDBNOEV0ZVZyY3lhbkR2akxQNmZZRkc2bFMza2I5Qk1QNzdYMjFKeXdVVERnUGc0WndCN2lsc3VKelhzR0xxWjFObFgyU1MxUE55Q3pnQ0lETTRx?oc=5"
     },
     {
-      "title": "Silver\u2019s $50 Test Becomes a Global Commodity Flashpoint as Markets Reprice Rates - kalkine.ca",
-      "summary": "Silver\u2019s $50 Test Becomes a Global Commodity Flashpoint as Markets Reprice Rateskalkine.ca",
-      "time_ago": "5h ago",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSzVZSGZxRWpEcXFQNWt5T0xhcnpJcGFld1JkaXFJeV8wb21aUk1EZ2dieVVxTEJzdWpHcFFWcUFHUWpPMnIyVkZxQk1KWU9SWWNIbEx5dlp6bE9wc2dra0VudjQtdVBOUDNnVGhmdF9Ub3IwbUp3eFZOSXZ4cENjZVBMNGNleUgzSlBzcU15TDV3c2ZaVFpsQVFUOV9FOWtaWl9jazNBQjJpRjlwNjFFcmpjSm5idw?oc=5"
+      "title": "Gold and silver prices plummet, leaving investors on tenterhooks. - Vietnam.vn",
+      "summary": "Gold and silver prices plummet, leaving investors on tenterhooks.Vietnam.vn",
+      "time_ago": "9h ago",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPQW43Z3FUQmVacE9ZaFktUzhqT0ZTcDMtQl9FTHcwakRfSC1CcjZpSUtqbGhydFJfbHVNNjJXTlJwN05oMTNGZVY4VXZhdUlPRjFfbnhRaTZsWU8wZF9oQUxNVWI3d19LNHY3Tkl2aldCVC03ZkZ4TEN5LUpjZWxINmd3?oc=5"
     },
     {
-      "title": "Current price of silver as of Friday, Nov. 13, 2026 - Fortune",
-      "summary": "Current price of silver as of Friday, Nov. 13, 2026Fortune",
-      "time_ago": "5h ago",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1NN0NkalREd0dwaldreUhQNWt5WG96M3FjSUI3MXBlUkFWa19NZDhrRmRRRHlBX2JCNjNtTzh4c2MyUVJHd0VvTXQ2UEI3eDlQWXhhWTN0WlVsZ1J1aENWZWVlQ0VvMzV3OHAxaHBKWlU?oc=5"
+      "title": "Gold Prices Crash \u20b95,643 in Delhi in Just One Week as Global Pressures Mount - https://ascendants.in/",
+      "summary": "Gold Prices Crash \u20b95,643 in Delhi in Just One Week as Global Pressures Mounthttps://ascendants.in/",
+      "time_ago": "11h ago",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQM192UzZDY1NVVklQclRwTTNNc1YyX2x0UnRrR29mOUo1QUJDYWRkZWpJYzhJRFBjTFp0d3F3Qi1zaHlTc0pwUTZSRFRTdnI2UjhwcFVqQTM0WVNmRFk1V0hzMGRNVmJzaGxVRjZjdjFEUE5kUG5WTXE1MFFTOWNfNllOQjZJc0R0REVZaW52blB1dw?oc=5"
+    },
+    {
+      "title": "Gold and Silver Rate Update Today, 14 November 2026: Gold and Silver Price Remain Unchanged, Check Latest Rates in India - oneworldnews.com",
+      "summary": "Gold and Silver Rate Update Today, 14 November 2026: Gold and Silver Price Remain Unchanged, Check Latest Rates in Indiaoneworldnews.com",
+      "time_ago": "11h ago",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOczdKNFBnU2ZCTWRjRXVJYW9qSkNRdjZiT1N1ejVLN2t2eW5nYXhEaFRCelh1dFpLMXlraUpGM2gtUkx1T2xwclJKTXhCR3pQSVQ4TXV1TDd5Q3ZBSzRuSGJxM2NmMWEtYWI0Y3hNNGJEenljOWZiWUllMzZwcHlRdE5lb2stOXpOWnF0cVlrSDUzaU9tMEJIVQ?oc=5"
     }
   ],
   "metrics": [
     {
       "label": "DXY (USD)",
-      "value": "103.42",
-      "change": "+0.26%",
+      "value": "103.41",
+      "change": "+0.25%",
       "direction": "up"
     },
     {
@@ -1521,22 +1521,22 @@
     },
     {
       "label": "Real Yield",
-      "value": "2.78%",
-      "change": "+0.12",
+      "value": "2.86%",
+      "change": "+0.08",
       "direction": "up"
     },
     {
       "label": "Gold/Silver",
-      "value": "79.5",
+      "value": "79.9",
       "change": "",
       "direction": "up"
     },
     {
       "label": "RSI (14)",
-      "value": "33",
+      "value": "28",
       "change": "",
       "direction": "down",
-      "note": "Neutral"
+      "note": "Oversold"
     },
     {
       "label": "COT Net-Long",
@@ -1554,7 +1554,7 @@
     },
     {
       "label": "1M % Change",
-      "value": "-12.30%",
+      "value": "-15.49%",
       "change": "",
       "direction": "down"
     }
