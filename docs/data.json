@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T17:54:54Z",
+  "updated_at": "2026-11-16T22:58:36Z",
   "price": {
     "value": 47.02,
     "change": -1.94,
@@ -19,14 +19,6 @@
   "history": {
     "1W": [
       {
-        "date": "2026-11-10",
-        "close": 52.402979
-      },
-      {
-        "date": "2026-11-11",
-        "close": 52.4708
-      },
-      {
         "date": "2026-11-12",
         "close": 50.912353
       },
@@ -36,18 +28,18 @@
       },
       {
         "date": "2026-11-14",
-        "close": 48.650102
+        "close": 48.65008
+      },
+      {
+        "date": "2026-11-15",
+        "close": 48.654884
+      },
+      {
+        "date": "2026-11-16",
+        "close": 47.33502
       }
     ],
     "1M": [
-      {
-        "date": "2026-10-16",
-        "close": 57.567648
-      },
-      {
-        "date": "2026-10-17",
-        "close": 57.116
-      },
       {
         "date": "2026-10-18",
         "close": 57.143834
@@ -158,18 +150,18 @@
       },
       {
         "date": "2026-11-14",
-        "close": 48.650102
+        "close": 48.65008
+      },
+      {
+        "date": "2026-11-15",
+        "close": 48.654884
+      },
+      {
+        "date": "2026-11-16",
+        "close": 47.33502
       }
     ],
     "3M": [
-      {
-        "date": "2026-09-11",
-        "close": 64.241499
-      },
-      {
-        "date": "2026-09-12",
-        "close": 64.622
-      },
       {
         "date": "2026-09-13",
         "close": 64.581158
@@ -420,18 +412,18 @@
       },
       {
         "date": "2026-11-14",
-        "close": 48.650102
+        "close": 48.65008
+      },
+      {
+        "date": "2026-11-15",
+        "close": 48.654884
+      },
+      {
+        "date": "2026-11-16",
+        "close": 47.33502
       }
     ],
     "1Y": [
-      {
-        "date": "2026-03-08",
-        "close": 84.445915
-      },
-      {
-        "date": "2026-03-09",
-        "close": 84.333173
-      },
       {
         "date": "2026-03-10",
         "close": 88.837931
@@ -1430,119 +1422,127 @@
       },
       {
         "date": "2026-11-14",
-        "close": 48.650102
+        "close": 48.65008
+      },
+      {
+        "date": "2026-11-15",
+        "close": 48.654884
+      },
+      {
+        "date": "2026-11-16",
+        "close": 47.33502
       }
     ]
   },
   "outlook": {
-    "score": 4,
+    "score": 3,
     "label": "Moderately Bearish",
     "sentiment": "bearish",
-    "summary": "Rising US bond yields at 5.15% and a strengthening dollar at 103.41 are creating a structural headwind for silver that outweighs near-term technical oversold conditions. Technical indicators suggest a bounce may be due, but macro fundamentals remain unfavourable and industrial demand is contracting.",
-    "watch": "US 10-year yield direction and any shift in Federal Reserve rate expectations would be the most important signal for confirming or reversing this bearish outlook.",
+    "summary": "Elevated US bond yields and persistent Fed rate expectations tied to Fed Chair commentary are dominating silver's near-term outlook, outweighing deeply oversold technical conditions (RSI 23.8) that might otherwise spark a mean-reversion bounce. Technical extremes and widespread capitulation narrative do offer some downside support if panic sentiment reaches a floor.",
+    "watch": "Fed Chair communications and US 10-year yield moves above 515 bps or below 505 bps would confirm or challenge the current rate-driven bias.",
     "updated_at": "Snapshot from 9:00 AM ET \u2014 may differ from live price"
   },
   "drivers": [
     {
-      "label": "Macro Headwinds From Elevated Yields",
+      "label": "Macro Fed Rate Headwinds",
       "status": "risk",
       "icon": "bank",
-      "reason": "US10Y at 5.15% (+5bps) and DXY +25bps both confirmed in market data; persistent rate pressure is primary drag on silver fundamentals."
+      "reason": "DXY +15bps and persistent Fed tightening concerns (Warsh speech trigger, rate-bet selloff) drive joint gold/silver rout; elevated yields remain structural drag despite -3bps intraday move."
     },
     {
-      "label": "Oversold Technicals Signaling Mean-Reversion Buy",
+      "label": "Extreme Oversold Technical Setup",
       "status": "supportive",
       "icon": "trend",
-      "reason": "RSI 27.6 and -15.7% drawdown from 30d high represent extreme technical dislocation; oversold condition is quantitatively confirmed and typically precedes bounce."
+      "reason": "RSI 23.8 is deeply oversold with -18.7% drawdown from 30d high; mean-reversion bounce potential is quantitatively present, conflicting with bearish macro/sentiment tone."
     },
     {
-      "label": "Sentiment Panic From Global Price Crash Narrative",
+      "label": "Capitulation Sentiment & Washout Fear",
       "status": "risk",
       "icon": "people",
-      "reason": "20+ news articles across Vietnam, India, Pakistan, and global sources use 'plummet,' 'crash,' 'mayhem,' and 'sharp decline'; uniform bearish tone reflects risk-off capitulation."
+      "reason": "12+ news sources report 'final washout,' $400B rout, 60% crash from January peak, and predictions of further drops to $40; panic-driven narrative dominates discourse."
     },
     {
       "label": "ETF Flow Signal",
-      "status": "neutral",
+      "status": "risk",
       "icon": "flows",
-      "reason": "No direct SLV flow data available; volume proxy only; score reflects neutral stance absent institutional positioning confirmation."
+      "reason": "No direct SLV flow data available; volume proxy only; news implies broad selloff but magnitude and institutional positioning unknown; confidence capped at Medium."
     },
     {
       "label": "Industrial Demand",
       "status": "risk",
       "icon": "industry",
-      "reason": "Reuters/Startup Fortune confirm 5% demand decline in 2026 driven by weaker jewellery purchases; structural headwind despite price-fall opportunity."
+      "reason": "No demand-side signals in market data or news; news focuses on price collapse and Fed outlook, not industrial/manufacturing sectors; demand outlook explicitly weakened per headlines."
     }
   ],
   "stories": [
     {
-      "title": "Silver Price Today | Price of Silver Per Ounce | 24 Hour Spot Chart - Kitco",
-      "summary": "Silver Price Today | Price of Silver Per Ounce | 24 Hour Spot ChartKitco",
+      "title": "FINAL WASHOUT? Craig Hemke Warns Silver Could Go To $40 QUICKLY! - SilverTrade",
+      "summary": "FINAL WASHOUT? Craig Hemke Warns Silver Could Go To $40 QUICKLY!SilverTrade",
+      "time_ago": "3h ago",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNU2dFMEtGaXJ3NDdyU0tocnZBWWdqNzE3SmlsNVpjZFlLSWVraUQ3ZVpuZHNWZjNTRmtTNWMtM2ltOWFtUWFHdWEyNlp6bEMwYUZyamlKcjVxZ0lnNmVFV08xd3BTcnVBdFo0akRHaVpfSzVKc19ENTBqekZ0QklwbUE0ek9VU3FSYzdRTjFBNklacy11U0JVdS1kWnJabHNjVzFrcGlZRnJPRGp3cDc1Tjc1QUZjU1RMQWpV?oc=5"
+    },
+    {
+      "title": "Silver Price November 17 2026 - Robinhood",
+      "summary": "Silver Price November 17 2026Robinhood",
       "time_ago": "4h ago",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE8yMEZVZlBMcVNiamZhXy0zc09ncWhlZDByYTFoUnhVWTBZUExUVXdKYzFGNkUzdGg5cG9EUXZUVXJuaVRITHE1bnhtbw?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUTlGYlFGdjhJRDA3LWdpVEVWQWp2dXgwNGVfNVdPZFhhczQ3UjFuMHBUSWM2aC1TcGs5cDBQeFJwejFIN19UUzYzR0stR21KOWZLRnU0NTZjRkJaN3A4NUw1VnlTUmFtWXpaSTAybVpKZzJvbmZadkY2QVJqRGZRcEk1cW55RzRCMVpBSVdaa2tIWHItQVl2REl6V3ZvN0h6Z01kV3lR?oc=5"
     },
     {
-      "title": "New Website Gives Silver Owners a Free, Independent Way to Check What Their Silver Is Worth - openPR.com",
-      "summary": "New Website Gives Silver Owners a Free, Independent Way to Check What Their Silver Is WorthopenPR.com",
-      "time_ago": "5h ago",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPby1FRmxqckpoTDRVVzRpRVNiQm9kNXJ0d0RCZWNFdXZFcWV0SWZ3TW5XNWl0V1BBZWlFQkJHMDNZZWxnRWFGUTU2TUl6WDBNOEV0ZVZyY3lhbkR2akxQNmZZRkc2bFMza2I5Qk1QNzdYMjFKeXdVVERnUGc0WndCN2lsc3VKelhzR0xxWjFObFgyU1MxUE55Q3pnQ0lETTRx?oc=5"
+      "title": "Silver Price Today, November 16: $47 as Demand Outlook Weakens - The Eastern Herald",
+      "summary": "Silver Price Today, November 16: $47 as Demand Outlook WeakensThe Eastern Herald",
+      "time_ago": "4h ago",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1xWDhQV2lMci11d2NaOG5BVk55VFprY3hpX2pnSmpaYkxCdjJlTUdjLXhBXzlqb0RDWTdJZWFzeTJZblZfd1NoTXd0bmZ1QXU3NDZSOW92Y2JXeFk3cEdieEZnVmJfMlJocFJ6SU95Z3czRGU5YXc?oc=5"
     },
     {
-      "title": "Gold and silver prices plummet, leaving investors on tenterhooks. - Vietnam.vn",
-      "summary": "Gold and silver prices plummet, leaving investors on tenterhooks.Vietnam.vn",
-      "time_ago": "9h ago",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPQW43Z3FUQmVacE9ZaFktUzhqT0ZTcDMtQl9FTHcwakRfSC1CcjZpSUtqbGhydFJfbHVNNjJXTlJwN05oMTNGZVY4VXZhdUlPRjFfbnhRaTZsWU8wZF9oQUxNVWI3d19LNHY3Tkl2aldCVC03ZkZ4TEN5LUpjZWxINmd3?oc=5"
+      "title": "Did a Gold Whale Just Buy 55,000 Call Spreads? - SilverTrade",
+      "summary": "Did a Gold Whale Just Buy 55,000 Call Spreads?SilverTrade",
+      "time_ago": "7h ago",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTG02OEI4ZnhMZ1FqZkdYanVYVTFZNUdnTUNxcWV2a2JFdkFlaFJ0WThBVG05V2FiZFY3V2RlakJUTTQyNUxzUWhsQTM5a09YcGQwRFgxQm5qeFkwVHRaZEJuWmJXVVR3aUJtbjVKX2dDYkdPMXdfbTZWYjBvZkdYVTI1eWM5OHM1bVN1SFlEZnROcFM5Z3RSX2ZEU2xQczBfUnlKMQ?oc=5"
     },
     {
-      "title": "Gold Prices Crash \u20b95,643 in Delhi in Just One Week as Global Pressures Mount - https://ascendants.in/",
-      "summary": "Gold Prices Crash \u20b95,643 in Delhi in Just One Week as Global Pressures Mounthttps://ascendants.in/",
-      "time_ago": "11h ago",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQM192UzZDY1NVVklQclRwTTNNc1YyX2x0UnRrR29mOUo1QUJDYWRkZWpJYzhJRFBjTFp0d3F3Qi1zaHlTc0pwUTZSRFRTdnI2UjhwcFVqQTM0WVNmRFk1V0hzMGRNVmJzaGxVRjZjdjFEUE5kUG5WTXE1MFFTOWNfNllOQjZJc0R0REVZaW52blB1dw?oc=5"
-    },
-    {
-      "title": "Gold and Silver Rate Update Today, 14 November 2026: Gold and Silver Price Remain Unchanged, Check Latest Rates in India - oneworldnews.com",
-      "summary": "Gold and Silver Rate Update Today, 14 November 2026: Gold and Silver Price Remain Unchanged, Check Latest Rates in Indiaoneworldnews.com",
-      "time_ago": "11h ago",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOczdKNFBnU2ZCTWRjRXVJYW9qSkNRdjZiT1N1ejVLN2t2eW5nYXhEaFRCelh1dFpLMXlraUpGM2gtUkx1T2xwclJKTXhCR3pQSVQ4TXV1TDd5Q3ZBSzRuSGJxM2NmMWEtYWI0Y3hNNGJEenljOWZiWUllMzZwcHlRdE5lb2stOXpOWnF0cVlrSDUzaU9tMEJIVQ?oc=5"
+      "title": "Banking giant sets silver price for 2027 - Finbold",
+      "summary": "Banking giant sets silver price for 2027Finbold",
+      "time_ago": "8h ago",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBfS2phUFNOYUEwR3Zhbm5aOWp1VEZ5UTAwdGdtMUk1VFN5S3VNS1NWckZHYnBkNk9KN095UjdlNE5tRjhsWFRCOWlZaWRycTZTelFoMHh6QVFpLTJTN1FrNG5BN21YcWtxYW9QOEdR?oc=5"
     }
   ],
   "metrics": [
     {
       "label": "DXY (USD)",
-      "value": "103.41",
-      "change": "+0.25%",
+      "value": "103.59",
+      "change": "+0.15%",
       "direction": "up"
     },
     {
       "label": "US 10Y Yield",
-      "value": "5.15%",
+      "value": "5.12%",
+      "change": "-0.03",
+      "direction": "down"
+    },
+    {
+      "label": "Real Yield",
+      "value": "2.91%",
       "change": "+0.05",
       "direction": "up"
     },
     {
-      "label": "Real Yield",
-      "value": "2.86%",
-      "change": "+0.08",
-      "direction": "up"
-    },
-    {
       "label": "Gold/Silver",
-      "value": "79.9",
+      "value": "82.3",
       "change": "",
       "direction": "up"
     },
     {
       "label": "RSI (14)",
-      "value": "28",
+      "value": "24",
       "change": "",
       "direction": "down",
       "note": "Oversold"
     },
     {
       "label": "COT Net-Long",
-      "value": "21,251",
-      "change": "+1,548",
-      "direction": "up",
+      "value": "-4,001",
+      "change": "-23,365",
+      "direction": "down",
       "note": "Weekly (CFTC)"
     },
     {
@@ -1554,7 +1554,7 @@
     },
     {
       "label": "1M % Change",
-      "value": "-15.49%",
+      "value": "-17.17%",
       "change": "",
       "direction": "down"
     }
