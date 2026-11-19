@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T18:51:32Z",
+  "updated_at": "2026-11-19T21:42:57Z",
   "price": {
     "value": 44.44,
     "change": -0.94,
@@ -19,10 +19,6 @@
   "history": {
     "1W": [
       {
-        "date": "2026-11-14",
-        "close": 48.65008
-      },
-      {
         "date": "2026-11-15",
         "close": 48.654884
       },
@@ -36,14 +32,14 @@
       },
       {
         "date": "2026-11-18",
-        "close": 45.647387
+        "close": 45.591671
+      },
+      {
+        "date": "2026-11-19",
+        "close": 44.907217
       }
     ],
     "1M": [
-      {
-        "date": "2026-10-20",
-        "close": 57.609444
-      },
       {
         "date": "2026-10-21",
         "close": 57.682779
@@ -158,14 +154,14 @@
       },
       {
         "date": "2026-11-18",
-        "close": 45.647387
+        "close": 45.591671
+      },
+      {
+        "date": "2026-11-19",
+        "close": 44.907217
       }
     ],
     "3M": [
-      {
-        "date": "2026-09-15",
-        "close": 63.489666
-      },
       {
         "date": "2026-09-16",
         "close": 64.244183
@@ -420,14 +416,14 @@
       },
       {
         "date": "2026-11-18",
-        "close": 45.647387
+        "close": 45.591671
+      },
+      {
+        "date": "2026-11-19",
+        "close": 44.907217
       }
     ],
     "1Y": [
-      {
-        "date": "2026-03-12",
-        "close": 85.588668
-      },
       {
         "date": "2026-03-13",
         "close": 82.655244
@@ -1430,110 +1426,114 @@
       },
       {
         "date": "2026-11-18",
-        "close": 45.647387
+        "close": 45.591671
+      },
+      {
+        "date": "2026-11-19",
+        "close": 44.907217
       }
     ]
   },
   "outlook": {
-    "score": 3,
+    "score": 4,
     "label": "Moderately Bearish",
     "sentiment": "bearish",
-    "summary": "Rising US 10-year yields at 5.07% and intensifying Federal Reserve rate-hike expectations are the primary driver of today's -5.10% silver selloff, outweighing technical oversold conditions at RSI 19.1 that normally signal mean-reversion bounce potential. A sixth consecutive annual supply deficit provides structural long-term support, but monetary policy headwind remains the dominant near-term constraint.",
-    "watch": "US 10-year yield direction and Federal Reserve commentary on inflation trajectory; a meaningful yield decline below 5.00% would improve silver's near-term technical setup.",
+    "summary": "Elevated US bond yields at 5.05% and panic-driven speculative liquidation are overwhelming technical oversold conditions and intact industrial demand. Technical indicators (RSI 17.6, -25.5% drawdown) offer some support, but macro headwinds and extreme bearish sentiment dominate the near-term outlook.",
+    "watch": "US 10Y yield trajectory and Fed commentary in coming days; a meaningful decline below 4.9% or dovish pivot would shift setup materially bullish.",
     "updated_at": "Snapshot from 9:00 AM ET \u2014 may differ from live price"
   },
   "drivers": [
     {
-      "label": "Fed Rate-Hike Expectations & Elevated Yields",
-      "status": "risk",
-      "icon": "bank",
-      "reason": "US10Y at 5.07% with intensifying Fed hiking bets drives majority of selloff; multiple sources cite rate expectations as primary bearish catalyst, backed by quantitative yield data."
-    },
-    {
-      "label": "Extreme Technical Oversold Condition",
-      "status": "supportive",
-      "icon": "trend",
-      "reason": "RSI 19.1 (deeply oversold) paired with -22% drawdown from 30d high creates textbook mean-reversion setup; technical extremity confirmed by quantitative data and news consensus on 'fresh yearly lows.'"
-    },
-    {
-      "label": "Structural Supply Deficit & Industrial Demand",
-      "status": "supportive",
-      "icon": "industry",
-      "reason": "Sixth straight annual supply deficit expected in 2026 contradicts price weakness; long-term demand fundamentals remain supportive despite near-term macro headwinds, news-sourced only."
-    },
-    {
-      "label": "News Sentiment",
+      "label": "Sentiment Capitulation & Speculative Liquidation",
       "status": "risk",
       "icon": "people",
-      "reason": "News unanimously bearish: 'plunges,' 'crashes,' 'deepens,' 'yearly lows,' 'selloff deepens'\u2014no bullish counterargument or recovery narrative present across 20 sources."
+      "reason": "15+ bearish articles (plummet, tumble, 8-session losing streak, speculators wrong-footed) confirm panic-driven selling; only 1 constructive contrarian signal (BofA $75)."
+    },
+    {
+      "label": "Macro Rate Headwind & Elevated Real Yields",
+      "status": "risk",
+      "icon": "bank",
+      "reason": "US10Y at 5.05% and DXY 103.96 remain elevated structural headwinds; news cites 'interest rate expectations' as crash driver, confirmed by quantitative persistence."
+    },
+    {
+      "label": "Oversold Technical Rebound Setup",
+      "status": "supportive",
+      "icon": "trend",
+      "reason": "RSI 17.6 (deeply oversold <30) and -25.5% 30d drawdown establish textbook mean-reversion setup; classic technical bounce candidate despite bearish sentiment."
     },
     {
       "label": "ETF Flow Signal",
       "status": "neutral",
       "icon": "flows",
-      "reason": "No direct SLV flow data available; volume/ETF proxy only. Score reflects absence of actionable flow signal; cannot confirm institutional positioning."
+      "reason": "No direct SLV flow data available; volume proxy only; confidence capped at Medium per data availability rules."
+    },
+    {
+      "label": "Industrial Demand",
+      "status": "supportive",
+      "icon": "industry",
+      "reason": "Silver Institute affirms fundamentals remain strong despite price drop; partial offset by news mentioning 'precious-metals correction' but no fresh supply/demand shock data."
     }
   ],
   "stories": [
     {
-      "title": "Silver price today: Silver falls, according to FXStreet data - www.tmgm.com",
-      "summary": "Silver price today: Silver falls, according to FXStreet datawww.tmgm.com",
-      "time_ago": "3m ago",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZGV5eTMtYkloampxdnVIeS1CUkR3bHE3bnpuTF9KakxRUW1NQy1EY2tNTGtmWnNfYmJZR0UzV0lDcXBYWEdYNE9nZ2t2Yy04dC1zdHAtc1hMak1BZk9EeEsxdzhHTG85anRHM2ZkMHE5VnJGNzg1eUZuaVJWMVZQWU5XS29kOHQ4d3Vuai1zTGMxQmVEekdTWDE1a3E5blZ0MlNHV19Yb1JZSThteE1oa18xdXQ2ZU9VZS04RnVWYWZFQQ?oc=5"
-    },
-    {
-      "title": "Gold and Silver Wipe Out More Than Bitcoin's Entire Market Cap in One Day - U.Today",
-      "summary": "Gold and Silver Wipe Out More Than Bitcoin's Entire Market Cap in One DayU.Today",
+      "title": "Silver Price Today: Why Global Quotes Need a Closer Look - The Eastern Herald",
+      "summary": "Silver Price Today: Why Global Quotes Need a Closer LookThe Eastern Herald",
       "time_ago": "1h ago",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPSF95eklRVWdDMW9RNUxzX01wdm9YQXVKTERvc0FVeXBha2lFemxROExuX0RCX0s1RW02UURuRVNHRnBfTlgwSVpmWkljWDZOZEtuYUlJcVZ0RHpUQTQyazFRTkpvV3BidEIyM25XaUZqeUNzX3pTVE1ZRjNLQzNPTmp4VmZ3bEdnXzhjekJGeC1fUdIBlwFBVV95cUxQZlNXYk9jeHVUcGUwZkN1MG4zZ3JpcGt6cUtXcUhRaElFM21CXzV6ME15VTFpQ0hCTVZwT1BOMy13M2FJRGhEN09adXBjTTB0elhCMUpCbm8xZDlzRnpxM3kzb1IwbThjdXQ5TnlnLXU2WnB1RkdfR3VKcTNmTVBVdTRadEF5cUhjVTRUY1JiaGVlT1BMeFdz?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5yYjNQQ1FfOVgzZDJkR3JyUFNVTzlFWmtjbkNIVmlNSEVxLUdWSjF4a3FzOURfZjJCYUU2bkVBUjhGMkNmQWxLRkJYR0wycVF3RHplMmVFZ05FdlhLSWtnNFp3?oc=5"
     },
     {
-      "title": "Silver Price November 19 2026 - Robinhood",
-      "summary": "Silver Price November 19 2026Robinhood",
-      "time_ago": "2h ago",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORF9qeU5vX1NtYTNnWUVEaGNqRjRGNFk1UEFhcWluVkRtQ1FGM2hzMV81R2NleEw0U2g1d0dHcXpOal9MM0h5d0Y0Qktpb3dZQ1diU3c2bzdMcm5rUGMzczQ3ZS03bkRTYmNFOFlUbGVoRmFybHRJSDBuN2NVNFE0MnY3WTVTZFpPb1dXZ3RNMTV5ZE91SUc3V1VnMmJIdklMTExuVll3?oc=5"
-    },
-    {
-      "title": "Silver Price Forecast: Downtrend deepens as RSI enters oversold territory - www.tmgm.com",
-      "summary": "Silver Price Forecast: Downtrend deepens as RSI enters oversold territorywww.tmgm.com",
+      "title": "Mike Maloney Warns Silver Faces a Crucial Make or Break Moment Right Now - SilverTrade",
+      "summary": "Mike Maloney Warns Silver Faces a Crucial Make or Break Moment Right NowSilverTrade",
       "time_ago": "3h ago",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNbWxJekZzRHF4Uk9IUmxzZV9ZOXBoYUN5MkpGUml2Rk5KNGlVeXI5NElFX3IyWVZ2NWJzTVNPTUJ3MGcwZDFtS1hWRzVDd0VWVHBjeldnMGstRV9xbkFtbTRXUWg2aUdNSTVSdmZ0S3gyV1dCZS10YmZCbE1LdGxKcVYwSXhXZFpoS3Z6YjdvbEtIeFVBV2RVdFZSMU55Y0NpcF8zYVRJdFRJb3AyLUMzQ0tKdUw1dGNXTTJManVVWjhyUWxkUGJTOGdUMFVaNlFGODdJdFRrZDM?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOSGk5NG1uVHVCYXRPNjYyWW1haThCTHY4alJLYnYzcWVZVHNUbEJ4YzRGTllUUDI4dkU5T21OdjA5bmJDbmRWeFlOcHNJNmVINnRrdk0zb0o2SmJTdlI3V0F4ZzdxYWFCbzc3Uy01MVRHYTJXWWNERm0tdkNZdVEyTzVtdDJpODdmZEdpLTcwSzQzNkd1VnVvZl9FLWFYQTAzY1BSeHBidnh0S3l1VGlPc1dyV2duMFZYalc2YUZLTDE4c2lUSWJEZGpB?oc=5"
     },
     {
-      "title": "Silver Price Today | Price of Silver Per Ounce | 24 Hour Spot Chart - Kitco",
-      "summary": "Silver Price Today | Price of Silver Per Ounce | 24 Hour Spot ChartKitco",
+      "title": "BUCKLE UP: Gold Price RESET! -Andrew Maguire - SilverTrade",
+      "summary": "BUCKLE UP: Gold Price RESET! -Andrew MaguireSilverTrade",
       "time_ago": "3h ago",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE8yMEZVZlBMcVNiamZhXy0zc09ncWhlZDByYTFoUnhVWTBZUExUVXdKYzFGNkUzdGg5cG9EUXZUVXJuaVRITHE1bnhtbw?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOU0xEM0k1Z3dEeGRiMEpxQm5jWjUtaU1qenBORnF5QlpPVDZLaXZ5dG02VzhSWTMyc3ZFN242VllKUEhQWF94Z1FsQmpHZHZUMHlLV25WbkFJWlBOQVZpWXNGcTQ0cnlwVk1ETjdPc2prMTJEa2ZlWGswUkc0aTN6SEVfSWc3al9tOEkxVlNJVkZPWUNFX2MxVHJrYUN1S3lI?oc=5"
+    },
+    {
+      "title": "Leveraged silver speculators wrong-footed by price crash - The Financial Express",
+      "summary": "Leveraged silver speculators wrong-footed by price crashThe Financial Express",
+      "time_ago": "4h ago",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNaTB6VWtrYWI2UUI1MFNTUkJHWUtacnloUFdzUGQzcUNMVjBvdVNjYmh2ZENDdEJwQk8xcU1aSXE4cjFOTTU5MUlzWExGNWFkZHpUQXJ3Z183MDBQZ3BsQzEtejB3S0ZxSUozMDlYRktLWjBpeGNwdldxZnZqOHZRdklEVTVRbC1nOFNOT00yWnU5MmZRb1JENzVIa2c4YWtEQS05Wjc2cHPSAa8BQVVfeXFMTjBfdmFNdE5aeUFkZXRJMXlqTnpMUWhzS2ExVl91b0VEVldRRlB2NWFnUFhkTG1CWnNaMUg3cnNzWGwxOXBmWkozNXkxMldNVHltSW9OcURMa2VRRWYyTkZKakFGS0NHdlE4d3ZCdmpUcUtzbFMwNk53b1BTaXBHUkpOVG13YVoxQVN6SXRtdml5WnRGTlI2TElUalpZdzdScFdHSkU3b0FrMk1KdXVGRQ?oc=5"
+    },
+    {
+      "title": "Silver Price Today: Silver Falls 1.99% on November 19, 2026 - USA Today",
+      "summary": "Silver Price Today: Silver Falls 1.99% on November 19, 2026USA Today",
+      "time_ago": "4h ago",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPSkhRVkg4Qy1GLWhTWVctalRhVDByYld2U3hTdUpiUEpSbm00WHd3NVNXNTQ2cW9SU1RJS2FDUUd1THdWQWlWZndRV25PbS0xWGVDRTE0R0lNRGhOQk9EbXQzSXJYTDBJVmNzY3VsMEp1VHdZZTJ6MWxMMlZHbVJBZG1GRU14TWU5cEsyNEJ1YjB4ckJKVUxOaElfMFhyYkFlYW1OTFdR?oc=5"
     }
   ],
   "metrics": [
     {
       "label": "DXY (USD)",
-      "value": "103.80",
-      "change": "+0.17%",
+      "value": "103.96",
+      "change": "+0.04%",
       "direction": "up"
     },
     {
       "label": "US 10Y Yield",
-      "value": "5.07%",
-      "change": "-0.04",
+      "value": "5.05%",
+      "change": "-0.01",
       "direction": "down"
     },
     {
       "label": "Real Yield",
-      "value": "2.89%",
-      "change": "-0.03",
+      "value": "2.88%",
+      "change": "-0.01",
       "direction": "down"
     },
     {
       "label": "Gold/Silver",
-      "value": "82.9",
+      "value": "84.6",
       "change": "",
       "direction": "up"
     },
     {
       "label": "RSI (14)",
-      "value": "19",
+      "value": "18",
       "change": "",
       "direction": "down",
       "note": "Oversold"
@@ -1547,14 +1547,14 @@
     },
     {
       "label": "ETF Holdings",
-      "value": "501.4M oz",
+      "value": "500.1M oz",
       "change": "",
       "direction": "up",
       "note": "SLV"
     },
     {
       "label": "1M % Change",
-      "value": "-20.76%",
+      "value": "-22.15%",
       "change": "",
       "direction": "down"
     }
