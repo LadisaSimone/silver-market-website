@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22T17:36:43Z",
+  "updated_at": "2026-11-22T20:26:25Z",
   "price": {
     "value": 41.08,
     "change": 0.0,
@@ -19,10 +19,6 @@
   "history": {
     "1W": [
       {
-        "date": "2026-11-17",
-        "close": 47.392748
-      },
-      {
         "date": "2026-11-18",
         "close": 45.591671
       },
@@ -37,13 +33,13 @@
       {
         "date": "2026-11-21",
         "close": 41.08
+      },
+      {
+        "date": "2026-11-22",
+        "close": 41.08
       }
     ],
     "1M": [
-      {
-        "date": "2026-10-23",
-        "close": 54.111837
-      },
       {
         "date": "2026-10-24",
         "close": 54.046
@@ -159,13 +155,13 @@
       {
         "date": "2026-11-21",
         "close": 41.08
+      },
+      {
+        "date": "2026-11-22",
+        "close": 41.08
       }
     ],
     "3M": [
-      {
-        "date": "2026-09-18",
-        "close": 66.55561
-      },
       {
         "date": "2026-09-19",
         "close": 66.376959
@@ -421,13 +417,13 @@
       {
         "date": "2026-11-21",
         "close": 41.08
+      },
+      {
+        "date": "2026-11-22",
+        "close": 41.08
       }
     ],
     "1Y": [
-      {
-        "date": "2026-03-15",
-        "close": 80.647204
-      },
       {
         "date": "2026-03-16",
         "close": 80.269458
@@ -1431,86 +1427,90 @@
       {
         "date": "2026-11-21",
         "close": 41.08
+      },
+      {
+        "date": "2026-11-22",
+        "close": 41.08
       }
     ]
   },
   "outlook": {
-    "score": 3,
+    "score": 4,
     "label": "Moderately Bearish",
     "sentiment": "bearish",
-    "summary": "Elevated US bond yields and persistent Federal Reserve rate-hike expectations are the dominant bearish driver, overwhelming technical oversold signals despite silver's RSI at 14.9 and 24% drawdown creating mechanical mean-reversion potential. A structural yield decline or Fed policy pivot would be required to sustain any bounce against the current macro headwind.",
-    "watch": "US 10Y yields and Fed commentary for any signal of a pivot away from rate-hike expectations.",
+    "summary": "Elevated US bond yields and panic-driven consensus across 16 news sources reporting a 64% silver plunge are suppressing prices despite a critically oversold technical setup. A 14 basis point decline in US 10Y yields today offers some structural support, but yields near 4.91% and flat dollar action limit its magnitude.",
+    "watch": "US 10Y yields below 4.80% or a Fed pivot signal would sharply improve silver's technical reversal setup and sentiment backdrop.",
     "updated_at": "Snapshot from 9:00 AM ET \u2014 may differ from live price"
   },
   "drivers": [
     {
-      "label": "Extreme Oversold Technicals",
+      "label": "Extreme Oversold Technical Reversal Setup",
       "status": "supportive",
       "icon": "trend",
-      "reason": "RSI 14.9 and -24.1% drawdown from 30d high create textbook mean-reversion setup; oversold extreme is quantitative foundation for near-term bounce potential."
+      "reason": "RSI 15.4 is in critical oversold territory (<30) and -24.1% drawdown from 30-day high create textbook mean-reversion conditions; backed by both technical signals independently."
     },
     {
-      "label": "Fed Rate Hike Fears & Macro Headwind",
-      "status": "risk",
-      "icon": "bank",
-      "reason": "News consistently cites Fed rate expectations as primary crash driver; DXY +2bps and persistent yield elevation (4.91%) create sustained real-rate headwind despite 14bp daily yield decline."
-    },
-    {
-      "label": "Uniform Bearish Sentiment & Liquidation",
+      "label": "Panic Selling Sentiment Cascade",
       "status": "risk",
       "icon": "people",
-      "reason": "18+ sources report coordinated crash with zero bullish calls; silver down 65% from January peak, liquidity crunch reported, creating capitulation-level sentiment on volume."
+      "reason": "16+ news sources in past 48 hours unanimously report crash narratives (64% plunge, $15T loss), 'waiting psychology,' and 'tough Monday' \u2014 no contrarian voices or buying-opportunity signals."
+    },
+    {
+      "label": "Structural Yield Decline Bullish For Silver",
+      "status": "risk",
+      "icon": "bank",
+      "reason": "US10Y fell 14bps to 4.91% today, reducing opportunity cost of silver holdings; however DXY flat at 103.84 and persistent elevated yields (4.91% remains restrictive) limit macro tailwind magnitude."
     },
     {
       "label": "ETF Flow Signal",
-      "status": "neutral",
+      "status": "risk",
       "icon": "flows",
-      "reason": "No direct SLV flow data available; volume proxy only. Score reflects neutral absence of confirming flow signal."
+      "reason": "No direct SLV flow data available; volume proxy only. News describes broad bullion liquidation and 'waiting psychology,' suggesting institutional outflows; confidence capped at Medium."
     },
     {
       "label": "Industrial Demand",
       "status": "neutral",
       "icon": "industry",
-      "reason": "No industrial demand signals in provided data or news. Score reflects neutral absence of sector-specific evidence."
+      "reason": "No industrial demand signals in news or data; neither supply disruption nor demand-side catalysts mentioned. Truly neutral absence of evidence."
     }
   ],
   "stories": [
     {
-      "title": "Today Gold Silver Price Crash: \u090f\u0915 \u0939\u092b\u094d\u0924\u0947 \u092e\u0947\u0902 \u0938\u094b\u0928\u093e 9% \u0914\u0930 \u091a\u093e\u0902\u0926\u0940 15% \u0924\u0915 \u091f\u0942\u091f\u0940, \u091c\u093e\u0928\u093f\u090f 18K, 22K \u0914\u0930 24K \u0915\u0947 \u0924\u093e\u091c\u093e \u092d\u093e\u0935 - theopenpress.in",
-      "summary": "Today Gold Silver Price Crash: \u090f\u0915 \u0939\u092b\u094d\u0924\u0947 \u092e\u0947\u0902 \u0938\u094b\u0928\u093e 9% \u0914\u0930 \u091a\u093e\u0902\u0926\u0940 15% \u0924\u0915 \u091f\u0942\u091f\u0940, \u091c\u093e\u0928\u093f\u090f 18K, 22K \u0914\u0930 24K \u0915\u0947 \u0924\u093e\u091c\u093e \u092d\u093e\u0935theopenpress.in",
-      "time_ago": "23m ago",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOLS1wMnNqLW83YnZpalA5UENoenNrbkV3S3BUNjk1UG41TG12ZDl5S3hEZ25ucW43ZHlpR2ZQcXhlaGpYR1k0em1kZ3ZnSXZsck9rNG5JSjA1eVRPMFZ1aXlHb3QwQ1dJajNpcGJxQXBmZXI4OGQ5bnpxWGhtN1luTlN5S3V0YUtQdEQxLXIzZTQyY3hfeG5MRWRLSzM?oc=5"
+      "title": "Gold and Silver Price Today: Will Prices Fall Further on Monday? Check the Outlook for November 23 - theopenpress.in",
+      "summary": "Gold and Silver Price Today: Will Prices Fall Further on Monday? Check the Outlook for November 23theopenpress.in",
+      "time_ago": "10m ago",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNRUVNWDI3SUthWm1BQWRSNG1HSW01NXVicUhNdXpUQUJfdDl0UzlTbEdpOEJ3THN5SkZJeVYxVDZFamZtNHcta0U2NlVpSG9sdDhVSXVuaFBjRjhhYzRjTFVlU0VZRktpYVhpN1BjX2ZYTVFJWnp4YjdYVUlabXdiYzFPX3hrQQ?oc=5"
     },
     {
-      "title": "Gold Silver Price Today: Gold Heads for Steepest Weekly Fal\u2026 - theopenpress.in",
-      "summary": "Gold Silver Price Today: Gold Heads for Steepest Weekly Fal\u2026theopenpress.in",
-      "time_ago": "1h ago",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQd2NvU2w1MGJNTUZKelBjQXpSTjlKM25lSFhhUjJPWVNrRjZOWkhhUU9xT2Y2VFZlblJJNWNZWkluZVltczhiNXZMNE54OTMtNVN6blNCWmhWVGVYY0kyRzZDMGVNVHNtR2RMMEpkcng3ajJmWjJ3VDQzaXBHQmJBTmJ5aXR0UWhjNFY2bVBKSjVzZw?oc=5"
+      "title": "Silver Price Today, November 22: USA, India, Europe and Gulf - The Eastern Herald",
+      "summary": "Silver Price Today, November 22: USA, India, Europe and GulfThe Eastern Herald",
+      "time_ago": "43m ago",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5yYjNQQ1FfOVgzZDJkR3JyUFNVTzlFWmtjbkNIVmlNSEVxLUdWSjF4a3FzOURfZjJCYUU2bkVBUjhGMkNmQWxLRkJYR0wycVF3RHplMmVFZ05FdlhLSWtnNFp3?oc=5"
     },
     {
-      "title": "Today Gold Silver Price Crash: Gold Falls by Nearly \u20b911,000\u2026 - theopenpress.in",
-      "summary": "Today Gold Silver Price Crash: Gold Falls by Nearly \u20b911,000\u2026theopenpress.in",
+      "title": "Gold Silver Price Today: Gold Falls \u20b958,830 from Record High; Could 10-Gram Rate Drop to \u20b91.17 Lakh? - theopenpress.in",
+      "summary": "Gold Silver Price Today: Gold Falls \u20b958,830 from Record High; Could 10-Gram Rate Drop to \u20b91.17 Lakh?theopenpress.in",
       "time_ago": "2h ago",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQcW9KTlUyekpsNllKRDVkYUZ3WURUWEZrMVRSR3pOb255ME93ZFI3bDNmQ00xeWRHRlMzQ3REbUJIbV9JaUJnbTh3ZmRyV2pGWmpwVVgtQU13MUZjWElyN2F0R1pEX0owTEJpcmxieGE2VERadldJUkNWT1BpekpRVU43a2s4NG1ueUNxUlZibGZ4ZHc0SDZqeg?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQS0tUZWhtaWNMLUJWLVA3N21ZWTFYRno2T1pZczJURFR4OUQ1dExWTzEydl82eGQ1dERuMXJ3UzZqNURJeEtFeW55UEtRT1JoNW9faG10WUIwTGFjVnZ1c3dzalNJaGtIVnJDdnl2ZU16azlOZHJfS1VqcklBWlNRbDBkcEJXbXVDVTktYVhiZXV6Rk0?oc=5"
     },
     {
-      "title": "Silver Price Today | Price of Silver Per Ounce | 24 Hour Spot Chart - Kitco",
-      "summary": "Silver Price Today | Price of Silver Per Ounce | 24 Hour Spot ChartKitco",
+      "title": "Gold-Silver Outlook: Is the recent price correction a buying opportunity? What does the expert recommend? - ET Now",
+      "summary": "Gold-Silver Outlook: Is the recent price correction a buying opportunity? What does the expert recommend?ET Now",
       "time_ago": "3h ago",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE8yMEZVZlBMcVNiamZhXy0zc09ncWhlZDByYTFoUnhVWTBZUExUVXdKYzFGNkUzdGg5cG9EUXZUVXJuaVRITHE1bnhtbw?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQTW1RcEdOS0N6cjN5VkxqcUlIbU9keGNETVFfdVJVUk9kLXdUMUloQzdyc1BHVUVMdDU2c0RaSzdjbW9zX2Rib3g0eUNSeTI0RXd5dnMyMzlubld5V1RyaURwTU1PRmhWWm9VV1ZOblRwd0xtNFdDY1JWTVFnMzk2R3B1Q2txNXIxX1RrbGdIcEl3RmJyRWU1RGdSaU9BUU5KVzhtZ0dxM3FyVjZjbFl2ZERaOUUtREY1ME5GU1VVQkR0VlBDQXJyelNsazZqbHR0MXFFRnVZckoteDl6ZUhhcEhUTHdpcVhNVWk5TmhERzBvMWpxNlHSAfsBQVVfeXFMT2pULU5wRWthUlNUQXJXMDN5WGxncmRyeWJBWXZjTF9lNUFQT0p6eVZZVGdKQmFwcWhKaUFJVDZQc0x2alo4aEYzNGFqSHpiLU04TWdFeTVXVlk5WWVjYk4wN0xBTE9yd3ZLckNaWmFVNUpzb2ZZTnhOUmlTRHBlbi14c0Zic3JVSnk0dU9ORDdVZXNWa3gtcTJlRVVTU1NLVWtIbm55SG9ObDB5TmlWQmFLTFh4S0pOSl95enExTU0xYXlub0hGVGNreFNRX1l0R0NLTWF2Sl9hcW9ncFBBb2lZVkhCYlZlNk1PcW5lbTIwbUJDSWY2aXR1V2c?oc=5"
     },
     {
-      "title": "Gold and silver prices decline in local and international markets - The Nation (Pakistan )",
-      "summary": "Gold and silver prices decline in local and international marketsThe Nation (Pakistan )",
+      "title": "Gold price, silver rate predictions: Bullion investors may experience another tough Monday - The Economic Times",
+      "summary": "Gold price, silver rate predictions: Bullion investors may experience another tough MondayThe Economic Times",
       "time_ago": "4h ago",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOVnk5c05ybGx6a2Z6R09FZFNXM0FKeFlZa3lTdnJLOTlOS2NsNVdoUDBNYXh6SmVuSmxhSkdQbG96aHczeXZNa1JucHR5eG9qNGRYY3RoWDFuU2phem9BdHRzc2FqVTVpTXZTaEtpdGc3Vkh1eGtvbjQ5TGg0dzZQcWVZcjQ2RkRIZUdDU05RejBXRWlkSFRB?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxObUw2NlN6b3FTYnZocHpHdm10WUktUVdTUHhPT3NwTVd5ZWlaY2Z2eDJsRWltNHRnaUxjdFVBWk5vQ3RPa19wOHI2SGFNdXFhR1lDWXp6UXJaMlRESF9uSEo2R19fWkhIM21vWWFGSHdNOWRVbHExWFBqaEJrZGRzUjRiZlU3VmFQMXFpM3l3Xy1Xc0N0MmFDQ0g1a0V5WmdqTVVsby1OT0NRR19vSmk4aGlIMDkydDBwcEd0RDZwVDg5WkJlcDVtUDV1ZDFfT2ZTQmxxcXhKbnBYSTA2cURNRVZ1SEt5Tjl1a0hFeW9R0gHzAUFVX3lxTE5QaXczZUlzWndkU2dsbWQ1b251NTNNNjhLdVE4MmdTT1EyN3M1anlCZXBoVkNHN2R6M180WU1iRmhQWWVLeFZoVTI5aE92QzRNZkoyeUFTdUVPajJoVHN0am1jdl8zeEJ0a2FObzJiaUpERmhPcUh1OHdVXzlIdWZNYWVSbE4wWHRxcUZsVlNvNjljUjRQcWhpSHYwVC1NTkpQQXhCYlhvYlFaaEI5b2RVMUlTNFBfNzF5VU5weDJheXF6QzZqZzFUc1h0OFVVVDNiRUF0a0RZc2pycXR4cUo2N2V2Y2g1eUJVenB0U04zRkxhTQ?oc=5"
     }
   ],
   "metrics": [
     {
       "label": "DXY (USD)",
-      "value": "103.81",
-      "change": "+0.02%",
+      "value": "103.84",
+      "change": "+0.05%",
       "direction": "up"
     },
     {
@@ -1554,7 +1554,7 @@
     },
     {
       "label": "1M % Change",
-      "value": "-24.08%",
+      "value": "-23.99%",
       "change": "",
       "direction": "down"
     }
