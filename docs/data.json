@@ -1,23 +1,15 @@
 {
-  "updated_at": "2026-11-22T23:12:58Z",
+  "updated_at": "2026-11-23T05:42:09Z",
   "price": {
-    "value": 41.82,
-    "change": 0.74,
-    "change_pct": 1.8,
-    "as_of": "6:12 PM ET"
+    "value": 42.43,
+    "change": 0.27,
+    "change_pct": 0.65,
+    "as_of": "12:41 AM ET"
   },
   "intraday": [
     {
-      "t": "04:19",
-      "p": 41.08
-    },
-    {
-      "t": "12:36",
-      "p": 41.08
-    },
-    {
-      "t": "18:12",
-      "p": 41.82
+      "t": "00:41",
+      "p": 42.43
     }
   ],
   "history": {
@@ -1563,22 +1555,22 @@
       "direction": "down"
     }
   ],
-  "intraday_date": "2026-11-22",
+  "intraday_date": "2026-11-23",
   "intraday_chart": {
-    "date": "2026-11-22",
-    "source": "spot_snapshots",
+    "date": "2026-11-23",
+    "source": "comex_futures",
     "points": [
       {
-        "t": "04:19",
+        "t": "00:00",
         "pct": 0.0
       },
       {
-        "t": "12:36",
-        "pct": 0.0
+        "t": "00:15",
+        "pct": 0.677
       },
       {
-        "t": "18:12",
-        "pct": 1.801
+        "t": "00:30",
+        "pct": 0.843
       }
     ]
   }
