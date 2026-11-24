@@ -4428,34 +4428,34 @@
     "metrics": [
       {
         "label": "DXY (USD)",
-        "value": "104.25",
-        "change": "+0.47%",
-        "direction": "up"
-      },
-      {
-        "label": "US 10Y Yield",
-        "value": "4.92%",
-        "change": "+0.01",
-        "direction": "up"
-      },
-      {
-        "label": "Real Yield",
-        "value": "2.77%",
-        "change": "-0.11",
+        "value": "103.83",
+        "change": "-0.43%",
         "direction": "down"
       },
       {
+        "label": "US 10Y Yield",
+        "value": "4.90%",
+        "change": "-0.01",
+        "direction": "down"
+      },
+      {
+        "label": "Real Yield",
+        "value": "2.79%",
+        "change": "+0.02",
+        "direction": "up"
+      },
+      {
         "label": "Gold/Silver",
-        "value": "84.3",
+        "value": "87.1",
         "change": "",
         "direction": "up"
       },
       {
         "label": "RSI (14)",
-        "value": "30",
+        "value": "24",
         "change": "",
         "direction": "down",
-        "note": "Neutral"
+        "note": "Oversold"
       },
       {
         "label": "COT Net-Long",
@@ -4466,14 +4466,14 @@
       },
       {
         "label": "ETF Holdings",
-        "value": "505.2M oz",
+        "value": "503.6M oz",
         "change": "",
         "direction": "up",
         "note": "SLV"
       },
       {
         "label": "1M % Change",
-        "value": "-19.91%",
+        "value": "-22.78%",
         "change": "",
         "direction": "down"
       }

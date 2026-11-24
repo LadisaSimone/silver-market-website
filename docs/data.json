@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T14:31:54Z",
+  "updated_at": "2026-11-24T23:11:04Z",
   "price": {
     "value": 42.13,
     "change": -0.71,
@@ -32,7 +32,7 @@
       },
       {
         "date": "2026-11-24",
-        "close": 43.34997
+        "close": 41.800129
       }
     ],
     "1M": [
@@ -154,7 +154,7 @@
       },
       {
         "date": "2026-11-24",
-        "close": 43.34997
+        "close": 41.800129
       }
     ],
     "3M": [
@@ -416,7 +416,7 @@
       },
       {
         "date": "2026-11-24",
-        "close": 43.34997
+        "close": 41.800129
       }
     ],
     "1Y": [
@@ -1426,113 +1426,113 @@
       },
       {
         "date": "2026-11-24",
-        "close": 43.34997
+        "close": 41.800129
       }
     ]
   },
   "outlook": {
-    "score": 5,
-    "label": "Neutral",
-    "sentiment": "neutral",
-    "summary": "Elevated US bond yields and dollar strength remain the dominant headwind, though extreme technical oversold conditions and broad risk-on sentiment recovery are supporting a tactical bounce. DXY and US 10Y trajectory will determine whether today's rebound",
-    "watch": "",
+    "score": 4,
+    "label": "Moderately Bearish",
+    "sentiment": "bearish",
+    "summary": "Hawkish Fed rate-hike expectations and restrictive 4.90% US 10-year yields are overwhelming silver's technical oversold setup and weak sentiment backdrop. RSI at 24.4 offers mechanical reversal support, but macro headwinds dominate near-term risk.",
+    "watch": "US 10-year yield direction and Fed rate-hike commentary; a sharp yield decline or dovish policy shift could trigger technical reversal.",
     "updated_at": "Snapshot from 9:00 AM ET \u2014 may differ from live price"
   },
   "drivers": [
     {
-      "label": "Oversold Technical Bounce Setup",
-      "status": "supportive",
-      "icon": "trend",
-      "reason": "RSI 30.0 oversold + -19.7% drawdown from 30d high creates textbook mean-reversion signal; news confirms bounce ('surging', 'rebounding') across multiple independent sources."
-    },
-    {
-      "label": "Risk-On Sentiment Recovery",
-      "status": "supportive",
-      "icon": "people",
-      "reason": "20+ articles describe precious metals recovery post-'washout'; consistent bullish framing ('rebounds', 'gains', 'jumps') after one-year lows, confirming risk-on shift."
-    },
-    {
-      "label": "Elevated Rate & Dollar Headwind",
+      "label": "Hawkish Fed Rate Expectations & Elevated Yields",
       "status": "risk",
       "icon": "bank",
-      "reason": "DXY +47bps and US10Y 4.92% remain restrictive; both quantitative signals confirm macro bearish backdrop despite +1.45% daily rebound."
+      "reason": "US 10Y at 4.90% (restrictive level) + rate-hike headlines cited in 7+ news sources as direct cause of silver selloff; macro carries 30% weight and scores deeply bearish (2/10)."
+    },
+    {
+      "label": "Oversold Technical Capitulation & Mean-Reversion Setup",
+      "status": "supportive",
+      "icon": "trend",
+      "reason": "RSI 24.4 (deeply oversold, <30 threshold) + -24.5% drawdown from 30d high quantify extremes; textbook reversal setup; technicals score 7/10 but carry only 25% weight, overwhelmed by macro bearishness."
+    },
+    {
+      "label": "Sentiment Capitulation & Mining Stock Weakness",
+      "status": "risk",
+      "icon": "people",
+      "reason": "News tone uniformly bearish ('plunge,' 'crash,' 'single digits' warnings) + Hecla Mining down 2.7%; 10+ negative headlines vs. zero bullish contrarian calls; sentiment scores 3/10."
     },
     {
       "label": "ETF Flow Signal",
       "status": "neutral",
       "icon": "flows",
-      "reason": "No direct SLV flow data available; volume-proxy only and magnitude of institutional positioning unknown; score reflects neutral baseline with news-only guidepost."
+      "reason": "No direct SLV flow data available; volume proxy only. Headlines mention buyers watching market but no concrete inflow evidence; score neutral pending actual flow confirmation."
     },
     {
       "label": "Industrial Demand",
-      "status": "supportive",
+      "status": "neutral",
       "icon": "industry",
-      "reason": "News highlights 'monetary and industrial demand collide'; DSP Mutual Fund buying strategy and wholesaler stockout signals support demand tailwind; confidence capped at Medium due to lack of COMEX inventory data."
+      "reason": "Mining.com reports persistent supply-gap struggle, but no demand-side catalyst or consumption data provided; industrial signal absent from news; score neutral given no data."
     }
   ],
   "stories": [
     {
-      "title": "Gold Price Today: Gold Rebounds to \u20b91.23 Lakh, Silver Surges \u20b93,090 Per Kg After Massive Market Crash - theopenpress.in",
-      "summary": "Gold Price Today: Gold Rebounds to \u20b91.23 Lakh, Silver Surges \u20b93,090 Per Kg After Massive Market Crashtheopenpress.in",
-      "time_ago": "46m ago",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNYWthZjN5OWpQX3NyVk54eHh6YU14TEJnTVBaWFBERFM3eFUyVEh0MnJPS0VLRThCZ2ItUzBKaHIyYThGSzE0N01ndVBxUUU1czlucnNwaVNOUkxaaUtzZURyNk81MmJiNVFwUExnMHBocWdTck5QelBJNVRJZFRTTEhYVUdNd1BYQzJmb1Bn?oc=5"
+      "title": "Hecla Mining shares drop 2.7% as silver prices fall amid rate hike concerns - Pluang",
+      "summary": "Hecla Mining shares drop 2.7% as silver prices fall amid rate hike concernsPluang",
+      "time_ago": "35m ago",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOR3hSUnp1WmNVZDZ1R2ZkRUZOa19HLV9CRVhEQkFkcGN6ZkhTblNtOTRCUmt4Vnk0M3VnbkNPTk5zcTJIek11aVFHS2h4d0JjTHNOS2x3QTBOTXlUYXF5V0h1Ui0wR2hHdTA0cHZpOTJzSjV3endBYU04c0Q2T09XRlZ4dlRPNk8xRDZPVFZRdzIxZGFBNzhSbmZYWWVTWWJ4TUFFc2hhV3RuUQ?oc=5"
     },
     {
-      "title": "Silver Price Today | Price of Silver Per Ounce | 24 Hour Spot Chart - Kitco",
-      "summary": "Silver Price Today | Price of Silver Per Ounce | 24 Hour Spot ChartKitco",
-      "time_ago": "2h ago",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE8yMEZVZlBMcVNiamZhXy0zc09ncWhlZDByYTFoUnhVWTBZUExUVXdKYzFGNkUzdGg5cG9EUXZUVXJuaVRITHE1bnhtbw?oc=5"
+      "title": "Silver futures plunge 5.65% to $40.71, hitting a one-year low - JournalArta",
+      "summary": "Silver futures plunge 5.65% to $40.71, hitting a one-year lowJournalArta",
+      "time_ago": "50m ago",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNYnhuNmIyZGZxTkM3a3FWZlRqSXNHNURnTmdPWm5EOU8tRU1wUlQzdlpJMVpxRVMtN1JNLWVaUU9MZ2l2SHdYVTd6UzlCSGwxWXNFVE9mME8tZGlNNEh4TFl5cHBQN1phYkFyT2JKZEVJX1pFVW5pZ3dkekFPdlhTVHBVVXE2X0syN3RFNGJTQXJ6U2Mzd0otQ29DSzVjdw?oc=5"
     },
     {
-      "title": "Alasdair Macleod warns of deeper market turmoil despite gold and silver rebound - Mining.com",
-      "summary": "Alasdair Macleod warns of deeper market turmoil despite gold and silver reboundMining.com",
-      "time_ago": "3h ago",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOclNwcjRNRjJLZElZZGVfWURMTUdGU3V1T0NRNWhPNDA4MUJzZVpFVGtrNW9WWE1QWGhheWRJVkU0R181NnhtdXgxM1ppSzI2d3BnTmkzMDJkeGRnTEtJZ01yMFlIRmt2RE9mVnE1TGpyLWNaYU40T3M2X182c1Eyc21BR1ZNTFpvNllGUVA0RFVYUm44a3RjMXhrTFFrTGxZMlNIOVRacmg2ZFI0cXc?oc=5"
+      "title": "Gold and Silver Price Crash: Gold Falls \u20b91,556, Silver Drops Nearly \u20b95,000 in a Day; Why Did Prices Fall Again? - theopenpress.in",
+      "summary": "Gold and Silver Price Crash: Gold Falls \u20b91,556, Silver Drops Nearly \u20b95,000 in a Day; Why Did Prices Fall Again?theopenpress.in",
+      "time_ago": "55m ago",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQOGpFVDBEV2RqdFozbDhjTnJGUnVaYjBpaFlRMFpfdHRIelhKRm56dFVkQ3ZmNXBPRXp4OWRxQTJYQjExb245V2o5QklmTUdWZkRMVFFXcThkYml6Q1dvWUJDRnhxZkZTLTFFei1sMnpNbE1xaVduMDE2T2pPeHFpZTF5YjdCV2ZWU3c?oc=5"
     },
     {
-      "title": "Silver Price Today: Silver Rises 1.93% on November 23, 2026 - USA Today",
-      "summary": "Silver Price Today: Silver Rises 1.93% on November 23, 2026USA Today",
-      "time_ago": "4h ago",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOLV9QYXhzbmZvWFVSRjBsS3h5RTNCZGtwajFHY1J6cHZDVTJHVjZodHZJZTJkOTdQZkg0d0dja3ZYdGJfRWUyWTdrYUVBalVtc2tuMTVLQ0JPMmRxMGpLVUNrUWlNR3lTWmd4SlFVWUpuNzNJV2M3ai1NWmpIOWNLNFNzcWM5bmhwUTQ3cTREWFBuWFR4M3h5WVlIRjhBdFh6TjhEc3V3?oc=5"
+      "title": "Gold and Silver Prices Today, November 25: Bengaluru Jewell\u2026 - theopenpress.in",
+      "summary": "Gold and Silver Prices Today, November 25: Bengaluru Jewell\u2026theopenpress.in",
+      "time_ago": "1h ago",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZE0zdmpZeHdIRGpFQ2IyRjVhel9Jd2J6M2VlaWhPVjdnOGRxU0gzS25pT181eUlMTkowUWM5cW1OaVR3NS1FQnZFR3lvbHp3czR6QXpORVNmYTdTWmIyaHRMSkFBMXM4VkRXU0p4SHRVb1dQN2w0MHhkaFNPbmFJN3J0Rmo1VjVJWFE0?oc=5"
     },
     {
-      "title": "Silver Price Forecast: Bullish harami faces $43.95 breakout test - www.tmgm.com",
-      "summary": "Silver Price Forecast: Bullish harami faces $43.95 breakout testwww.tmgm.com",
-      "time_ago": "5h ago",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOM2RMYzFrNnJ3V1dLeXlURzk0MnZSS3ZlcndySFlHSEg3YUtKV09ENEJaWkRBVXV3ZmNLam4zY2pzOUVibEJoYThkaWVsZGdib1M1UnBZYWhxUkZpeUxqNDdzcUQtMXlYT3A0VG9SRFZ2Y29WdkhTRU8xenl0WHkyUVAxNU5JWVlmODItdWRpc3h2M01LWVA4eGQ5OGctNmFIQzZzc1RDSmpZMDZadUNtTk9DX1Zja3R5aWR2U0RqTjBnM24zcktLZjRn?oc=5"
+      "title": "Gold and Silver Price Today in India, November 25: Buyers Watch Market After Sharp Bullion Rebound - theopenpress.in",
+      "summary": "Gold and Silver Price Today in India, November 25: Buyers Watch Market After Sharp Bullion Reboundtheopenpress.in",
+      "time_ago": "1h ago",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOS3Z5NFVlX3JEY3UzbFE2djRCRlJPRnFDdVg0VjFFOFk2V3R1Ql81WkdhTlh1QTV0dU50emNXVHo1aTBaTHJxeHJZNF8za3BybnJyMHlUNXRLRS1yQjhrb0FHNXNzVVB1UUxXR280dXdLMnlmXzJ4Y1BQeEVyZTJGWFpUeS0?oc=5"
     }
   ],
   "metrics": [
     {
       "label": "DXY (USD)",
-      "value": "104.25",
-      "change": "+0.47%",
-      "direction": "up"
-    },
-    {
-      "label": "US 10Y Yield",
-      "value": "4.92%",
-      "change": "+0.01",
-      "direction": "up"
-    },
-    {
-      "label": "Real Yield",
-      "value": "2.77%",
-      "change": "-0.11",
+      "value": "103.83",
+      "change": "-0.43%",
       "direction": "down"
     },
     {
+      "label": "US 10Y Yield",
+      "value": "4.90%",
+      "change": "-0.01",
+      "direction": "down"
+    },
+    {
+      "label": "Real Yield",
+      "value": "2.79%",
+      "change": "+0.02",
+      "direction": "up"
+    },
+    {
       "label": "Gold/Silver",
-      "value": "84.3",
+      "value": "87.1",
       "change": "",
       "direction": "up"
     },
     {
       "label": "RSI (14)",
-      "value": "30",
+      "value": "24",
       "change": "",
       "direction": "down",
-      "note": "Neutral"
+      "note": "Oversold"
     },
     {
       "label": "COT Net-Long",
@@ -1543,14 +1543,14 @@
     },
     {
       "label": "ETF Holdings",
-      "value": "505.2M oz",
+      "value": "503.6M oz",
       "change": "",
       "direction": "up",
       "note": "SLV"
     },
     {
       "label": "1M % Change",
-      "value": "-19.91%",
+      "value": "-22.78%",
       "change": "",
       "direction": "down"
     }
