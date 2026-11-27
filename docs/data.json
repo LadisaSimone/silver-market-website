@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T20:40:11Z",
+  "updated_at": "2026-11-27T22:12:41Z",
   "price": {
     "value": 43.23,
     "change": 1.96,
@@ -19,10 +19,6 @@
   "history": {
     "1W": [
       {
-        "date": "2026-11-22",
-        "close": 41.116935
-      },
-      {
         "date": "2026-11-23",
         "close": 42.631759
       },
@@ -36,14 +32,14 @@
       },
       {
         "date": "2026-11-26",
-        "close": 41.289161
+        "close": 41.286267
+      },
+      {
+        "date": "2026-11-27",
+        "close": 43.329919
       }
     ],
     "1M": [
-      {
-        "date": "2026-10-28",
-        "close": 54.039304
-      },
       {
         "date": "2026-10-29",
         "close": 52.822413
@@ -158,14 +154,14 @@
       },
       {
         "date": "2026-11-26",
-        "close": 41.289161
+        "close": 41.286267
+      },
+      {
+        "date": "2026-11-27",
+        "close": 43.329919
       }
     ],
     "3M": [
-      {
-        "date": "2026-09-23",
-        "close": 65.477388
-      },
       {
         "date": "2026-09-24",
         "close": 63.928903
@@ -420,14 +416,14 @@
       },
       {
         "date": "2026-11-26",
-        "close": 41.289161
+        "close": 41.286267
+      },
+      {
+        "date": "2026-11-27",
+        "close": 43.329919
       }
     ],
     "1Y": [
-      {
-        "date": "2026-03-20",
-        "close": 71.214333
-      },
       {
         "date": "2026-03-21",
         "close": 67.938
@@ -1430,113 +1426,117 @@
       },
       {
         "date": "2026-11-26",
-        "close": 41.289141
+        "close": 41.286267
+      },
+      {
+        "date": "2026-11-27",
+        "close": 43.329919
       }
     ]
   },
   "outlook": {
-    "score": 6,
-    "label": "Moderately Bullish",
-    "sentiment": "bullish",
-    "summary": "Deeply oversold technical conditions (RSI 28.5) combined with falling US yields (\u22126 bps) and a weakening dollar (\u221220 bps) are creating mechanical mean-reversion support for silver after a 23.7% drawdown. Industrial demand signals remain absent and ETF flow data is unavailable, limiting conviction on sustained upside beyond near-term bounce.",
-    "watch": "US 10-year yields and Fed rate-cut expectations; a 10-plus basis point move higher or hawkish policy pivot would invalidate the macro tailwind.",
+    "score": 5,
+    "label": "Neutral",
+    "sentiment": "neutral",
+    "summary": "Elevated US bond yields and persistent dollar strength are pressuring silver's structural appeal despite today's sentiment-driven bounce on Beijing policy support. Technical oversold conditions and risk-on positioning offer near-term tactical relief, but the 4.94% yield headwind remains the dominant macro constraint on a sustained rally.",
+    "watch": "US 10-year yield direction and any Fed commentary that might signal a retreat from restrictive rate policy.",
     "updated_at": "Snapshot from 9:00 AM ET \u2014 may differ from live price"
   },
   "drivers": [
     {
-      "label": "Oversold Technical Reversion",
-      "status": "supportive",
-      "icon": "trend",
-      "reason": "RSI 28.5 (deeply oversold) + 23.7% drawdown from 30d high creates textbook mean-reversion setup; multiple news sources confirm rebound intraday (MCX +3-7%, 'bounce on dips')."
-    },
-    {
-      "label": "Falling Real Rates Backdrop",
-      "status": "supportive",
-      "icon": "bank",
-      "reason": "US 10Y yields fell 6bps to 4.85% (supporting silver) and DXY down 20bps; both are quantitative macro tailwinds, confirmed by news of 'lower inflation, rate cuts may trigger recovery'."
-    },
-    {
-      "label": "Silver-Gold Ratio Undervaluation",
+      "label": "Sentiment Risk-On Rebound",
       "status": "supportive",
       "icon": "people",
-      "reason": "Ag/Au ratio 87.1 trades +22.1 above historical average, signaling silver undervalued vs gold; supports recovery sentiment but lacks independent confirmation beyond price data."
+      "reason": "Beijing stock-market support announced today; 20+ news articles confirm silver surge narrative with consistent bullish tone across multiple geographies and timeframes."
+    },
+    {
+      "label": "Technical Oversold Bounce",
+      "status": "supportive",
+      "icon": "trend",
+      "reason": "RSI 38.9 (oversold threshold) plus 4.76% intraday move and -18.4% from 30-day high form textbook mean-reversion setup with quantitative confirmation."
+    },
+    {
+      "label": "Elevated Real Rates Headwind",
+      "status": "risk",
+      "icon": "bank",
+      "reason": "US 10Y yield 4.94% (+9bps today) remains structurally elevated; DXY +20bps sustains dollar strength\u2014both persistent macro headwinds offset sentiment/technical gains."
     },
     {
       "label": "ETF Flow Signal",
       "status": "neutral",
       "icon": "flows",
-      "reason": "No direct SLV flow data available; volume proxy only. Score reflects absence of concrete directional evidence."
+      "reason": "No direct SLV flow data available; volume proxy only suggests participation but magnitude of institutional buying remains unconfirmed at medium confidence."
     },
     {
       "label": "Industrial Demand",
       "status": "neutral",
       "icon": "industry",
-      "reason": "No industrial demand signals, sector reports, or consumption data provided; score reflects neutral placeholder pending news emergence."
+      "reason": "No sector-specific or industrial demand signals in news or data today; score reflects absence of information rather than weakness in actual demand."
     }
   ],
   "stories": [
     {
-      "title": "Silver Price Forecast: Does the Hammer Point to a $45 Rebound Despite the Downtrend? - www.tmgm.com",
-      "summary": "Silver Price Forecast: Does the Hammer Point to a $45 Rebound Despite the Downtrend?www.tmgm.com",
-      "time_ago": "2h ago",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQUWNhM2ROQmFtZTQ4SHVXSi0tZEFwTTQtOHpPNUl5M0lFZHVMazR5SGZNWm5iVVlFSkZyVGhiYWRxZl9LV2J4aDBMSkJxWEV4aXdFUWNuc1JjeGFOaW1MX2pEdlN0Rk9iVDdZRGI5WUlLcFA0TDZqUW5leHh1a25oQlZMeDdiRXNXbEV6SDZsN2NlZTZBWXlaaHlLYnJpRlNTQVZDbldDT0ZGd1F2Sy1VajJCbnc5dDdUaFNleTVHeTg0OVRIYVB3LVRvYkc1NlBf?oc=5"
+      "title": "Gold and Silver Jump as Beijing Vows to Support China's Stock Market - BullionVault",
+      "summary": "Gold and Silver Jump as Beijing Vows to Support China's Stock MarketBullionVault",
+      "time_ago": "27m ago",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNU3QtQ1Q0VTFYTUJFQW81NW5aY3gyYkNPLXNaVVBjWkdZb3MydlIyZzUwT2Z6MFZzem95WDdpcmRIeV9id0p6OThfWUVYc3NSRXMtU3BwT1dkd2FEeHF6YlBoRlhLMEdPeEU4aG8wRzRvTUhjcFBJb19HUlZHRzFjQnQwZkdRVVVZQ3NpY21BUnVWVnYt?oc=5"
     },
     {
-      "title": "Silver price can still go lower but this is a Black Friday deal not to miss \u2013 Bawden Capital - Kitco",
-      "summary": "Silver price can still go lower but this is a Black Friday deal not to miss \u2013 Bawden CapitalKitco",
+      "title": "Silver Price Today: Silver Rises 5.28% on November 27, 2026 - USA Today",
+      "summary": "Silver Price Today: Silver Rises 5.28% on November 27, 2026USA Today",
+      "time_ago": "1h ago",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPOXJiendZSkhaclBjalVwc0F6dUVHX3NWRTBIbVFjMnBRaDJ3TS1TNHVCTVZIb3MxYjdBcHcweHh2a0xneGhZRzBKQWtXTkh2dXh4UkpjS2p4SHBSZUxRSGs3VkdBcHBnaVppRnROTjZZY09XS3pOZTFtS0x1WWhhYjI4QmYtY3hsQTUyNkh5X1N5VWlmNXdSS0t4eU1qYWZmcXJJTmZB?oc=5"
+    },
+    {
+      "title": "Silver Price Today | Price of Silver Per Ounce | 24 Hour Spot Chart - Kitco",
+      "summary": "Silver Price Today | Price of Silver Per Ounce | 24 Hour Spot ChartKitco",
       "time_ago": "3h ago",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWnh0b1NKZDFlZmJWNDFqMTJYWUlPbjNWNzRZcEdrNlpVYlVkZ3diQl9oRjFXYk91ajNNU2FtbGY3ejc4S0FKcEI3QlM2VUpXY045bXVtU0F1aWQ3NlEwMmhDYzlQZk1VOG5NTGdka3ZGTFdtVUdGeVduN3diVENYRlREYkx0QU9GSzFZOFpTbDNFekZ5RlJxbUFvZG1jckdaVHNlME53ZGpleWRyaXpsQ3o2c2VvQ2ZyX1Vj?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE8yMEZVZlBMcVNiamZhXy0zc09ncWhlZDByYTFoUnhVWTBZUExUVXdKYzFGNkUzdGg5cG9EUXZUVXJuaVRITHE1bnhtbw?oc=5"
     },
     {
-      "title": "Silver Prices Jump 3% on MCX to \u20b91,48,336 per Kg; Kotak Neo Sees Scope for Further Recovery - Kotak Neo",
-      "summary": "Silver Prices Jump 3% on MCX to \u20b91,48,336 per Kg; Kotak Neo Sees Scope for Further RecoveryKotak Neo",
+      "title": "Spot Silver Surges 7% Above $44: What Caused the Rise in Silver Prices? - TradingKey",
+      "summary": "Spot Silver Surges 7% Above $44: What Caused the Rise in Silver Prices?TradingKey",
+      "time_ago": "4h ago",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPN2JnQ1ZJRy1fV1c2Q1pSSlJUNVhTMXRvWkFOdUpmN1ZzSFJIUjV1VVI1MGw5YWRFaGRLT3g0b3pRNmx6V21FdVFqZWl0Sy05YndWd3Z1cVRtUEtqNGUwY0VxdDJRRUpYbmEwclV0d3VaWFFua1lEYmhpYXRqalU3SVVINFROWG5uYTA0RjFTSl9CZDV2OGpjUkdiZDh6eXUtRjVDVXpsR3JHVkpKb1dfQWdsbkpMcGFBenpqTVVTTkNONDVwY21wTGhkYw?oc=5"
+    },
+    {
+      "title": "Gold-silver ratio declines: What drives the drop, why it matters, and what it means for bullion prices - Livemint",
+      "summary": "Gold-silver ratio declines: What drives the drop, why it matters, and what it means for bullion pricesLivemint",
       "time_ago": "5h ago",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1oeDNMY2hyLVVvbUp6Ylh1WDBnQmlrZGQ0Qk5RRXNibFBjZXZsU2Q4dnA1UERZaWh4aFJKVW5KWUV0Z0tycEZrZ1RSYjBhODlSVnNXQWlTaWlJVFMyQS1QWXJBdEtqamRGQUE5QzF1cFZUYVI1dDN3Rg?oc=5"
-    },
-    {
-      "title": "Silver Price Outlook November 2026: Can a Recovery Take Hold? - GoldSilver",
-      "summary": "Silver Price Outlook November 2026: Can a Recovery Take Hold?GoldSilver",
-      "time_ago": "6h ago",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQYWxFZGswODBJbzEtZ2ZxOU5oOUNkMGhYeTR4d2VKeXVaUjhfTW9LVnVOVnRxVXBUMHlVLU1rVHYtcEtJdGlQRDdPYVEzWTgxWE9qajFkYmh0aC1VbWV2OWNLY0VUSkVpS2llQm1MaHY5R3dsLWI1SjYxQnpGc2NxUHItX3NHUTA?oc=5"
-    },
-    {
-      "title": "Gold slips, silver steadies as Fed rate hike expectations persist in holiday trading - Kitco AM Report - Kitco",
-      "summary": "Gold slips, silver steadies as Fed rate hike expectations persist in holiday trading - Kitco AM ReportKitco",
-      "time_ago": "8h ago",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNXFfM3AxNjAxLVVEMXMzVEhVc3FvUXFNaDFuRlV6dmlTVEpsNGdDZU5VOGZZWTh5eUJ5dWQzZlByZ2ZIcE9nX01Tak5KRDN6Q1Z2Z3Jqbk9WYzVYZVVtVjNobWxndnFSZk02TXo3Vlk2Z0pDZUFGbDZKSE00SXpVYWlSVmZjdWZmQ2xxUTF2RzZnYllpUUhaYm1SV1dGa0o3SUZndmd4dlFQSXNWN0gzUnhUbDZlQQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQb0JzZXQwSjJiZmctalRPWVV6d1lTeWxmMU5zM25KVDRURElTUjdIcUd5STVQWV91d0NRd0g4WFM3QVF0OGxPNkZ6SmpIZFNDN19zMDJnQU12b2FhUktoVEU5cE9LTjA4WDZEdkp1cHhDX1lYYUE2XzlrWW1IR25KYnhQUVVyREVmWkN3VV9FSjJSLWI0Vk0tSDhFazBiNkNkdkVTRlh2OHNtbDJ2cmxtcmUtYS1JcDhleHdDQmlsY3JVZ0FoWUZkMGNwYzgtcFlTMnJ1TFlVNjg0Vkp6Smx4VERRVkZ1S0N0MkVHNC1lTHVBR2U5Qm94WFpn0gH_AUFVX3lxTE9HdEpWSjVUU0NQOWJEa0dCYktOd3JTNHY5TjZrUlZnUVQ4TncyVGVydHk4WnFCZFRxYnJTRTBBejU3TlN1Q1FaY0RZQWgtWVRvRVY2S21KVFplM18xSjNRUldaWEFoTlNqOTNqQmhuVDg5c214MHJUbUtSaGtKY29kZ2gtZE82VEE3SEV2NS1FeHBIc3VQWW42S0RLbDVCdXpfXzZ2Y25UMWZiSnZrYk5DZEVYeUpjUW1ua3Z2Qmhxd0tGU0JLSHZCdXZmV3p2eC16ampVSjRfV0llZG9JSHB1T1NQV2E0dC0tcDItaWw1V2h0VGt4RmFNaGNkcEZsaw?oc=5"
     }
   ],
   "metrics": [
     {
       "label": "DXY (USD)",
-      "value": "103.78",
-      "change": "-0.20%",
-      "direction": "down"
+      "value": "104.01",
+      "change": "+0.20%",
+      "direction": "up"
     },
     {
       "label": "US 10Y Yield",
-      "value": "4.85%",
+      "value": "4.94%",
+      "change": "+0.09",
+      "direction": "up"
+    },
+    {
+      "label": "Real Yield",
+      "value": "2.73%",
       "change": "-0.06",
       "direction": "down"
     },
     {
-      "label": "Real Yield",
-      "value": "2.79%",
-      "change": "+0.00",
-      "direction": "up"
-    },
-    {
       "label": "Gold/Silver",
-      "value": "87.1",
+      "value": "84.9",
       "change": "",
       "direction": "up"
     },
     {
       "label": "RSI (14)",
-      "value": "28",
+      "value": "39",
       "change": "",
       "direction": "down",
-      "note": "Oversold"
+      "note": "Neutral"
     },
     {
       "label": "COT Net-Long",
@@ -1554,7 +1554,7 @@
     },
     {
       "label": "1M % Change",
-      "value": "-23.59%",
+      "value": "-17.97%",
       "change": "",
       "direction": "down"
     }
